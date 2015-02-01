@@ -43,11 +43,15 @@
   * The DOM is a programming API for documents. It is based on an object structure that closely resembles the structure of the documents it models.
   * ![DOM Modules](http://j-hnnybens-n.com/capture/zkgst.png)
 * HyperText Markup Language
+  * HTML, XHTML, HTML5
+  * XML
   * Elements
   * Attributes
   * Semantics
     * [Semantic Markup](http://en.wikipedia.org/wiki/Semantic_HTML)
     * ![neat chart](http://html5doctor.com/downloads/h5d-sectioning-flowchart.png)
+  * UTF-8
+    * http://www.w3schools.com/html/html_charset.asp
 * Cascading Stylesheets
   * CSS 1, 2, 3
   * Selectors
@@ -65,7 +69,7 @@
   * Chrome Inspector
   * Photoshop, Illustrator (?)
   * [caniuse.com](http://caniuse.com)
-  * [More resources](../dm2193_resources.md)
+  * [More resources](../resources_README.md)
 * Putting it all together
   * The Designer and the Developer
   * Final Product, Timeline, Budget (Good, Fast, Cheap ▲ )
