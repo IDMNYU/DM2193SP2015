@@ -4,12 +4,12 @@
 
 ![NYU](https://cloud.githubusercontent.com/assets/238022/5893409/ba1adc36-a4b0-11e4-99e3-a267b37fc726.png)
 
-    Johnny Benson • Spring 2014
+    Johnny Benson • Spring 2015
     Tuesday & Thursday • 7:30-9:20PM
     Rm 811 • 3 credit hrs
     Office hours by appointment or directly after class
     Email <johnny.benson@nyu.edu>
-    Class Website <https://github.com/IDMNYU/DM2193SP2014>
+    Class Website <https://github.com/IDMNYU/DM2193SP2015>
 
 ---
 
@@ -20,7 +20,7 @@
 
 ### In-Class Tuesday
 * Single Page Recipe Site
-    * Start fresh with a copy of my markup, [get it here](https://github.com/IDMNYU/DM2193FA2014/raw/master/week_04/johnny/recipe_app.zip)
+    * Start fresh with a copy of my markup, [get it here](https://github.com/IDMNYU/DM2193FA2015/raw/master/week_04/johnny/recipe_app.zip)
     * Exact the contents and *copy* into a folder in your `week_04/your_name` directory
     * Make an initial commit to GitHub
       * "My initial commit for single page recipe site"
