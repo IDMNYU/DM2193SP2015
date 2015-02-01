@@ -47,7 +47,7 @@ You are charged with taking one of the most highly trafficked sites and redesign
   * Responsive & Mobile First
 
 * Deliverables
-  * Checkout the [Midterm Deliverables Template Folder](./johnny)
+  * Executive Summary of your concept
   * Wireframes for three different views (Thurs)
     * Label sections for heirarchy and by class 
   * Designs for three different views (Next Tues)

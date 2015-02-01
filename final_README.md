@@ -15,7 +15,7 @@
 
 ## Final Project - The big thing at the end
 
-    ![image](https://cloud.githubusercontent.com/assets/238022/5893563/333f2db4-a4b7-11e4-9e83-a4fb1bb28060.png)
+![image](https://cloud.githubusercontent.com/assets/238022/5893563/333f2db4-a4b7-11e4-9e83-a4fb1bb28060.png)
 
 ### Overview
 
