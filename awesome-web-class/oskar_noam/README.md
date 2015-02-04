@@ -14,4 +14,4 @@
 ---
 
 ## Oskar Noam's Info
-*osknoam@gmail.com
+osknoam@gmail.com
