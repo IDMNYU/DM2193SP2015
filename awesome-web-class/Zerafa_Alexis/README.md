@@ -16,5 +16,5 @@
 ## Working Directory
 
 * amz324@nyu.edu
-* website (I'll get one later)
+* website (I'll get one later :])
 *
