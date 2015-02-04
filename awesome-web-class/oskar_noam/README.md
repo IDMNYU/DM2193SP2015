@@ -1,4 +1,4 @@
-﻿### DM2193
+### DM2193
 
 # Intro to Web Development
 
@@ -13,5 +13,6 @@
 
 ---
 
-## Oskar Noam's Info
-osknoam@gmail.com
+## Oskar Noam's Contact Info
+Email: osknoam@gmail.com
+Twitter: @oskarnoam
