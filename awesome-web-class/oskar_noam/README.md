@@ -1,4 +1,4 @@
-### DM2193
+﻿### DM2193
 
 # Intro to Web Development
 
@@ -13,8 +13,5 @@
 
 ---
 
-## Working Directory
-
-* amz324@nyu.edu
-* website (I'll get one later :])
-*
+## Oskar Noam's Info
+osknoam@gmail.com

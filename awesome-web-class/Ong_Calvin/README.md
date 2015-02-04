@@ -13,8 +13,6 @@
 
 ---
 
-## Working Directory
+## working directory
 
-* amz324@nyu.edu
-* website (I'll get one later :])
-*
+E-mail: co684@nyu.edu

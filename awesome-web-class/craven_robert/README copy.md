@@ -2,6 +2,7 @@
 
 # Intro to Web Development
 
+![NYU](https://cloud.githubusercontent.com/assets/238022/5893409/ba1adc36-a4b0-11e4-99e3-a267b37fc726.png)
 
     Johnny Benson • Spring 2015
     Tuesday & Thursday • 7:30-9:20PM
@@ -12,7 +13,6 @@
 
 ---
 
-## working directory
+## Awesome-Web-Class Folder
 
-E-mail: co684@nyu.edu
-
+* email: rpc318@nyu.edu
