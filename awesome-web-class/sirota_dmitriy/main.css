@@ -1,0 +1,108 @@
+* {
+   margin: 0; 
+}
+html {
+    background: white;
+}
+body {
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 80%;
+    min-width: 500px;
+    font-size: 20px;
+    font-family: sans-serif;
+    background: #6BA5FF;
+    border: 1px solid black;
+    line-height: 1.2em;
+}
+
+header {
+    height: 150px;
+    background: #718BB2;    
+}
+
+header h1 {
+    font-variant: small-caps;
+    font-weight: normal;
+    font-size: 3em;
+    line-height: 150px;
+    text-align: center;	
+}
+
+article div {
+    margin: 20px auto;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid black;
+    background: #b8b8b8;
+    box-shadow: 2px 2px 5px #000;
+}
+#mainLeft div:first-child {
+    background: #FFE8BA;
+}
+#mainLeft div:first-child:hover {
+    background: #5E00FF;
+}
+.weekNum {
+    text-align: center;
+    font-size: 1.2em;
+    font-variant: small-caps;
+}
+#backBtn {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    background: #FFE8BA;
+    box-shadow: 2px 2px 5px #000;
+}
+#backBtn:hover {
+    background: #5E00FF;
+}
+section {
+    float: left;
+    width: 60%;
+    padding: 10px;
+    text-align: justify;
+}
+aside {
+    width: 30%;
+    float: right;
+    padding: 10px;
+}
+aside h2 {
+    margin-bottom: 10px;
+}
+section h2 {
+    margin-bottom: 10px;
+}
+#mainLeft {
+    padding-left: 10px;
+    width: 45%;
+    float: left;
+}
+#mainRight {
+    padding-right: 10px;
+    width: 45%;
+    float: right;
+}
+footer {
+    clear: both;
+    height: 100px;
+    background: #B2975F;
+}
+#contact {
+    display: none;
+    font-size: 1.4em;
+    line-height: 100px;
+    text-align: center;
+    font-variant: small-caps;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
