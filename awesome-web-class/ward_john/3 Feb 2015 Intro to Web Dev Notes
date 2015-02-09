@@ -1,0 +1,14 @@
+3 Feb 2015 Intro to Web Dev Notes
+
+Get Github set up
+Get Sublime text set up and package control installed
+ * Cmd-Shift-P to pull up command pallette
+Intro to Learning Logs
+ * Have a header, consistent nav, and articles
+ * Keep notes, and article responses
+ * Host it; don't just keep it on Github
+Intro to Tags
+ * Open and close tags <tag> and </tag>
+ * <div> tags break up the page. "Agnostic thing that means nothing."
+ * <h1>, <h2>, <h3> are predefined headers
+ * Some tags, like <hr /> and <img /> don't have close tags

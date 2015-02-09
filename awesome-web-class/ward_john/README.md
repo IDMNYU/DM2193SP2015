@@ -16,4 +16,3 @@
 ## John's Working Directory
 
 * john.ward@nyu.edu
-
