@@ -1,5 +1,6 @@
 * {
-   margin: 0; 
+    margin: 0; 
+    padding: 0;
 }
 html {
     background: white;
@@ -8,12 +9,12 @@ body {
     margin: 0px auto;
     margin-top: 20px;
     width: 80%;
-    min-width: 500px;
+    min-width: 700px;
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     background: #6BA5FF;
     border: 1px solid black;
-    line-height: 1.2em;
+    line-height: 1.4em;
 }
 
 header {
@@ -24,11 +25,20 @@ header {
 header h1 {
     font-variant: small-caps;
     font-weight: normal;
-    font-size: 3em;
+    font-size: 4em;
     line-height: 150px;
     text-align: center;	
 }
-
+li {
+    list-style: none;
+    padding-bottom: 10px;
+    color: #59397F;
+    font-style: italic;
+}
+article p {
+    padding-bottom: 1em;
+    text-indent: 2em;
+}
 article div {
     margin: 20px auto;
     padding: 10px;
@@ -37,13 +47,15 @@ article div {
     background: #b8b8b8;
     box-shadow: 2px 2px 5px #000;
 }
-#mainLeft div:first-child {
+a div {
     background: #FFE8BA;
 }
-#mainLeft div:first-child:hover {
+a div:hover {
     background: #5E00FF;
 }
 .weekNum {
+    text-indent: 0;
+    padding-bottom: 0;
     text-align: center;
     font-size: 1.2em;
     font-variant: small-caps;
@@ -57,6 +69,7 @@ article div {
     border: 1px solid black;
     background: #FFE8BA;
     box-shadow: 2px 2px 5px #000;
+    font-variant: small-caps;
 }
 #backBtn:hover {
     background: #5E00FF;
@@ -64,13 +77,16 @@ article div {
 section {
     float: left;
     width: 60%;
-    padding: 10px;
+    padding: 20px;
     text-align: justify;
+    border-right: 1px solid gray;
+    margin: 10px 0 10px 0;
 }
 aside {
     width: 30%;
     float: right;
     padding: 10px;
+    margin: 10px 0 10px 0;
 }
 aside h2 {
     margin-bottom: 10px;
@@ -91,7 +107,7 @@ section h2 {
 footer {
     clear: both;
     height: 100px;
-    background: #B2975F;
+    background: #7A1DFF;
 }
 #contact {
     display: none;
@@ -100,9 +116,8 @@ footer {
     text-align: center;
     font-variant: small-caps;
 }
-a {
+
+a:link, a:visited {
     text-decoration: none;
-}
-a:visited {
     color: black;
 }
