@@ -16,4 +16,4 @@
 ## Working Directory
 
 * E-mail: hillary.chin@nyu.edu
-* Web: Soon to come, friends
+* Web: http://hillarychin.com
