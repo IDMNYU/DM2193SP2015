@@ -20,38 +20,41 @@
 
 ### In-Class
 
-* Cascading Stylesheets
-  * Selectors
-    * Comma separated selectors
-    * Space separated selectors
-  * Properties
-  * Specificity
-    * Element +1
-    * .Class +10
-    * #ID + 100
-  * Top-down Parsing
-* Box Model
-  * Content
-  * Padding
-  * Border
-  * Margin
-  * Outline
-  * ![Box Model](http://j-hnnybens-n.com/capture/xhbaq.png)
-* Reset Styles
-  * vs. Browser Default Styles
-* External Styles
-  * `<link>` Tag
-* Inline Styles
-  * `<style>` Tag
-* Style Attribute
-  * `<p style="color:red"></p>`
-* Chrome Developer Tools
-  * ![DevTools](http://j-hnnybens-n.com/capture/cwqvi.png)
-    * View the live box model for any element
-    * See the parsed markup
-    * See styles applied to elements
-      * Manipulate styles for testing
-* CSS Quiz 1
+#### Tuesday
+* Show and Tell
+  * http://newhive.com
+  * http://www.theuselessweb.com
+* Narrative and Design in Interface
+  * The Designer and the Developer
+    * Different sets of concerns
+  * Final Product, Timeline, Budget (Good, Fast, Cheap ▲ )
+    * Balancing what's important
+  * Audience
+    * Solving actual problems for actual people
+  * User Interface vs. Content
+    * Mapping
+    * Wayfinding
+    * Teaching (Cue for use)
+  * Heirarchy and Organization
+  * Usability and Intentionality
+  * Looking at different interfaces
+    * http://www.reddit.com
+    * http://newyork.craigslist.org
+    * http://hellomonday.com
+    * http://www.fsmillbank.com/#/transport
+    * http://moodboard-film.de
+    * http://genelab.nasa.gov
+* Marking up Content
+  * [Recipe](http://www.marthastewart.com/344840/soft-and-chewy-chocolate-chip-cookies)
+  * [J-HNNYBENS-N](http://j-hnnybens-n.com)
+  * [NY Times](http://nytimes.com)
+* Chrome Extension: [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm/related?hl=en-US)
+#### Thursday
+* Talk about readings
+* Scope out Learning Logs
+* Show & Tell
+* Wrap up HTML
+* HTML Quiz
 
 ### Reading Assignment
 * [Following A Web Design Process](http://www.smashingmagazine.com/2011/06/22/following-a-web-design-process)
