@@ -49,6 +49,7 @@
   * [J-HNNYBENS-N](http://j-hnnybens-n.com)
   * [NY Times](http://nytimes.com)
 * Chrome Extension: [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm/related?hl=en-US)
+
 #### Thursday
 * Talk about readings
 * Scope out Learning Logs
