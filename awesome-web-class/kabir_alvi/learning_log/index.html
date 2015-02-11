@@ -9,7 +9,25 @@
             width:30%;
         }
         body{
-            background-image: url("images/background_image.gif");
+            /*background-image: url("images/background_image.gif");*/
+
+            background: repeating-radial-gradient(circle, green 15%, black 20%),
+            radial-gradient(circle, green 15%, black 20%) 10px 10px;
+            background-size:80px 80px;
+        }
+        h2,h3,h4,h5,h6,p,a{
+            color: whitesmoke;
+        }
+        h1 {
+            color: white;
+            text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 30px #fff,
+            0 0 40px #ff0e00,
+            0 0 70px #ff0e00,
+            0 0 80px #ff0e00,
+            0 0 100px #ff0e00,
+            0 0 150px #ff0e00;
         }
     </style>
 </head>
@@ -21,7 +39,7 @@
             <h2>DM2193 &bullet; Spring 2015</h2>
         </div>
         <h3>Alvi Kabir</h3>
-        <img src="images/alvi_and_gf.gif" height="30%" width="30%" alt="Alvi Kabir with his gf" style="border:4px double black;">
+        <img src="images/alvi_and_gf.gif" height="30%" width="30%" alt="Alvi Kabir with his gf" style="border:4px double white;">
         <address>
             <a href="mailto:alvi.kabir@nyu.edu?subject=[Learning Log]%20Hello!&body=Hahahaha hey ;)">alvi.kabir@nyu.edu</a>
             <br/>
@@ -34,15 +52,16 @@
     <nav>
         <div id="entries" style="text-align: center;">
             <h2>Entries</h2>
-            <a href="#5-feb-2015">Feb 5th, 2015</a>
+            <a href="#5-feb-2015" style="display: block;">Feb 5th, 2015</a>
+            <a href="#9-feb-2015" style="display: block;">Feb 9th, 2015</a>
         </div>
 
     </nav>
 
-    <hr/>
+    <hr>
 
     <article id="5-feb-2015" style="padding-top: 10px;text-align: center;">
-        <div>February 5, 2015</div>
+        <h2>February 5, 2015</h2>
         <h3>My first learning Log entry</h3>
         <section>
             <h4>Notes</h4>
@@ -53,7 +72,26 @@
             <a href="http://blog.8thlight.com/doug-bradbury/2009/08/22/why-software-development-is-a-craft.html">Programming is a craft</a>
             <p style="margin-left: 30%;margin-right: 30%;text-align: left;text-indent: 40px;">
                 Developing software is a tiresome practice that drives the world in this fast paced, technological century.
-                Those who can't appreciate how programs work obviously haven't coded anything past "Hello, World!" and should keep quiet with their criticisms.</p>
+                Those who can't appreciate how programs work obviously haven't coded anything past "Hello, World!" and should keep quiet with their criticisms.
+            </p>
+        </section>
+    </article>
+    <hr>
+    <article id="9-feb-2015" style="padding-top: 10px;text-align: center;">
+        <h2>February 7, 2015</h2>
+        <h3>My second learning Log entry</h3>
+        <section>
+            <h4>Notes</h4>
+            <p>I was feling very lazy today.
+            </p>
+        </section>
+        <section>
+            <h4>Reading Response</h4>
+            <a href="http://www.inc.com/magazine/20081101/how-hard-could-it-be-the-unproven-path.html">The Unproven Path</a>
+            <p style="margin-left: 30%;margin-right: 30%;text-align: left;text-indent: 40px;">
+                After rading the article about the founders of Stack Overflow, I realized that it is essential to have good programmers on your team.
+                You can have the best analyst or best businessman, but in the end it is the programmer that will bring your idea intro fruition.
+            </p>
         </section>
     </article>
     <hr>
