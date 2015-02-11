@@ -16,4 +16,4 @@
 ## Working Directory
 
 * E-mail: hillary.chin@nyu.edu
-* Web: http://hillarychin.com
+* Web: http://hillarychin.com/learninglog
