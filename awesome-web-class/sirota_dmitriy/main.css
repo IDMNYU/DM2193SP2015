@@ -3,7 +3,7 @@
     padding: 0;
 }
 html {
-    background: white;
+    background: #EAE2FF;
 }
 body {
     margin: 0px auto;
@@ -16,13 +16,20 @@ body {
     border: 1px solid black;
     line-height: 1.4em;
 }
-
+h2, h3, h4, h5, h6 {
+    font-family: monospace;
+    text-align: left;
+}
+h2 + p {
+    margin-top: 1em;   
+}
 header {
     height: 150px;
     background: #718BB2;    
 }
 
 header h1 {
+    font-family: monospace;
     font-variant: small-caps;
     font-weight: normal;
     font-size: 4em;
@@ -35,7 +42,7 @@ li {
     color: #59397F;
     font-style: italic;
 }
-article p {
+section p {
     padding-bottom: 1em;
     text-indent: 2em;
 }
@@ -75,24 +82,16 @@ a div:hover {
     background: #5E00FF;
 }
 section {
-    float: left;
-    width: 60%;
+    width: 44%;
     padding: 20px;
     text-align: justify;
-    border-right: 1px solid gray;
     margin: 10px 0 10px 0;
 }
-aside {
-    width: 30%;
+#leftSec {
+    float: left;   
+}
+#rightSec {
     float: right;
-    padding: 10px;
-    margin: 10px 0 10px 0;
-}
-aside h2 {
-    margin-bottom: 10px;
-}
-section h2 {
-    margin-bottom: 10px;
 }
 #mainLeft {
     padding-left: 10px;
@@ -118,6 +117,9 @@ footer {
 }
 
 a:link, a:visited {
-    text-decoration: none;
     color: black;
+    
+}
+address {
+    text-align: left;   
 }
