@@ -19,9 +19,10 @@ body {
 h2, h3, h4, h5, h6 {
     font-family: monospace;
     text-align: left;
+    margin-bottom: 0.5em;
 }
-h2 + p {
-    margin-top: 1em;   
+h2 {
+       
 }
 header {
     height: 150px;
@@ -36,17 +37,24 @@ header h1 {
     line-height: 150px;
     text-align: center;	
 }
+ul {
+    padding-left: 1em;
+}
 li {
-    list-style: none;
-    padding-bottom: 10px;
-    color: #59397F;
+    padding-bottom: 0.2em;
     font-style: italic;
+}
+.boxList {
+    padding: 1em;
+    background: #FFFC9C;
+    margin-bottom: 20px; 
+    box-shadow: 5px 5px gray;
 }
 section p {
     padding-bottom: 1em;
     text-indent: 2em;
 }
-article div {
+.button {
     margin: 20px auto;
     padding: 10px;
     width: 200px;
@@ -54,10 +62,10 @@ article div {
     background: #b8b8b8;
     box-shadow: 2px 2px 5px #000;
 }
-a div {
+a .button {
     background: #FFE8BA;
 }
-a div:hover {
+a .button:hover {
     background: #5E00FF;
 }
 .weekNum {
@@ -82,17 +90,11 @@ a div:hover {
     background: #5E00FF;
 }
 section {
-    width: 44%;
     padding: 20px;
     text-align: justify;
     margin: 10px 0 10px 0;
 }
-#leftSec {
-    float: left;   
-}
-#rightSec {
-    float: right;
-}
+
 #mainLeft {
     padding-left: 10px;
     width: 45%;
