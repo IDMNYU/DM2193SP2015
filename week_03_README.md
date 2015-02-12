@@ -44,18 +44,35 @@
     * http://www.fsmillbank.com/#/transport
     * http://moodboard-film.de
     * http://genelab.nasa.gov
-* Marking up Content
-  * [Recipe](http://www.marthastewart.com/344840/soft-and-chewy-chocolate-chip-cookies)
-  * [J-HNNYBENS-N](http://j-hnnybens-n.com)
-  * [NY Times](http://nytimes.com)
 * Chrome Extension: [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm/related?hl=en-US)
 
 #### Thursday
-* Talk about readings
-* Scope out Learning Logs
 * Show & Tell
-* Wrap up HTML
-* HTML Quiz
+* Readings
+  * Visible Narratives
+    * art vs. engineering
+    * usability vs graphic design
+    * “Interactive design [is] a seamless blend of graphic arts, technology, and psychology.” —Brad Wieners Wired, 2002
+    * left brain (logical) vs. right brain (intuitive).
+    * ![vn](http://static.lukew.com/vn_perception.gif)
+    * ![vn](http://static.lukew.com/vn_relationships.gif)
+    * ![vn](http://static.lukew.com/vn_hierarchy1.gif)
+    * ![vn](http://static.lukew.com/vn_hierarchy_changes.gif)
+    * ![vn](http://static.lukew.com/vn_generic_page.gif)
+  * Unproven Path
+    * One - vet programmers 
+    * Two - put everyone in one office
+    * Three - plan: short documents, with sketches and diagrams
+    * Four - bug tracking
+    * Five - testing, dog fooding, qa, ux
+    * Six - schedules, timelines
+    * Seven - business plan $$$ 
+    * _Eight_ - have a good idea, break all the rules, maybe it shouldn't "feel like work"
+* Scope Out Learning Logs
+* HTML Hands-On
+  * From a Design to Markup 
+  * [Recipe PDF](./_in-class/class_notes/feb_12_thurs/cookies_recipe.pdf)
+  * [Original Recipe URL](https://www.verybestbaking.com/recipes/18476/original-nestle-toll-house-chocolate-chip-cookies)
 
 ### Reading Assignment
 * [Following A Web Design Process](http://www.smashingmagazine.com/2011/06/22/following-a-web-design-process)
