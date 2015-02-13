@@ -16,6 +16,10 @@
 ## Working Directory
 
 *email: sj1246@nyu.edu
+<<<<<<< HEAD
+*cool cool cool
+=======
 *cool cool cool1
+>>>>>>> FETCH_HEAD
 
 This folder will contain everyone's working directory!

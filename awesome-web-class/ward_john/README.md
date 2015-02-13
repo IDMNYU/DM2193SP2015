@@ -14,5 +14,11 @@
 ---
 
 ## John's Working Directory
+<<<<<<< HEAD
+
+* john.ward@nyu.edu
+
+=======
 * [wardjr.com/DM2193](http://www.wardjr.com/DM2193)
 * john.ward@nyu.edu
+>>>>>>> FETCH_HEAD

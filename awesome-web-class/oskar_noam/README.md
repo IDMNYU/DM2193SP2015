@@ -13,8 +13,15 @@
 
 ---
 
+<<<<<<< HEAD
+## Oskar Noam's Contact Info
+Email: osknoam@gmail.com
+
+Twitter: @oskarnoam
+=======
 ## Oskar Noam
 
 Contact Info
 	Email: osknoam@gmail.com
 	Twitter: @oskarnoam
+>>>>>>> FETCH_HEAD
