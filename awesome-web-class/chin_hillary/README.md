@@ -16,4 +16,8 @@
 ## Working Directory
 
 * E-mail: hillary.chin@nyu.edu
+<<<<<<< HEAD
 * Web: Soon to come, friends
+=======
+* Web: http://hillarychin.com/learninglog
+>>>>>>> FETCH_HEAD

@@ -14,4 +14,9 @@
 ---
 
 ## Working Directory
+<<<<<<< HEAD
 * email: lm2817@nyu.edu
+=======
+* email: lm2817@nyu.edu
+* learning-log: http://sites.bxmc.poly.edu/~levimollison/learninglog/
+>>>>>>> FETCH_HEAD

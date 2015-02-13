@@ -20,6 +20,37 @@
 
 ### In-Class
 
+* Cascading Stylesheets
+  * Selectors
+    * Comma separated selectors
+    * Space separated selectors
+  * Properties
+  * Specificity
+    * Element +1
+    * .Class +10
+    * #ID + 100
+  * Top-down Parsing
+* Box Model
+  * Content
+  * Padding
+  * Border
+  * Margin
+  * Outline
+  * ![Box Model](http://j-hnnybens-n.com/capture/xhbaq.png)
+* Reset Styles
+  * vs. Browser Default Styles
+* External Styles
+  * `<link>` Tag
+* Inline Styles
+  * `<style>` Tag
+* Style Attribute
+  * `<p style="color:red"></p>`
+* Chrome Developer Tools
+  * ![DevTools](http://j-hnnybens-n.com/capture/cwqvi.png)
+    * View the live box model for any element
+    * See the parsed markup
+    * See styles applied to elements
+      * Manipulate styles for testing
 * CSS Properties
   * border-radius
   * z-index
