@@ -49,6 +49,7 @@ li {
     background: #FFFC9C;
     margin-bottom: 20px; 
     box-shadow: 5px 5px gray;
+    max-width: 300px;
 }
 section p {
     padding-bottom: 1em;
@@ -94,7 +95,6 @@ section {
     text-align: justify;
     margin: 10px 0 10px 0;
 }
-
 #mainLeft {
     padding-left: 10px;
     width: 45%;
