@@ -1,0 +1,25 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   awesome-web-class/Ong_Calvin/calvin_learning_log/Bach- Glenn Gould - English Suite No 2 in A minor BWV 807 Prelude.mp3
+#	new file:   awesome-web-class/Ong_Calvin/calvin_learning_log/Coco Swedish Chef.mp4
+#	new file:   awesome-web-class/Ong_Calvin/calvin_learning_log/Dmitri Shostakovich - Waltz No. 2.mp3
+#	new file:   awesome-web-class/Ong_Calvin/calvin_learning_log/Georgy Sviridov - Waltz Snowstorm.mp3
+#	new file:   awesome-web-class/Ong_Calvin/calvin_learning_log/images/Cookie.PNG
+#	new file:   awesome-web-class/Ong_Calvin/calvin_learning_log/images/Document Object Model.png
+#	new file:   awesome-web-class/Ong_Calvin/calvin_learning_log/images/HTML Element Flowchart.png
+#	new file:   awesome-web-class/Ong_Calvin/calvin_learning_log/images/Toll House Package.PNG
+#	deleted:    awesome-web-class/Ong_Calvin/calvin_learning_log/images/me.png
+#	modified:   awesome-web-class/Ong_Calvin/calvin_learning_log/index.html
+#	new file:   awesome-web-class/Ong_Calvin/calvin_learning_log/main.css
+#	new file:   awesome-web-class/Ong_Calvin/calvin_learning_log/recipe.css
+#	new file:   awesome-web-class/Ong_Calvin/calvin_learning_log/recipe.html
+#	deleted:    awesome-web-class/desouza_stefon/learning_log /images/Haha.webm
+#	deleted:    awesome-web-class/desouza_stefon/learning_log /index.html
+#	deleted:    awesome-web-class/desouza_stefon/learning_log /recipe.html
+#
+
