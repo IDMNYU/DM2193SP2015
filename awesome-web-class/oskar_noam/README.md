@@ -18,4 +18,4 @@
 Contact Info
 	Email: osknoam@gmail.com
 	Twitter: @oskarnoam
-	http://sites.bxmc.poly.edu/~luismaldonado/learning_log/
+	http://sites.bxmc.poly.edu/~luismaldonado/learning_logs
