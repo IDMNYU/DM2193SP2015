@@ -17,4 +17,4 @@
 
 * amz324@nyu.edu
 * website http://sites.bxmc.poly.edu/~alexiszerafa/learning_log/
-*
+
