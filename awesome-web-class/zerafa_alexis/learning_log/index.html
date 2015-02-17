@@ -1,62 +1,313 @@
 <!DOCTYPE html>
 <html>
+<script type="text/javascript">
+// <![CDATA[
+var colour="random"; // in addition to "random" can be set to any valid colour eg "#f0f" or "red"
+var sparkles=50;
+
+/****************************
+*  Tinkerbell Magic Sparkle *
+*(c)2005-13 mf2fm web-design*
+*  http://www.mf2fm.com/rv  *
+* DON'T EDIT BELOW THIS BOX *
+****************************/
+var x=ox=400;
+var y=oy=300;
+var swide=800;
+var shigh=600;
+var sleft=sdown=0;
+var tiny=new Array();
+var star=new Array();
+var starv=new Array();
+var starx=new Array();
+var stary=new Array();
+var tinyx=new Array();
+var tinyy=new Array();
+var tinyv=new Array();
+
+window.onload=function() { if (document.getElementById) {
+  var i, rats, rlef, rdow;
+  for (var i=0; i<sparkles; i++) {
+    var rats=createDiv(3, 3);
+    rats.style.visibility="hidden";
+    rats.style.zIndex="999";
+    document.body.appendChild(tiny[i]=rats);
+    starv[i]=0;
+    tinyv[i]=0;
+    var rats=createDiv(5, 5);
+    rats.style.backgroundColor="transparent";
+    rats.style.visibility="hidden";
+    rats.style.zIndex="999";
+    var rlef=createDiv(1, 5);
+    var rdow=createDiv(5, 1);
+    rats.appendChild(rlef);
+    rats.appendChild(rdow);
+    rlef.style.top="2px";
+    rlef.style.left="0px";
+    rdow.style.top="0px";
+    rdow.style.left="2px";
+    document.body.appendChild(star[i]=rats);
+  }
+  set_width();
+  sparkle();
+}}
+
+function sparkle() {
+  var c;
+  if (Math.abs(x-ox)>1 || Math.abs(y-oy)>1) {
+    ox=x;
+    oy=y;
+    for (c=0; c<sparkles; c++) if (!starv[c]) {
+      star[c].style.left=(starx[c]=x)+"px";
+      star[c].style.top=(stary[c]=y+1)+"px";
+      star[c].style.clip="rect(0px, 5px, 5px, 0px)";
+      star[c].childNodes[0].style.backgroundColor=star[c].childNodes[1].style.backgroundColor=(colour=="random")?newColour():colour;
+      star[c].style.visibility="visible";
+      starv[c]=50;
+      break;
+    }
+  }
+  for (c=0; c<sparkles; c++) {
+    if (starv[c]) update_star(c);
+    if (tinyv[c]) update_tiny(c);
+  }
+  setTimeout("sparkle()", 40);
+}
+
+function update_star(i) {
+  if (--starv[i]==25) star[i].style.clip="rect(1px, 4px, 4px, 1px)";
+  if (starv[i]) {
+    stary[i]+=1+Math.random()*3;
+    starx[i]+=(i%5-2)/5;
+    if (stary[i]<shigh+sdown) {
+      star[i].style.top=stary[i]+"px";
+      star[i].style.left=starx[i]+"px";
+    }
+    else {
+      star[i].style.visibility="hidden";
+      starv[i]=0;
+      return;
+    }
+  }
+  else {
+    tinyv[i]=50;
+    tiny[i].style.top=(tinyy[i]=stary[i])+"px";
+    tiny[i].style.left=(tinyx[i]=starx[i])+"px";
+    tiny[i].style.width="2px";
+    tiny[i].style.height="2px";
+    tiny[i].style.backgroundColor=star[i].childNodes[0].style.backgroundColor;
+    star[i].style.visibility="hidden";
+    tiny[i].style.visibility="visible"
+  }
+}
+
+function update_tiny(i) {
+  if (--tinyv[i]==25) {
+    tiny[i].style.width="1px";
+    tiny[i].style.height="1px";
+  }
+  if (tinyv[i]) {
+    tinyy[i]+=1+Math.random()*3;
+    tinyx[i]+=(i%5-2)/5;
+    if (tinyy[i]<shigh+sdown) {
+      tiny[i].style.top=tinyy[i]+"px";
+      tiny[i].style.left=tinyx[i]+"px";
+    }
+    else {
+      tiny[i].style.visibility="hidden";
+      tinyv[i]=0;
+      return;
+    }
+  }
+  else tiny[i].style.visibility="hidden";
+}
+
+document.onmousemove=mouse;
+function mouse(e) {
+  if (e) {
+    y=e.pageY;
+    x=e.pageX;
+  }
+  else {
+    set_scroll();
+    y=event.y+sdown;
+    x=event.x+sleft;
+  }
+}
+
+window.onscroll=set_scroll;
+function set_scroll() {
+  if (typeof(self.pageYOffset)=='number') {
+    sdown=self.pageYOffset;
+    sleft=self.pageXOffset;
+  }
+  else if (document.body && (document.body.scrollTop || document.body.scrollLeft)) {
+    sdown=document.body.scrollTop;
+    sleft=document.body.scrollLeft;
+  }
+  else if (document.documentElement && (document.documentElement.scrollTop || document.documentElement.scrollLeft)) {
+    sleft=document.documentElement.scrollLeft;
+    sdown=document.documentElement.scrollTop;
+  }
+  else {
+    sdown=0;
+    sleft=0;
+  }
+}
+
+window.onresize=set_width;
+function set_width() {
+  var sw_min=999999;
+  var sh_min=999999;
+  if (document.documentElement && document.documentElement.clientWidth) {
+    if (document.documentElement.clientWidth>0) sw_min=document.documentElement.clientWidth;
+    if (document.documentElement.clientHeight>0) sh_min=document.documentElement.clientHeight;
+  }
+  if (typeof(self.innerWidth)=='number' && self.innerWidth) {
+    if (self.innerWidth>0 && self.innerWidth<sw_min) sw_min=self.innerWidth;
+    if (self.innerHeight>0 && self.innerHeight<sh_min) sh_min=self.innerHeight;
+  }
+  if (document.body.clientWidth) {
+    if (document.body.clientWidth>0 && document.body.clientWidth<sw_min) sw_min=document.body.clientWidth;
+    if (document.body.clientHeight>0 && document.body.clientHeight<sh_min) sh_min=document.body.clientHeight;
+  }
+  if (sw_min==999999 || sh_min==999999) {
+    sw_min=800;
+    sh_min=600;
+  }
+  swide=sw_min;
+  shigh=sh_min;
+}
+
+function createDiv(height, width) {
+  var div=document.createElement("div");
+  div.style.position="absolute";
+  div.style.height=height+"px";
+  div.style.width=width+"px";
+  div.style.overflow="hidden";
+  return (div);
+}
+
+function newColour() {
+  var c=new Array();
+  c[0]=255;
+  c[1]=Math.floor(Math.random()*256);
+  c[2]=Math.floor(Math.random()*(256-c[1]/2));
+  c.sort(function(){return (0.5 - Math.random());});
+  return ("rgb("+c[0]+", "+c[1]+", "+c[2]+")");
+}
+// ]]>
+</script>
+
 <head>
     <meta charset="UTF-8">
     <title></title>
 </head>
-<body>
+<body style="background-color:#000000">
 
     <header>
-        <h1>Learning Log</h1>
-        <h2>DM2193 &bullet; Spring 2015</h2>
-        <h3>Alexis Zerafa</h3>
-        <img src="images/me.png" width="361" height="361" alt="Johnny Benson"/>
+        <h1 style="color:white">Learning Log</h1>
+        <h2 style="color:white">DM2193 &bullet; Spring 2015</h2>
+        <h3 style="color:white">Alexis Zerafa</h3>
+        <img src="http://tinypic.com/r/jhvn61/8" width="361" height="361" alt="Alexis Zerafa"/>
         <address>
-            <a href="mailto:johnny.benson@nyu.edu?subject=[Learning Log]%20Hello!&body=Hahahaha hey ;)">amz324@nyu.edu</a>
+            <a href="mailto:amz324@nyu.edu?subject=[Learning Log]%20Hello!&body=Hahahaha hey ;)">amz324@nyu.edu</a>
             <br/>
             <a href="http://www.suvi.org/funstuff/slapit.html">my super professional website</a>
         </address>
     </header>
 
-<style> body, a, a:hover { cursor:url(http://free-themes.info/cursor/mustache/mustache.png), auto }</style>
+<style> body, a, a:hover { cursor:url(http://free-themes.info/cursor/mustache/mustache.png), auto }</style> <!-- This makes your cursor a mustache-->
 
     <hr/>
 
     <nav>
-        <a href="#1-jan-2015">1 Jan 2015</a>
+        <a href="#27-Jan-2015">27 Jan 2015</a>
     </nav>
 
     <hr/>
 
-    <article id="1-fan-2015">
-        <div>1 Jan 2015</div>
-        <h4>My first learning Log entry</h4>
+    <article id="27-Jan-2015">
+        <div style="color:white">27 Jan 2015</div>
+        <h4 style="color:white">My first learning Log entry </h4>
         <section>
-            <h5>Notes</h5>
-            <p> Learning how to build the learning log</p>
+            <h5 style="color:white">Notes</h5>
+            <p style="color:white"> Web design is significantly less simple than I thought. Sometimes it seems impossible, sometimes it seems super simple… I don’t know how to feel</p>
         </section>
+
+    <hr/>
+
+    <nav>
+        <a href="#29-Jan-2015">29 Jan 2015</a>
+    </nav>
+
+    <hr/>
+
+    <article id="29-Jan-2015">
+        <div style="color:white">29 Jan 2015</div>
+        <h4 style="color:white">My second learning Log entry </h4>
         <section>
-            <h5>Links</h5>
-            <ul>
-                <li>
-                    Check out <a href="http://www.w3schools.com/html/html_charset.asp" target="_blank">this article about charset</a>.                    
-                </li>
-                <li>
-                    Example "lorem ipsum" for <a href="http://html-ipsum.com" target="_blank">HTML Markup</a>.   
-                </li>
-            </ul>
+            <h5 style="color:white">Notes</h5>
+            <p style="color:white"> I’ve shown so many people the horse raised by spheres website.</p>
         </section>
+
+     <hr/>
+
+    <nav>
+        <a href="#3-Feb-2015">3 Feb 2015</a>
+    </nav>
+
+    <hr/>
+
+    <article id="3-Feb-2015">
+        <div style="color:white">3 Feb 2015</div>
+        <h4 style="color:white">My third learning Log entry </h4>
         <section>
-            <h5>Reading Response</h5>
-            <h6>
-                <a href="http://blog.8thlight.com/doug-bradbury/2009/08/22/why-software-development-is-a-craft.html">PROGRAMMING IS NOT A CRAFT</a>
-            </h6>
-            <p>Craft means to me...</p>
+            <h5 style="color:white">Notes</h5>
+            <p style="color:white"> I was really hungry today, this six hour class gauntlet sucks.</p>
         </section>
-       <section>
-            <h5>Misc</h5>
-            <p>Slept til 11 today</p>
+
+    <hr/>
+
+    <nav>
+        <a href="#10-Feb-2015">10 Feb 2015</a>
+    </nav>
+
+    <hr/>
+
+    <article id="10-Feb-2015">
+        <div style="color:white">10 Feb 2015</div>
+        <h4 style="color:white">My fourth learning Log entry </h4>
+        <section>
+            <h5 style="color:white">Notes</h5>
+            <p style="color:white">Eating sushi during class is now a proven good plan. Each term tech mentioned I’ve heard of… but I don’t know enough to make an educated comment. When you wrap content in HTML you put a window around it. The box model is hella important, 75% important in CSS to be exact.</p>
         </section>
+
+      <hr/>
+
+    <nav>
+        <a href="#12-Feb-2015">12 Feb 2015</a>
+    </nav>
+
+    <hr/>
+
+    <article id="12-Feb-2015">
+        <div style="color:white">12 Feb 2015</div>
+        <h4 style="color:white">My fifth learning Log entry </h4>
+        <section>
+            <h5 style="color:white">Notes</h5>
+            <p style="color:white"> Free pizza and beer makes class a million times better. Your mouse is in the fourth quadrant when you’re treating the screen like a graph. In graphic design the rule of thirds is called the grid.. I learned a lot about the grid last semester in my visual design studio class. There’s always an underlying grid present in websites. Some important terms: Proximity, similarity, continuance, scale, and closure. Proximity can determine clarity (WIREFRAMES ARE IMPORTANT). Scale can communicate importance, and it creates a hierarchy within a composition (website). It’s important to find a balance with hierarchy… if too much order is established it’s equally as hard to follow as a site with nothing standing out. He mentioned viewport, I missed the explination so I’ll google it later 
+            UL means unordered list 
+            OL means ordered list
+            Span is div’s chill cousin
+            sidenote use strong not bold (so old people can see it)
+            CSS sounds really magical and visual… I hope it is
+            There’s a big difference between block and in line elements.
+            Margin(Padding(content))) ← these are boxes within themselves </p>
+        </section>
+
+
+    
     </article>
 
 </body>
