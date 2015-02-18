@@ -18,7 +18,7 @@
 ```    <!-- 
         header 1
         block element
-        creates a header 
+        most important onecreates a header 
     -->
 
 ### 2: 
@@ -27,7 +27,7 @@
 ```        <!-- 
         strong tag
         inline Element 
-        creates an element of importance
+        bold text
     -->
 
 ### 3: 
@@ -35,8 +35,8 @@
     <div></div>
         <!-- 
         div tag
-        inline Element 
-        creates a section document
+        block Element 
+        agnostic semantic block element
     -->
 ```
 
@@ -46,7 +46,7 @@
         <!-- 
         span tag
         inline Element 
-        Encloses a span
+        semantically neutral (set a piece of content apart but no line breaks)
     -->
 ```
 
@@ -65,8 +65,8 @@
     <img/>
         <!-- 
         image Tag
-        Block Element 
-        creates an image
+        inline Element 
+        display an image
     -->
 ```
 
@@ -76,7 +76,7 @@
         <!-- 
         bold tag
         inline Element 
-        bolds text
+        strong has more enfaces bolds text
     -->
 ```
 
@@ -85,8 +85,8 @@
     <pre></pre>
             <!-- 
         preformatted text tag
-        inline Element 
-        defines text before you do shit.
+        block Element 
+        gives you monospace formatting
         -->
 ```
 
@@ -95,8 +95,8 @@
     <nav></nav>
             <!-- 
         navigation links tag
-        inline Element 
-        defines navigation links
+        block Element 
+        contains nagvation to other things/pages/other parts of the document
         -->
 ```
 
@@ -106,7 +106,7 @@
             <!--
         ordered list tag
         inline Element 
-        creates an ordered list
+        creates an ordered list (it has sequence)
 -->
 ```
 
@@ -123,8 +123,8 @@
     <li></li>
         <!-- 
         list Tag
-        Block Element 
-        creates a list
+        inline Element 
+        can only exist inside a ul or ol
     -->
 ```
 
@@ -143,8 +143,8 @@
     <html></html>
         <!-- 
         hypertext markup language tag
-        Block Element 
-        Encloses your html
+        neither
+        Encloses your html, tells your browser you're using html
     -->
 ```
 
@@ -164,7 +164,7 @@
         <!-- 
         document type tag
         neither 
-        Encloses paragraphs of text
+        tells the broswer what tyoe of document it is rendering
     -->
 ```
 
@@ -190,6 +190,9 @@
 ### 19: 
 ```HTML
     <iframe></iframe>
+     <!-- frame tag
+        Inlines
+      stylizes the frame you place-->
 ```
 
 ### 20: 
@@ -197,20 +200,20 @@
     <title></title>
         <!-- 
         title tag
-        Block Element 
+        neither
         creates a title
     -->
 ```
 
 ## What is the difference between a Block element and an Inline element?
-                block creates a a new thing inline falls under an already existing thing
+                blocks go across the page and inline elements have bounderies within it.
 ## How many levels of headings are there?
      7 
 ## How many HTML tags are there?
-        100?
+        limited amount
 ## What two tags are the only descendents of the `<html>` tag?
-  um.
+  head and body
 ## Which tag is always the direct descendent of an Unordered List element?
-    list tag
+    <li> tag
 ## Label and describe all of the parts of this sample markup `<p title="Opening Paragraph">Lorem ipsum...</p>`
-    paragraph tag, title tag, text, and close of the paragraph tag
+    paragraph tag, title attribute, value, text, and close of the paragraph tag
