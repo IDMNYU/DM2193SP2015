@@ -214,13 +214,12 @@ A block element takes up the entire space available/page and an inline element a
 ## How many HTML tags are there?
 A finite number, something like 90?
 ## What two tags are the only descendents of the `<html>` tag?
-<!-- <head> and <body -->
+<head> and <body>
 ## Which tag is always the direct descendent of an Unordered List element?
-<!-- <li> -->
+<li> 
 ## Label and describe all of the parts of this sample markup `<p title="Opening Paragraph">Lorem ipsum...</p>`
-<!-- <p></p> is an element
-    <p> is the opening tag
-    title="Opening Paragraph" is an attribute
-    Lorem ipsum is the content
-    </p> is the closing tag
--->
+<p></p> is an element
+<p> is the opening tag
+title="Opening Paragraph" is an attribute
+Lorem ipsum is the content
+</p> is the closing tag
