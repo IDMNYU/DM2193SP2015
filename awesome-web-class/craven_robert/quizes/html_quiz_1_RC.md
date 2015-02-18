@@ -77,47 +77,69 @@
 ### 8: 
 ```HTML
     <pre></pre>
+    <!--
+    preformatted text
+    in line
+    every character takes up the same amt of space; ignores default formating and preserves raw input-->
+
 ```
 
 ### 9: 
 ```HTML
     <nav></nav>
+    <!--
+    navigate
+    block
+    contains navigation to other pages-->
 ```
 
 ### 10: 
 ```HTML
     <ol></ol>
+    <!-- ordered list
+    block
+    list with numbers
+-->
 ```
 
 ### 11: 
 ```HTML
     <ul></ul>
+    <!--unordered list
+    block
+    list without numbers-->
+
 ```
 
 ### 12: 
 ```HTML
     <li></li>
+    <!--list element
+    in line
+    the points in a ul or ol-->
+
 ```
 
 ### 13: 
 ```HTML
     <table></table>
+    <!-- table
+    block
+    makes content tables-->
 ```
 
 ### 14: 
 ```HTML
     <html>
     <!-- HTML
-     Block
+    Block
     Tells a browser that the text is for HTML-->
     </html>
 ```
 
 ### 15: 
 ```HTML
-    <!-- HTML
-     I dunno
-    Tells a browser that the text is for HTML-->
+    <!-- comments-->
 ```
 
 ### 16: 
@@ -131,7 +153,7 @@
 ### 17: 
 ```HTML
     <a></a>
-    <!--hyperlink
+    <!--anchor
     in line
     those links that show up as blue text that isn't the actual link-->
 ```
@@ -147,6 +169,11 @@
 ### 19: 
 ```HTML
     <iframe></iframe>
+    <!--
+    iframe
+    block(?)
+    embeds other sites (?)
+    -->
 ```
 
 ### 20: 
@@ -163,6 +190,9 @@
 ## How many levels of headings are there?
 <!--6-->
 ## How many HTML tags are there?
+<!--a lot-->
 ## What two tags are the only descendents of the `<html>` tag?
+<!-- <head> and <body>-->
 ## Which tag is always the direct descendent of an Unordered List element?
 ## Label and describe all of the parts of this sample markup `<p title="Opening Paragraph">Lorem ipsum...</p>`
+<!-- paragraph tag, atribute, value, the text, closing paragraph tag
