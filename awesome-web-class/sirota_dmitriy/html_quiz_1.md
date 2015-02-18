@@ -69,7 +69,7 @@
     <img/>
     <!-- 
         Image Tag
-        Block Element 
+        Block Element       oops, they're inline.
         Used to add an image to the HTML markup
     -->
 ```
@@ -204,7 +204,7 @@
     <iframe></iframe>
     <!-- 
         iFrame Tag
-        Block Element 
+        Inline Element 
         Creates a frame, within which is another webpage altogether.
     -->
 ```
@@ -234,6 +234,6 @@
 ## Label and describe all of the parts of this sample markup `<p title="Opening Paragraph">Lorem ipsum...</p>`
     <p> = Opening paragraph tag.
     title = title attribute
-    "Opening Paragraph" = THE title
+    "Opening Paragraph" = Value
     Lorem ipsum... = Content
     </p> = Closing paragraph tag.
