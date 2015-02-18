@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee64265c-1900-4566-9773-ca4401a80e38" name="Default" comment="">
       <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\images\me.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/html_quiz_1.md" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/html_quiz_1.md" />
     </list>
     <ignored path="DM2193SP2015.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +35,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recipe.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="recipe.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/recipe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="5" selection-start="258" selection-end="258" vertical-scroll-proportion="0.4296029" vertical-offset="0" max-vertical-offset="554">
+            <state line="14" column="5" selection-start="258" selection-end="258" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="170">
               <folding>
+                <element signature="tag#head#0;tag#html#0" expanded="false" />
                 <element signature="tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -81,6 +83,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="html_quiz_1.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/html_quiz_1.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="209" column="13" selection-start="3250" selection-end="3250" vertical-scroll-proportion="0.75406873" vertical-offset="3136" max-vertical-offset="3689">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="recipe.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awesome-web-class/sirota_dmitriy/learning_log/recipe.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,6 +120,7 @@
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/index.html" />
         <option value="$PROJECT_DIR$/awesome-web-class/sirota_dmitriy/learning_log/recipe.html" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/recipe.html" />
+        <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/html_quiz_1.md" />
       </list>
     </option>
   </component>
@@ -265,32 +280,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="awesome-web-class" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kabir_alvi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learning_log" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DM2193SP2015" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DM2193SP2015" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="_in-class" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -310,28 +299,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="class_notes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DM2193SP2015" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DM2193SP2015" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_in-class" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="class_notes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feb_12_thurs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,6 +320,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log" />
       <recent name="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\images" />
     </key>
   </component>
@@ -453,6 +421,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="14" selection-start="2103" selection-end="2103" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1003">
           <folding>
+            <element signature="tag#head#0;tag#html#0" expanded="false" />
             <element signature="tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -629,8 +598,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/recipe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="258" selection-end="258" vertical-scroll-proportion="0.4296029" vertical-offset="0" max-vertical-offset="554">
+        <state line="14" column="5" selection-start="258" selection-end="258" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="170">
           <folding>
+            <element signature="tag#head#0;tag#html#0" expanded="false" />
             <element signature="tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -669,6 +639,16 @@
             <element signature="n#style#0;n#h4#5;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#2;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/html_quiz_1.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="209" column="13" selection-start="3250" selection-end="3250" vertical-scroll-proportion="0.75406873" vertical-offset="3136" max-vertical-offset="3689">
+          <folding />
         </state>
       </provider>
     </entry>
