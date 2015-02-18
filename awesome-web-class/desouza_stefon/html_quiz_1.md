@@ -27,7 +27,7 @@
 <!--
 Strong/bold tag
 In line Element
-Used to bold an item
+Used to bold an item, its strongly empasized
 ``` -->
 
 ### 3: 
@@ -35,8 +35,8 @@ Used to bold an item
     <div></div>
     <!--
     Div Tag
-    Inline Element
-    Doesn't do anything, but can be used to isolate certain items
+    Block Element
+    Doesn't do anything, but can be used to isolate certain items; Agnostic
 ```-->
 ### 4: 
 ```HTML
@@ -44,7 +44,7 @@ Used to bold an item
     <span></span>
     Span tag
     Inline Element
-    Similar to div tag, can be used to isolate certain items
+    Similar to div tag, can be used to isolate certain items on the same lines
 ```-->
 
 ### 5: 
@@ -52,62 +52,82 @@ Used to bold an item
     <blockquote></blockquote>
     <!--
 Quote tag
-    Block tag
-    Inline element 
+    Quote tag
+    Block element 
     Assigns a specific text to take on the characteristics of a quote.
 ```    -->
 ### 6: 
 ```HTML
     <img/>
+    <!--
     Image/Picture tag
-    Block tag
+    Inline
     Used to insert a specific picture or image, (normally .jpg or .gif)
-```
+
+```-->
 
 ### 7: 
 ```HTML
     <b></b>
+   <!-- 
     Bold tag
     Inline 
+    Stylistically bolded, but does not constitute an items importants
 
-```
+```-->
 
 ### 8: 
+
 ```HTML
     <pre></pre>
-```
+   <!-- 
+        Preformated text
+       Preformatted Text, mono spaced font, every character takes up the same space, also acknowledges spaces
+```-->
 
 ### 9: 
 ```HTML
     <nav></nav>
-```Navigation tag
+    Navigation tag
     Block element
-    Sets a predetermined location for the html codes, so that whatever is inside of the tag is placed at the center of the site
+    Contiains navigation to other things like pages and stuff
+```    
 ### 10: 
 ```HTML
     <ol></ol>
-```
+<!--
+    involves a listing
+```-->
 
 ### 11: 
 ```HTML
     <ul></ul>
+    <!--
 ```Unordered Lists Tag
     Block Element
-    Used to create
+    Used to create a space in which you can put li's/
+    -->
 ### 12: 
 ```HTML
-    <li></li>
-```Listed tags
-
+    <li></li>Listed tags
+    Can only be used in an ol or ul
+-->
+```
 ### 13: 
 ```HTML
     <table></table>
-```
+<!--
+    Table
+    Block
+    Creats a table of content
+```-->
 
 ### 14: 
 ```HTML
     <html></html>
-```
+    <!--
+    Tells the browswer what you are about to encounter are html files
+```-->
 
 ### 15: 
 ```HTML
@@ -117,6 +137,8 @@ Quote tag
 ### 16: 
 ```HTML
     <!DOCTYPE> 
+    NEITHER
+    Tells the browser what type of document it is rendering
 ```
 Doc Tag
 Neither
@@ -124,16 +146,21 @@ Used to iniate the
 ### 17: 
 ```HTML
     <a></a>
+    Anchor tags
+    Block
+    Wraps links and stuff
 ```
 
 ### 18: 
 ```HTML
     <em></em>
+    Inline
 ```
 
 ### 19: 
 ```HTML
     <iframe></iframe>
+    Used to make new webpages
 ```
 
 ### 20: 
@@ -145,12 +172,15 @@ Used to iniate the
 ```
 
 ## What is the difference between a Block element and an Inline element?
-A block element are html items that have the built in nature to automatically consumes a block of space in an html. An inline element is an element that will always be directed to a single line.  
+A block element are html items that have the built in nature to automatically consumes a block of space in an html. An inline element is an element that will always be directed to one line and will never space out on its own.  
 ## How many levels of headings are there?
-There are 3 levels of headings
+There are 6 levels of headings
 ## How many HTML tags are there?
-There are about 80 html tags in all.
+There are about  html tags in all.
 ## What two tags are the only descendents of the `<html>` tag?
+head and body
 
 ## Which tag is always the direct descendent of an Unordered List element?
+listings (li)
 ## Label and describe all of the parts of this sample markup `<p title="Opening Paragraph">Lorem ipsum...</p>`
+paragraph tag, title is an attribute, (always followed by an attribute), Opening Paragraph is a value
