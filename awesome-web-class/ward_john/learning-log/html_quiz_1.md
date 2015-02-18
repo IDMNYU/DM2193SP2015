@@ -67,7 +67,7 @@
     <img/>
     <!-- 
         Image tag
-        Block Element
+        Inline Element
         Used to insert an image
     -->
 ```
@@ -86,7 +86,9 @@
 ```HTML
     <pre></pre>
     <!-- 
-        
+        Preformatted text tag
+        Inline Element
+        Makes font monospace and respects spacing
     -->
 ```
 
@@ -195,7 +197,7 @@
     <iframe></iframe>
     <!-- 
         Iframe tag
-        Block Element
+        Inline Element
         Insert another webpage in your webpage
     -->
 ```
@@ -216,7 +218,7 @@
 -->
 ## How many levels of headings are there?
 <!-- 
-        5
+        6
 -->
 ## How many HTML tags are there?
 <!-- 
@@ -234,7 +236,7 @@
 <!-- 
         < = open tag declaration
         p = paragraph tag
-        title = Not-rendered property of that p tag
+        title = Bit that appears when you hover your mouse over an element
         "Opening Paragraph" = The title
         > = close tag declaration
         Lorem ipsum... = content being affected by the tag
