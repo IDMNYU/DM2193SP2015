@@ -26,6 +26,7 @@
 * Review Recipe Markup
   * HTML Q & A
 * HTML Quiz
+* Talk about last week's readings
 
 #### Thursday
 * Cascading Stylesheets
