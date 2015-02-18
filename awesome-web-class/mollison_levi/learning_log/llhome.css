@@ -10,18 +10,10 @@ Yo, you need a general idea before you go nuts creating and designing shit. you 
 	background-color:rgba(220,175,65,0.6);
 }
 
-.column{
+.row{
 	position:absolute;
-	height:668px;
-	width:340px;
+	height:330px;
+	width:1240px;
 	display:inline;
 	background-color:rgba(220,175,156,0.6);
-}
-
-.second{
-	left:350px;
-}
-
-.third{
-	left:700px;
 }
