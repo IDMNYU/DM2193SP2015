@@ -20,6 +20,14 @@
 
 ### In-Class
 
+#### Tuesday
+* Show & Tell
+* Review Learning logs
+* Review Recipe Markup
+  * HTML Q & A
+* HTML Quiz
+
+#### Thursday
 * Cascading Stylesheets
   * Selectors
     * Comma separated selectors
