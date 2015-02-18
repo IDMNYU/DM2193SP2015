@@ -16,7 +16,9 @@
 ```HTML
     <h1></h1>
     <!--   
-        Header 1, its in line...I think, its a title or heading, and its the primary one 
+        Header 1 
+        block 
+        its a title or heading, and its the primary one 
     -->
 ```
 
@@ -24,7 +26,9 @@
 ```HTML
     <strong></strong>
     <!--
-    strong, in line, it bolds things but if an old person uses an easy reader it stays bold as opposed to the bold tag
+    strong 
+    in line 
+    it bolds things but if an old person uses an easy reader it stays bold as opposed to the bold tag
     -->
 ```
 
@@ -32,7 +36,9 @@
 ```HTML
     <div></div>
     <!--
-    division, block, can do whatever you want (also a cat's name) 
+    division 
+    block 
+    can do whatever you want (also a cat's name) agnostic
     -->
 ```
 
@@ -40,7 +46,9 @@
 ```HTML
     <span></span>
     <!--
-    span, block, I actually have no idea but I think its similar to div 
+    span 
+    Inline 
+    I actually have no idea but I think its similar to div, simantically neutral  
     -->
 ```
 
@@ -48,7 +56,9 @@
 ```HTML
     <blockquote></blockquote>
     <!--
-    Block quotation, in line, formats a block of quotation
+    Block quotation
+    block 
+    formats a block of quotation
     -->
 ```
 
@@ -56,7 +66,9 @@
 ```HTML
     <img/>
     <!--
-    Image, block, shows an image
+    Image 
+    Inline 
+    shows an image
     -->
 ```
 
@@ -64,7 +76,9 @@
 ```HTML
     <b></b>
     <!--
-    Bold. in line, makes text bold but it's outdated becuase of strong tag
+    Bold 
+    In line 
+    makes text bold but it's outdated becuase of strong tag, says this content is stylistically bolder
     -->
 ```
 
@@ -72,7 +86,9 @@
 ```HTML
     <pre></pre>
     <!--
-    preliminary?, in line, I have no idea
+    Pre formatted text 
+    in line 
+    monospaced font, also respects spacing
     -->
 ```
 
@@ -80,7 +96,9 @@
 ```HTML
     <nav></nav>
     <!--
-    navigation, block, meant for navigation buttons or cute lil drop down menus 
+    navigation 
+    block 
+    meant for navigation buttons or cute lil drop down menus gets you to other pages
     -->
 ```
 
@@ -88,7 +106,9 @@
 ```HTML
     <ol></ol>
     <!-- 
-    ordered list, in line, makes a list that has a pre-designated order
+    ordered list 
+    in line 
+    makes a list that has a pre-designated order (has numbers)
     -->
 ```
 
@@ -96,7 +116,9 @@
 ```HTML
     <ul></ul>
     <!-- 
-    unordered list, in line, makes a list whose order doesnt matter
+    unordered list 
+    in line 
+    makes a list whose order doesnt matter
     -->
 ```
 
@@ -104,7 +126,9 @@
 ```HTML
     <li></li>
     <!--
-    list, in line, makes a list
+    list element
+    in line 
+    makes a list, used inside of ul's and ol's
     -->
 ```
 
@@ -112,7 +136,9 @@
 ```HTML
     <table></table>
     <!--
-    table, in line, makes a table
+    table 
+    block 
+    makes a table, TR and in that TD and thead tfoot are things too
     -->
 ```
 
@@ -120,7 +146,9 @@
 ```HTML
     <html></html>
     <!--
-    I cant remembr what html stands for, block, designates that the language being used is html
+    I cant remembr what html stands for
+    block? maybe 
+    designates that the language being used is html
     -->
 ```
 
@@ -128,7 +156,9 @@
 ```HTML
     <!-- -->
     <!--
-    comment, doesnt show up on site, you can add comments to code and the wont show up in the browser
+    comment 
+    doesnt show up on site 
+    you can add comments to code and the wont show up in the browser
     -->
 ```
 
@@ -136,7 +166,9 @@
 ```HTML
     <!DOCTYPE> 
     <!--
-    document type html, block, desingates that the type of document created is an html document
+    document type html and its the latest one
+    block 
+    desingates (tells browser) that the type of document created is an html document
     -->
 ```
 
@@ -144,7 +176,9 @@
 ```HTML
     <a></a>
     <!--
-    not sure but isnt this used when you're adding a link? like a href or something? in line 
+    anchor
+    block 
+    theyre awesome
     -->
 ```
 
@@ -152,7 +186,9 @@
 ```HTML
     <em></em>
     <!--
-    no idea, in line, nope still not sure
+    no idea
+    in line
+    nope still not sure
     -->
 ```
 
@@ -160,7 +196,9 @@
 ```HTML
     <iframe></iframe>
     <!--
-    like iphone but iframe, in line, best guess is that it creates a frame or some sort or margin 
+    like iphone but iframe 
+    Inline 
+    you can put a webpage inside of a webpage
     -->
 ```
 
@@ -168,7 +206,9 @@
 ```HTML
     <title></title>
     <!--
-    title, in line, designates the title of the page
+    title 
+    neither 
+    designates the title of the page
     -->
 ```
 
@@ -177,10 +217,10 @@
 ## How many levels of headings are there?
 <!-- 6!! -->
 ## How many HTML tags are there?
-<!-- 25, I have no idea -->
+<!-- 100 or something, I have no idea -->
 ## What two tags are the only descendents of the `<html>` tag?
-<!-- DOCTYPE I actually dont know -->
+<!-- head and body-->
 ## Which tag is always the direct descendent of an Unordered List element?
-<!-- list or ordered list idk -->
+<!-- list  -->
 ## Label and describe all of the parts of this sample markup `<p title="Opening Paragraph">Lorem ipsum...</p>`
-<!-- P is paragraph, title designates that opening paragraph is the title, the lorem thing is just text and the closing p ends the paragraph -->
+<!-- P is paragraph, title designates that opening paragraph is the title and is an attribute, the lorem thing is just text node and the closing p ends the paragraph -->
