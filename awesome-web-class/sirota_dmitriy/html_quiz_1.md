@@ -16,7 +16,7 @@
 ```HTML
     <h1></h1>
     <!-- 
-        Header Tag
+        Heading 1 Tag
         Block Element 
         Encloses/Specifies headers
     -->
