@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ee64265c-1900-4566-9773-ca4401a80e38" name="Default" comment="">
       <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\images\me.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/recipe.html" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/recipe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/sirota_dmitriy/learning_log/recipe.html" afterPath="$PROJECT_DIR$/awesome-web-class/sirota_dmitriy/learning_log/recipe.html" />
     </list>
     <ignored path="DM2193SP2015.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +37,9 @@
       <file leaf-file-name="recipe.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/recipe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="33" selection-start="6883" selection-end="6883" vertical-scroll-proportion="0.780037" vertical-offset="1295" max-vertical-offset="2040">
+            <state line="14" column="5" selection-start="258" selection-end="258" vertical-scroll-proportion="0.4296029" vertical-offset="0" max-vertical-offset="554">
               <folding>
+                <element signature="tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -454,6 +453,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="14" selection-start="2103" selection-end="2103" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1003">
           <folding>
+            <element signature="tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -629,8 +629,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/recipe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="33" selection-start="6883" selection-end="6883" vertical-scroll-proportion="0.780037" vertical-offset="1295" max-vertical-offset="2040">
+        <state line="14" column="5" selection-start="258" selection-end="258" vertical-scroll-proportion="0.4296029" vertical-offset="0" max-vertical-offset="554">
           <folding>
+            <element signature="tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
