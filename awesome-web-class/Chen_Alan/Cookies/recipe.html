@@ -7,7 +7,7 @@
 				width: 500px;
 				display: inline-block;
 				padding: 10px;
-				color: brown;
+				color: orange;
 				float: left;
 			}
 			
@@ -40,23 +40,40 @@
 			}
 			
 			#ingredients{
-				width: 250px;
+				width: 225px;
 				height: 500px;
 				float: left;
+				padding: 0px 20px;
 			}
-			
-			#instructions{
-				display: inline-block;
-				float: left;
-				width: 750px;
-			}
+
 			
 			#nutrients{
-				display: block;
-				width: 300px;
+				display: inline-block;
+				width: 600px;
 				height: 300px;
-				float: right;
 			}
+			
+			table{
+				display: inline-block;
+				margin-right: 20px;
+			}
+			
+			#nutrients p{
+				display: inline;
+				text-transform: uppercase;
+			}
+			
+			#nutrients span{
+				font-size: 28px;
+			}
+			
+			#instructions>p>span{
+				color: brown;
+				font-weight: 800; 
+				text-transform: uppercase;
+				font-size: 13px;
+			}
+			
 		</style>
 	</head>
 	<body>
@@ -103,7 +120,7 @@
 				        <p>nestle toll house semi-sweet chocolate morsels</p>
 			        </div>
 			</aside>
-			<section class="instructions">
+			<section id="instructions">
 				<h2>INSTRUCTIONS</h2>
 				<hr />
 		        <p><span>preheat</span> oven to 375 F.</p>
@@ -115,69 +132,70 @@
 		        <p>* May be stored in refrigirator for up to 1 week or in freezer for up to 8 weeks.</p>
 		        <p><span>for high altitude baking (5,200 feet):</span> Increase flour to 2 1/2 cups. Add 2 teaspoons water with flour and reduce both granulated sugar and brown sugar to 2/3 cup <em>each</em>. Bake drop cookies for 8 to 10 minutes and pan cookie for 17 to 19 minutes.</p>
 			</section>
-		    <section class="nutrients">
+		    <section id="nutrients">
 		        <h3>NUTRITIONAL INFORMATION</h3>
-		        <dl>
-		            <dt><h4>serving size</h4></dt>
-		            <dd>1</dd>
-		            <dt><h4>calories per serving</h4></dt>
-		            <dd>110</dd>
-		            <dt><h4>calories from fat</h4></dt>
-		            <dd>60</dd>
-		        </dl>
-		        <h5>% daily value *</h5>
-		        <table style="float: left;">
-		            <tbody><tr>
-		                <td>Total Fat 7g</td>
-		                <td>10%</td>
-		            </tr>
-		            <tr>
-		                <td>Saturated Fat 3.5g</td>
-		                <td>17%</td>
-		            </tr>
-		            <tr>
-		                <td>Cholesterol 15mg</td>
-		                <td>5%</td>
-		            </tr>
-		            <tr>
-		                <td>Sodium 85mg</td>
-		                <td>4%</td>
-		            </tr>
-		            <tr>
-		                <td>Carbohydrates 14g</td>
-		                <td>5%</td>
-		            </tr>
-		            <tr>
-		                <td>Dietary Fiber 1g</td>
-		                <td>3%</td>
-		            </tr>
-		        </tbody></table>
-		        <table style="float: right;">
-		            <tbody><tr>
-		                <td>Vitamin A</td>
-		                <td>2%</td>
-		            </tr>
-		            <tr>
-		                <td>Vitamin C</td>
-		                <td>0%</td>
-		            </tr>
-		            <tr>
-		                <td>Calcium</td>
-		                <td>0%</td>
-		            </tr>
-		            <tr>
-		                <td>Iron</td>
-		                <td>2%</td>
-		            </tr>
-		            <tr>
-		                <td>Sugars 10g</td>
-		                <td></td>
-		            </tr>
-		            <tr>
-		                <td>Protein 2g</td>
-		                <td></td>
-		            </tr>  
-		        </tbody></table>
+		        <p>serving size <span>1</span></p>
+		        <p>calories per serving <span>110</span></p>
+		        <p>calories from fat <span>60</span></p>
+		        <h5>% DAILY VALUE *</h5>
+		        <hr />
+		        <table>
+		            <tbody>
+				        <tr>
+			                <td>Total Fat 7g</td>
+			                <td>10%</td>
+			            </tr>
+			            <tr>
+			                <td>Saturated Fat 3.5g</td>
+			                <td>17%</td>
+			            </tr>
+			            <tr>
+			                <td>Cholesterol 15mg</td>
+			                <td>5%</td>
+			            </tr>
+			            <tr>
+			                <td>Sodium 85mg</td>
+			                <td>4%</td>
+			            </tr>
+			            <tr>
+			                <td>Carbohydrates 14g</td>
+			                <td>5%</td>
+			            </tr>
+			            <tr>
+			                <td>Dietary Fiber 1g</td>
+			                <td>3%</td>
+			            </tr>
+		        	</tbody>
+		        </table>
+		        <table>
+		            <tbody>
+				        <tr>
+			                <td>Vitamin A</td>
+			                <td>2%</td>
+			            </tr>
+			            <tr>
+			                <td>Vitamin C</td>
+			                <td>0%</td>
+			            </tr>
+			            <tr>
+			                <td>Calcium</td>
+			                <td>0%</td>
+			            </tr>
+			            <tr>
+			                <td>Iron</td>
+			                <td>2%</td>
+			            </tr>
+			            <tr>
+			                <td>Sugars 10g</td>
+			                <td></td>
+			            </tr>
+			            <tr>
+			                <td>Protein 2g</td>
+			                <td></td>
+			            </tr>  
+		        	</tbody>
+		        </table>
+		        <hr />
 		        <p>* Percentage Daily Values are based on a 2000 calorie diet.</p>
 		    </section>
 			<article>
