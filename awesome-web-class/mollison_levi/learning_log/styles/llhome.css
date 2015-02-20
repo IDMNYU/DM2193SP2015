@@ -22,6 +22,16 @@ Yo, you need a general idea before you go nuts creating and designing shit. you 
 	box-shadow:5px 5px 0px black;
 }
 
+.week_link:hover{
+	cursor:pointer;
+	border-color:rgb(255,255,255);
+	border-style:outset;
+}
+
+.week_link:active{
+	border-style:inset;
+}
+
 .logo{
 	width:200px;
 	height:200px;
