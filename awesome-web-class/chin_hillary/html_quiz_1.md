@@ -68,6 +68,7 @@
     <img/>
     <!--
         Image tag
+        Inline Element
         Inserts an image
     -->
 ```
@@ -86,8 +87,9 @@
 ```HTML
     <pre></pre>
     <!--
-        Pre tag
-        ???
+        Preformatted tag
+        Block element
+        Text in a <pre> element is displayed in a fixed-width/monospaced font (usually Courier), and it preserves both spaces and line breaks.
     -->
 ```
 
@@ -125,7 +127,7 @@
 ```HTML
     <li></li>
     <!--
-        Forgot the name
+        List item tag
         Block Element
         Is an item in a list
     -->
@@ -165,14 +167,14 @@
     <!DOCTYPE> 
     <!-- Doctype tag
         Neither
-        Identifies the HTML document
+        Identifies the type of document
     -->
 ```
 
 ### 17: 
 ```HTML
     <a></a>
-    <!-- Address tag
+    <!-- Anchor/hyperlink tag
         Inline Element
         Links to somewhere
     -->
@@ -181,7 +183,7 @@
 ### 18: 
 ```HTML
     <em></em>
-    <!-- Forgot the name
+    <!-- Emphasized tag
         Inline Element
         Emphasizes text by italicizing it. Differs from the <i> tag in that the latter is a stylistic choice, whereas <em> emphasizes the content.
     -->
@@ -190,9 +192,9 @@
 ### 19: 
 ```HTML
     <iframe></iframe>
-    <!-- IFrame tag
-        Block Element
-        Do people even use these anymore?
+    <!-- Inline frame tag
+        Inline Element
+        An inline frame is used to embed another document within the current HTML document.
     -->
 ```
 
@@ -212,13 +214,12 @@ A block element takes up the entire space available/page and an inline element a
 ## How many HTML tags are there?
 A finite number, something like 90?
 ## What two tags are the only descendents of the `<html>` tag?
-<!-- <header> and <body -->
+<head> and <body>
 ## Which tag is always the direct descendent of an Unordered List element?
-<!-- <li> -->
+<li> 
 ## Label and describe all of the parts of this sample markup `<p title="Opening Paragraph">Lorem ipsum...</p>`
-<!-- <p> is an element
-    p is the tag
-    title="Opening Paragraph" is an attribute
-    Lorem ipsum is the content
-    /p is the closing tag
--->
+<p></p> is an element
+<p> is the opening tag
+title="Opening Paragraph" is an attribute
+Lorem ipsum is the content
+</p> is the closing tag

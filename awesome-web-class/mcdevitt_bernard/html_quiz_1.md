@@ -18,7 +18,7 @@
     <!--
         Header 1 Tag
         Inline Element
-        Highest-level part of body of document
+        Highest-importance part of body
     -->
 ```
 
@@ -27,7 +27,7 @@
     <strong></strong>
     <!--
         Strong Tag
-        Block Element
+        Inline Element
         Bold text, don't know anything else about it
     -->
 ```
@@ -47,7 +47,8 @@
     <span></span>
     <!--
         Span tag
-        i don't know about this one
+        inline element
+        Semantically neutral like div
     -->
 ```
 
@@ -67,7 +68,7 @@
     <img/>
     <!--
         image tag
-        block element
+        inline element
         you'd have to be pretty stupid not to know this one
         takes an address like <img a href="blahblah"/> and poops an image
         onto the page
@@ -80,7 +81,7 @@
     <!--
         bold tag
         inline element
-        bolds text. pretty dull
+        bolds text. less strongly emphasized than strong
     -->
 ```
 
@@ -89,7 +90,9 @@
     <pre></pre>
     <!--
         pre tag
-        i have no idea what this is
+        inline element
+        preformatted text (monospace)
+        respects whitespace
     -->
 ```
 
@@ -98,7 +101,7 @@
     <nav></nav>
     <!--
         nav tag
-        inline element
+        block element
         denotes a navigation section of a website
     -->
 ```
@@ -107,7 +110,9 @@
 ```HTML
     <ol></ol>
     <!--
-        what is this even
+        organized list element
+        block element
+        list of numbers, letters, etc
     -->
 ```
 
@@ -136,9 +141,10 @@
     <table></table>
     <!--
         table element
-        block element
+        block element? or not
         makes a table of certain dimensions
         even i know not to use this
+        tr, td, thead, tfoot, trow are descendents of table
     -->
 ```
 
@@ -177,7 +183,9 @@
 ```HTML
     <a></a>
     <!--
-        don't know this one
+        anchor tag
+        inline element
+        used to refer to a link
     -->
 ```
 
@@ -185,7 +193,7 @@
 ```HTML
     <em></em>
     <!--
-        the fuck
+        don't know
     -->
 ```
 
@@ -193,7 +201,9 @@
 ```HTML
     <iframe></iframe>
     <!--
-        you lost me
+        iframe tag
+        inline element
+        displays a webpage within a webpage
     -->
 ```
 
@@ -208,8 +218,8 @@
 ```
 
 ## What is the difference between a Block element and an Inline element?
-an inline element will take up the entire horizontal space of the page it's in, until the closing tag
-a block element will only take up a denoted-size "Block" of space on the page
+a block element will take up the entire horizontal space of the page it's in, until the closing tag
+an inline element will only take up a certain amount of space on the page
 ## How many levels of headings are there?
 6
 ## How many HTML tags are there?
@@ -220,7 +230,7 @@ too many for a reasonable person to count in one sitting
 the `<li>` tag
 ## Label and describe all of the parts of this sample markup `<p title="Opening Paragraph">Lorem ipsum...</p>`
 `<p` paragraph element
-`title=` denotes title of the paragraph element
+`title=` denotes value
 `"Opening Paragraph"` the title of the paragraph
-`Lorem ipsum...` content of the paragraph
+`Lorem ipsum...` content of the paragraph (text)
 `</p>` end of paragraph element

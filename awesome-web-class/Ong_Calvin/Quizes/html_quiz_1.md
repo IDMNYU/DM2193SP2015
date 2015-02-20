@@ -17,8 +17,8 @@
     <h1></h1>
     <!-- 
         header tag
-        inline element
-        Makes text a heading of a certain size. 
+        block element
+        Makes text a heading of a certain size. Most important of header.
     -->
 ```
 
@@ -47,8 +47,8 @@
     <span></span>
     <!-- 
         Span Tag
-        Block Element 
-        Makes element stretch a certain area on the page. 
+        Inline Element 
+        Neutral element like div, but when you separate elements, it doesn't create any breaks. 
     -->
 ```
 
@@ -86,9 +86,9 @@
 ```HTML
     <pre></pre>
     <!-- 
-        Preface Tag
+        Preformatted text Tag
         Block Element 
-        Makes text a preface. 
+        Makes monospace text: every text takes up same amount of width. Respects purposeful spacing by author. 
     -->
 ```
 
@@ -97,8 +97,8 @@
     <nav></nav>
     <!-- 
         Navgiation Tag
-        Inline Element 
-        Links to another page or element. 
+        Block Element 
+        Contains navigations to other things like pages, parts of document. 
     -->
 ```
 
@@ -107,8 +107,8 @@
     <ol></ol>
     <!-- 
         ordered list Tag
-        Inline Element 
-        Makes a group of text a list, with numbers. 
+        Block Element 
+        Makes a group of text a list, with numbers. Cannot put any other tag within ol besides li. 
     -->
 ```
 
@@ -116,9 +116,9 @@
 ```HTML
     <ul></ul>
     <!-- 
-        Underline Tag
-        inline Element
-        Underlines text.
+        Unordered list Tag
+        Block Element
+        Makes a group of text a list, with no numbers. Cannot put any other tag within ol besides li. 
     -->
 ```
 
@@ -167,7 +167,7 @@
     <!DOCTYPE> 
     <!-- 
         Document type Tag
-        Block Element 
+        Neither block nor inline element
         Specifices what to compile this file as. 
     -->
 ```
@@ -176,9 +176,9 @@
 ```HTML
     <a></a>
     <!-- 
-        address Tag
+        anchor Tag
         inline Element 
-        Makes a group of text an address
+        Links to another text, page or element. 
     -->
 ```
 
@@ -197,7 +197,7 @@
     <iframe></iframe>
     <!-- 
         inframe Tag
-        Block Element 
+        Inline Element 
         Embeds an object into the file. 
     -->
 ```
@@ -207,22 +207,22 @@
     <title></title>
     <!-- 
         title Tag
-        inline Element 
+        neither block nor inline element
         Makes a group of text the title of the page. 
     -->
 ```
 
 ## What is the difference between a Block element and an Inline element?
-A block element encloses multiple lines, usually grouping items together. An inline element only affects a small amount of code, usually a word or sentence.
+A block element is an element where its boundaries go across the page. An inline element only has boundaries on a single element, enclosing single element.  
 ## How many levels of headings are there?
 6
 ## How many HTML tags are there?
-3
+lots
 ## What two tags are the only descendents of the `<html>` tag?
-<!--html5 and html3-->
+<!--head and body-->
 ## Which tag is always the direct descendent of an Unordered List element?
 <!--<line></line>-->
 ## Label and describe all of the parts of this sample markup `<p title="Opening Paragraph">Lorem ipsum...</p>`
 <!--p makes this a paragraph or simply text-->
-<!--title makes a title and it is referenced as the opening paragraph-->
+<!--title is an attribute and references the text as the "opening paragraph"-->
 <!--Lorem ipsum... is the text-->
