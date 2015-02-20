@@ -73,16 +73,16 @@
 ### 8: 
 ```HTML
     <pre></pre>
-    pre tag
-    inline tag
-    allow you to add code/html as text
+    preformatted text tag
+    block tag
+    allow you to add code/html as text, respect spacing
 ```
 
 ### 9: 
 ```HTML
     <nav></nav>
     Navigation tag
-    Inline Element
+    Block Element
     HTML 5 element. Semantic meaning.
 ```
 
@@ -163,7 +163,7 @@
 ```HTML
     <iframe></iframe>
     image frame tag
-    block element
+    inline element
     adding a web page within a web page
 ```
 
