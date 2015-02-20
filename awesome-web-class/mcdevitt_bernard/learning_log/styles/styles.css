@@ -1,0 +1,31 @@
+body {
+	background: #bbbbbb;
+	font-family: monospace;
+	font-size:12pt;
+}
+
+.heading {
+	font-family: monospace;
+	font-size:36pt;
+	padding-left: 20px;
+}
+
+.entry {
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+.about {
+	font-family: Source Code Pro;
+	background: #cccccc;
+	margin: 0;
+}
+
+.about .heading {
+	color: #f00;
+}
+
+.response {
+	font-size: 14pt;
+	text-indent: 20px;
+}
