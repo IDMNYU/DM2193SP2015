@@ -22,9 +22,14 @@ Yo, you need a general idea before you go nuts creating and designing shit. you 
 	box-shadow:5px 5px 0px black;
 }
 
+.wkposition{
+	top:140px;
+	position:absolute;
+}
+
 .week_link:hover{
 	cursor:pointer;
-	border-color:rgb(255,255,255);
+	border-color:rgb(210,177,201);
 	border-style:outset;
 }
 
@@ -33,23 +38,36 @@ Yo, you need a general idea before you go nuts creating and designing shit. you 
 }
 
 .logo{
-	width:200px;
-	height:200px;
+	width:160px;
+	height:160px;
 	position:absolute;
 	left:80%;
-	top:40px;
+	top:20px;
 }
 
 .home_title{
-	position:relative;
 	width:70%;
-	left:10%;
 	text-align:center;
 	font-size:36pt;
-	color:rgb(37,41,113);
+	color:rgb(255,255,255);
 	font-family:cursive;
+}
 
+.heading{
+	border-style:ridge;
+	border-width:7px;
+	border-color:rgb(210,177,201);
+	position:absolute;
+	width:1180px;
+	height:190px;
+	left:6%;
+	padding:4px 5px 5px 4px;
+	background-color:rgba(0,0,0,0.6);
+	margin-top:20px;
+}
 
+.weekcount{
+	color:white;
 }
 
 .page_bkround{
