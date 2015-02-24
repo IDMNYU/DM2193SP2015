@@ -1,0 +1,30 @@
+.home {
+	font-family: "Times New Roman", Times, serif;
+}
+
+.about {
+	background: lightblue;
+	background-image: url("http://fc00.deviantart.net/fs70/f/2013/160/4/6/persona_3_p3p_x_persona_4_id_by_onewingedangel26-d68da41.png");
+	background-size: 1350px 620px;
+	background-repeat: no-repeat;
+    background-position: right top;
+
+
+}
+.heading {
+    text-shadow: 7px 7px 7px black;
+	font-size: 100px;
+	margin: 0;
+
+}
+
+.about .heading {
+	color: darkblue;
+}
+
+.Log {
+   text-shadow: 5px 5px 5px blue;
+   font-size: 30px;
+   color: black;
+
+}
