@@ -23,6 +23,7 @@ hr{
 }
 a{
     color: inherit;
+    display: block;
 }
 a:hover,p:hover,li:hover{
     font-weight: bold;
@@ -36,6 +37,7 @@ img{
 p{
     display: inline-block;
     text-align: left;
+    max-width: 70%;
 }
 ul{
     padding-left: 0;
