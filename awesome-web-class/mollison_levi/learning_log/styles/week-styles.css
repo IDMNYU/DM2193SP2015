@@ -1,5 +1,48 @@
 .pgbkround{
-	background-color: rgb(0,0,0);
+	background-color: #4f502b;
+	background-image: -webkit-gradient(linear, left center, right center, from(rgb(79, 80, 43)), to(rgb(0, 0, 0)));
+	background-image: -webkit-linear-gradient(left, rgb(79, 80, 43), rgb(0, 0, 0));
+	background-image: -moz-linear-gradient(left, rgb(79, 80, 43), rgb(0, 0, 0));
+	background-image: -o-linear-gradient(left, rgb(79, 80, 43), rgb(0, 0, 0));
+	background-image: -ms-linear-gradient(left, rgb(79, 80, 43), rgb(0, 0, 0));
+	background-image: linear-gradient(left, rgb(79, 80, 43), rgb(0, 0, 0));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,StartColorStr='#4f502b', EndColorStr='#000000');
 	/*Only while testing colors*/
-	color:white;
+	color:rgb(238, 215, 130);
+}
+
+.heading{
+	border-style:ridge;
+	border-width:7px;
+	border-color:rgba(238, 215, 130,0.7);
+	position:absolute;
+	width:1180px;
+	height:280px;
+	left:6%;
+	padding:4px 5px 5px 4px;
+	background-color:rgba(0,0,0,0.6);
+	margin-top:20px;
+}
+
+.article{
+	position:absolute;
+	top:360px;
+	padding:15px;
+	overflow:scroll;
+	height:390px;
+	font-size:18pt;
+	text-decoration: none;
+	text-shadow:4px 5px 10px rgb(0,0,0);
+}
+
+.article a{
+	text-decoration:none;
+}
+
+.logo{
+	position:absolute;
+	left:80%;
+	top:0px;
+	width:250px;
+	height:250px;
 }
