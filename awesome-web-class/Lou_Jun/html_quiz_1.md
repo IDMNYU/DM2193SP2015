@@ -19,7 +19,7 @@
     <!--
         Header 1
         Block Element
-        Creates a piece of text to be a header with default margin and spacing.
+        Highest importance heading element on the page.
     -->
 
 ### 2: 
@@ -39,7 +39,7 @@
     <!-- 
         div
         Block
-        Display text
+        Agnostic semantic block element
     -->
 
 ### 4: 
@@ -48,8 +48,8 @@
 ```
     <!-- 
         Span
-
-
+        Inline
+        Like div, but Semantically neutral. No line break
     -->
 
 ### 5: 
@@ -57,6 +57,8 @@
     <blockquote></blockquote>
 ```
     <!-- 
+        Blockquote
+        Block
 
     -->
 
@@ -75,14 +77,19 @@
     <b></b>
 ```
     <!-- 
-    
+        Bolder
+        In
+        Strong tag has more semantic value. B tag is semantically is stylistically bolder
     -->
 ### 8: 
 ```HTML
     <pre></pre>
 ```
     <!-- 
+        Pre-formatted text
 
+        Mono spaced font. The width of each letter is the same.
+        Keeps the spacing created
     -->
 ### 9: 
 ```HTML
@@ -90,8 +97,8 @@
 ```
     <!-- 
         Navigate
-
-        Allows to access a previous created entry
+        Block
+        Contains navigation to other things pages, parts of the documents.
     -->
 
 ### 10: 
@@ -99,13 +106,17 @@
     <ol></ol>
 ```
     <!-- 
-
+        Order WordList
+        
+        Has numbers
     -->
 ### 11: 
 ```HTML
     <ul></ul>
 ```
     <!-- 
+        Unorder list
+        
 
     -->
 ### 12: 
@@ -113,9 +124,9 @@
     <li></li>
 ```
     <!-- 
-        
+        List
 
-        Creates a bullet point
+        Can only be used in ol and ul.
     -->
 ### 13: 
 ```HTML
@@ -125,6 +136,11 @@
         Table
         Block
         Creates a table of content
+        TR
+            TD
+        thead
+        tfoot
+        trow
     -->
 
 ### 14: 
@@ -153,6 +169,7 @@
 ```
     <!-- 
         Doc Type
+        Tells the browser what it is rendering.
     -->
 
 ### 17: 
@@ -160,7 +177,8 @@
     <a></a>
 ```
     <!-- 
-
+        Anchor
+        Link to another tag. 
     -->
 
 ### 18: 
@@ -168,7 +186,8 @@
     <em></em>
 ```
     <!-- 
-
+        ems
+        Inline
     -->
 
 ### 19: 
@@ -176,6 +195,9 @@
     <iframe></iframe>
 ```
     <!-- 
+        Iframe
+        Inline
+        Can put webpages within webpages
 
     -->
 
@@ -185,8 +207,9 @@
 ```
     <!-- 
         Title
-        Block
-        Creates a title. Text with defaulted margins
+        Creates name of the tab itself. 
+
+        favicon
     -->
 
 ## What is the difference between a Block element and an Inline element?
@@ -196,9 +219,19 @@ A block element is an element where its boundaries goes across the page. An inli
 There are up to 6 headings.
 
 ## How many HTML tags are there?
+There hundreds amount but finite amount
 
 ## What two tags are the only descendents of the `<html>` tag?
+Head and body
 
 ## Which tag is always the direct descendent of an Unordered List element?
+List
 
 ## Label and describe all of the parts of this sample markup `<p title="Opening Paragraph">Lorem ipsum...</p>`
+
+<P title="opening paragraph">
+The opening title tag
+
+title= : attribute
+"" : value
+Lorem ipsum: text node
