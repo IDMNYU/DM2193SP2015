@@ -4,6 +4,14 @@ body {
 	font-family:Helvetica;
 }
 
+html { 
+  background: url('..images/Skyline.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 .ll-header {
 	font-size: 300;
