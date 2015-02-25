@@ -34,3 +34,8 @@ a:hover {
 a:active {
     color: #0000FF;
 }
+
+.first-header
+{
+    font-size: 66px;
+}
