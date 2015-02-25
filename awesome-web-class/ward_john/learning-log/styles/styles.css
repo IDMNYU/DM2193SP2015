@@ -105,6 +105,7 @@ nav {
 	background:white;
 	margin:15px;
 	box-shadow: 1px 1px 1px 1px #888888;
+	display: relative;
 }
 nav li {
 	width: 15%;
