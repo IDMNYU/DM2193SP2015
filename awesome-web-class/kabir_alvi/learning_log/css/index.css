@@ -38,13 +38,13 @@ p{
     display: inline-block;
     text-align: left;
     max-width: 70%;
+
 }
 ul{
     padding-left: 0;
 }
 li{
     list-style-type: none;
-
 }
 .article{
     padding-top: 10px;
