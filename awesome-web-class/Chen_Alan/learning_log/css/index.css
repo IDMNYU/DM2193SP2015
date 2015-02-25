@@ -29,7 +29,7 @@ article {
 }
 
 .container {
-	width: 1170px;
+	max-width: 1170px;
 	margin: 0 auto;
 }
 
@@ -96,4 +96,12 @@ article {
 .content > .date {
 	font-size: 1.25em;
 	float: right;
+}
+
+.nav-list > li > a {
+	color: #6797cb;
+}
+
+.nav-list > li > a:hover {
+	color: #5169a6;
 }

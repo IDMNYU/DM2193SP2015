@@ -1,0 +1,37 @@
+body {
+	background: black;
+	color: #fff;	
+	font-family:Helvetica;
+}
+
+
+.ll-header {
+	font-size: 300;
+	text-align: center; 
+}
+
+
+p {
+
+	text-align:right;
+}
+
+/* unvisited link */
+a:link {
+    color: #FFF960;
+}
+
+/* visited link */
+a:visited {
+    color: #9C9831;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FBB8DF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
