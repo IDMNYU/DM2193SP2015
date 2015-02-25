@@ -1,15 +1,36 @@
-body {
+header{text-align: center;
+		
+	   border: 1px dashed #666666;
+	   width: 1260px;
+	}
+.header {
+	font-size: 24px;
+	color: #444444;
+	width: 720px;
+	text-align: center;
+	margin: 10px auto 3px auto;
+}
+
+.menu {
+	width: 720px;
+	height: 40px
+	margin: 10 auto 3px auto;
+	text-align: center;
+	background-color: #8099AC;
+	font-size: 16px
+	font-weight: bold;
+	border: 1px solid #555555;
+	word-spacing: 10px;
+	padding: 20px;
+}	
+
+body {font-family: Century Gothic, arial;}
 	background-color: green;
 }
 
-.heading {
-		color: #888;
 		font-size: 100px;
 		margin: 0;
 }
 
-.about .heading {
-	color: #f00;
-}
 
 
