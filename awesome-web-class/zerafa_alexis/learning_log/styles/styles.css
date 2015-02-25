@@ -1,0 +1,26 @@
+body {
+	background: black;
+	color: #fff;	
+	font-family:Helvetica;
+}
+
+.header {
+	font-size: 300;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+p {
+
+	text-align:right;
+}

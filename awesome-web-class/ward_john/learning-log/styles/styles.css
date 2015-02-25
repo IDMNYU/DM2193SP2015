@@ -55,17 +55,6 @@ table {
 
 */
 
-nav {
-	display:block;
-	float:right;
-	background:white;
-	max-width: 250px;
-}
-
-body {
-	background: #80f;
-	color: black;
-}
 a {
 	color: black;
 }
@@ -83,18 +72,63 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-
-.posts {
-	/*display:block;
-	float:left;*/
-	max-width:900px;
+body {
+	background: white;
+	color: black;
 }
-
+header {
+	background: black;
+	color:white;
+	position: relative;
+}
+/*
+.header-info {
+	display: block;
+	float: left;
+}
+.header-img {
+	display: block;
+	float: right;
+}
+*/
 .main {
-	display:block;
 	margin: 0 auto;
 	background: white;
 	max-width: 1200px;
 	padding: 10px;
+	position:relative;
+}
+nav {
+	width: 100%;
+	clear: both;
+	margin: 0 auto;
+	background:white;
+	margin:15px;
 	box-shadow: 1px 1px 1px 1px #888888;
+}
+nav li {
+	width: 15%;
+	margin: 2%;
+	display: block;
+	float: left;
+	background: white;
+	color: black;
+	box-shadow: 1px 1px 1px 1px #888888;
+	text-align: center;
+	min-height: 3em;
+	vertical-align: middle;
+}
+.posts {
+	padding: 15px;
+	clear: both;
+	width: 100%;
+	background:white;
+	box-shadow: 1px 1px 1px 1px #888888;
+}
+footer {
+	padding: 15px;
+	width: 100%;
+	clear:both;
+	background: black;
+	color: white;
 }

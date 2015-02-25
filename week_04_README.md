@@ -29,6 +29,7 @@
 * Talk about last week's readings
 
 #### Thursday
+Introduction to CSS
 * Cascading Stylesheets
   * Selectors
     * Comma separated selectors
@@ -46,34 +47,6 @@
   * Margin
   * Outline
   * ![Box Model](http://j-hnnybens-n.com/capture/xhbaq.png)
-* Reset Styles
-  * vs. Browser Default Styles
-* External Styles
-  * `<link>` Tag
-* Inline Styles
-  * `<style>` Tag
-* Style Attribute
-  * `<p style="color:red"></p>`
-* Chrome Developer Tools
-  * ![DevTools](http://j-hnnybens-n.com/capture/cwqvi.png)
-    * View the live box model for any element
-    * See the parsed markup
-    * See styles applied to elements
-      * Manipulate styles for testing
-* CSS Properties
-  * border-radius
-  * z-index
-  * opacity vs. background-color: rgba(x,x,x,x);
-  * overflow
-  * :target pseudo selector
-  * :last-child pseudo selector
-  * anchor pseudo selectors
-  * pseudo classes working in conjunction with css classes
-  * max-height
-  * Positioning (Static, Absolute, Relative, Fixed)
-  * Float & Clear
-  * Vendor Prefixes
-  * Transitions
 * Readings
   * [Wroblewski, Luke. “Visible Narratives: Understanding Visual Organization.” LukeW Interface Designs. 2003. (21 Aug. 2008)](http://www.lukew.com/resources/articles/visible_narratives.html)
   * [The Unproven Path BY JOEL SPOLSKY](http://www.inc.com/magazine/20081101/how-hard-could-it-be-the-unproven-path.html)

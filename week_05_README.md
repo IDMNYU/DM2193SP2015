@@ -19,32 +19,56 @@
         — Confucious
 
 ### In-Class Tuesday
-* Single Page Recipe Site
-    * Start fresh with a copy of my markup, [get it here](https://github.com/IDMNYU/DM2193FA2015/raw/master/week_04/johnny/recipe_app.zip)
-    * Exact the contents and *copy* into a folder in your `week_04/your_name` directory
-    * Make an initial commit to GitHub
-      * "My initial commit for single page recipe site"
-      * Sync with Github
-    * Spend a few minutes familiarizing yourself with the markup and class names
-      * Styling things goes faster when you know how the markup is put together!
-    * We are going to style the recipes to look like cards and you can flip between them
-    * This will be the basis of our introduction to Javascript for next class so be sharp!
-    * Open up the empty stylesheet and take it away!
+CSS Part 2
+* Show & Tell
+  * [TRY.js](http://dailyjs.com/2015/02/16/tryjs-mightyeditor)
+* Sign up for Feedly
+  * Import my OPML
+* Review Learning Log Styles
+* Reset Styles
+  * vs. Browser Default Styles
+* External Styles
+  * [`<link>` Tag](http://www.w3schools.com/tags/tag_link.asp)
+* Inline Styles
+  * `<style>` Tag
+* Style Attribute
+  * `<p style="color:red"></p>`
+* Chrome Developer Tools
+  * ![DevTools](http://j-hnnybens-n.com/capture/cwqvi.png)
+    * View the live box model for any element
+    * See the parsed markup
+    * See styles applied to elements
+      * Manipulate styles for testing
+* CSS Properties
+  * [How do you order your CSS properties?](http://css-tricks.com/poll-results-how-do-you-order-your-css-properties)
+    * Positioning, Display & Box Model, Text, Color, Other
+  * Blue box exercise
+  * border-radius
+  * z-index
+  * opacity vs. background-color: rgba(x,x,x,x);
+  * overflow
+  * :target pseudo selector
+  * :last-child pseudo selector
+  * anchor pseudo selectors
+  * pseudo classes working in conjunction with css classes
+  * max-height
+  * Positioning (Static, Absolute, Relative, Fixed)
+  * Float & Clear
+  * Vendor Prefixes
+  * Transitions
 
 ### In-Class Thursday
-* Show & Tell
-* Finish up the Single Page Recipe Site
-  * There's still a few good pieces of CSS that we should apply based on last Thursday's class and where we left off on Tuesday.
-  * We're going to spend half the class wrapping this up so we have a good finished example of the techniques in this exercise.
-
-
-### Q + A
-*10min at the end of class for any unanswers questions*
+* TBD
 
 ### Reading Assignment
+* [Accidental CSS Resets](http://css-tricks.com/accidental-css-resets)
+* [CSS Puns](http://saijogeorge.com/css-puns)
+* [Five Easy Ways to Be a Better Web Professional](http://viget.com/flourish/five-easy-ways-to-be-a-better-web-professional)
+* [How to setup a Print Stylesheet](http://www.smashingmagazine.com/2011/11/24/how-to-set-up-a-print-style-sheet)
 * [Classical Inheritance in JavaScript](http://javascript.crockford.com/inheritance.html)
 
 ### Homework
-* Make sure your single-page version of the recipe site is in a healthy state for Thursday.
 * [Untrusted](http://alexnisnevich.github.io/untrusted)
  * Whoever beats the game gets extra credit
+
+### Q&A / Notes
