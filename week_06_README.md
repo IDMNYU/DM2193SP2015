@@ -16,7 +16,7 @@
 ## Week 6
 
 ### In-Class
-* Javascript Part 2
+* Introduction to Javascript
 
 ### Reading Assignment
 
