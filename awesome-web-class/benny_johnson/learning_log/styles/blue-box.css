@@ -28,22 +28,14 @@
 }
 
 html {
-
 }
 
 body {
-    background-color: green;
-    margin: 20px;
 }
 
-.ll-header {
-    font-size: 150%;
-}
-
-.ll-nav {
-
-}
-
-.ll-article {
-
+.blue-box {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    background: blue;
 }
