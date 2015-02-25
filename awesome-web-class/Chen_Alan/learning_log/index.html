@@ -1,119 +1,151 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Alan Chen's Learning Log</title>
-</head>
-<body>
-
-    <header>
-        <h1>Learning Log</h1>
-        <h2>DM2193 &bullet; Spring 2015</h2>
-        <h3>Alan Chen</h3>
-        <img src="images/fiscal.jpg" width="50%" height="50%" alt="Alan Chen"/>
-        <address>
-            <a href="mailto:alanchen@nyu.edu?subject=[Learning Log]%20Hello!&body=Hahahaha hey ;)">alanchen@nyu.edu</a>
-            <br/>
-            <a href="http://linkedin.com/in/imalanchen">Linkedin</a>
-        </address>
-    </header>
-
-    <hr/>
-
-    <nav>
-        <a href="#4-feb-2015">4 Feb 2015</a>
-    </nav>
-
-    <hr/>
-
-    <article id="4-feb-2015">
-        <div>4 Feb 2015</div>
-        <h4>Craftmanship</h4>
-        <section>
-            <a href="http://blog.8thlight.com/doug-bradbury/2009/08/22/why-software-development-is-a-craft.html"><h5>Why Software Development is a craft</h5></a>
-            <ul>
-                <li>Software Development is a craft</li>
-                <li>Code should be tested often</li>
-                <li>Software Development is a process of making and designing</li>
-                <li>The raw material for software development is language</li>
-                <li>Best way to learn is not through college but through building something and learnign from someone who is experienced</li>
-            </ul>
-        </section>
-    </article>
-    
-    <article id="10-feb-2015">
-        <div>10 Feb 2015</div>
-        <h4>Intro to HTML</h4>
-        <section>
-            <a href="https://www.codeschool.com/courses/front-end-foundations"><h5>Code School HTML</h5></a>
-            <ul>
-                <li>!DOCTYPE html tells the web browser you are using html</li>
-                <li>There are 6 header types: h1 - h6</li>
-                <li>body tag defines the content of the page</li>
-                <li>html tags with no content are called empty tags such as br</li>
-                <li>Link tags are represented with 'a' and the attribute href defines the link</li>
-                <li>Image tags is an empty tag and the src attribute defines the path or link to the image</li>
-            </ul>
-        </section>
-    </article>
-    
-    <article id="12-feb-2015">
-		<section>
-			<p>Class Notes & more</p>
-			<ul>
-				<li>Narrative, design and interface matters the user</li>
-				<li>Design
-					<ul>
-						<li>Look and Feel</li>
-						<li>Palette</li>
-						<li>User Interaction</li>
-						<li>Info Architecture</li>
+<html lang="en">
+	<head>
+		<title>Alan Chen</title>
+		<meta charset="utf=8" />
+		<meta name="description" content="The personal website of Alan Chen, a Student, Software Engineer and Hacker" />
+		<meta name="keywords" content="alan, chen, alan chen, software engineer, developer, developer, hacker"/>
+		<meta name="robots" content="follow index" />
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="css/index.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<nav role="navigation">
+			<div class="container">
+				<div class="nav navbar-header">
+					<a class="">Alan Chen</a>
+				</div>
+				
+				<div class="nav nav-container">
+					<ul class="nav-list">
+						<li>
+							<a href="#">About</a>
+						</li>
+						<li>
+							<a href="#">Work</a>
+						</li>
+						<li>
+							<a href="#">Notes</a>
+						</li>
 					</ul>
-				</li>
-				<li>Mapping, wayfinding, teaching</li>
-				<li>Div has no semantic meaning</li>
-				<li>ARIA: access right internet applications is to make the web apps for accessible to people with disabilities. Example would be adding the role attribute to tags. </li>
-				<li>Two reasons to use the attribute role is to override the role when there is no host language element that is appropriate </li>
-				<li>The other reason is to back up a native element to support browsers that implement the ARIA role</li>
-			</ul>
-		</section>
-    </article>
-    
-    <article id="17-feb-2015">
-		<section>
-			<h4>html stuff</h4>
-			<ul>
-				<li>Rule of thirds and grid</li>
-				<li>bold: stylish</li>
-				<li>strong: semantic meaning</li>
-				<li>inline elements: cannot have width or height set. respect left and right margins but not top and bottom</li>
-				<li>block elements: respect top/bottom/right/left break line after block element</li>
-				<li>inline-line elementsL: respect top/bottom/right/left, allows items to sit to the left and right </li>
-			</ul>
-		</section>
-    </article>
-    
-    <article id="19-feb-2015">	
-		<section>
-			<h4>html5 and wireframes</h4>
-			<ul>
-				<li>html5 is the newest version of html<li>
-				<li>Have a quiz last class and I learned that tags that are inline and block</li>
-				<li>pre tag: Preformatted allows you add text exactly how you write it </li>
-				<li>Attributes have values are inside the closing tag</li>
-				<li>Wire Frames
-					<ul>
-						<li>Use vocabs for visual things such as image and videos<li>
-						<li>Logo and branding has an X over the box<li>
-						<li>Colors should have be applied to links, usually color is applied to the rest of the page during the design phase</li>
-						<li>Hierarchy is important to a wireframe to how information is displayed</li>
-						<li>Text should be ipsum or actual text</li>
-						<li>Layout: consider whitespace and readability</li>
-					</ul>
-				</li>
-			</ul>
-		</section>
-    </article>
-
-</body>
+				</div>
+			</div>
+		</nav>
+		<main>
+			<div class="entries">
+				<article class="entry">
+					<div class="entry-header">
+						<h2>First Blog Entry</h2>
+						<h3>Fresh Start!</h3>
+					</div>
+					<div class="content">
+						<p>First day of web development. I had experience with web development in the past but I was blindly coding without understanding. I hope to gain a deep understanding of front end development through this class.</p>
+						<p>I believe software development is craftsmanship but only for those who go through the whole process of the product life cycle. One cannot simply just program, it requires designing and understanding the underlying concepts of programming. The raw material of programming is the language. It is best to learn software development through working on projects and from an experience person.</p>
+						<span class="date">~ February-4-15</span>
+					</div>
+				</article>
+				<hr />
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Intro to HTML</h2>
+						<h3>The aspect of Structure</h3>
+					</div>
+					<div class="content">
+						<p>
+							<ul>
+				                <li>&lt;!DOCTYPE html&gt;</pre> Element tells the web browser that the document is in html</li>
+				                <li>There are 6 header types: h1 - h6</li>
+				                <li>body tag defines the content of the page</li>
+				                <li>html tags with no content are called empty tags such as br</li>
+				                <li>Link tags are represented with 'a' and the attribute href defines the link</li>
+				                <li>Image tags is an empty tag and the src attribute defines the path or link to the image</li>
+				            </ul>
+						</p>
+						<p></p>
+						<p></p>
+						<span class="date">~ February-10-15</span>
+					</div>
+				</article>
+				<hr />
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Design is important</h2>
+						<h3>The aspect of Design</h3>
+					</div>
+					<div class="content">
+						<p>
+							<ul>
+								<li>Narrative, design and interface matters the user</li>
+								<li>Design
+									<ul>
+										<li>Look and Feel</li>
+										<li>Palette</li>
+										<li>User Interaction</li>
+										<li>Info Architecture</li>
+									</ul>
+								</li>
+								<li>Mapping, wayfinding, teaching</li>
+								<li>Div has no semantic meaning</li>
+								<li>ARIA: access right internet applications is to make the web apps for accessible to people with disabilities. Example would be adding the role attribute to tags. </li>
+								<li>Two reasons to use the attribute role is to override the role when there is no host language element that is appropriate </li>
+								<li>The other reason is to back up a native element to support browsers that implement the ARIA role</li>
+							</ul>
+						</p>
+						<span class="date">~ February-12-15</span>
+					</div>
+				</article>
+				<hr />
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Semantic Meaning</h2>
+						<h3>Blocks, blocks, and more blocks ...</h3>
+					</div>
+					<div class="content">
+						<p>
+							<ul>
+								<li>Rule of thirds and grid</li>
+								<li>bold: stylish</li>
+								<li>strong: semantic meaning</li>
+								<li>inline elements: cannot have width or height set. respect left and right margins but not top and bottom</li>
+								<li>block elements: respect top/bottom/right/left break line after block element</li>
+								<li>inline-line elementsL: respect top/bottom/right/left, allows items to sit to the left and right </li>
+							</ul>
+						</p>
+						<span class="date">~ February-17-15</span>
+					</div>
+				</article>
+				<hr />
+				<article class="entry">
+					<div class="entry-header">
+						<h2>HTML5 and Wireframes</h2>
+						<h3>Design before coding</h3>
+					</div>
+					<div class="content">
+						<p>
+						<ul>
+							<li>html5 is the newest version of html<li>
+							<li>Have a quiz last class and I learned that tags that are inline and block</li>
+							<li>pre tag: Preformatted allows you add text exactly how you write it </li>
+							<li>Attributes have values are inside the closing tag</li>
+							<li>Wire Frames
+								<ul>
+									<li>Use vocabs for visual things such as image and videos<li>
+									<li>Logo and branding has an X over the box<li>
+									<li>Colors should have be applied to links, usually color is applied to the rest of the page during the design phase</li>
+									<li>Hierarchy is important to a wireframe to how information is displayed</li>
+									<li>Text should be ipsum or actual text</li>
+									<li>Layout: consider whitespace and readability</li>
+								</ul>
+							</li>
+						</ul>	
+						</p>
+						<span class="date">~ February-19-15</span>
+					</div>
+				</article>
+			</div>
+		</main>
+	</body>
 </html>

@@ -1,0 +1,49 @@
+.home {
+	background: black;
+	font-family:sans-serif;
+}
+
+
+
+.heading{
+	color: #888;
+	font-size: 100px;
+	margin: 0;
+
+}
+
+.about .heading{
+	color: blue;
+}
+
+.header{
+	color: white;
+	font-family:Arial;
+}
+
+.Article1{
+
+	background-color: red;
+	color: red;
+}
+.Article2{
+	text-shadow: -1px -1px blue;
+	background-color: blue;
+	color: blue;
+}
+
+.Article3{
+	font-family: Verdana;
+	background-color: black;
+	color: black;
+
+
+}
+.Article4{
+	background-color: green;
+	color: green;
+}
+.Article5{
+	background-color: yellow;
+	color: yellow;
+}

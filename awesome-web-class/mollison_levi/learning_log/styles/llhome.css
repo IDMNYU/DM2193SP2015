@@ -13,7 +13,7 @@ Yo, you need a general idea before you go nuts creating and designing shit. you 
 	background-color: rgba(9,4,18,0.8);
 	text-decoration: none;
 	font-size:20pt;
-	color:rgb(255,255,255);
+	color:rgb(210,177,201);
 	text-align: center;
 	border-style:solid;
 	border-width:3px;
@@ -22,9 +22,14 @@ Yo, you need a general idea before you go nuts creating and designing shit. you 
 	box-shadow:5px 5px 0px black;
 }
 
+.wkposition{
+	top:140px;
+	position:absolute;
+}
+
 .week_link:hover{
 	cursor:pointer;
-	border-color:rgb(255,255,255);
+	border-color:rgb(210,177,201);
 	border-style:outset;
 }
 
@@ -33,27 +38,48 @@ Yo, you need a general idea before you go nuts creating and designing shit. you 
 }
 
 .logo{
-	width:200px;
-	height:200px;
+	width:160px;
+	height:160px;
 	position:absolute;
-	left:1100px;
-	top:40px;
+	left:80%;
+	top:20px;
 }
 
 .home_title{
-	position:relative;
 	width:70%;
-	left:185px;
 	text-align:center;
 	font-size:36pt;
-	color:rgb(37,41,113);
+	color:rgb(210,177,201);
 	font-family:cursive;
+}
 
+.heading{
+	border-style:ridge;
+	border-width:7px;
+	border-color:rgb(210,177,201);
+	position:absolute;
+	width:1180px;
+	height:190px;
+	left:6%;
+	padding:4px 5px 5px 4px;
+	background-color:rgba(0,0,0,0.6);
+	margin-top:20px;
+}
 
+.weekcount{
+	color:rgb(210,177,201)
 }
 
 .page_bkround{
-	background-color: rgba(216,185,208,1);
+	background-color: #d8b9cd;
+background-image: -webkit-gradient(linear, left center, right center, from(rgb(216, 185, 205)), to(rgb(0, 0, 0)));
+background-image: -webkit-linear-gradient(left, rgb(216, 185, 205), rgb(0, 0, 0));
+background-image: -moz-linear-gradient(left, rgb(216, 185, 205), rgb(0, 0, 0));
+background-image: -o-linear-gradient(left, rgb(216, 185, 205), rgb(0, 0, 0));
+background-image: -ms-linear-gradient(left, rgb(216, 185, 205), rgb(0, 0, 0));
+background-image: linear-gradient(left, rgb(216, 185, 205), rgb(0, 0, 0));
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,StartColorStr='#d8b9cd', EndColorStr='#000000');
+
 }
 
 .week_center{
