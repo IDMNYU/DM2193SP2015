@@ -25,20 +25,32 @@ CSS Part 2
 * Sign up for Feedly
   * Import my OPML
 * Review Learning Log Styles
-* Reset Styles
-  * vs. Browser Default Styles
-* External Styles
-  * [`<link>` Tag](http://www.w3schools.com/tags/tag_link.asp)
-* Inline Styles
-  * `<style>` Tag
 * Style Attribute
   * `<p style="color:red"></p>`
+  * Anti-pattern
+* Inline Styles
+  * `<style>` Tag
+  * Anti-pattern
+* External Styles
+  * [`<link>` Tag](http://www.w3schools.com/tags/tag_link.asp)
+  * Best practice
+* !important
+* Reset Styles
+  * vs. Browser Default Styles
+  * Example http://meyerweb.com/eric/tools/css/reset/
+* Normalize Styles
+  * Example http://necolas.github.io/normalize.css/
 * Chrome Developer Tools
   * ![DevTools](http://j-hnnybens-n.com/capture/cwqvi.png)
     * View the live box model for any element
     * See the parsed markup
     * See styles applied to elements
       * Manipulate styles for testing
+* Selectors
+  * No #ids ever
+  * elements used sparingly
+  * .class names for everything
+  * Neat article: http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax
 * CSS Properties
   * [How do you order your CSS properties?](http://css-tricks.com/poll-results-how-do-you-order-your-css-properties)
     * Positioning, Display & Box Model, Text, Color, Other

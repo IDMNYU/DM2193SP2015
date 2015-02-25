@@ -1,23 +1,49 @@
-html {
-    font-family: sans-serif;
-}
+/*
+    Parsed Top Down 
+    Specificity
+    Cascade
 
-.home {
-    background: #000;
-    color: #fff;
-}
 
-.about {
-    background: #cccccc;
-    color: #333;
-}
+    General Selectors
+    | |
+    | |
+    | |
+     V
+    Specific Selectors
 
-.heading {
-    color: #888;
-    font-size: 100px;
+ */
+
+/*
+    Star selector selects every element
+    It can be slightly inefficient
+
+    Used for lightweight "Reset" Styles
+ */
+
+* {
     margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
 }
 
-.about .heading {
-    color: #f00;
+html {
+
+}
+
+body {
+    background-color: green;
+    margin: 20px;
+}
+
+.ll-header {
+    font-size: 150%;
+}
+
+.ll-nav {
+
+}
+
+.ll-article {
+
 }
