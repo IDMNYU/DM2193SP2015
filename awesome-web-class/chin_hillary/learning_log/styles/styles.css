@@ -1,7 +1,6 @@
 *{
 	margin:0;
     padding:0;
-    overflow-x:hidden;
 }
 
 html{
@@ -52,9 +51,9 @@ h5{
 
 aside{
 	float:left;
-	width:20%;
+	width:25%;
 	padding:10px;
-	margin-left:50px;
+	margin-left:80px;
 }
 
 a{
@@ -76,7 +75,12 @@ article{
 
 article ul{
 	list-style:square;
-	padding:5px;
+	padding:-10px;
+	margin-left:10px;
+}
+
+article ul li{
+	margin-left:20px;
 }
 
 nav{
@@ -124,5 +128,5 @@ nav ul li{
 	float:right;
 	width:60%;
 	padding:10px;
-	margin-right:50px;
+	margin-right:80px;
 }

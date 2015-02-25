@@ -27,15 +27,67 @@
     font-weight: normal;
 }
 
+html,
+body {
+    /*
+        * Percentage Units in CSS get their value by referencing the parent element's value
+     */
+    height: 100%;
+}
+
 html {
+
 }
 
 body {
+
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
 }
 
 .blue-box {
-    margin: auto;
-    height: 100px;
-    width: 100px;
+        
+    /*
+        Positioning
+        * Absolute
+        * Relative
+        * Static (Default)
+        * Fixed
+            * Elements are positioned fixed in the Viewport
+        
+        * All positioning except Static respond to 
+          Top, Right, Bottom, Left properties
+     */
+    /*position: absolute;*/
+
+
+    /*
+        Floated elements, Block, Inline, and Inline-Block all become Block
+        Float overrides the Display property
+        TODO: Revisit to talk about collapsing elements;
+     */
+    float: left;
+
+    /*
+        * Inline elements cannot accept height and width properties if they are empty
+        * Content informs the size of inline elements
+     */
+    /*display: inline;*/
+
+
+    /*
+        * Auto margin centers block elements with a defined width
+     */
+    /*margin: auto;*/
+
     background: blue;
+}
+
+.red-box {
+    background: red;
 }
