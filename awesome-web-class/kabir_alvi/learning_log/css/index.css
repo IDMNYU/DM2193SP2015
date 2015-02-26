@@ -50,7 +50,35 @@ li{
     width: fit-content;
     margin: 0 auto;
 }
+.entry{
+    margin-bottom: 5px;
+}
+.entry-link{
+    vertical-align: middle;
+    position: relative;
+    top: 9px;
+    text-decoration: none !important;
+}
 .article{
     padding-top: 10px;
     text-align: center;
+}
+.button{
+    min-width: 120px;
+    max-width: 120px;
+    min-height:40px;
+    max-height:40px;
+    vertical-align: middle;
+    border-top: 2px solid #ff9200;
+    border-bottom: 0;border-right:0;border-left: 0;
+    border-radius: 10px;
+    background: #ff530b;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e38a52), to(#c2732e));
+    box-shadow: black 0 1px 0;
+}
+.button:hover{
+    background: rgba(255, 109, 0, 0.75);
+    border-top: 2px solid orangered;
+    box-shadow: orangered 0 1px 0;
+    color: #820004;
 }
