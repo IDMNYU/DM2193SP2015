@@ -10,15 +10,90 @@
 background-image: url("../images/BlissfulPacific_by_IvanAndreevich_2560x1600.jpg");
 background-size: cover;
 background-repeat: no-repeat;
-background-attachment: scroll;
-color: white;
- }
+background-attachment: fixed;
+}
 
- .body{
+
+
+ 
+
+ .header {
  	font-family: Century Gothic;
- 	color: white;
+ 	color: #7BEAEA;
  	text-align: center;
- 	font-size: 85px;
+ 	font-size: 75px;
  	margin: 0;
  }
+
+ .mblinks{
+ 	position: relative;
+ 	height: 50px;
+ 	text-align: center;
+ }
+
+.mblinks li {
+	display: inline;
+	letter-spacing: 3px;
+
+}
+.mblinks li a {
+	padding: 16px 30px;
+	color: yellow;
+
+}
+.mblinks li a:hover; {
+	background-color: yellow;
+	text-decoration: underline;
+}
+
+.header2 {
+	font-family: HelveticaNeue-Light;
+	font-size: 34;
+	font-weight: 900;
+	text-decoration: none;
+	text-align: center;
+	color: #7BEAEA;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+
+}
+.header3 {
+	font-family: HelveticaNeue-Light;
+	font-size: 29;
+	font-weight: 300;
+	text-decoration: none;
+	text-align: center;
+	color: #7BEAEA;
+	
+}
+
+ .quote {
+ 	font-family: HelveticaNeue-Light;
+ 	font-size: 25;
+ 	text-decoration: none;
+	color: #7BEAEA; 	
+ 	margin-bottom: 20px;
+ 	text-align: center;
+ }
+
+
+.images {
+	text-align: center;
+}
+
+
+.text { 
+	font-family: HelveticaNeue-Light;
+ 	font-size: 24;
+ 	text-decoration: none;
+	color: #7BEAEA;
+	padding: 20px 20px 20px 20px;
+	margin: 0px 210px 20px 150px; 
+	
+}
+
+
+
 
