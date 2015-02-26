@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+  }
+
+ body{
+ position: relative;
+background-image: url("../images/BlissfulPacific_by_IvanAndreevich_2560x1600.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: scroll;
+color: white;
+ }
+
+ .body{
+ 	font-family: Century Gothic;
+ 	color: white;
+ 	text-align: center;
+ 	font-size: 85px;
+ 	margin: 0;
+ }
+

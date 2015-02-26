@@ -78,6 +78,7 @@ CSS Part 2
 * [Five Easy Ways to Be a Better Web Professional](http://viget.com/flourish/five-easy-ways-to-be-a-better-web-professional)
 * [How to setup a Print Stylesheet](http://www.smashingmagazine.com/2011/11/24/how-to-set-up-a-print-style-sheet)
 * [Classical Inheritance in JavaScript](http://javascript.crockford.com/inheritance.html)
+* [CSS Blue Box](http://css-tricks.com/blue-box)
 
 ### Homework
 * [Untrusted](http://alexnisnevich.github.io/untrusted)
