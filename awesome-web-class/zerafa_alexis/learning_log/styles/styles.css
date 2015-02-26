@@ -1,19 +1,21 @@
+
+
 body {
 	background: black;
 	color: #fff;	
 	font-family:Helvetica;
 }
 
-html { 
-  background: url('..images/Skyline.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+.ll-header{
+	background:url('../images/Skyline.jpg') no-repeat center center;
+	width:100%;
+    min-height:100px;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    line-height:100px;
 
-
-.ll-header {
 	font-size: 300;
 	text-align: center; 
 }
@@ -46,4 +48,20 @@ a:active {
 .first-header
 {
     font-size: 66px;
+    text-align: right;
+    -webkit-text-stroke: 1px red;
+    color:white;
 }
+
+.second-header 
+{
+	font-size: 20px;
+    -webkit-text-stroke: 1px blue;
+    color:black;
+}
+
+.third-header
+{
+	text-align: left;
+}
+
