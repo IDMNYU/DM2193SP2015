@@ -27,6 +27,14 @@
     font-weight: normal;
 }
 
+html, body {
+	height: 100%;
+	/* percentage units in css by referencing the parents units values 
+		so if html is 50% then body will be 50% of html
+	*/
+	
+}
+
 html {
 }
 
@@ -34,6 +42,32 @@ body {
 }
 
 .blue-box {
+	/*  
+		margin: auto - centers block elements with a defined width
+	*/
+	
+	/*
+		display: inline;
+		
+		Inline elements can not accept width and height elements if it is empty.
+		Content inform the size of inline elements
+	*/
+	
+	position: absolute;
+	/*
+		position: 
+		absolute
+		relative
+		statis
+		fixed
+			elements are positioned fixed in the view point
+			header in tumblr 
+	
+		all positioning except static respond to top right bottom left properties 
+				
+	*/
+	
+	
     margin: auto;
     height: 100px;
     width: 100px;
