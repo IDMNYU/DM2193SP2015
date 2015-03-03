@@ -12,14 +12,16 @@
 
 }
 .heading {
-    text-shadow: 7px 7px 7px black;
+
 	font-size: 100px;
 	margin: 0;
-
+	color: darkblue;
+	text-align: center;
+	text-shadow: 7px 7px 7px black;
 }
 
 .about .heading {
-	color: darkblue;
+	/*color: darkblue;*/
 }
 
 .Log {
