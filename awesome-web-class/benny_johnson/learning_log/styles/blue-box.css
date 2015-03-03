@@ -1,4 +1,15 @@
+/*
+    Parsed Top Down 
+    Specificity
+    Cascade
 
+
+    General Selectors
+    | |
+    | |
+    | |
+     V
+    Specific Selectors
 
  */
 
@@ -16,22 +27,12 @@
     font-weight: normal;
 }
 
-<<<<<<< HEAD
-html, body {
-	height: 100%;
-	/* percentage units in css by referencing the parents units values 
-		so if html is 50% then body will be 50% of html
-	*/
-	
-=======
-<<<<<<< Updated upstream
 html,
 body {
     /*
         * Percentage Units in CSS get their value by referencing the parent element's value
      */
     height: 100%;
->>>>>>> 954cf035f40c8d4300c0427aa1be7608356e78f4
 }
 
 html {
@@ -43,65 +44,6 @@ body {
 }
 
 .box {
-=======
-html, 
-body {
-    /*
-        * Percentage units in CSS get their value by referencing the parent elemenet. So if height 100% in body, that means that the height is 100% of height in the html tag.
- 
-    */
-       height:100%;
-}
-
-.blue-box {
-<<<<<<< HEAD
-	/*  
-		margin: auto - centers block elements with a defined width
-	*/
-	
-	/*
-		display: inline;
-		
-		Inline elements can not accept width and height elements if it is empty.
-		Content inform the size of inline elements
-	*/
-	
-	position: absolute;
-	/*
-		position: 
-		absolute
-		relative
-		statis
-		fixed
-			elements are positioned fixed in the view point
-			header in tumblr 
-	
-		all positioning except static respond to top right bottom left properties 
-				
-	*/
-	
-	
-=======
-    /*Inline elements cannot accept height and width properties if they are empty
-      Content informs the size of inline elements
-    display: inline;  week 5,     
-    * Positioning:
-        * Absolute
-        * Relative
-        * Static - is the default position
-        * Fixed - regardless of where you scroll in the page, Elements are positioned fixed in the view port
-        *Float changes the behavior of the elements, and ovverrides the Display propertyx
-        * Floated eements, Block, Inline, and In-line Block all become block
-
-        *All positioning except Static respond to Top, Right, Bottom, Left properties
-
-        Margin: auto; centers block elements with a defined width
-        Auto margin centers block elements with a defined idth
-    */
-    position: absolute;
->>>>>>> 954cf035f40c8d4300c0427aa1be7608356e78f4
-    margin: auto;
->>>>>>> Stashed changes
     height: 100px;
     width: 100px;
     border-radius: 50%;
