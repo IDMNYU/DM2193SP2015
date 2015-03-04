@@ -1,0 +1,64 @@
+/*
+    Parsed Top Down 
+    Specificity
+    Cascade
+
+
+    General Selectors
+    | |
+    | |
+    | |
+     V
+    Specific Selectors
+
+ */
+
+/*
+    Star selector selects every element
+    It can be slightly inefficient
+
+    Used for lightweight "Reset" Styles
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+html,
+body {
+    /*get values by referencing partents values
+    percentage units are */
+    height: 100%;
+}
+
+html {
+
+    height: 50%;
+}
+
+.blue-box {
+    /*
+    Position
+        absolute
+        relative
+        static (default)
+        fixed
+            - elements are positioned within the fixed view port
+        all positioning except static respond to top, right, bottom, left properties
+
+    */
+    /*position absolute;*/
+    float: left;
+    display: inline;
+
+    /*treat as a inline. INline properties can't accept width and height properties if they are empty*/
+   /* display: inline;*/
+    /*Margin: auto; centers block elements with a defined width*/
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    background: blue;
+}
