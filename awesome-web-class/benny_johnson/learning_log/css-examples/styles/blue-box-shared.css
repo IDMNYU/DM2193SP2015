@@ -2,20 +2,14 @@
     Shared Elements for all CSS Exercises
  */
 
-html,
-body
-{
-    /*
-        * Percentage Units in CSS get their value by referencing the parent element's value
-     */
-    height: 100%;
-}
-
 body
 {
     margin: 50px;
 
-    font: bold 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* Shorthand*/
+    font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    /* Longhand */
     font-weight: bold;
     font-size: 16px;
     line-height: 1.5; /* 16px*1.5 = 24px */
