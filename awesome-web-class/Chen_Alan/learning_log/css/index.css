@@ -100,6 +100,7 @@ article {
 
 .nav-list > li > a {
 	color: #6797cb;
+	color: red;
 }
 
 .nav-list > li > a:hover {

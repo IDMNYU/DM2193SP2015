@@ -1,49 +1,60 @@
 .home {
-	background: black;
+	background: white;
 	font-family:sans-serif;
 }
 
 
-
+/*
 .heading{
 	color: #888;
 	font-size: 100px;
 	margin: 0;
 
+}*/
+/*.image{
+	padding-top: 100px;
+}*/
+
+header h2{
+	float:left;
+	width:300px;
+	margin:11px;
 }
 
-.about .heading{
-	color: blue;
+header h3{
+	float:left;
+	width:300px;
+	margin:11px;
 }
 
-.header{
-	color: white;
-	font-family:Arial;
-}
-
-.Article1{
-
-	background-color: red;
-	color: red;
-}
-.Article2{
-	text-shadow: -1px -1px blue;
-	background-color: blue;
-	color: blue;
-}
-
-.Article3{
-	font-family: Verdana;
-	background-color: black;
-	color: black;
 
 
+
+/*.heading {
+	font-family: Georgia;
+	font-size: 250%;
+	text-shadow: 10px, 10px, 0px #000000;
+	padding-bottom: 10px;
+	color: #666666;
+	
+}*/
+
+div+img{
+	float:left;
+	margin-top:250px;
 }
-.Article4{
-	background-color: green;
-	color: green;
+
+.column{
+	float:right;
+	width: 300px;
+	margin:11px;
+	/*right: 150px ;
+	text-align: center;
+	margin-left: 450px;*/
+	margin-right: 350px;
+
 }
-.Article5{
-	background-color: yellow;
-	color: yellow;
-}
+
+
+
+

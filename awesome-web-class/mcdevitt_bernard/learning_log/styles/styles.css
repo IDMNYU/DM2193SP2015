@@ -1,28 +1,37 @@
 body {
-	background: #bbbbbb;
-	font-family: monospace;
+	background: #434443;
 	font-size:12pt;
+	color: #f3f3f3;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
+a:link {
+	color:#8faf9f;
+	font-style: normal;
+}
+a:visited {
+	color:#888888;
+}
+
+
 .heading {
-	font-family: monospace;
-	font-size:36pt;
-	padding-left: 20px;
+	font-size:48pt;
+	margin-left: 40px;
 }
 
 .entry {
 	font-weight: bold;
 	font-size: 14pt;
+	color: #f0dfaf;
 }
 
 .about {
-	font-family: Source Code Pro;
-	background: #cccccc;
-	margin: 0;
+	background: #434443;
+	margin-left: 20px;
 }
 
 .about .heading {
-	color: #f00;
+	color: #dca3a3;
 }
 
 .response {
