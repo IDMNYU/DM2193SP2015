@@ -15,7 +15,11 @@
 
 ## Week 6
 
-### In-Class
+### In-Class Tues
+* CSS Blue Box Exercises 
+
+### In-Class Thurs
+* Finish up CSS Exercises
 * Introduction to Javascript
 
 ### Reading Assignment
