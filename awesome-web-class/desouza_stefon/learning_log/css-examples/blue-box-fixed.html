@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Blue Box - CSS Examples</title>
+    <link rel="stylesheet" href="styles/blue-box-reset.css">
+    <link rel="stylesheet" href="styles/blue-box-shared.css">
+    <link rel="stylesheet" href="styles/blue-box-fixed.css">    
+</head>
+<body>
+
+    <h1 class="css-examples-heading">
+        Absolute Positioning
+    </h1>
+
+    <h2 class="css-examples-sub-heading">
+        Top, Right, Bottom, Left<br/>
+        TRBL => "Trouble"
+    </h2>
+
+    <ul class="css-examples-description">
+        <li>
+            Absolute positioning breaks free elements from the layout flow completely.
+        </li>
+        <li>
+            No longer nudging elements, but placing them specifically using coordinations.
+        </li>
+        <li>
+            Origin is always 0,0 from the top left corner of the "derived" parent.
+        </li>
+        <li>
+            CSS traverses the DOM back up the tree stopping when it finds a parent with positioning to determine origin or until it gets to the very top.
+        </li>
+    </ul>
+
+    <div class="box blue-box">
+        Blue Box 1
+    </div>
+
+    <div class="box blue-box blue-box-fixed">
+        Blue Box 2
+    </div>
+
+</body>
+</html>
