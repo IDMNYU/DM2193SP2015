@@ -1,0 +1,65 @@
+.title {
+
+	color: blue;
+	text-align: left;
+	margin-left: 50px;
+
+}
+
+.top p{
+	text-align: right;
+	margin-left: 950px;
+	margin-top: -140px;
+	margin-right: 200px;
+	margin-bottom: 75px;
+	color: pink;
+	
+
+}
+ hr{
+ 	border-bottom-style: dotted;
+ 	color: lightpink;
+ }
+
+ .prep img{
+ 	float: left;
+ 	width: 500px;
+ }
+
+.list{
+
+ 	float: left;
+ 	width:300px;
+ 	margin-left: 100px;
+ }
+
+
+
+.stuff{
+	float: left;
+	width: 500px;
+	margin-right: 500px;
+	margin-top: -300px;
+}
+ .ingredients {
+
+ 	color: orange;
+ }
+ .instructions{
+ 	float: right;
+ 	width: 350px;
+ 	margin-top: -350px;
+ 	margin-right: 300px;
+
+ }
+
+ .bottom{
+ 	float: left;
+ 	width: 300px;
+ 	margin-top: 300px;
+ }
+ .info{
+ 	margin-top: 100px;
+ 	margin-left: 500px;
+ float: left;
+}
