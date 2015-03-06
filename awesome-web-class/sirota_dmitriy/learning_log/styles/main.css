@@ -45,10 +45,15 @@ li {
     padding-bottom: 0.2em;
     font-style: italic;
 }
+.clearMe {
+    clear: both;   
+}
 .boxList {
+    float: left;
     padding: 1em;
     background: #FFFC9C;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    margin-right: 20px;
     box-shadow: 5px 5px gray;
     max-width: 300px;
 }
@@ -64,18 +69,16 @@ section p {
     background: #b8b8b8;
     box-shadow: 2px 2px 5px #000;
 }
+.profQuote {
+    display: block;
+    font-style: italic;
+    margin: 20px auto;
+}
 a .button {
     background: #FFE8BA;
 }
 a .button:hover {
     background: #5E00FF;
-}
-.weekNum {
-    text-indent: 0;
-    padding-bottom: 0;
-    text-align: center;
-    font-size: 1.2em;
-    font-variant: small-caps;
 }
 #backBtn {
     float: right;
