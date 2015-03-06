@@ -1,0 +1,229 @@
+body {
+	font: "Archer A";
+}
+
+h2{
+color: #D2691E; 
+padding-bottom: 20px;
+font-size: 30;
+}
+
+h3 {
+	width: 200px;
+	padding-top: 30px;
+	font-weight: 50;
+	color: #8B4513;
+	display: block;
+	font-size: 27;
+}
+
+.padding {
+	padding-left: 10px;
+} 
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li { /* this list is for the ingredients */
+	font-weight: bold;
+	font-size: 17;
+	color: #585858; 
+	padding-bottom: 20px;
+}
+.li2 {  /* this list is for the instructions */
+	font-size: 17;
+	padding-bottom: 8px;
+
+
+}
+
+.attribute { /* this is specifically for the paragraph text under instructions */
+	font-weight: bold;
+	color: #D2691E;
+}
+
+.attribute2{
+	font-weight: bold; 
+	font-size: 32;
+	color: #585858;	
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.container { /* For the section with title and motto */
+	width: 1200px;
+	margin: auto;
+}
+
+.container2{ /* For the section with the cookie image */
+	width: 1200px;
+	height: 200px;
+	display: block;
+	
+}
+.container3 { /* For images and prep time, procedures, etc... */
+	width: 1200px;
+	height:400px;
+	display: block;
+	
+}
+
+.container4 { /* For the section with ingreidents and instructions */
+	width: 1200px;
+	height: 500px;
+	display: block;
+	
+}
+
+.containerline { /*For the section with the Hr line */
+	margin: auto;
+	width: 1200px;
+	height: 30px;
+	display: block;
+}
+
+
+.Brand {
+	font: "Archer B";
+	font: 24;
+	font-weight: 500;
+	color: #8B4513;
+	width: 350px;
+	height: 100px;
+	display: inline-block;
+	float: left;
+}
+
+.Motto {
+	font: "Archer B";
+	font-size: 16;
+	font-style: bold;
+	color: #B8B8B8;
+	width:600px;
+	height: 100px;
+	display: inline-block;
+	float: right;
+}
+.headerline {
+	background-color: #FF9900;
+	bottom: 250px;
+	display: block;
+
+}
+
+.image {
+	width: 450px;
+	height: 400px; 
+	float: left;
+	display: inline-block;
+}
+
+
+.containerlist {
+	width: 150px;
+	height: 250px;
+	float: left;
+	display: inline-block;
+}
+
+
+.preptime{
+	color: #585858;
+	font-weight: 600; 
+	font-size: 18;
+	padding-top: 35px;
+}
+.cookinglist {
+	color: #B8B8B8;
+	font-weight: 600;
+	font-size: 25;
+
+}
+
+.ingredients { /* block used to hold the ingreidents */
+	width: 400px;
+	height: 900px;
+	display: block;
+	float: left;
+
+}
+.instructions {
+	width: 675px;
+	height: 1000px;
+	padding-left: 10px;
+	display: block;
+	float: left;
+}
+.image2 { /* Toll house Bar Image */
+	width: 200px;
+	height: 175px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	display: block;
+	text-align: left;
+
+}
+.information {
+	display: inline-block;
+	float: left;
+	width: 685px;
+	height: 32px;
+
+}
+
+.textunderimage { /* Text under Toll House Bar image */
+width: 200px;
+height: 90px;
+font-size: 17;
+font-family: Archer;
+color: #D2691E;
+padding-top: 30px;
+display: block;
+}
+
+.inline {
+	width: 300px;
+	height: 50px;
+	font-size: 16; 
+	font-weight: bold;
+	font: "Archer A";
+	color: #585858;
+	display: inline;
+
+}
+.inline2 {
+	width: 300px;
+	height: 25px;
+	padding-top: 30px;
+	font-size: 16; 
+	font-weight: bold;
+	font: "Archer A";
+	color: #585858;
+	
+}
+.inline3 {
+	width: 300px;
+	height: 50px;
+	padding-left: 150px;
+	padding-right: 20px;
+	font-size: 16; 
+	font-weight: bold;
+	font: "Archer A";
+	color: #585858;
+	display: inline;
+}
+
+.dailyvalue{
+}
+
+	.attribute3{
+	font-weight: bold; 
+	font-size: 17;
+	color: #585858;	
+	padding-left: 10px;
+	padding-right: 10px;
+}
