@@ -1,0 +1,41 @@
+/*
+    Display Block
+    Behaves like Block elements (div)
+    Take up the full width of the available space automatically
+    Nothing can sit next to a block element with a float
+ */
+.blue-box-block
+{
+    display: block;
+}
+
+/*
+    Display Inline Block
+    Hybrid, shares some behaviors with Block, Inline
+    Similar to "Float" property with different trade-offs
+ */
+.blue-box-inline-block
+{
+    display: inline-block;
+}
+
+/*
+    Display Inline
+    Behaves likes Inline elements (span)
+    Take up only space of content it contains
+    Flows from left to right
+    Wraps when it hits the edge of the browser or a containing element
+ */
+.blue-box-inline
+{
+    display: inline;
+}
+
+/*
+    Display None
+    Hidden from the browser, as if it is not even there.
+ */
+.blue-box-none
+{
+    display: none;
+}

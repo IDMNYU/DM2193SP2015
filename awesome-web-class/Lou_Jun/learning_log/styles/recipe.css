@@ -1,0 +1,92 @@
+header{
+	display:inline-block;
+	border-bottom:1px dotted red;
+	margin-bottom:20px;
+}
+
+aside{
+	margin-left: 5%;
+	float:left;
+}
+.header1{
+	margin-top: 20px;
+	margin-left: 5%;
+	color:orange;
+	font-size:40px;
+	float:left;
+	width:25%;
+	line-height:80%
+
+}
+
+.header2{
+	float:right;
+	display:inline-block;
+	padding:50px;
+	width:50%;
+	font-size: 15px;
+}
+
+figure{
+	width:50%;
+	margin-left:0;
+	padding-left:0;
+}
+
+figcaption{
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+.recipe-info{
+	display:block;
+	margin-bottom: 10%;
+}
+
+.recipe-info dt{
+	text-transform:uppercase;
+	font-size:.8em;
+	font-weight:700;
+
+}
+.recipe-info dd{
+	color: gray;
+	font-size:25px;
+	font-weight:700;
+}
+
+.recipe-nutrition{
+	margin-right: 30%;
+	float:right;
+}
+
+}
+
+table{
+	margin-top:20px;
+	font-weight:700;
+	font-size:15px;
+	border-bottom:1px dotted black;
+}
+th{
+	text-transform:uppercase;
+	border-bottom:1px dotted black;
+	text-align:left;
+}
+
+h2{
+	font-size: 30px;
+	color:darkorange;
+	text-transform: uppercase;
+
+}
+
+h3{
+	color:darkorange;
+}
+
+strong{
+	color:darkorange;
+}
