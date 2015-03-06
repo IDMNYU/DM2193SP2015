@@ -1,0 +1,23 @@
+.bb-1,
+.bb-2
+{
+    float: left;
+    margin-right: 20px;
+    width: 30%;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (max-width: 480px) {
+/* Styles */
+
+    .bb-1,
+    .bb-2
+    {
+        float: none;
+        width: auto;
+        margin: 20px 0;
+    }
+
+}
