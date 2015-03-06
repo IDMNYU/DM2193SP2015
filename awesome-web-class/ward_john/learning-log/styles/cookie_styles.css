@@ -10,6 +10,16 @@ h3 {
 	color:brown;
 	font-weight:lighter;
 }
+h4 {
+	font-size:6pt;
+	margin-top: 0px;
+}
+dt {
+	margin-top:10px;
+}
+dd {
+	margin-left:0px;
+}
 .header {
 	display:absolute;
 	width:100%;
@@ -17,30 +27,32 @@ h3 {
 .header h1 {
 	text-transform: uppercase;
 	display:inline-block;
-	width: 50%;
+	width: 48%;
 	color: brown;
 	font-weight:lighter;
+	font-size:18pt;
 }
 .header h2 {
 	padding-top:3%;
 	display:inline-block;
 	float: right;
-	width:50%;
-	font-size:1em;
+	width:48%;
+	font-size:8pt;
 	color:gray;
 }
 
 .left {
 	position:relative;
 	display:block;
-	width: 35%;
+	max-width: 35%;
 	height:100%;
 	float: left;
 }
 .right {
 	position:relative;
 	display:block;
-	width:65%;
+	margin-left:15px;
+	width:60%;
 	height:100%;
 	float: right;
 }
@@ -48,4 +60,19 @@ h3 {
 	text-transform: uppercase;
 	font-weight:bold;
 	color:brown;
+}
+
+dt{
+	text-transform: uppercase;
+	display:inline-block;
+	width: 20%;
+	font-size:8pt;
+}
+td {
+	padding-right:10px;
+}
+td.orange {
+	padding-left:20px;
+	padding-right:0px;
+	color:orange;
 }
