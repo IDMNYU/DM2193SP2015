@@ -13,10 +13,6 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 }
 
-
-
- 
-
  .header {
  	font-family: Century Gothic;
  	color: #7BEAEA;
@@ -90,8 +86,7 @@ background-attachment: fixed;
  	text-decoration: none;
 	color: #7BEAEA;
 	padding: 20px 20px 20px 20px;
-	margin: 0px 210px 20px 150px; 
-	
+	margin: 0px 210px 20px 150px; 	
 }
 
 

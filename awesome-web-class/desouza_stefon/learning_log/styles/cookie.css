@@ -2,17 +2,24 @@ body {
 	font: "Archer A";
 }
 
+h2{
+color: #D2691E; 
+padding-bottom: 20px;
+font-size: 30;
+}
+
 h3 {
 	width: 200px;
 	padding-top: 30px;
 	font-weight: 50;
 	color: #8B4513;
 	display: block;
+	font-size: 27;
 }
 
 .padding {
 	padding-left: 10px;
-}
+} 
 
 ul {
 	list-style: none;
@@ -30,11 +37,21 @@ li { /* this list is for the ingredients */
 	font-size: 17;
 	padding-bottom: 8px;
 
+
 }
 
-.fonttricks { /* this is specifically for the paragraph text under instructions */
+.attribute { /* this is specifically for the paragraph text under instructions */
 	font-weight: bold;
-	color: #8B0000;
+	color: #D2691E;
+}
+
+.attribute2{
+	font-weight: bold; 
+	font-size: 32;
+	color: #585858;	
+	padding-left: 10px;
+	padding-right: 10px;
+
 }
 
 .container { /* For the section with title and motto */
@@ -129,16 +146,84 @@ li { /* this list is for the ingredients */
 
 .ingredients { /* block used to hold the ingreidents */
 	width: 400px;
-	height: 500px;
+	height: 900px;
 	display: block;
 	float: left;
 
 }
 .instructions {
 	width: 675px;
-	height: 600px;
+	height: 1000px;
 	padding-left: 10px;
 	display: block;
 	float: left;
+}
+.image2 { /* Toll house Bar Image */
+	width: 200px;
+	height: 175px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	display: block;
+	text-align: left;
 
+}
+.information {
+	display: inline-block;
+	float: left;
+	width: 685px;
+	height: 32px;
+
+}
+
+.textunderimage { /* Text under Toll House Bar image */
+width: 200px;
+height: 90px;
+font-size: 17;
+font-family: Archer;
+color: #D2691E;
+padding-top: 30px;
+display: block;
+}
+
+.inline {
+	width: 300px;
+	height: 50px;
+	font-size: 16; 
+	font-weight: bold;
+	font: "Archer A";
+	color: #585858;
+	display: inline;
+
+}
+.inline2 {
+	width: 300px;
+	height: 25px;
+	padding-top: 30px;
+	font-size: 16; 
+	font-weight: bold;
+	font: "Archer A";
+	color: #585858;
+	
+}
+.inline3 {
+	width: 300px;
+	height: 50px;
+	padding-left: 150px;
+	padding-right: 20px;
+	font-size: 16; 
+	font-weight: bold;
+	font: "Archer A";
+	color: #585858;
+	display: inline;
+}
+
+.dailyvalue{
+}
+
+	.attribute3{
+	font-weight: bold; 
+	font-size: 17;
+	color: #585858;	
+	padding-left: 10px;
+	padding-right: 10px;
 }
