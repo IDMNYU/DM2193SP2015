@@ -1,0 +1,51 @@
+body {
+	margin: 0 auto;
+	background: white;
+	width: 80%;
+	padding: 10px;
+	position:relative;
+	color:gray;
+}
+h3 {
+	color:brown;
+	font-weight:lighter;
+}
+.header {
+	display:absolute;
+	width:100%;
+}
+.header h1 {
+	text-transform: uppercase;
+	display:inline-block;
+	width: 50%;
+	color: brown;
+	font-weight:lighter;
+}
+.header h2 {
+	padding-top:3%;
+	display:inline-block;
+	float: right;
+	width:50%;
+	font-size:1em;
+	color:gray;
+}
+
+.left {
+	position:relative;
+	display:block;
+	width: 35%;
+	height:100%;
+	float: left;
+}
+.right {
+	position:relative;
+	display:block;
+	width:65%;
+	height:100%;
+	float: right;
+}
+.subhead {
+	text-transform: uppercase;
+	font-weight:bold;
+	color:brown;
+}
