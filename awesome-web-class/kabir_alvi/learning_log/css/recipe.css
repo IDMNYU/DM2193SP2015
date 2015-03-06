@@ -1,16 +1,22 @@
 hr{
-    border-top: dotted 1px;
+    border-top: orange dotted 1px;
 }
 span{
     vertical-align: middle;
 }
+h3{
+    color: orange;
+}
 .myTable > tbody > tr > td{
     width: 200px;
 }
-.first{
+.general-info{
+    display: inline-block;vertical-align: top;padding-left: 40px;
+}
+.info-first{
     margin-bottom: 0;
 }
-.second{
+.info-second{
     margin:0;
 }
 .header{
@@ -24,4 +30,18 @@ span{
 }
 .header-logo{
     display: inline-block;width:400px;
+    color:orange;
+}
+.instructions{
+    width:800px;display: inline-block;vertical-align: top;padding-left: 40px;
+}
+.instructions-header{
+    display: inline-block;margin-bottom: 0;
+    color:orange;
+}
+.nut-info-header{
+    display: inline-block;width: 150px;
+}
+.percent{
+    color:orange;
 }
