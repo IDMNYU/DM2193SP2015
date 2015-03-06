@@ -1,0 +1,27 @@
+hr{
+    border-top: dotted 1px;
+}
+span{
+    vertical-align: middle;
+}
+.myTable > tbody > tr > td{
+    width: 200px;
+}
+.first{
+    margin-bottom: 0;
+}
+.second{
+    margin:0;
+}
+.header{
+    padding-left: 100px;padding-right:100px;
+}
+.header-text{
+    display: inline-block;
+    vertical-align: top;
+    float:right;
+    width: 500px;
+}
+.header-logo{
+    display: inline-block;width:400px;
+}
