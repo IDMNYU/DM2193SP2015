@@ -15,10 +15,7 @@ body
 {
     margin: 50px;
 
-    /* Shorthand */
     font: bold 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-    /* Longhand */
     font-weight: bold;
     font-size: 16px;
     line-height: 1.5; /* 16px*1.5 = 24px */
