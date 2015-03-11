@@ -1,10 +1,15 @@
 .blue-box-fixed
 {
     position: fixed;
-    top:50%; left: 50%;
+    top: 50%; left: 50%;
 
+    /* Transform centering */
     transform: translate(-50%, -50%);
 
-    /* rest, bloc float and write stlyes for the recipe
-    homework wrap the whole thing in a div
+    /* Shorthand margin centering*/
+    /*margin: -50px 0 0 -50px;*/
+
+    /* Longhand margin centering */
+    /*margin-top: -50px;*/
+    /*margin-left: -50px;*/
 }
