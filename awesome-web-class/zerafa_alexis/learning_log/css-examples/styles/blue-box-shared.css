@@ -1,0 +1,115 @@
+/*
+    Shared Elements for all CSS Exercises
+ */
+
+html,
+body
+{
+    /*
+        * Percentage Units in CSS get their value by referencing the parent element's value
+     */
+    height: 100%;
+}
+
+body
+{
+    margin: 50px;
+
+    /*short hand*/
+    font: bold 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    /*long hand*/
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5; /* 16px*1.5 = 24px */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+    Box Elements
+ */
+
+.box
+{
+    height: 100px;
+    width: 100px;
+
+    margin: 10px 0;
+    padding: 5px;
+
+    color: #fff;
+}
+
+.blue-box
+{
+    background: blue;
+}
+
+.red-box
+{
+    background: red;
+}
+
+/*
+    CSS Example Elements
+ */
+
+.css-examples-heading
+{
+    margin: 0 0 10px;
+    font-size: 32px;
+}
+
+.css-examples-sub-heading
+{
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.css-examples-description
+{
+    margin: 0 0 10px;
+    color: #444;
+}
+
+.css-examples-list
+{
+    margin: 0 0 10px;
+
+    list-style-type: circle;   
+    list-style-position: inside;
+}
+
+.css-example-rule
+{
+    height: 1px;
+   
+    border: none;
+    
+    background: #ccc;
+}
+
+.css-examples-container
+{
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
