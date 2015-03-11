@@ -84,5 +84,5 @@ $(document).ready(function () {
 });
 
 $(function() {
-        $("#contentPost").delay(2000).fadeIn(500);
+        $("#contentPost").delay(3000).fadeIn(500);
 });
