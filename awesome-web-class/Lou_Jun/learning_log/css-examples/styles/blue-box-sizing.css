@@ -1,0 +1,18 @@
+.blue-box
+{
+    width: 200px;
+    height: 200px;
+
+    padding: 40px;
+    border: 20px solid orange;
+}
+
+.blue-box-sizing-content
+{
+    box-sizing: content-box;
+}
+
+.blue-box-sizing-border
+{
+    box-sizing: border-box;
+}
