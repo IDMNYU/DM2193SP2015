@@ -1,0 +1,45 @@
+/*
+    # Float Left and Right
+    
+    ## Move the element as far left or right that it can go before it hits the edge of the browser or the parent element.
+    ## Float implies `display: block;` -- it overrides any values you set.
+    ## Float causes the block element to collapse down to the size of its contents unless a height or width are explicitly set.
+
+ */
+.blue-box-float-left
+{
+    float: left;
+}
+
+.blue-box-float-right
+{
+    float: right;
+}
+
+/*
+    # Clear
+
+    ## Clear helps tell the next element to not slide up into the "flow" of the previously floated elements.
+    ## It forces a line-break
+ */
+.css-example-rule
+{
+    clear: both;
+}
+
+/*
+    # Collapsed Parent
+
+    ## Floated elements "break out" of the natural layout or "flow" of the document.
+    ## This causes parent elements to collapse
+
+    ## There are several ways to handle the collapsed parent
+
+    ### Overflow
+    ### Clearfix
+    ### Float the parent
+ */
+.css-examples-container
+{
+    overflow: hidden;
+}
