@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* using this to */
 /*div {
 	border: 3px solid pink;
@@ -59,12 +60,31 @@ br{
 
 .instructions{
 	width: 800px;
+=======
+.title
+{
+	color: blue;
+	text-align: left;
+}
+
+.top p
+{
+	text-align: right;
+	color: pink;
+}
+
+hr
+{
+ 	border-bottom-style: dotted;
+ 	color: lightpink;
+>>>>>>> 73bb28a1308aedf43b5b1ab34bfa2af8f56dca58
 }
 
 .instructions br{
 	line-height: 50px;
 }
 
+<<<<<<< HEAD
 .info{
 	padding: 100px;
 }
@@ -72,3 +92,30 @@ br{
 
 
 
+=======
+.col-left
+{
+	width: 300px;
+	float: left;
+}
+
+.col-right
+{
+	width: 500px;
+	float: left;
+}
+
+.recipe-hr,
+.clear-float
+{
+	clear: both;
+}
+
+.flexible-image
+{
+	max-width: 100%;
+	height: auto;
+}
+
+
+>>>>>>> 73bb28a1308aedf43b5b1ab34bfa2af8f56dca58

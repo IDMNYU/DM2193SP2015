@@ -49,6 +49,9 @@ li {
     clear: both;   
 }
 .boxList {
+    width: 300px;
+    height: 200px;
+    overflow: auto;
     float: left;
     padding: 1em;
     background: #FFFC9C;
@@ -70,9 +73,11 @@ section p {
     box-shadow: 2px 2px 5px #000;
 }
 .profQuote {
-    display: block;
+    display: inline-block;
     font-style: italic;
     margin: 20px auto;
+    padding: 5px 10px;
+    background: #9dc7FF;
 }
 a .button {
     background: #FFE8BA;
@@ -80,7 +85,7 @@ a .button {
 a .button:hover {
     background: #5E00FF;
 }
-#backBtn {
+.backBtn {
     float: right;
     margin: 10px;
     padding: 10px;
@@ -91,23 +96,13 @@ a .button:hover {
     box-shadow: 2px 2px 5px #000;
     font-variant: small-caps;
 }
-#backBtn:hover {
+.backBtn:hover {
     background: #5E00FF;
 }
 section {
     padding: 20px;
     text-align: justify;
     margin: 10px 0 10px 0;
-}
-#mainLeft {
-    padding-left: 10px;
-    width: 45%;
-    float: left;
-}
-#mainRight {
-    padding-right: 10px;
-    width: 45%;
-    float: right;
 }
 footer {
     clear: both;

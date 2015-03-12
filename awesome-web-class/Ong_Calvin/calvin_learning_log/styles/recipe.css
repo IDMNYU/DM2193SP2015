@@ -1,0 +1,241 @@
+section > h3 {
+    
+    color: saddlebrown;
+    border-bottom-style: dashed;
+    border-bottom-color: dimgray;
+    
+}
+
+ul > li {
+
+    padding-bottom: 2%;
+    
+}
+
+.container {
+
+    width: 1000px;
+    min-width: 65%;
+    margin: auto;
+    
+}
+
+header {
+    
+    border-bottom-style: dashed;
+    border-bottom-color: darkorange;
+    height: 175px;
+    max-height: 35%;
+}
+
+.brand {
+    
+    width: 350px;
+    max-width: 50%;
+    color: #996633;
+    
+}
+
+sup {
+    
+    font-size: 50%;
+    
+}
+
+.brand,.description {
+    
+    display: inline-block;
+    
+}
+
+.description {
+    
+    float: right;
+    padding-top: 1.5%;
+    width: 410px;
+    max-width: 50%;
+    text-align: left;
+    vertical-align: top;
+    
+}
+
+.cookie_intro {
+
+   padding-top: 2%;
+    
+}
+
+.cookie_image img{
+    
+    width: 320x;
+    height: 320px;
+    
+}
+
+.cookie_image,.cooking_brief {
+    
+    display: inline-block;
+    
+    
+}
+
+.cooking_brief {
+    
+    vertical-align: top;
+    padding-left: 1.5%;
+    
+}
+
+.left_column,.right_column {
+    
+    display: inline-block;
+    
+}
+
+.left_column {
+    
+    width: 250px;
+    min-width: 32%;
+    
+}
+
+.ingredients > ul {
+
+    list-style-type: none;  
+    padding-left: 0;
+    
+}
+
+.in_this_recipe > figure{
+
+    margin-left: 0;
+    
+}
+
+.in_this_recipe > figure > img {
+
+    width: 150px;
+    height: 75px; 
+    
+}
+
+.in_this_recipe > figure > figcaption {
+    
+    margin-top: 6%;
+    
+}
+
+.right_column {
+    
+    vertical-align: top;
+    width: 660px;
+    min-width: 26%;
+    margin-left: 1.5%;
+    
+}
+
+.instructions > ul{
+
+    list-style-type: none;
+    padding-left: 0;
+    
+    
+}
+
+.instructions > ul > li > b {
+    
+   color: brown;
+    
+}
+
+.slice_bake {
+
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: brown;
+    
+}
+
+.nutritional_info {
+
+    color: saddlebrown;
+    font-size: 200%;
+    
+}
+
+.table_1 {
+ 
+    width: 80%;
+    
+}
+
+.table_1 tr > th {
+    
+    text-align: left;
+    width: 18%;
+    
+}
+
+.table_1 tr > .col_info {
+    
+    font-weight: bold;
+    font-size: xx-small;
+    
+}
+
+.table_1 tr > .col_desc {
+    
+    font-size: xx-large;
+    font-weight: 200;
+    color: gray;
+    
+}
+
+.daily_value {
+    
+    font-size: 85%;
+    font-weight: bold;
+    
+}
+
+.nutrition_table {
+ 
+    width: 80%;
+    
+}
+
+.table_2,.table_3 {
+ 
+    display: inline-block;
+    
+}
+
+.table_2 {
+
+    width: 40%;
+    
+}
+
+.table_3 {
+    
+    width: 40%;
+    float: right;
+    
+}
+
+.nutrition_table .table_2 tr td:nth-child(2) {
+
+    border-spacing: 100px 5px;
+    
+}
+
+.nutrition_table .table_3 tr td:nth-child(2) {
+
+    border-spacing: 100px 5px;
+    
+}
+
+/*#Nutritional_Information dd {
+    margin: 0;
+    padding: 0 0 0em 0;
+}*/

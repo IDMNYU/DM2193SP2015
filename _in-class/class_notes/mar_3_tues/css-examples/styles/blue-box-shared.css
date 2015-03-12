@@ -47,6 +47,11 @@ body
     background: red;
 }
 
+.green-box
+{
+    background: green;
+}
+
 /*
     CSS Example Elements
  */
@@ -61,6 +66,13 @@ body
 {
     margin: 0 0 10px;
     font-size: 24px;
+}
+
+.css-examples-section-heading
+{
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #444;
 }
 
 .css-examples-description

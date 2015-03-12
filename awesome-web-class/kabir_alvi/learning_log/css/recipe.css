@@ -1,0 +1,47 @@
+hr{
+    border-top: orange dotted 1px;
+}
+span{
+    vertical-align: middle;
+}
+h3{
+    color: orange;
+}
+.myTable > tbody > tr > td{
+    width: 200px;
+}
+.general-info{
+    display: inline-block;vertical-align: top;padding-left: 40px;
+}
+.info-first{
+    margin-bottom: 0;
+}
+.info-second{
+    margin:0;
+}
+.header{
+    padding-left: 100px;padding-right:100px;
+}
+.header-text{
+    display: inline-block;
+    vertical-align: top;
+    float:right;
+    width: 500px;
+}
+.header-logo{
+    display: inline-block;width:400px;
+    color:orange;
+}
+.instructions{
+    width:800px;display: inline-block;vertical-align: top;padding-left: 40px;
+}
+.instructions-header{
+    display: inline-block;margin-bottom: 0;
+    color:orange;
+}
+.nut-info-header{
+    display: inline-block;width: 150px;
+}
+.percent{
+    color:orange;
+}
