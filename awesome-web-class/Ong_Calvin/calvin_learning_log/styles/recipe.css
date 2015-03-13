@@ -83,6 +83,31 @@ sup {
     
     vertical-align: top;
     padding-left: 1.5%;
+    margin-top: -1.5%;
+    
+}
+
+.cooking_brief dl dt {
+    
+    font-size: 70%;
+    font-weight: bold;
+    color: darkgray;
+    
+}
+
+.cooking_brief dl dd{
+    
+    padding-bottom: 5%;
+    margin-left: 0;
+    color: grey;
+    
+}
+
+.cooking_brief p {
+
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 50%;
     
 }
 
@@ -122,6 +147,8 @@ sup {
 .in_this_recipe > figure > figcaption {
     
     margin-top: 6%;
+    text-align: center;
+    float: left;
     
 }
 
@@ -200,7 +227,10 @@ sup {
 
 .nutrition_table {
  
-    width: 80%;
+    width: 90%;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-color: gray;
     
 }
 
@@ -212,7 +242,7 @@ sup {
 
 .table_2 {
 
-    width: 40%;
+    width: 60%;
     
 }
 
@@ -223,19 +253,15 @@ sup {
     
 }
 
-.nutrition_table .table_2 tr td:nth-child(2) {
+.nutrition_table .second_column {
 
-    border-spacing: 100px 5px;
+    padding-left: 90%;
+    color: red;
     
 }
 
-.nutrition_table .table_3 tr td:nth-child(2) {
+.nutrition_caption {
 
-    border-spacing: 100px 5px;
+    font-size: 80%;
     
 }
-
-/*#Nutritional_Information dd {
-    margin: 0;
-    padding: 0 0 0em 0;
-}*/
