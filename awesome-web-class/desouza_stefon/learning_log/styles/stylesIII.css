@@ -23,10 +23,10 @@
 
 	/*left: 375px; */
 
-	width: 50.1%;
+	width: 900px;
 	height: 100px;
 
-	margin: 60px 360px 10px 340px;
+	margin: 60px 380px 10px 340px;
 	/*border-width: 2px;
 	border-color: white;
 	border-style: solid; */
@@ -42,7 +42,7 @@
 
 	width: 100px;
 	height: 70px;
-	padding: 20px 2px 10px 50px;
+	padding: 20px 25px 20px 50px;
 	float: left;
 	border-style: solid;
 	border-width: 1px;
@@ -79,7 +79,7 @@
 	width: 925px;
 	height: 700%;
 	margin: 0px 100px 0px 190px;
-	z-index: 20;
+	
 	opacity: .85;
 	/*background-color: #000000;*/
 	background-image: url("../images/crimson3.jpg");
@@ -107,15 +107,26 @@
 	float: left;
 }
 
-.textbox p {
+.textbox blockquote {
 	font-family:'Gloria Hallelujah', Arial;
 	color: white;
 	font-weight: 600;
 	font-size: 23;	
-	font-weight: 0;
-
 }
 
+.textbox h3 {
+	font-family:'Shadows Into Light', Arial;
+	color: white;
+	font-weight: 600;
+	font-size: 50;
+	height: 15%;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.textbox ul{
+	left: 300px;
+}
 
 .textbox li {
 	font-family: 'Shadows Into Light', Arial;
@@ -123,11 +134,28 @@
 	font-weight: 600;
 	font-size: 40;
 	list-style: none;
+	text-align: center;
+	
+	padding-bottom: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	border-radius: 50%;
+
+	background-color: red;
+
+
 }
 
-.image {
-	display: block;
-	float: left;
+
+.textbox li a {
+	color: yellow;
+
+}
+
+.textbox li a:hover; {
+	background-color: red;
+	text-decoration: underline;
 }
 
 
