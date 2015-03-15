@@ -1,153 +1,266 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="main.css">
     <meta charset="UTF-8">
     <title>Reading Log</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script language="javascript" type="text/javascript" src="scripts/main.js"></script>
 </head>
 <body>
-    <header style="text-align: center;">
-        <h1>Calvin's Learning Log</h1>
-        <h2>DM2193 &bullet; Spring 2015</h2>
-        <h3>Calvin Ong</h3>
-        <video id="Coco Swedish Chef" width="400" height="350" src="Coco Swedish Chef.mp4" controls autoplay loop></video>
-        <img src="images/Penguins.gif" width="400" height="350" alt="Calvin Ong"/>
-        <iframe width="854" height="510" src="https://www.youtube.com/embed/JPIhUaONiLU" frameborder="0" allowfullscreen></iframe>
-        <address>
-            <p>E-mail: co684@nyu.edu</p>
-        </address>  
+    <header class="head1">
+        <div class="mp4video">
+            <video id="Coco Swedish Chef" width="400" height="350" src="Music/Coco Swedish Chef.mp4" controls autoplay loop></video>
+        </div>
+        <div class="info">
+            <h1>Calvin's Learning Log</h1>
+            <h2>DM2193 &bullet; Spring 2015</h2>
+            <h3>Calvin Ong</h3>
+            <address>
+                <p>E-mail: co684@nyu.edu</p>
+            </address>  
+        </div>
+        <div class="gifimage">
+            <img src="images/Penguins.gif" width="400" height="350" alt="Calvin Ong"/>
+        </div>
     </header>
-        <hr/>
-    <div style="text-align: center;">
-    <header>
-        <h1><u>Reading Log Appendix</u></h1>
-    </header>
-    <nav>
-        <li><a href="#Reading Log 1">Reading Log #1</a></li>
-        <li><a href="#Reading Log 2">Reading Log #2</a></li>
-        <li><a href="#Reading Log 3">Reading Log #3</a></li>
-        <li><a href="#Reading Log 4">Reading Log #4</a></li>
-        <li><a href="#Reading Log 5: Chocolate Chip Reading Log">Reading Log #5</a></li>
-        <li><a href="#Reading Log 6">Reading Log #6</a></li>
-    </nav>
-    </div>
-        <hr/>
-    <div style="text-align: center;">
-    <h2><u>Learning Log Entry Week 1</u></h2>
-    <audio controls><source src="Georgy Sviridov - Waltz Snowstorm.mp3" type="audio/mpeg"></audio>
-    </div>
-    <article id="Reading Log 1">
-        <section>
-            <h5>Notes</h5>
-            <p>Learning how to build the learning log</p>
-        </section>
-        <section>
-            <h5>Links:</h5>
-            <ul>
-                <li>
-                    Check out <a href="http://www.w3schools.com/html/html_charset.asp" target="_blank">this article about charset</a>.                    
-                </li>
-                <li>
-                    Example "lorem ipsum" for <a href="http://html-ipsum.com" target="_blank">HTML Markup</a>.   
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h3 style="text-align: center;"><b>Reading Response# 1  1/29/2015</b></h3>
-            <h6>
-                <a href="http://blog.8thlight.com/doug-bradbury/2009/08/22/why-software-development-is-a-craft.html">PROGRAMMING IS NOT A CRAFT</a>
-            </h6>
-            <p><i>Craft means to me...</i></p>
-            <p>Programming is a craft as Doug Bradbury proposes. Like a blacksmith or an engineer, programming requires knowledge of various tools (languages and software) and using these tools to write efficient and proper code for a final product. It is similar to how a blacksmith uses iron to crate a hammer to crate other metal products; or an electrical engineer to design a circuit and let factory workers physically build the circuit. However, Dan North is correct that programming is becoming more dumbed down and crude. As compilers become more sophisticated, more programmers are tempted less to examine and understand their code than they are to get their code simply to work and let their compiler to handle the errors. However, I disagree with both that code is beautiful or ugly. Code must be both efficient and easy to read, since it is not only 1 programmer who will be reading and adding to the code. North values efficiency vs aesthetics while Bradbury values aesthtics moreso. They are both quite correct in some way. Tom Demarco is correct that software engineering is dying. However, it is not a bad thing. Craftsmanship implies striving to not only to deliver the best product, but to continue improving the product, always being the best and staying one step ahead of the competition.</p>
-        </section>
+    <hr>
+    <article class="appendix">
+        <header>
+            <h1><u>Reading Log Appendix</u></h1>
+        </header>
+        <nav class="navigation">
+            <ol>
+                <li><a href="#Reading Log 1">Reading Log #1</a></li>
+                <li><a href="#Reading Log 2">Reading Log #2</a></li>
+                <li><a href="#Reading Log 3">Reading Log #3</a></li>
+                <li><a href="#Reading Log 4">Reading Log #4</a></li>
+                <li><a href="#Reading Log 5: Chocolate Chip Reading Log">Reading Log #5</a></li>
+                <li><a href="#Reading Log 6">Reading Log #6</a></li>
+                <li><a href="#Reading Log 7">Reading Log #7</a></li>
+                <li><a href="#Reading Log 8">Reading Log #8</a></li>
+                <li><a href="#Reading Log 9">Reading Log #9</a></li>
+                <li><a href="#Reading Log 10">Reading Log #10</a></li>
+                <li><a href="#Reading Log 11">Reading Log #11</a></li>
+                <li><a href="#Reading Log 12">Reading Log #12</a></li>
+                <li><a href="#Reading Log 13">Reading Log #13</a></li>
+            </ol>
+        </nav>
     </article>
-        <hr>
-    <div style="text-align: center;">
-    <h2><u>Learning Log Entry Week 2</u></h2>
-    <audio controls><source src="Bach- Glenn Gould - English Suite No 2 in A minor BWV 807 Prelude.mp3" type="audio/mpeg"></audio>
-    </div>
-    <article id="Reading Log 2">
-        <section>
-            <h3 style="text-align: center;"><b>Reading Response# 2  2/3/2015</b></h3>
+    <hr>
+    <article class="Week1">
+        <div>
+            <h2><u>Learning Log Entry Week 1</u></h2>
+            <audio controls><source src="Music/Georgy Sviridov - Waltz Snowstorm.mp3" type="audio/mpeg"></audio>
+        </div>
+        <section id="Reading Log 1">
             <section>
-                <img src="images/Document Object Model.png" width="400" height="350" alt="Calvin Ong"/>
-                <p>The Document Object Model (DOM) is useful for relating how the user interacts with the coder. It also clearly defines
-                    what different coders need to focus on (i.e. HTML vs CSS) in the design process.</p>
-                <img src="images/HTML Element Flowchart.png" width="400" height="350" alt="Calvin Ong"/>
-                <p>The HTML Element Flowchart is useful for determining when to use certain tags. It is not mandatory to follow this chart, but it will make life easier.</P>
+                <h3><b>Reading Response# 1  1/29/2015</b></h3>
+                <h5>Notes</h5>
+                <p>Learning how to build the learning log</p>
             </section>
-        </section>
-    </article>
-    <article id="Reading Log 3">
-        <section>
-            <h3 style="text-align: center;"><b>Reading Response# 3  2/5/2015 </b></h3>
             <section>
-                <h5>Links</h5>
+                <h5>Links:</h5>
                 <ul>
                     <li>
-                        Link 1 <a href="http://www.lukew.com/resources/articles/visible_narratives.html" target="_blank"> here </a>
+                        Check out <a href="http://www.w3schools.com/html/html_charset.asp" target="_blank">this article about charset</a>.                    
                     </li>
                     <li>
-                        Link 2 <a href="http://www.inc.com/magazine/20081101/how-hard-could-it-be-the-unproven-path.html" target="_blank"> here <a>
+                        Example "lorem ipsum" for <a href="http://html-ipsum.com" target="_blank">HTML Markup</a>.   
                     </li>
                 </ul>
             </section>
-            <p>I agree with Luke Wroblewski, that art and visual design is an important part of engineering. Visual heiarchy makes a site easier on a viewer's eyes and allows for easier navigation through the website. This in turn makes the viewer more likely to revisit the page. Joel Spolsky and Jeff Atwood's design decisions with Stackoverflow embraces this design principle. Stackoverflow has no needless images to clog up the page, and a popular answer to a question is already at the top of the page, which makes it easier to look for the correct answer without having to scroll through the entire page. The voting system also ensures that the top answer is more likely to be agreed upon by the majority, which makes it more likely to be the correct answer. It is why Stackoverflow is considered the one of the best, if not the most popular Q and A site for programming. </p>
+            <section>
+                <h6>
+                    <a href="http://blog.8thlight.com/doug-bradbury/2009/08/22/why-software-development-is-a-craft.html">PROGRAMMING IS NOT A CRAFT</a>
+                </h6>
+                <p><i>Craft means to me...</i></p>
+                <p>Programming is a craft as Doug Bradbury proposes. Like a blacksmith or an engineer, programming requires knowledge of various tools (languages and software) and using these tools to write efficient and proper code for a final product. It is similar to how a blacksmith uses iron to crate a hammer to crate other metal products; or an electrical engineer to design a circuit and let factory workers physically build the circuit. However, Dan North is correct that programming is becoming more dumbed down and crude. As compilers become more sophisticated, more programmers are tempted less to examine and understand their code than they are to get their code simply to work and let their compiler to handle the errors. However, I disagree with both that code is beautiful or ugly. Code must be both efficient and easy to read, since it is not only 1 programmer who will be reading and adding to the code. North values efficiency vs aesthetics while Bradbury values aesthtics moreso. They are both quite correct in some way. Tom Demarco is correct that software engineering is dying. However, it is not a bad thing. Craftsmanship implies striving to not only to deliver the best product, but to continue improving the product, always being the best and staying one step ahead of the competition.</p>
+            </section>
         </section>
     </article>
-        <hr>
-    <div style="text-align: center;">
-    <h2><u>Learning Log Entry Week 3</u></h2>
-    <audio controls><source src="Dmitri Shostakovich - Waltz No. 2.mp3" type="audio/mpeg"></audio>
-    </div>
-    <article id="Reading Log 4">
-        <section>
-            <h3 style="text-align: center;"><b>Reading Response# 4  2/10/2015 </b></h3>
+    <hr>
+    <article class="Week2">
+        <div>
+            <h2><u>Learning Log Entry Week 2</u></h2>
+            <audio controls><source src="Music/Bach- Glenn Gould - English Suite No 2 in A minor BWV 807 Prelude.mp3" type="audio/mpeg"></audio>
+        </div>
+        <section id="Reading Log 2">
             <section>
-                <h5>Links</h5>
+                <h3><b>Reading Response# 2  2/3/2015</b></h3>
+                <section>
+                    <img src="images/Document Object Model.png" width="400" height="350" alt="DOM"/>
+                    <p>The Document Object Model (DOM) is useful for relating how the user interacts with the coder. It also clearly defines
+                        what different coders need to focus on (i.e. HTML vs CSS) in the design process.</p>
+                    <img src="images/HTML Element Flowchart.png" width="400" height="350" alt="Flowchart"/>
+                    <p>The HTML Element Flowchart is useful for determining when to use certain tags. It is not mandatory to follow this chart, but it will make life easier.</P>
+                </section>
+            </section>
+        </section>
+        <section id="Reading Log 3">
+            <section>
+                <h3><b>Reading Response# 3  2/5/2015 </b></h3>
+                <section>
+                    <h5>Links</h5>
+                    <ul>
+                        <li>
+                            Link 1 <a href="http://www.lukew.com/resources/articles/visible_narratives.html" target="_blank"> here </a>
+                        </li>
+                        <li>
+                            Link 2 <a href="http://www.inc.com/magazine/20081101/how-hard-could-it-be-the-unproven-path.html" target="_blank"> here</a>a>
+                        </li>
+                    </ul>
+                </section>
+                <p>I agree with Luke Wroblewski, that art and visual design is an important part of engineering. Visual heiarchy makes a site easier on a viewer's eyes and allows for easier navigation through the website. This in turn makes the viewer more likely to revisit the page. Joel Spolsky and Jeff Atwood's design decisions with Stackoverflow embraces this design principle. Stackoverflow has no needless images to clog up the page, and a popular answer to a question is already at the top of the page, which makes it easier to look for the correct answer without having to scroll through the entire page. The voting system also ensures that the top answer is more likely to be agreed upon by the majority, which makes it more likely to be the correct answer. It is why Stackoverflow is considered the one of the best, if not the most popular Q and A site for programming. </p>
+            </section>
+        </section>
+    </article>
+    <hr>
+    <article class="Week3">
+        <div>
+            <h2><u>Learning Log Entry Week 3</u></h2>
+            <audio controls><source src="Music/Dmitri Shostakovich - Waltz No. 2.mp3" type="audio/mpeg"></audio>
+        </div>
+        <section id="Reading Log 4">
+            <section>
+                <h3><b>Reading Response# 4  2/10/2015 </b></h3>
+                <section>
+                    <h5>Links</h5>
+                    <ul>
+                        <li>
+                            Link 1 <a href="http://www.smashingmagazine.com/2011/06/22/following-a-web-design-process/" target="_blank"> here </a>
+                        </li>
+                        <li>
+                            Link 2 <a href="http://blog.fuzzymath.com/wp-content/uploads/2011/07/Fuzzy-Math-How-to-read-a-wireframe.pdf" target="_blank"> here </a>
+                        </li>
+                        <li>
+                            Link 3 <a href="http://alistapart.com/article/semanticsinhtml5" target="_blank"> here </a>
+                        </li>
+                    </ul>
+                </section>
+                <p>The most important thing from the Tuesday lecture was the idea of HTML being a series of boxes encapsulated within bigger boxes. CSS dealt with moving these boxes around. Luke Reimer's steps are important to consider because without understanding your target's needs, your website will be ugly and frustrate the user. Wireframes deal with these boxes by assigning hiearchy to certain elements. However, efficient and readable code is extremely important as well, as noted by John Allsop.</p>
+            </section>
+        </section>
+        <section id="Reading Log 5: Chocolate Chip Reading Log">
+            <section>
+                <h3><b>Reading Response# 5: Chocolate Chip Reading Log 2/12/2015</b></h3>
+                <section>
+                    <h5>Recipe link</h5>
+                    <a href="recipe.html" target="_blank">Cookie Recipe</a>
+                </section>
+            </section>
+        </section>
+    </article>
+    <hr>
+    <article class="Week4">
+        <div>
+            <h2><u>Learning Log Entry Week 4</u></h2>
+            <audio controls><source src="Music/Frédéric Chopin -  Op. Posth - Nocturne No. 20 in C sharp minor.mp3" type="audio/mpeg"></audio>
+        </div>
+        <section id="Reading Log 6">
+            <section>
+                <h3><b>Reading Response# 6 2/17/2015</b></h3>
+                <section>
+                    <h5>Links</h5>
+                    <ul>
+                        <li>
+                            Link 1 <a href="http://learnlayout.com/" target="_blank"> here </a>
+                        </li>
+                    </ul>
+                    <p><b>From this article</b>: Display, margin, max-width, box-model, box-sizing, position, float, clear, percent width, media queries, inline block, column, flexbox</p>
+                </section>
+                <p>Today, we took a 20-minute quiz on basic HTML syntax. We had to understand various important tags and wether they were considered a block or inline element.</p>
+            </section>
+        </section>
+        <section id="Reading Log 7">
+            <section>
+                <h3><b>Reading Response# 7 2/19/2015</b></h3>
+                <section>
+                    <img src="images/CSS Design.png" width="400" height="350" alt="Calvin Ong"/>
+                </section>
                 <ul>
                     <li>
-                        Link 1 <a href="http://www.smashingmagazine.com/2011/06/22/following-a-web-design-process/" target="_blank"> here </a>
+                        <h3><b>Order</b></h3>
+                        <p>Order matters in CSS. For example, if you define body once, and then later again in the same sheet, the second will override the first.Similarly, the browswer will parse in order the CSS page going down.</p> 
+                    <li>
+                        <h3><b>Specificity</b></h3>
+                        <p>When you create a class, you can use CSS to target a specific class and change its attributes or properties. It is important to efficiently target a class because you don't want your browser to parse through the entire sheet looking for that id, when you can target it immediately, especially when dealing with classes within classes. For example, .img .bg will look for tags starting with img, and then tags within img with bg. Instead of space, you can have logic operators like "+" or ">".</p> 
                     </li>
                     <li>
-                        Link 2 <a href="http://blog.fuzzymath.com/wp-content/uploads/2011/07/Fuzzy-Math-How-to-read-a-wireframe.pdf" target="_blank"> here <a>
-                    </li>
-                    <li>
-                        Link 3 <a href="http://alistapart.com/article/semanticsinhtml5" target="_blank"> here </a>
+                        <h3><b>Cascade</b></h3>
+                        <p>Essentially inheritance. Tags will inherit their parent tags (tags within tags) unless specified otherwise.</p> 
                     </li>
                 </ul>
+                <p><b>IDS BAD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</b></p>
             </section>
-            <p>The most important thing from the Tuesday lecture was the idea of HTML being a series of boxes encapsulated within bigger boxes. CSS dealt with moving these boxes around. Luke Reimer's steps are important to consider because without understanding your target's needs, your website will be ugly and frustrate the user. Wireframes deal with these boxes by assigning hiearchy to certain elements. However, efficient and readable code is extremely important as well, as noted by John Allsop.</p>
         </section>
     </article>
-    <article id="Reading Log 5: Chocolate Chip Reading Log">
-        <section>
-            <h3 style="text-align: center;"><b>Reading Response# 5: Chocoalte Chip Reading Log 2/12/2015</b></h3>
+    <hr>
+    <article class="Week5">
+        <div>
+            <h2><u>Learning Log Entry Week 5</u></h2>
+            <audio controls><source src="Music/Rachmaninoff - Piano Concerto No. 2, Op. 18 I. Moderato (Rubinstein).mp3" type="audio/mpeg"</audio>
+        </div>
+        <section id="Reading Log 8">
             <section>
-                <h5>Recipe link</h5>
-                <a href="recipe.html">Cookie Recipe</a>
+                <h3><b>Reading Response# 8 2/24/2015</b></h3>
+                <p><b>No id ever(some elements rarely); class names for everything obj, obj-alt, obj--alt--label.</b></p>
             </section>
         </section>
-    </article>
-        <hr>
-    <div style="text-align: center;">
-    <h2><u>Learning Log Entry Week 4</u></h2>
-    <audio controls><source src="Frédéric Chopin -  Op. Posth - Nocturne No. 20 in C sharp minor.mp3" type="audio/mpeg"></audio>
-    </div>
-    <article id="Reading Log 6">
-        <section>
-            <h3 style="text-align: center;"><b>Reading Response# 6</b></h3>
+        <section id="Reading Log 9">
             <section>
-                <h5>Links</h5>
-                <ul>
-                    <li>
-                        Link 1 <a href="http://learnlayout.com/" target="_blank"> here </a>
-                    </li>
-                </ul>
-                <p><b>From this article</b>: Display, margin, max-width, box-model, box-sizing, position, float, clear, percent width, media queries, inline block, column, flexbox</p>
+                <h3><b>Reading Response# 9 2/26/2015</b></h3>
+                <p><iframe width="854" height="510" src="https://www.youtube.com/embed/kowh52NmZis" frameborder="0" allowfullscreen></iframe></p>
             </section>
-            <p>Today, we took a 20-minute quiz on basic HTML syntax. We had to understand various important tags and wether they were considered a block or inline element. 
         </section>
     </article>
+    <hr>
+    <article class="Week6">
+        <div>
+            <h2><u>Learning Log Entry Week 6</u></h2>
+            <audio controls><source src="Music/Dmitri Shostakovich - String Quartet No. 8 in C Minor (II).mp3" type="audio/mpeg"</audio>
+        </div>
+        <section id="Reading Log 10">
+            <section>
+                <h3><b>Reading Response# 10 3/2/2015</b></h3>
+                <p><ul><li>shorthand vs longhand, order matters in shorthand, longhand doesn't matter in block. parses top down. later lines overrides previous lines if conflict.</li>
+                <li>block elements take up full width of page</li>
+                transform, translate
+                <li>for recipe, wrap entire body in div or section width 900px; margin auto; width and max/min-width and wrap float image in container (div) to prevent text from wrapping over image-> lines next to image</li>
+                </ul></p>
+            </section>
+        </section>
+        <section id="Reading Log 11">
+            <section>
+                <h3><b>Reading Response# 11 3/5/2015</b></h3>
+                <p>We went over some cookie recipes. We can use Google's APIs for additional HTML/CSS styles, like fonts:                         <a href="https://developers.google.com/fonts/docs/getting_started#Syntax">https://developers.google.com/fonts/docs/getting_started#Syntax</a></p>
+            </section>
+        </section>
+    </article>
+    <hr>
+    <article class="Week 7">
+        <div>
+            <h2><u>Learning Log Entry Week 7</u></h2>
+            <audio controls><source src="Music/Mozart -Turkish March.mp3" type="audio/mpeg"</audio>
+        </div>
+        <section id="Reading Log 12">
+            <section>
+                <h3><b>Reading Response# 12 3/10/2015</b></h3>
+                <p>We continued to learn more about media queries and box-sizing. The most important were animations. Timing and states were the                   most important to take into account. We learned about a cool website, where we saw a bouncing Will Smith head: <a       href="http://codepen.io/">http://codepen.io/</a></p>
+            </section>
+        </section>
+        <section id="Reading Log 13">
+            <section>
+                <h3><b>Reading Response# 13 3/12/2015</b></h3>
+                <p>We went over the midterm. We need a pdf and html file. DESIGN IS IMPORTANT!!!! DOCUMENTATION AND COMMENTS!!!!!</p>
+                <p>Problems to solve? Who's the audience? How to order data? Which information gets precedence?</p>
+                <p>We should show different pages, for different parts of the sites (i.e. inventory, related links, slideshows, etc...).</p>
+                <p>HTML file has links that link to pictures of different parts of the sites (i.e. inventory link will link to pdf of drawing of
+                    wireframe of inventory page of the site. CSS stylesheet will beautify HTML page.</p>
+                <p><a href="quirktools.com/wires/">quirktools.com/wires/</a></p>
+                <p>Google Draw</p>
+            </section>
+        </section>
+    </article>
+    <hr>
 </body>
 </html>
