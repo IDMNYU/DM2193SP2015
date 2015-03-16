@@ -35,6 +35,16 @@
 
 }
 
+.headerbox a {
+	color: yellow;
+
+}
+
+.headerbox a:hover; {
+	background-color: red;
+	text-decoration: underline;
+}
+
 
 .links{
 	position: relative;
