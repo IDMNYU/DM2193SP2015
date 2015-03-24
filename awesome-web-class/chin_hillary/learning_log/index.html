@@ -6,7 +6,13 @@
 
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 
+    <script type="text/javascript" src="/js/jquery.1.8.3.min.js"></script>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600' rel='stylesheet' type='text/css'>
+
+     <script>$(function () { $('a[href*=#]:not([href=#])').click(function () { if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) { var target = $(this.hash); target = target.length ? target : $('[name=' + this.hash.slice(1) + ']'); if (target.length) { $('html,body').animate({ scrollTop: target.offset().top }, 1000); return false; } } }); });</script>
+
 </head>
 <body>
 
@@ -16,10 +22,19 @@
 
     <nav>
         <ul>
-            <li><a href="#5-feb-2015">One</a></li>
-            <li><a href="#12-feb-2015">Two</a></li>
-            <li><a href="#19-feb-2015">Three</a></li>
-            <li><a href="#24-feb-2015">Four</a></li>
+            <li><a href="/learninglog">Entries</a>
+                <ul>
+                    <li><a href="#5-feb-2015">One</a></li>
+                    <li><a href="#12-feb-2015">Two</a></li>
+                    <li><a href="#19-feb-2015">Three</a></li>
+                    <li><a href="#24-feb-2015">Four</a></li>
+                    <li><a href="#3-mar-2015">Five</a></li>
+                    <li><a href="#12-mar-2015">Six</a></li>
+                </ul>
+            </li>
+            <li><a href="recipe">Recipe</a></li>
+            <li><a href="midterm">Midterm</a></li>
+            <li><a href="css-examples">CSS Exercises</a></li>
         </ul>
     </nav>
 
@@ -33,35 +48,115 @@
             <br/>
             <a href="http://hillarychin.com/learninglog">hillarychin.com</a>
         </address>
+        <br>
+        <p>Hi, I'm Hillary. I study Integrated Digital Media at NYU Polytechnic School of Engineering. This a learning log for my Intro to Web Development class.</p>
+        <hr>
+        <a href="recipe"><img src="images/cookies.png" alt="Recipe"/></a>
+        <a href="css-examples/blue-box.html"><img src="images/cssexercise.png" alt="CSS Exercises"/></a>
     </aside>
 
     <section class="main-content">
 
-        <article id="24-feb-2015">
-            <div>3 March 2015</div>
+        <article id="12-mar-2015">
+            <div class="entry-date">12 March 2015</div>
+            <h4>Midterm Project Discussion</h4>
+            <section>
+                <h5>Notes</h5>
+                <p>
+                    <ul>
+                        <li>What's good about craigslist's website:
+                            <ul>
+                                <li>High contrast</li>
+                                <li>Few clicks</li>
+                            </ul>
+                        </li>
+                        <li>What's bad about craigslist's website:
+                            <ul>
+                                <li>Ambiguous organization</li>
+                                <li>Navigation not intuitive, prone to user error</li>
+                                <li>Rules are not clear</li>
+                                <li>Poor cues for use</li>
+                                <li>Not enough hierarchy</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </p>
+                <p>What are we redesigning? Not the whole website, there's too much on there! Must take a specific point-of-view. Define your audience (people and platform), set goals, solve problems. ie) One person made an iPad app for motorcycle and car buyers. Deliverables include write-up of the design idea and process, HTML, PDF, print CSS (secondary). Answer questions like what is it, who is the audience, what are the best three features, etc.? Explain your design choices. You can make more than three views, however many you need to explain your concept. And now at this point we began looking at the free shit on craigslist and discussed going to get these free things like guinea pigs and broken TVs together whilst avoiding being killed. The overall goal of the midterm is to tell a story. None of it actually needs to be coded or developed. The HTML midterm page is going to display the documentation of your project in headers, photos, captions. Pictures of what the design would look like can be whole page or screen size depending on the story you're telling. Can also show responsive screens. Work on the midterm over spring break: text, wireframes, design, general concept. Five-minute presentations will be a thing after spring break. No in class time. HTML and PDFs will be due the week after we come back. </p>
+            </section>
+            <section>
+                <h5>Links</h5>
+                <p></p>
+            </section>
+           <section>
+                <h5>Misc</h5>
+                <p>Fixed my github, thx prof! Physics midterm tomorrow, #stressed but still #welldressed. Need to start reorganizing my log. I think I might try to make a website that randomizes quotes from Johnny. Once I figure out how to do that. It'd be pretty dope.</p>
+            </section>
+        </article>
+
+        <hr/>
+
+        <article id="10-mar-2015">
+            <div class="entry-date">10 March 2015</div>
+            <h4>More CSS</h4>
+            <section>
+                <h5>Notes</h5>
+                <p>
+                    <ul>
+                        <li>Vendor prefixes - add support to browsers for new CSS features (-webkit, -moz, -ms, -o)
+                            <ul>
+                                <li>New browsers no longer need them for CSS transitions</li>
+                                <li>CSS animations are relatively new and need them</li>
+                            </ul>
+                        </li>
+                        <li>Page state - manages all the elements on a page</li>
+                        <li>Box sizing is powerful for layout because when you're setting widths of things, you know it's just that width</li>
+                        <li>By default, when you add padding and margin, the amt you set is added to the width of the content</li>
+                        <li>There are two types: content-box and border-box, determines if you are adding margin and padding to the width number</li>
+                        <li>Content-box is the implicit default value. Used to reset. ie) if you set all elements to be border-box but you need to override it for a special element</li>
+                        <li>Border-box makes margin and padding part of the width value</li>
+                        <li>Talked about the midterm project</li>
+                    </ul>
+                </p>
+            </section>
+            <section>
+                <h5>Links</h5>
+                <p></p>
+            </section>
+           <section>
+                <h5>Misc</h5>
+                <p>Why is my github broken i'm sad</p>
+            </section>
+        </article>
+
+        <hr/>
+
+        <article id="3-mar-2015">
+            <div class="entry-date">3 March 2015</div>
             <h4>CSS Day Three</h4>
             <section>
                 <h5>Notes</h5>
                 <p>
                     <ul>
-                        <li>Shorthand CSS</li>
+                        <li>Shorthand CSS
                             <ul>
                                 <li>margin: Top Right Bottom Left</li>
                                 <li>margin: TB RL</li>
                                 <li>margin: T RL B</li>
                             </ul>
+                        </li>
                         <li>Floated elements collapse their parent elements. ie) If a div contains only floated elements, the browser
                             will think that the container is empty.</li>
                         <li>Browser doesn't care about the size of a child element unless it has to</li>
-                        <li>3 ways to fix float issues:<li>
+                        <li>3 ways to fix float issues:
                             <ul>
                                 <li>overflow:hidden; on parent</li>
                                 <li>clearfix</li>
                                 <li>Float the parent</li>
                             </ul>
+                        </li>
                         <li>Don't use heights on CSS elements except rarely (vertically center something, make a circle)</li>
                         <li>Overflow hidden - cropping content</li>
-                        <li>Setting widths helps stabilize floats</li>
+                        <li>Setting widths helps stabilize floats
                             <ul>
                                 <li>You can set max-widths and min-widths for changing browser sizers</li>
                             </ul>
@@ -82,7 +177,7 @@
             </section>
            <section>
                 <h5>Misc</h5>
-                <p>I'm so excited for smoothies. Also currently feeling under the weather. And I removed overflow-x: hidden from the * selector in my CSS because it was actually doing something I didn't want - clipping the sides of the columns.</p>
+                <p></p>
             </section>
         </article>
 

@@ -16,11 +16,19 @@
 ## Week 6
 
 ### In-Class Tues
-* CSS Blue Box Exercises 
+
+* CSS Exercises
+    * reset styles
+    * display: block | inline | inline-block
+    * position: absolute
+    * position: relative
+    * position: fixed
 
 ### In-Class Thurs
-* Finish up CSS Exercises
-* Introduction to Javascript
+
+* CSS Exercises
+    * opacity vs. visibility vs. display vs. rgba
+    * float
 
 ### Reading Assignment
 

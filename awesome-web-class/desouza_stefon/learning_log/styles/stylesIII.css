@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+   
+  }
+  
+  body{ 
+	position: relative;
+	background-image: url("../images/sky.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+
+.headerbox {
+	display: inline-block;
+	position: absolute;
+	/*top: 50px;/
+
+	/*left: 375px; */
+
+	width: 900px;
+	height: 100px;
+
+	margin: 60px 380px 10px 340px;
+	/*border-width: 2px;
+	border-color: white;
+	border-style: solid; */
+	opacity: .77;
+	z-index: 2;
+
+}
+
+.headerbox a {
+	color: yellow;
+
+}
+
+.headerbox a:hover; {
+	background-color: red;
+	text-decoration: underline;
+}
+
+
+.links{
+	position: relative;
+	display: block;
+
+	width: 100px;
+	height: 70px;
+	padding: 20px 25px 20px 50px;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	border-radius: 100px / 50px;
+	background-color: #B22222;
+
+
+	z-index: 2;
+
+/*	font-family: 'Shadows Into Light'; 
+	font-size: 125%;
+	color: #00FFFF;*/
+}
+.fontstyle {
+	font-family: 'Shadows Into Light', Arial;
+	font-size: 150%;
+	color: #FFFF00;
+}
+
+
+/*
+.linkbox {
+	display: block;
+	float: left;
+	width: 100px;
+	height: 90px;
+	font-size: 90%
+*/	
+
+.backdrop {
+	display: block;
+	top: 250px;
+	width: 925px;
+	height: 700%;
+	margin: 0px 100px 0px 190px;
+	
+	opacity: .85;
+	/*background-color: #000000;*/
+	background-image: url("../images/crimson3.jpg");
+	background-repeat: repeat;
+	z-index: 0;
+
+}
+.allign{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0px 0px 0px 0px;
+	padding-top: 30%;
+	z-index: 2;
+	/*background-color: white;*/
+}
+
+.textbox {
+	display: block;
+	width: 48%;
+	height: 15%;
+	padding-left: 10px;
+	padding-right: 0px;
+	z-index: 3;
+	float: left;
+}
+
+.textbox blockquote {
+	font-family:'Gloria Hallelujah', Arial;
+	color: white;
+	font-weight: 600;
+	font-size: 23;	
+}
+
+.textbox h3 {
+	font-family:'Shadows Into Light', Arial;
+	color: white;
+	font-weight: 600;
+	font-size: 50;
+	height: 15%;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.textbox ul{
+	left: 300px;
+}
+
+.textbox li {
+	font-family: 'Shadows Into Light', Arial;
+	color: white;
+	font-weight: 600;
+	font-size: 40;
+	list-style: none;
+	text-align: center;
+	
+	padding-bottom: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	border-radius: 50%;
+
+	background-color: red;
+
+
+}
+
+
+.textbox li a {
+	color: yellow;
+
+}
+
+.textbox li a:hover; {
+	background-color: red;
+	text-decoration: underline;
+}
+
+

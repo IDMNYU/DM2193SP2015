@@ -21,7 +21,7 @@
 }
 
 .about .heading {
-	/*color: darkblue;*/
+	/*color: darkblue;*/a
 }
 
 .Log {
@@ -30,4 +30,21 @@
    font-size: 30px;
    color: black;
 
+}
+
+.navigation{
+	display: inline-block;
+	float:left;
+	padding: 0;
+}
+
+.column2 {
+	display: inline-block;
+	float:right;
+}
+
+.vertical_list{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
