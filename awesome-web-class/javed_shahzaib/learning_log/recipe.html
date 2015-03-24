@@ -7,34 +7,29 @@
   
 </head>
 <body>
-
-
-
-    <div class="top">
+    <div class = "top">
         
 
-        <h1 class="title">Original <br /> recipe for <br />sawg</h1>
+            <h1 class = "column-left">Original <br /> recipe for <br />sawg</h1>
+        
+       
+            <p class = "column-right" >
+                This famous classic American swag will increase your swag by 30 swag points in no time. 
+                <strong>Warning: I am not responisble for any swag attacks that may occur.</strong>
+            </p>
+        
+    </div>
+
     
+
+<!-- go to new line -->
+  <hr />
+<!-- image, class is column-left bc it will be floated to the left -->
    
-        <p class="p" >
-            This famous classic American swag will increase your swag by 30 swag points in no time. 
-            <strong>Warning: I am not responisble for any swag attacks that may occur.</strong>
-        </p>
-    </div>
-    
-
-
-    <!-- break line -->
-
-    <hr class="recipe-hr" />    
-    
-<div class="recipe-prep">
-
-    <div class="col-left">
-        <img class="flexible-image" width="450" height="300" src="images/swag2.gif" />    
-    </div>
-    
-    <div class="col-right list">
+    <img class = "column-left prep-image"  width="450" height= "300"  src="images/swag2.gif">
+   
+<!-- the list will be floated to the right, has its own class so we can make modifications-->
+    <div class= " prep-list" >
         <ul>
             <li>
                 Prep item
@@ -64,17 +59,15 @@
         </ul>
     </div>
 
-</div>
 
-<br class="clear-float" />
+<br />
+<!-- ingredients below the image -->
+    <div class = "column-left margin-left ingred-list" >
 
-<div class="recipe-instructions">
-    <div class="col-left">    
+        <h3> Ingredients </h3>
+        <hr />
 
-        <h3 class="ingredients"> Ingredients </h3>
-
-        <!-- will use  a p attribute to add ingrediants with br in betwwen -->
-        <p> 1 slim/ skinny jeans <br />
+            <p> 1 slim/ skinny jeans <br />
             1 pair good looking shoes <br />
             1 teaspoon salt <br />
             1 mirror<br />
@@ -89,24 +82,13 @@
             2 Swag shades <strong> Swag Shades </strong> <br />
             1 cup chopped nuts <br />
         </p>
-
-        <hr class="recipe-hr" />
-    
-        <div class="bottom">
-            <h3> In this recipe </h3>
-            <img src = "./images/shades.jpeg" height = "100" width = "100">
-
-            <p> Swag shades</p>
-
-        </div>
-
     </div>
 
-
-    <div class="col-right instructions">
+    <div class = "column-right instructions">
+      
         
-        <!-- intructions -->
-        <h3> Intructions </h3>
+        <h3> Intructions </h3> 
+          <hr />  
 
         <p> <b>Preheat</b> dryer until its ready to blow dry your hair  <br />
             <b>Combine</b> half cup diginity, full cup nerdness, and quarter cup geek. Make sure u stir good. The toss it out the window    <br />
@@ -115,28 +97,37 @@
             <b> Finishing</b> Top with ray ban glasses. Only wear when dark outside and indoors. Otherwise hang from v neck shirt. Wear the shades behind the head, so you got eyes on the back if your head. <br />
             <b> Outside </b> Keep looking in the mirror now and then and go ahead try those pick up lines you have stored.  <br />
             <b> For high Altitude Baking (5200)</b> Its gonna be cold up there. Just wear a hat, and put a leather jacket. Also wear a LV scarf.  <br />
+        </p>   
+    </div>
+ 
+<!-- the very bottom -->
+<br />
+    <div class = "column-left margin-left bottom">
+    <hr/>
+        <h3> In this recipe </h3>
+            <img class="prep-image" src = "./images/shades.jpeg" height = "100" width = "100"/>
+             <p> Swag shades</p>
+   </div>
+
+    <div class = "column-left info"
+    <br />
+    <br />
+    <hr />
+        <h3> Nutritional Information</h3>
+
+        <p> Doucheness : 1 <br />
+            swag per serving : 110 <br />
+            confidence: 60 <br />
+            % Daily Value*    
         </p>
 
-        <div class="info">
-
-            <h3> Nutritional Information</h3>
-
-            <p> Doucheness : 1 <br />
-                swag per serving : 110 <br />
-                confidence: 60 <br />
-                % Daily Value*    
-            </p>
-
-            <hr class="recipe-hr" />
-            <p> Total money 200 - 300<br />
-                Saturated fat 3.5g 17% <br />
-                Cholesterol 15mg 5% 
-            </p>
-        </div>
-
+        <hr />
+        <p> Total money 200 - 300<br />
+            Saturated fat 3.5g 17% <br />
+            Cholesterol 15mg 5% 
+        </p>
     </div>
-
-</div>
+    
 
 </body>
 
