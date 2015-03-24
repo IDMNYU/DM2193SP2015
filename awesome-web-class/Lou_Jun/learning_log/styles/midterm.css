@@ -4,3 +4,19 @@
 
 .about {
 	background: white;
+}
+
+h1{
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 45px;
+	margin:30px;
+}
+
+.info {
+	font-size: 30px;
+	display: inline-block;
+	padding: 10px;
+	margin:20px;
+}
