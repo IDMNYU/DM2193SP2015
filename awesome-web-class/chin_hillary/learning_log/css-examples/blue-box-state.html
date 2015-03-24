@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="page-state-default">
+<head>
+    <meta charset="UTF-8">
+    <title>Blue Box - CSS Examples</title>
+    <link rel="stylesheet" href="styles/blue-box-reset.css">
+    <link rel="stylesheet" href="styles/blue-box-shared.css">
+    <link rel="stylesheet" href="styles/blue-box-state.css">    
+</head>
+<body>
+
+    <h1 class="css-examples-heading">
+        Statefulness in Web using Class names
+    </h1>
+
+    <h2 class="css-examples-sub-heading">
+        Use different class names to describe the "state" of elements or the whole page.
+    </h2>
+
+    <ul class="css-examples-description">
+        <li>
+            Setting and changing class names on the <code>&lt;html&gt;</code> tag is a very powerful way to control statefulness of the page.
+        </li>
+        <li>
+            Class names higher up in the page can be used to affect and target elements further down in the page.
+        </li>
+    </ul>
+
+    <hr class="css-example-rule" />
+
+    <h3 class="css-examples-section-heading">
+        State inventory
+    </h3>
+
+    <div class="box blue-box blue-box-default">
+        Blue Box - Default
+    </div>
+
+    <div class="box blue-box blue-box-active">
+        Blue Box - Active
+    </div>
+
+    <div class="box blue-box blue-box-disabled">
+        Blue Box - Disabled
+    </div>
+
+    <hr class="css-example-rule" />
+
+    <h3 class="css-examples-section-heading">
+        Stateful Blue Box
+    </h3>
+
+    <div class="box blue-box blue-box-state">
+        Blue Box -
+        <span class="state-label state-default">Default</span>
+        <span class="state-label state-active">Active</span>
+        <span class="state-label state-disabled">Disabled</span>
+    </div>
+
+</body>
+</html>

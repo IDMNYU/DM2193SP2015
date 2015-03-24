@@ -22,6 +22,11 @@ header{
     line-height:800px;
 }
 
+p{
+	line-height:1.8em;
+	margin-top:10px;
+}
+
 h1{
 	font-weight:800;
 	text-transform:uppercase;
@@ -57,10 +62,11 @@ hr{
 }
 
 aside{
-	float:left;
-	width:25%;
-	padding:10px;
-	margin-left:80px;
+	float: left;
+	width: 23%;
+	padding: 10px;
+	margin-left: 80px;
+	box-sizing: border-box;
 }
 
 a{
@@ -69,6 +75,19 @@ a{
 	text-transform:uppercase;
 	letter-spacing:2px;
 	font-size:0.8em;
+	transition:all ease 0.4s;
+}
+
+aside a, section a, address a{
+	font-weight:bold;
+	text-decoration:none;
+}
+
+aside hr{
+	width: 80%;
+	padding: 20px;
+	text-align: center;
+	margin: 50px 20px auto auto;
 }
 
 a:hover{
@@ -82,12 +101,17 @@ article{
 
 article ul{
 	list-style:square;
-	padding:-10px;
-	margin-left:10px;
+	list-style-image: url('http://www.pixeljoint.com/files/icons/i_pineapple.png');
+	margin-left:20px;
 }
 
 article ul li{
 	margin-left:20px;
+}
+
+article ul li ul{
+	margin-left:20px;
+	font-size:.8em;
 }
 
 nav{
@@ -96,7 +120,7 @@ nav{
 	font-size:1.2em;
 	text-transform:uppercase;
 	padding-top:20px;
-	padding-bottom:100px;
+	padding-bottom:50px;
 }
 
 nav a{
@@ -117,6 +141,49 @@ nav ul li{
 	display:inline-block;
 	padding-right:50px;
 	padding-left:50px;
+	box-sizing:border-box;
+}
+
+nav li{
+	position:relative;
+}
+
+nav li ul{
+    position: absolute;
+    top: 100%;
+    display:none;
+    z-index: 1;
+    transition: all .4s ease;
+    text-align:left;
+}
+nav li:hover ul {
+    display:block;
+    z-index:2;
+    background:#fff;
+    transition:all .4s ease;
+}
+nav li ul li {
+    float: left;
+    width: 100%;
+    padding-left:5px;
+}
+
+nav li ul li:hover{
+	background-color:#f4f3f3;
+}
+
+nav li ul li:not(:last-child){
+	border-bottom:1px #f4f3f3 solid;
+}
+
+nav li ul a{
+	color:#ffcc00;
+	text-align:left;
+	font-size:0.8em;
+}
+nav li ul a:hover {
+	color:#000;
+    transition: all .4s ease;
 }
 
 .title{
@@ -136,4 +203,25 @@ nav ul li{
 	width:60%;
 	padding:10px;
 	margin-right:80px;
+}
+
+.entry-date{
+	font-size:.8em;
+	color:#ffcc00;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+.midterm-container{
+	margin:100px;
+	color:#000;
+}
+
+.midterm-container img{
+	max-width:100%;
+	border:1px lightgrey solid;
+}
+
+.img-desc{
+	padding:50px;
 }
