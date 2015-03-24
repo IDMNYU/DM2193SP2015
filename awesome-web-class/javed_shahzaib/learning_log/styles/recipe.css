@@ -1,0 +1,121 @@
+<<<<<<< HEAD
+/* using this to */
+/*div {
+	border: 3px solid pink;
+}
+*/
+.top{
+	margin-left: 20px;
+}
+/*generic to shfit*/
+.column-left{
+	float:left;
+	width: 500px;
+	min-width: 50px;	
+	max-height: 100px;
+	padding: 10px 10px 50px 10px;
+	
+}
+
+/*generic for shifting stuff to the right*/
+.column-right{
+	float:right;
+	width: 300px;
+	max-height: 100px;
+	padding: 10px 20px 54px 10px;	
+}
+
+
+
+/*using clear so that hr takes up a new line*/
+hr{
+	border-style: dotted;
+	clear: both;
+}
+/*used instead of the horizontal line bc i can get the line from the divs*/
+br{
+	clear:both;
+}
+
+/*specify the width and height of the image*/
+.prep-image{
+	max-width: 500px;
+	max-height: 500px;
+}
+
+/*put the list on the right*/
+.prep-list{
+	margin-left: 500px;
+	margin-top:35px;
+	text-align: left;
+}
+
+.margin-left{
+	margin-left: 50px;
+
+}
+.ingred-list{
+	padding-bottom: 300px;
+}
+
+.instructions{
+	width: 800px;
+=======
+.title
+{
+	color: blue;
+	text-align: left;
+}
+
+.top p
+{
+	text-align: right;
+	color: pink;
+}
+
+hr
+{
+ 	border-bottom-style: dotted;
+ 	color: lightpink;
+>>>>>>> 73bb28a1308aedf43b5b1ab34bfa2af8f56dca58
+}
+
+.instructions br{
+	line-height: 50px;
+}
+
+<<<<<<< HEAD
+.info{
+	padding: 100px;
+}
+
+
+
+
+=======
+.col-left
+{
+	width: 300px;
+	float: left;
+}
+
+.col-right
+{
+	width: 500px;
+	float: left;
+}
+
+.recipe-hr,
+.clear-float
+{
+	clear: both;
+}
+
+.flexible-image
+{
+	max-width: 100%;
+	height: auto;
+}
+
+
+>>>>>>> 73bb28a1308aedf43b5b1ab34bfa2af8f56dca58

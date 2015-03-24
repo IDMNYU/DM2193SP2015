@@ -20,6 +20,8 @@
             <li><a href="#12-feb-2015">Two</a></li>
             <li><a href="#19-feb-2015">Three</a></li>
             <li><a href="#24-feb-2015">Four</a></li>
+            <li><a href="#3-mar-2015">Five</a><li>
+            <li><a href="#10-mar-2015">Six</a><li>
         </ul>
     </nav>
 
@@ -36,6 +38,91 @@
     </aside>
 
     <section class="main-content">
+
+        <article id="10-mar-2015">
+            <div>10 March 2015</div>
+            <h4>More CSS</h4>
+            <section>
+                <h5>Notes</h5>
+                <p>
+                    <ul>
+                        <li>Vendor prefixes - add support to browsers for new CSS features (-webkit, -moz, -ms, -o)</li>
+                            <ul>
+                                <li>New browsers no longer need them for CSS transitions</li>
+                                <li>CSS animations are relatively new and need them</li>
+                            </ul>
+                        <li>Page state - manages all the elements on a page</li>
+                        <li>Box sizing is powerful for layout because when you're setting widths of things, you know it's just that width</li>
+                        <li>By default, when you add padding and margin, the amt you set is added to the width of the content</li>
+                        <li>There are two types: content-box and border-box, determines if you are adding margin and padding to the width number</li>
+                        <li>Content-box is the implicit default value. Used to reset. ie) if you set all elements to be border-box but you need to override it for a special element</li>
+                        <li>Border-box makes margin and padding part of the width value</li>
+                        <li>Talked about the midterm project</li>
+                    </ul>
+                </p>
+            </section>
+            <section>
+                <h5>Links</h5>
+                <p></p>
+            </section>
+           <section>
+                <h5>Misc</h5>
+                <p>Why is my github broken i'm sad</p>
+            </section>
+        </article>
+
+        <hr/>
+
+        <article id="3-mar-2015">
+            <div>3 March 2015</div>
+            <h4>CSS Day Three</h4>
+            <section>
+                <h5>Notes</h5>
+                <p>
+                    <ul>
+                        <li>Shorthand CSS</li>
+                            <ul>
+                                <li>margin: Top Right Bottom Left</li>
+                                <li>margin: TB RL</li>
+                                <li>margin: T RL B</li>
+                            </ul>
+                        <li>Floated elements collapse their parent elements. ie) If a div contains only floated elements, the browser
+                            will think that the container is empty.</li>
+                        <li>Browser doesn't care about the size of a child element unless it has to</li>
+                        <li>3 ways to fix float issues:<li>
+                            <ul>
+                                <li>overflow:hidden; on parent</li>
+                                <li>clearfix</li>
+                                <li>Float the parent</li>
+                            </ul>
+                        <li>Don't use heights on CSS elements except rarely (vertically center something, make a circle)</li>
+                        <li>Overflow hidden - cropping content</li>
+                        <li>Setting widths helps stabilize floats</li>
+                            <ul>
+                                <li>You can set max-widths and min-widths for changing browser sizers</li>
+                            </ul>
+                        </li>
+                        <li>z-index specifies stack order of elements</li>
+                        <li>HTML is also parsed down. An element overlapping another is going to implicitly go on top of the one that came before it
+                        </li>
+                        <li>position: sticky is pretty cool. It says for the element to go where it naturally wants to until it reaches a certain point. Used on Tumblr dashboard (see users' avatar movement as you scroll). Not supported by all browsers, relatively new</li>
+                        <li>vh and vw (viewport height/viewport width) are sizing properties you can use</li>
+                        <li>position: fixed is based off the viewport</li>
+                        <li>position: absolute inherits from parent</li>
+                    </ul>
+                </p>
+            </section>
+            <section>
+                <h5>Links</h5>
+                <p></p>
+            </section>
+           <section>
+                <h5>Misc</h5>
+                <p></p>
+            </section>
+        </article>
+
+        <hr/>
 
         <article id="24-feb-2015">
             <div>24 Feb 2015</div>
@@ -66,6 +153,10 @@
                         <li>margin: auto; centers block elements with a defined width</li>
                     </ul>
                 </p>
+            </section>
+            <section>
+                <h5>Reading Response</h5>
+                <p></p>
             </section>
             <section>
                 <h5>Links</h5>

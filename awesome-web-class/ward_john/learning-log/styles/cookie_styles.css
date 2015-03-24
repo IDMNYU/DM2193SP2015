@@ -1,0 +1,111 @@
+body {
+	margin: 0 auto;
+	background: white;
+	width: 80%;
+	padding: 10px;
+	position:relative;
+	color:gray;
+	font-size:8pt;
+}
+h3 {
+	color:brown;
+	font-weight:lighter;
+}
+h4 {
+	font-size:6pt;
+	margin-top: 0px;
+}
+dt {
+	margin-top:10px;
+}
+dd {
+	margin-left:0px;
+}
+.header {
+	display:absolute;
+	width:100%;
+}
+.header h1 {
+	text-transform: uppercase;
+	display:inline-block;
+	width: 48%;
+	color: brown;
+	font-weight:lighter;
+	font-size:18pt;
+}
+.header h2 {
+	padding-top:3%;
+	display:inline-block;
+	float: right;
+	width:48%;
+	font-size:8pt;
+	color:gray;
+}
+
+.left {
+	position:relative;
+	display:block;
+	max-width: 35%;
+	height:100%;
+	float: left;
+}
+.left ul {
+	list-style-type: none;
+	padding-left:0px;
+}
+.left ul li{
+	padding-bottom:8px;
+	font-size: 8pt;
+}
+.trademark {
+	color:orange;
+}
+
+.in-this-recipe figure {
+	margin-left:0px;
+	text-transform: uppercase;
+	font-weight:lighter;
+}
+
+.right {
+	position:relative;
+	display:block;
+	margin-left:15px;
+	width:60%;
+	height:100%;
+	float: right;
+}
+.quick-info dd {
+	font-size:12pt;
+}
+.subhead {
+	text-transform: uppercase;
+	font-weight:bold;
+	color:brown;
+}
+.nutritional-information dt {
+	display:inline-block;
+	width:18%;
+	font-size:6pt;
+}
+.nutritional-information dd {
+	display:inline-block;
+	margin-right:10px;
+	width:10%;
+	font-size:15pt;
+}
+
+table tr dt {
+	text-transform: uppercase;
+	display:inline-block;
+	width: 20%;
+	font-size:8pt;
+}
+table tr td {
+	padding-right:10px;
+}
+table tr td.orange {
+	padding-left:20px;
+	padding-right:0px;
+	color:orange;
+}

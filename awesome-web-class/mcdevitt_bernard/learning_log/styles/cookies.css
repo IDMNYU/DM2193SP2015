@@ -1,0 +1,126 @@
+.body {
+	width: 75%;
+	min-width: 500px;
+	max-width: 2000px;
+	margin-left:12.5%;
+	font-family: 'Roboto Slab', serif;
+}
+
+.title {
+	font-size: 36pt;
+	color:#ff9b2e;
+	float:left;
+	width:40%;
+	min-width:600px;
+	max-width:700px;
+}
+
+.hr {
+	clear:both;
+
+}
+.subtitle {
+	font-size:14pt;
+	color:#aaaaaa;
+	overflow:hidden;
+	padding: 90px 0px 90px 100px;
+
+}
+
+.prep_list {
+	float:left;
+	margin-left:-35px;
+	padding-top:14px;
+	height:400px;
+
+}
+
+.image {
+	padding-top: 30px;
+	float:left;
+	width: 400px;
+	padding-bottom:30px;
+}
+
+.prep_time {
+	display:table;
+	background: #ff9b2e;
+	width:200px;
+	height:24%;
+}
+
+.cooking_time {
+	display:table;
+	background: #f3cb1b;
+	width:200px;
+	height:24%;
+	margin-top:5px;
+}
+
+.skill_level {
+	display:table;
+	background: #999;
+	width: 200px;
+	height:24%;
+	margin-top:5px;
+}
+
+.makes {
+	display:table;
+	background: #777;
+	color:#aaaaaa;
+	width: 200px;
+	height:24%;
+	margin-top:5px;
+}
+
+.list_entry {
+	display:table-cell;
+	font-size: 18px;
+	color: #555555;
+	padding-left:20px;
+	vertical-align: middle;
+}
+.dozen_cookies {
+	font-size:18px;
+}
+
+.list_big {
+	font-size: 24px;
+	color:#dddddd;
+}
+
+.ingredients {
+	float:left;
+	display:inline-block;
+	width:30%;
+	min-width:400px;
+	max-width:600px;
+}
+
+.ingredients_title {
+	font-size:24pt;
+	color: #ff9b2e;
+}
+
+.ingredients_list {
+	font-size:16pt;
+	color:#333;
+
+}
+
+.instructions {
+	overflow:hidden;
+	padding-left:30px;
+	border-left-width:1px;
+	border-left-color:#888;
+}
+
+.strong_instruction {
+	color: #ff9b2e;
+}
+
+.instruct_step {
+	font-size:14pt;
+
+}
