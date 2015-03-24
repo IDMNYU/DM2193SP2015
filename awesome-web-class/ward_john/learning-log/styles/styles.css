@@ -137,53 +137,26 @@ header a:visited:hover {
 	position:relative;
 }
 nav {
-	width: 100%;
+	width: 20%;
+	padding-left:15px;
+	padding-right:15px;
 	clear: both;
-	margin: 0 auto;
+	float:right;
 	background:white;
-	display: relative;
+	position: relative;
 }
 nav a:visited {
 	color: #000;
 }
 nav li {
-	width: 15%;
+	width: 100%;
 	margin: 0%;
 	display: flex;
 	justify-content: center; /* horizontal align */ 
     align-items: center; /* vertical align */
-	float: left;
 	color: black;
 	box-shadow: 0px 0px 0px 1px #888888;
 	min-height: 3em;
-	vertical-align: middle;
-}
-nav li a {
-	display:block;
-}
-
-/* COPY FROM http://www.cssnewbie.com/easy-css-dropdown-menus/#.VQImcRDF8qo */
-nav ul ul {
-	display: none;
-	width: 10em; /* Width to help Opera out */
-	background-color: #fff;
-}
-nav ul li:hover ul {
-	display: block;
-	position: absolute;
-	padding: 0px;
-}
-nav ul li:hover li {
-	float: none;
-	width: 100%;
-}
-nav ul li:hover li a {
-	background-color: #000;
-	border-bottom: 1px solid #fff;
-	color: #000;
-}
-nav ul li:hover li:hover {
-	background-color: #ddf;
 }
 
 /* END COPY */
