@@ -46,14 +46,18 @@ You are charged with taking one of the most highly trafficked sites and redesign
   * Findability & Scanability
   * Responsive & Mobile First
 
-* Deliverables
-  * Midterm HTML Document
+### Deliverables
+
+  * Midterm Documentation
     * Contains:
-      * Consistent navigation linking to individual sections
-      * Stylesheet & Print Stylesheet
       * Executive Summary of your concept
       * Wireframes for three different views (Thurs)
       * Designs for three different views (Next Tues)
+      * Any supporting materials to help communicate your ideas
+        * Mood Boards
+        * Click Throughs
+        * Storyboards
+        * Color Palettes
     * Examples:
       * Craigslist Homepage
       * Craigslist List View

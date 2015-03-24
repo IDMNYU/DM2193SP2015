@@ -16,6 +16,43 @@
 ## Week 9
 
 ### In-Class
+
+#### Tuesday
+Midterm Presentations
+Midterm Documentation
+
+
+#### Thursday
+* Introduction to Javascript
+  * Native Objects
+    * Window
+    * Document
+  * Events
+    * Load vs. Ready
+    * Click vs. Mouse Down
+    * Hover vs. Mouse Over
+    * Event Bubbling
+      * http://www.quirksmode.org/js/events_order.html
+    * Event Object
+  * Scope [Read This](http://www.smashingmagazine.com/2009/08/01/what-you-need-to-know-about-javascript-scope)
+  * Classical Inheritance vs. Prototypal Inheritance
+  * [Javascript Cheat Sheet](http://overapi.com/javascript)
+  * Libraries & Utilities
+    * [jQuery](http://jquery.com)
+    * [Underscore](http://underscorejs.org/), [LoDash](https://lodash.com/)
+    * Older libraries like Prototype, MooTools, YUI
+  * Application Frameworks
+    * Ember
+    * Knockout
+    * Angular
+    * Backbone
+  * Review Chrome Developer Tools Again!
+  * ![DevTools](http://j-hnnybens-n.com/capture/cwqvi.png)
+    * Javascript console
+    * Network Requests
+* Intro to jQuery
+  * [jQuery Cheat Sheet](http://oscarotero.com/jquery)
+* JS Coding Exercises
 * Frameworks and Preprocessors
   * Bootstrap
   * SASS, LESS
