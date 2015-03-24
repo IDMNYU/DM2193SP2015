@@ -18,8 +18,8 @@
 ### In-Class
 
 #### Tuesday
-Midterm Presentations
-Midterm Documentation
+* Midterm Presentations
+* [Documentation Q & A](./midterm_README.md#deliverables)
 
 
 #### Thursday

@@ -36,13 +36,15 @@ You are charged with taking one of the most highly trafficked sites and redesign
 * Identify common problems and try to solve them
 
 * Topics to think about when working on your redesign:
+  * Define your Audience
+  * Identify problems / issues
+  * Establish some goals
   * User Experience
-  * Interface Design
+  * Interface Design and Interactive Narrative
   * Information Architecture
   * Page Heirarchy & Composition
-  * Audience
   * Accessibility
-  * "Above the fold"
+  * Above the fold vs. Below the fold.
   * Findability & Scanability
   * Responsive & Mobile First
 
