@@ -38,18 +38,3 @@ a:visited {
 	font-size: 14pt;
 	text-indent: 20px;
 }
-
-.topbar {
-	position: fixed;
-	float:left;
-	padding: 0 0 0 0;
-	margin: 0 0 0 0;
-	height:200px;
-	width:100%;
-	background:#ccc;
-}
-
-.topbar.title {
-	color:#222;
-
-}
