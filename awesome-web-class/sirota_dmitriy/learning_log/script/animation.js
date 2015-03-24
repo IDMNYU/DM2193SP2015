@@ -62,7 +62,7 @@ $(document).ready(function () {
     var ball6 = new Ball($('.flip6'), 20, null, 1000);
     ball6.animateDiv();
     
-    var ball7 = new Ball($('.flip7'), 20);
+    var ball7 = new Ball($('.flip7'), 20, null, 1000);
     ball7.animateDiv();
 
     var ball8 = new Ball($('.flip8'), 20);
