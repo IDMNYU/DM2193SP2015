@@ -1,1 +1,0 @@
-My midterm project takes the groups section of Craigslist and fleshes it out with a more navigable interface. It works in the same way, with a group coordinator listing the group and people being able to view and respond to the posting. But the searching is better, since the original Craigslist does not allow a user to change locations easily.
