@@ -1,0 +1,43 @@
+/*
+    Parsed Top Down 
+    Specificity
+    Cascade
+
+
+    General Selectors
+    | |
+    | |
+    | |
+     V
+    Specific Selectors
+
+ */
+
+/*
+    Star selector selects every element
+    It can be slightly inefficient
+
+    Used for lightweight "Reset" Styles
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+}
+
+body {
+}
+
+.blue-box {
+
+    /*
+        Margin: auto; centers block elements with a defined width.
+    */
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    background: blue;
+}
