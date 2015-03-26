@@ -1,0 +1,23 @@
+.html {
+		font-family: sans-serif;
+}
+
+.home {
+		background: #000;
+		color: #fff;
+}
+
+.about {
+		background: : #cccccc;
+		color: : 333;
+}
+
+.heading {
+		color: #888;
+		font-size: 100px;
+		margin:0;
+}
+
+.about .heading {
+		color: #f00;
+}
