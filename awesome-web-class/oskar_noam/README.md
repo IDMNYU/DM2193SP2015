@@ -17,5 +17,5 @@
 
 Contact Info
 	Email: osknoam@gmail.com
-	Twitter: @oskarnoam
-	http://sites.bxmc.poly.edu/~luismaldonado/learning_logs
+	Midterm:
+	http://sites.bxmc.poly.edu/~luismaldonado/craigslist/
