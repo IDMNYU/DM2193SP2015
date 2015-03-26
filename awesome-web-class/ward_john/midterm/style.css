@@ -1,0 +1,11 @@
+body {
+	background: white;
+	color: black;
+	display:block;
+	width:80%;
+	margin:auto;
+	text-align:center;
+}
+img {
+	padding-bottom:10px;
+}
