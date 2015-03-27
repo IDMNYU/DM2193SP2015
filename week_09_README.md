@@ -60,5 +60,6 @@
 ### Reading Assignment
 
 ### Homework
+* Codecademy Javascript Lessons http://www.codecademy.com/
 
 ### Q&A / Notes
