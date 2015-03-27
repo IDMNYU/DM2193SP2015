@@ -28,12 +28,12 @@ a{
 a:hover,p:hover,li:hover{
     font-weight: bold;
 }
-img{
-    border: 1px solid #ff4d1e;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-}
+/*img{*/
+    /*border: 1px solid #ff4d1e;*/
+    /*-webkit-border-radius: 20px;*/
+    /*-moz-border-radius: 20px;*/
+    /*border-radius: 20px;*/
+/*}*/
 p{
     display: inline-block;
     text-align: left;
