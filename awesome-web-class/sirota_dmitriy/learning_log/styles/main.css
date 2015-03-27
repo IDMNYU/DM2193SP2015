@@ -25,6 +25,11 @@ h2, h3, h4, h5, h6 {
 h2 {
        
 }
+code {
+    padding: 2px;
+    font-family: monospace;
+    background: #ccc;
+}
 header {
     height: 150px;
     background: #718BB2;    

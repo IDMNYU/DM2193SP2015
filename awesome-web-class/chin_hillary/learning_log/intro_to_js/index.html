@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JS Examples</title>
+</head>
+<body>
+
+    <img id="cookie" src="images/cookies.png" width="361" height="361" alt="cookies"/>
+
+    <script>
+    	//This where Javascript happens
+    	/* Global Objects
+    	 	-Window
+    	 	-Docmument
+    	 	-Console
+		
+    	 Global Methods
+    		-Alert
+    		-Prompt
+
+    	 Objects
+    		 -Constructor
+    		 -Instance
+
+    	"Everything in Javascript is a function"
+    	""
+		*/
+
+    	/*
+    	alert('hahahaha');
+    	alert("doing it this way"); //No double quotes pls
+    	window.alert('this is also works hahaahahha	:');
+ 
+    	var stuff = prompt('what say u?');
+    	console.log(stuff);
+    	*/
+
+    	/* We want to be able to grab elements from the page i.e.) make a carousel, clicking elements make other elements move
+
+    	Stuff Javascript does:
+    	-Listen for events
+    	-Grab elements
+    	-Functions
+    	-Closures
+    	-Scope
+    	-Manipulating the DOM
+
+    	-jQuery makes your life easier, it's a library built from Javascript. It is not javascript, but it is based on it
+		*/
+
+		//Events
+		alert('before');
+
+		/*window.onload = function(){
+			alert('after');
+		}*/
+
+		document.addEventListener('DOMContentLoaded', function(event){
+			alert('in between');
+		});
+
+		document.addEventListener('DOMContentLoaded', function(event){
+			alert('again');
+		});
+
+		document.addEventListener('DOMContentLoaded', function(event){
+			alert('and again');
+		});
+
+		/*window,onload = function(){
+			alert('oops');
+		}
+		*/
+/*
+		window.addEventListener('load', function(){
+			alert
+		}*/
+    </script>
+</body>
+</html>
