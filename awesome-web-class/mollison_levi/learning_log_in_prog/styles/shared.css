@@ -120,7 +120,7 @@ body{
 }
 
 .s-weeknav{
-    float:left;
+    
 }
 
 .s-title{
@@ -128,7 +128,20 @@ body{
     min-width:150px;
     background-color:rgb(255,0,255);
     position:relative;
-    margin:auto;
+    left:25%;
+    text-align: center;
+    font-size:20pt;
+}
+
+.s-art{
+    width:50%;
+    position:relative;
+    left:25%;
+    background-color:rgb(200,0,150);
+    position:relative;
+    font-size:12pt;
+    min-height:450px;
+    overflow:scroll;
 }
 
 

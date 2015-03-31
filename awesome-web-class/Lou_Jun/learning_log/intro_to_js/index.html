@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JS Examples</title>
+</head>
+<body>
+
+    <img id="cookie" src="images/cookies.png" width="361" height="361" alt="cookies"/>
+
+    <script>
+    	//Global Objects
+    	//  -window
+    	//  -document
+    	//  -console
+
+    	//  -Object
+    	//  -Array
+    	// 	-Number
+    	//  
+
+    	// Global Methods
+    	// alert
+    	// prompt
+
+    	// Objects
+    	//		Contructor
+    	// 		instance
+
+    	// "everything in javascript is an object"
+    	// "everything in javascript is a function"
+
+
+
+    		//**This is where the javascript happens
+    		//**Open web developer when on website
+    		//**refresh the page and Javascript error will display these
+    	//alert('haha');
+
+    	//**should you write something inbetween
+    	// asdafasfs
+    		//**It will error after the first alert and stop the rest.
+
+    	//alert("haha");
+    	//window.alert('this also works! hahaha   :)');
+
+		//***This will create a prompt where the user can type something. That will be shown in the developer console.
+
+    	// var stuff = prompt('What say you');
+    	// console.log(stuff);
+
+
+    	//We want to be able to grab elements from the page
+    	// We want to make a carousel
+    	//     clicking elements makes other elements move
+
+    	// Listen for events
+    	// Grab elements
+    	// Function
+    	// Closures
+    	// Scopes
+    	// Manipulating the DOM
+    	// jQuery : Makes your life easier, it's a library
+
+    	//Events
+    	// alert('before')
+
+
+    		//windows.onload event overides everything at the end
+    	window.onload = function() {
+    		// alert('after');
+    	}
+
+    	document.addEventListener("DOMContentLoaded"), function(event) {
+    		alert('in between');
+    	}
+    	
+    	document.addEventListener("DOMContentLoaded"), function(event) {
+    		alert('again');
+    	}   
+
+    	document.addEventListener("DOMContentLoaded"), function(event) {
+    		alert('and again');
+    	}
+
+    	document.addEventListener("load"), function() {
+    		alert('after');
+    	}
+
+    	document.addEventListener("load"), function() {
+    		alert('after 2');
+    	}
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JS Examples</title>
+</head>
+<body>
+
+    <img id="cookie" src="images/cookies.png" width="361" height="361" alt="cookies"/>
+
+    <script>
+    	// alert('hahahaha');
+    	// alert("doing it this way");
+    	// window.alert('this also works! hahahaha      :)');
+		window.onload;
+
+		alert('before');
+
+		window.onload = function(){
+			alert('after');
+		}
+
+		document.addEventListener("DOMContentLoaded", function(event){
+			alert('in between');
+		});
+    </script>
+
+</body>
+</html>

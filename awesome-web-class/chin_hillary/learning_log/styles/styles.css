@@ -220,8 +220,14 @@ nav li ul a:hover {
 .midterm-container img{
 	max-width:100%;
 	border:1px lightgrey solid;
+	padding-bottom:10px;
+}
+
+.midterm-container h2{
+	text-align:center;
+	margin-bottom:20px;
 }
 
 .img-desc{
-	padding:50px;
+	padding:40px 50px 50px 50px;
 }

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* using this to */
 /*div {
 	border: 3px solid pink;
@@ -60,7 +60,7 @@ br{
 
 .instructions{
 	width: 800px;
-=======
+
 .title
 {
 	color: blue;
@@ -77,14 +77,14 @@ hr
 {
  	border-bottom-style: dotted;
  	color: lightpink;
->>>>>>> 73bb28a1308aedf43b5b1ab34bfa2af8f56dca58
+
 }
 
 .instructions br{
 	line-height: 50px;
 }
 
-<<<<<<< HEAD
+
 .info{
 	padding: 100px;
 }
@@ -92,7 +92,7 @@ hr
 
 
 
-=======
+
 .col-left
 {
 	width: 300px;
@@ -118,4 +118,3 @@ hr
 }
 
 
->>>>>>> 73bb28a1308aedf43b5b1ab34bfa2af8f56dca58
