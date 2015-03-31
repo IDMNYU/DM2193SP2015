@@ -21,24 +21,28 @@ h1{
 	margin:20px;
 }
 
-.mainpage {
+.pagename {
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 30px;
 	margin: 30px;
-}
-.seachpage {
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 30px;
-	margin: 30px;
-}
-.areapage {
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 30px;
-	margin: 30px;
+	border: 2px solid black;
+	display: inline-block;
 }
 .empty{
 	margin: 50px;
+}
+.images{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #a1a1a1; 
+}
+.description{
+	margin: 30px;
+	font-size: 25px;
+	text-align: center;
+}
+.pdf{
+	font-size: 100px;
 }
