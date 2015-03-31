@@ -1,0 +1,32 @@
+body {
+    
+    text-align: center;
+    background-color: floralwhite;
+    
+}
+
+header li{
+    
+    list-style-type: none;
+    
+}
+
+section>a {
+    
+    display: block;
+    
+}
+
+section>div>img {
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    
+}
+
+h1 {
+   
+    text-decoration: underline;
+    
+}
