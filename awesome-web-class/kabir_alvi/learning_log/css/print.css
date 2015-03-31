@@ -1,0 +1,11 @@
+.page-break-before{
+    display:block;
+    page-break-before: always;
+    margin-top: 15px;
+}
+a{
+    display: block;
+}
+p{
+    font-size: 22px;
+}
