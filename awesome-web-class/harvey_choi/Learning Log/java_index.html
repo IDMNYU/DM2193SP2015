@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JS Examples</title>
+</head>
+<body>
+
+    <h1> This will be here... </h1>
+
+    <img src="images/cookies.png" width="361" height="361" alt="cookies"/>
+
+    <script>
+
+        // Global Objects
+        // - window
+        // - document
+        // - console
+
+        // - Object
+        // - Array
+        // - Number
+        // - Date -----> moment.js
+
+        // Global Methods
+        // - alert
+        // - prompt
+
+        // Objects
+        //      Constructor (Templates->capital letters)
+        //      instance
+        //      
+    
+    	//This is where javascript happens
+    	//alert('hahahahhaa');
+    	//alert('doing it this way')
+    	//window.alert('this also works! hahhaa :)');
+
+		//var stuff = prompt('What say you?')
+		//console.log(stuff);
+        //
+        //We want to be able to grab elements from the page.
+        //We want to make a carousel
+        //Clicking elements makes other elements move
+
+        // Listen for Events
+        // Grab Elements
+        // Functions
+        // Closures
+        // Scope
+        // Manipulating the DOM
+        //jQuery -- makes your life easier
+        //       -- helps you write more code
+
+        //Events
+        alert('before');
+
+        //window.onload = function(){
+        //    alert('after');
+        //}
+
+        document.addEventListener('DOMContentLoaded', function(event){
+            alert('in between')
+        });
+
+        document.addEventListener('DOMContentLoaded', function(event){
+            alert('again')
+        });
+
+        document.addEventListener('load', function(event){
+            alert('after')
+        });
+
+        document.addEventListener("DOMContentLoaded", function(event){
+            alert('and again')
+        });
+
+
+
+    </script>
+
+</body>
+</html>

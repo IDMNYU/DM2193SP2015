@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JS Examples</title>
+</head>
+<body>
+
+    <img id="cookie" src="images/cookies.png" width="361" height="361" alt="cookies"/>
+    <!--Picture(s) loads as scripts are fetched; usually finishes before scripts happen-->
+    
+    <script>
+        
+        //= = = type conversion "2" ===2 is false
+        //= = no type conversion "2" ==2 is true
+        //keep console open w/ js (js doesn't compile)
+        
+        //alert('message');
+        //window.alert('this works!');
+    
+        //var stuff = prompt('type something');
+        //console.log(stuff);
+        
+        //Global Objects
+        //window
+        //document
+        //console
+        
+        // -Objects
+        // -Array
+        // -Number
+        // -Date ----> moment.js (library)
+        
+        //Global methods
+        //alert
+        //prompt
+        
+        //Objects
+        //  Constructors
+        //  Instances
+        
+        //Listen for events
+        //Grab elements
+        //Functions
+        //Closures
+        //Scopes
+        //Manipulating DOM
+        //jQuery (library) != javascript
+        
+        //Events
+        
+        alert('before');
+        window.onload = function() {
+            
+            alert('after');
+            
+        }
+        
+        //additive- in queues;
+        document.addEventListener("DOMContentLoaded", function(event) {
+            
+            alert('in between');
+            
+        });
+        
+        document.addEventListener("DOMContentLoaded", function(event) {
+            
+            alert('and again');
+            
+        });
+        
+        //Overrides previous one
+        window.onload = function() {
+            
+            alert('after again');
+            
+        }
+        
+    </script>
+
+</body>
+</html>

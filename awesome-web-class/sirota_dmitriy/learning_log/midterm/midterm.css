@@ -17,6 +17,9 @@ h1, h2, h3 {
 img {
     display: inline-block;
 }
+.printHead {
+    display: none;
+}
 .pageHeader {
     text-align: center;
 }
@@ -98,6 +101,9 @@ img {
     body {
         width: 100%;
     }
+    .printHead {
+        display: none;
+    }
     .overview-text, .wf1-text, .wf2-text, .wf3-text {
         max-width: 400px;
     }
@@ -121,6 +127,9 @@ img {
 @media only screen and (max-width: 889px) and (min-width: 820px) {
     body {
         width: 100%;
+    }
+    .printHead {
+        display: none;
     }
     .wf1-img, .wf2-img, .wf3-img {
         width: 400px;
@@ -155,6 +164,9 @@ img {
         display: block;
         margin-bottom: 20px;
         text-align: center;
+    }
+    .printHead {
+        display: none;
     }
     .pageHeader {
         margin: 0 auto;
@@ -206,4 +218,90 @@ img {
     }
 }
 
+@media print {
+    body {
+        width: 100%;
+    }
+    p {
+        font-size: 12px;
+    }
+    .desktopH {
+        display: none;
+    }
+    .mobileH {
+        display: block;
+        margin-bottom: 20px;
+
+        text-align: center;
+        page-break-before: always;
+    }
+    .pageHeader {
+        display: none;
+    }
+    .printHead {
+        display: block;
+        text-align: center;
+    }
+    .printHead h1 {
+        font-size: 2.5em;
+        margin-bottom: 15px;
+    }
+    .printHead h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    .printHead h3 {
+        font-size: 1.5em;
+    }
+    .wireframe1, .wireframe2, .wireframe3 {
+        width: 100%;
+    }
+    .oldSite, .wf1-text, .wf2-text, .wf3-text, .wf1-img, .wf2-img, .wf3-img {
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+    .wf1-img, .wf2-img, .wf3-img {
+        width: 70%;
+    }
+    .wf1-text, .wf2-text, .wf3-text {
+        width: 100%;
+        max-width: none;
+        padding: 10px;
+        text-align: center;
+    }
+    .design, .design3 {
+        width: 100%;
+        margin-bottom: 60px;
+        border: none;
+    }
+    .compImg {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .overview {
+        float: none;
+        width: 100%;
+        max-width: none;
+        border-bottom: none;
+    }
+    .oldSite {
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+    .overview-text {
+        page-break-before: auto;
+        float: none;
+        max-width: 819px;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .pageFooter {
+        display: none;
+    }
+}
 
