@@ -51,34 +51,71 @@
 // 
 // 
 
-// Events
-console.log('before');
+// // Events
+// console.log('before');
 
-// window.onload = function(){
+// // window.onload = function(){
+// //     console.log('after');
+// // }
+
+// document.addEventListener('DOMContentLoaded', function(event) {
+//     console.log('in between');
+// });
+
+// document.addEventListener('DOMContentLoaded', function(event) {
+//     console.log('again');
+// });
+
+// document.addEventListener('DOMContentLoaded', function(event) {
+//     console.log('and again');
+// });
+
+// // window.onload = function(){
+// //     console.log('oops');
+// // }
+
+// window.addEventListener('load', function(){
 //     console.log('after');
-// }
+// });
 
-document.addEventListener('DOMContentLoaded', function(event) {
-    console.log('in between');
-});
+// window.addEventListener('load', function(){
+//     console.log('after 2');
+// });
 
-document.addEventListener('DOMContentLoaded', function(event) {
-    console.log('again');
-});
 
-document.addEventListener('DOMContentLoaded', function(event) {
-    console.log('and again');
-});
+// Mar 31 
 
-// window.onload = function(){
-//     console.log('oops');
-// }
+// HTML
+// class name toggling
+// dom manipulation
 
-window.addEventListener('load', function(){
-    console.log('after');
-});
+// grab existing elements
+// var element document.getElementById("div1");
 
-window.addEventListener('load', function(){
-    console.log('after 2');
-});
+// create element
+// https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+// var element = document.createElement(tagName);
+
+// modify attributes
+
+    // className
+    // https://developer.mozilla.org/en-US/docs/Web/API/Element/className
+    // element.className
+
+    // classList
+    // https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+    // element.classList
+
+    // ... More (see console)
+    // element.id
+    // element.style
+
+// insert elements
+// INSIDE 
+// https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+// document.body.appendChild(p);
+// BEFORE
+// https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
+// AFTER
+// There is no insertAfter method. It can be emulated by combining the insertBefore method with nextSibling.
 
