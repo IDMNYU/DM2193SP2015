@@ -49,6 +49,7 @@ body {
     padding: 20px;
     margin: 20px 0;
     border-radius: 3px;
+    transition: all .95s ease-in-out;
 }
 
 .my-button {
@@ -56,4 +57,8 @@ body {
     padding: 4px;
     border-radius: 4px;
 
+}
+.inactive{
+
+    background-color: red;
 }
