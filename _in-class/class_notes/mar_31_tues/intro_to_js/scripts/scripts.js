@@ -85,30 +85,80 @@
 
 // Mar 31 
 
-// HTML
-// class name toggling
-// dom manipulation
+// Var & Scope
+// var mything = 1;
 
-// grab existing elements
-// var element document.getElementById("div1");
+// function stuff() {
+//     var mything = 2;
+//     console.log('inside stuff', mything);
+// }
 
+// console.log('after stuff', mything);
+
+// stuff();
+
+/////////////////////////////////////
+
+// Grabbing Existing Elements
+var myHeading = document.getElementById("my-heading");
+// var myHeading2 = document.getElementsByClassName("my-heading")[0];
+// console.log(myHeading === myHeading2);
+
+// myHeading.style.backgroundColor = "#ccc";
+// myHeading.style.padding = "10px 10px 20px 10px";
+// myHeading.style.position = "relative";
+
+// var myTimeBasedFunction = function(){
+//     var currentTop = myHeading.style.top || '0px';
+//     console.log('timeout', currentTop, (parseInt(currentTop.split('px')[0], 10) + 10));
+//     myHeading.style.top = (parseInt(currentTop.split('px')[0], 10) + 10) + 'px';
+// };
+
+// setTimeout(myTimeBasedFunction, 2000);
+// setInterval(myTimeBasedFunction, 4000);
+
+////////////////////////////////////////////////
+
+// className
+// https://developer.mozilla.org/en-US/docs/Web/API/Element/className
+// element.className
+
+// myHeading.className = "my-alternate-heading"; // Completely change the class
+// myHeading.className = myHeading.className + " my-alternate-heading"; // Append a class
+
+// classList
+// https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+// element.classList
+
+myHeading.classList.add('my-alternate-heading');
+// myHeading.classList.remove('my-heading');
+
+///////////////////////////////////////
 // create element
 // https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
-// var element = document.createElement(tagName);
+var myBox = document.createElement('div');
 
-// modify attributes
+myBox.classList.add('my-box');
+myBox.innerHTML = 'My Box';
 
-    // className
-    // https://developer.mozilla.org/en-US/docs/Web/API/Element/className
-    // element.className
+// INSIDE
+document.body.appendChild(myBox);
+console.log(myBox);
 
-    // classList
-    // https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
-    // element.classList
+// Remove an element from the DOM
+// myBox.remove();
 
-    // ... More (see console)
-    // element.id
-    // element.style
+// BEFORE
+// Get a reference to the element, before we want to insert the element
+var myButton = document.getElementById("my-button");
+console.log(myButton);
+// Get a reference to the parent element
+var parentDiv = myButton.parentNode;
+// Insert the new element into the DOM before sp2
+parentDiv.insertBefore(myBox, myButton);
+
+// AFTER
+parentDiv.insertBefore(myBox, myButton.nextSibling);
 
 // insert elements
 // INSIDE 
@@ -118,4 +168,34 @@
 // https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
 // AFTER
 // There is no insertAfter method. It can be emulated by combining the insertBefore method with nextSibling.
+
+////////////////////////////
+// Combing EVENTS with Manipulation
+
+myButton.addEventListener('click', function(e){
+    // e is a MouseEvent object
+    // console.log(myButton === e.currentTarget);
+    // console.log(e.target);
+    
+    // I want to change the blue box class name when i click the button
+    // 
+
+    myBox.classList.toggle('inactive');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

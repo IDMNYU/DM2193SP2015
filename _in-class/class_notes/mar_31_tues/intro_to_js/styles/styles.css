@@ -36,6 +36,11 @@ body {
     margin: 0 0 20px;
 }
 
+.my-alternate-heading {
+    font-family: monospace;
+    margin: 0 0 20px;
+}
+
 .my-cookie {
     display: block;
     border-radius: 3px;
@@ -49,11 +54,19 @@ body {
     padding: 20px;
     margin: 20px 0;
     border-radius: 3px;
+
+    transition: all 1s ease;
+}
+
+.my-box.inactive {
+    background: #666;
+    opacity: 0.66;
 }
 
 .my-button {
     font-size: 18px;
+    margin: 10px 0;
     padding: 4px;
     border-radius: 4px;
-
+    
 }
