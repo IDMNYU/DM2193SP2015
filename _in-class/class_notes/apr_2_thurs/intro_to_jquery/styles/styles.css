@@ -47,6 +47,8 @@ body {
 }
 
 .my-box {
+    position: relative;
+    
     background: blue;
     height: 50px;
     width: 50px;
