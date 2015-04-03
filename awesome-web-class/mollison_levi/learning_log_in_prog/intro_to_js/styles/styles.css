@@ -23,27 +23,37 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 100%;
     font-weight: normal;
-}
-
-html {
-
+    outline: none;
 }
 
 body {
-    background-color: green;
-    margin: 20px;
+    font-family: Arial;
+    margin: 50px;
 }
 
-.ll-header {
-    font-size: 150%;
+.my-heading {
+    margin: 0 0 20px;
 }
 
-.ll-nav {
-
+.my-cookie {
+    display: block;
+    border-radius: 3px;
 }
 
-.ll-article {
+.my-box {
+    background: blue;
+    height: 50px;
+    width: 50px;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 3px;
+}
+
+.my-button {
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 4px;
 
 }
