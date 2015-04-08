@@ -68,7 +68,6 @@ li{
     vertical-align: middle;
     border: 2px solid #ff9200;
     border-radius: 10px;
-
     box-shadow: black 0 1px 0;
 }
 .button:hover{
@@ -77,5 +76,13 @@ li{
     box-shadow: orangered 0 1px 0;
     /*background: #ff530b;*/
     /*background: -webkit-gradient(linear, left top, left bottom, from(#e38a52), to(#c2732e));*/
+    cursor: pointer;
+}
+.hide-entry-div{
+    margin:0 auto;
+    text-align: right;
+    max-width: 40%;
+}
+.hide-entry-text{
     cursor: pointer;
 }
