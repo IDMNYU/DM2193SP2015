@@ -43,6 +43,17 @@
 
 // Listen for events
 // Grab elements
+//var myHeading = document.getElementById("my-heading");
+
+var mything = 1;
+
+function stuff() {
+	var mything = 2;
+	console.log('inside stuff: ', mything);
+}
+console.log('outside stuff: ', mything);
+
+stuff();
 // Functions
 // Closures
 // Scope
