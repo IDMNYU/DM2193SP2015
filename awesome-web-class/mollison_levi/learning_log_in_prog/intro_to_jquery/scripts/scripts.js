@@ -100,7 +100,7 @@
 /////////////////////////////////////
 
 // Grabbing Existing Elements
-var myHeading = document.getElementById("my-heading");
+// var myHeading = document.getElementById("my-heading");
 // var myHeading2 = document.getElementsByClassName("my-heading")[0];
 // console.log(myHeading === myHeading2);
 
@@ -130,61 +130,76 @@ var myHeading = document.getElementById("my-heading");
 // https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
 // element.classList
 
-myHeading.classList.add('my-alternate-heading');
-// myHeading.classList.remove('my-heading');
+// myHeading.classList.add('my-alternate-heading');
+// // myHeading.classList.remove('my-heading');
 
-///////////////////////////////////////
-// create element
-// https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
-var myBox = document.createElement('div');
+// ///////////////////////////////////////
+// // create element
+// // https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+// var myBox = document.createElement('div');
 
-myBox.classList.add('my-box');
-myBox.innerHTML = 'My Box';
+// myBox.classList.add('my-box');
+// myBox.innerHTML = 'My Box';
 
-// INSIDE
-document.body.appendChild(myBox);
-console.log(myBox);
+// // INSIDE
+// document.body.appendChild(myBox);
+// console.log(myBox);
 
-// Remove an element from the DOM
-// myBox.remove();
+// // Remove an element from the DOM
+// // myBox.remove();
 
-// BEFORE
-// Get a reference to the element, before we want to insert the element
-var myButton = document.getElementById("my-button");
-console.log(myButton);
-// Get a reference to the parent element
-var parentDiv = myButton.parentNode;
-// Insert the new element into the DOM before sp2
-parentDiv.insertBefore(myBox, myButton);
+// // BEFORE
+// // Get a reference to the element, before we want to insert the element
+// var myButton = document.getElementById("my-button");
+// console.log(myButton);
+// // Get a reference to the parent element
+// var parentDiv = myButton.parentNode;
+// // Insert the new element into the DOM before sp2
+// parentDiv.insertBefore(myBox, myButton);
 
-// AFTER
-parentDiv.insertBefore(myBox, myButton.nextSibling);
+// // AFTER
+// parentDiv.insertBefore(myBox, myButton.nextSibling);
 
-// insert elements
-// INSIDE 
-// https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
-// document.body.appendChild(p);
-// BEFORE
-// https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
-// AFTER
-// There is no insertAfter method. It can be emulated by combining the insertBefore method with nextSibling.
+// // insert elements
+// // INSIDE 
+// // https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+// // document.body.appendChild(p);
+// // BEFORE
+// // https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
+// // AFTER
+// // There is no insertAfter method. It can be emulated by combining the insertBefore method with nextSibling.
 
-////////////////////////////
-// Combing EVENTS with Manipulation
+// ////////////////////////////
+// // Combing EVENTS with Manipulation
 
-myButton.addEventListener('click', function(e){
-    // e is a MouseEvent object
-    // console.log(myButton === e.currentTarget);
-    // console.log(e.target);
+// myButton.addEventListener('click', function(e){
+//     // e is a MouseEvent object
+//     // console.log(myButton === e.currentTarget);
+//     // console.log(e.target);
     
-    // I want to change the blue box class name when i click the button
-    // 
+//     // I want to change the blue box class name when i click the button
+//     // 
 
-    myBox.classList.toggle('inactive');
-});
+//     myBox.classList.toggle('inactive');
+// });
 
+// var myHeading = document.getElementById("#my-heading");
+// var myHeading = document.querySelector("#my-heading");
+// var myHeading = document.querySelectorAll("#my-heading"); // get an array wihth one headng
 
+var myHeading = $('#my-heading');
 
+myHeading.css({
+	'background-color' : '#ccc',
+	'padding' : '10px 10px 20px 10px',
+	'position' : 'relative'
+})
+
+var myBox = $('<div />', {
+	class: 'my-box'
+})
+.text('My Box')
+.after();
 
 
 
