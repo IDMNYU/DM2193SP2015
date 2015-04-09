@@ -1,31 +1,44 @@
 /**
  * Created by Alvi on 4/7/2015.
  */
-function scrollToElement(element){
-    var href = $(element).attr('href');
+$(document).ready(function(){
+    $("#top").hide();
+    $(document).scroll(function(){
+        if ($(document).scrollTop()>0){
+            $("#top").fadeIn("fast");
+            console.log($(document).scrollTop());
+        }
+        else{
+            $("#top").fadeOut("fast");
+            console.log($(document).scrollTop());
+        }
+    });
+    $("#top").click(function(e){
+        e.preventDefault();
+        $("html,body").stop().animate({
+            'scrollTop':"0"
+        });
+    });
     $("a[href^='#']").on('click',function (e) {
         e.preventDefault();
-        var target = element.hash;
+        var target = this.hash;
         var $target = $(target);
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top
         }, 900);
     });
-}
-
-$(document).ready(function(){
-    $("h1:first").hide().fadeIn(1000);
-    $(".entry-link").click(function(){
-        scrollToElement(this);
+    $(".hide-entry-text").click(function(e){
+        e.preventDefault();
+        $(this).toggleClass("hide-entry-text");
+        $parent=$(this).parent();
+        if (!$(this).hasClass("hide-entry-text")){
+            $(this).addClass("show-entry-text");
+            $(this).text("Show Entry");
+            $parent.next().slideUp(1000,'linear');
+        }
+        else{
+            $(this).text("Hide Entry");
+            $parent.next().slideDown(1000,'linear');
+        }
     });
-    $(".hide-entry-text").click(function(){
-        var $d = $(this).parent();
-        console.log($(this));
-        $d.next().slideToggle(1000);
-    });
-    //toggle(function(){
-    //    this.parent().hide();
-    //},function(){
-    //    this.parent().show();
-    //});
 });
