@@ -176,7 +176,7 @@ A block element are html items that have the built in nature to automatically co
 ## How many levels of headings are there?
 There are 6 levels of headings
 ## How many HTML tags are there?
-There are about  html tags in all.
+There are about 89 html tags in all.
 ## What two tags are the only descendents of the `<html>` tag?
 head and body
 
