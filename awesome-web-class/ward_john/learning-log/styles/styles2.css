@@ -77,10 +77,12 @@ img {
 body {
 	background: white;
 	color: black;
+	font-family: 'Josefin Sans', sans-serif;
 }
 header {
 	color: white;
 	background-color: #333;
+	font-family: 'Poiret One', cursive;
 	position: relative;
 	text-align: center;
 	padding-top: 25px;
@@ -116,6 +118,7 @@ header a:visited:hover {
 	color: #f00;
 }
 
+/*
 nav {
 	text-align:center;
 	padding-top:30px;
@@ -146,8 +149,65 @@ nav ul li a:hover {
 nav ul li a:visited {
 	color: #666;
 }
+*/
 
-/* END COPY */
+.main {
+	margin: 0 auto;
+	background: white;
+	max-width: 1200px;
+	padding: 10px;
+	position:relative;
+}
+
+.posts {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	clear: both;
+	width: 100%;
+	background:white;
+	/*
+	box-shadow: 1px 1px 1px 1px #888888;
+	*/
+}
+article {
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 1px 1px 1px 1px #ddf;
+}
+
+article h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18pt;
+	margin-bottom: 10px;
+	text-align: center;
+}
+article h4 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12pt;
+	margin-bottom: 10px;
+	text-align: center;
+}
+article section {
+	margin: 5px;
+	display:none;
+}
+article:hover section{
+	display: block;
+}
+article h5 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12pt;
+	margin-bottom: 10px;
+}
+article img {
+	max-width:100%;
+}
+article ul {
+	list-style-type: circle;
+}
+article ul li {
+	margin-left: 25px;
+}
 
 footer {
 	padding-top: 15px;
@@ -156,4 +216,5 @@ footer {
 	clear:both;
 	background: #333;
 	color: white;
+	text-align:center;
 }

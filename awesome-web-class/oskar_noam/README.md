@@ -18,4 +18,5 @@
 Contact Info
 	Email: osknoam@gmail.com
 	Midterm:
-	http://sites.bxmc.poly.edu/~luismaldonado/craigslist/
+	http://sites.bxmc.poly.edu/~luismaldonado/craigslist/midterm_pdf.pdf
+	
