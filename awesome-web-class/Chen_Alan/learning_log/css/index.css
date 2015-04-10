@@ -113,3 +113,17 @@ article {
 .nav-list > li > a:hover {
 	color: #5169a6;
 }
+
+ul {
+	font-size: 1.25em;
+	font-family: HelveticaNeue-Light;
+}
+
+ul ul {
+	font-size: 1.0em;
+	font-family: HelveticaNeue-Light;
+}
+
+h3 {
+	font-size: 1.4em;
+}
