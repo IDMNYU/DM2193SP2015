@@ -7,50 +7,44 @@
 ### 1. 
 ```CSS
 .apples {
-    
+    /* 10 */
 }
 ```
-10
 
 ### 2. 
 ```CSS
 #honeycrisp {
-    
+    /* 100 */
 }
 ```
-100
 
 ### 3. 
 ```CSS
 h1 span {
-    
+    /* 2 */   
 }
 ```
-2
 
 ### 4. 
 ```CSS
 .apples .apple.fuji {
-    
+    /* 30 */ 
 }
 ```
-30
 
 ### 5. 
 ```CSS
 .apples + .oranges {
-    
+    /* 20 */
 }
 ```
-20
 
 ### 6.
 ```
 * {
-    
+    /* 0 */    
 }
 ```
-0
 
 ## Create your own selector equations for the following criteria:
 
@@ -58,95 +52,106 @@ h1 span {
 ```css
     /*
         - Select the direct child of a paragraph tag with the class "kittens"
+        /*
+        .kittens > p
+            <p class="kittens">
+
+}
      */
 ```
-.kittens > p
 
 ### 2. 
 ```css
     /*
         - Select a child div from a parent div with class "container"
+
         - The child has an id of "cid-123"
         - The child has a class name of "item"
         - The selector specificity number is 20
+                .contrainer > .item
+
      */
 ```
-.container .item
 
 ### 3. 
 ```css
     /*
         - Select all of the elements with the class name "stuff" but not with the class name "blah"
+
+        .stuff:not(.blah)
      */
 ```
-.stuff:not(.blah)
 
 ### 4. 
 ```css
     /*
         - Select the last list-item element from the unordered list with the class name "posts"
+        .posts > li:last-child
      */
 ```
-.posts li:last-child
-.posts > li:last-child
-.posts > :last-child
 
 ### 5. 
 ```css
     /*
         - Select the Heading 1 with the class of "logo" and an id of "logo"
         - Specificity is 10
+        .logo
      */
 ```
-.logo
 
 ## What are selectors *selecting*? from where?
-DOM Elements
-
+/*elements from DOM*/
 ## Why is it so important to use `.classes` instead of `elements` or `#ids`?
-IDs make larger stylesheets unmanageable
+/*IDS become locked in. classes are bettery for longevity*/
 
 ## List all of the parts of the box model.
-Content > Padding > Border > Outline > Margin
-
+/*
+content
+heading
+border
+outline
+margin
+*/
 ## What are some examples of pseudo classes and pseudo elements? -- http://www.d.umn.edu/~lcarlson/csswork/selectors/pseudo_dif.html
-:hover, :link, :active, :focus
-::berfore ::after
+/*
 
+:hover :link :active :focus
+
+::before ::after
+*/
 ## Why are class names on the `<HTML>` tag useful?
-Statefulness for the whole page
-
+/**/
 
 ## Javascript Coding Examples
 
 ### 1: 
 ```JS
     // Create a javascript alert
+    /*alert('yo');
+    */
 ```
-window.alert("Hello world!");
 
 ### 2: 
 ```JS
     // Select an element with the ID 'mac-n-cheese'
+    document.getElementById(;mac-n-cheese');
+    document.queryselector(;mac-n-cheese');
+    $('#mac-n-cheese');
 ```
-document.getElementById('mac-n-cheese');
-document.querySelector('#mac-n-cheese');
-$('mac-n-cheese');
 
 ### 3: 
 ```JS
     // Select all of the elements with the class name 'turtles'
 ```
-document.getElementsByClassName("turtles");
-document.querySelectorAll('.turtles');
-$('.turtles');
 
 ### 4: 
 ```JS
     // Log the background color from the style property on the body in the document to the console
+
+    console.log(document.body.stlye.backgroundColor);
+
+    body
 ```
-console.log(document.body.style.backgroundColor);
-document.getElementsByTagName('body')[0].style.backgroundColor;
 
 ### 5: 
 ```JS
@@ -154,21 +159,16 @@ document.getElementsByTagName('body')[0].style.backgroundColor;
     // Store the selection in a variable named 'cookie'
     // Add a `click` event to the element
     // Alert the ID of the element
+
+        var cookie = document.querySelector(;chocolate-chi[-cookie');
+        cookie.addEventListener('click', function(e){
+                alert(cookie.id);
+        }
 ```
-var cookie = document.getElementById('chocolate-chip-cookies');
-cookie.addEventListener("click", function( event ) {
-    window.alert(cookie.id);
-  }, false);
-  cookie.addEventListener("click", function(e) {
-    var el = e.currentTarget;
-    alert(el.id);
-  }, false);
 
 ## What is the difference between document.getElementByID and document.querySelectorAll
-getElementById returns a single element. querySelectorAll returns an array.
-
+/*.getElementByID returns a single element and document.querySelector returns an array*/
 ## Describe how variable scope works in Javascript
-When you define a variable with var, it establishes a new scope. Redeclaration will throw a warning, unless you're in a new scope (in a function)
-
+/*When you define a variable with var in front, it establishes a new scope. Javascript uses scope chains to establish the scope for a given function. There is typically one global scope, and each function defined has its own nested scope. Any function defined within another function has a local scope which is linked to the outer function. It's always the position in the source that defines the scope.*/
 ## What is the difference between Javascript and jQuery?
-jQuery is a library of Javascript stuff. Javascript is an actual language. jQuery wraps native functionality and expands on it. More concise methods to do the same things that Javascript does. Used for cross-browser compatability - that kind of stuff.
+/*JavaScript is a scripting language and JQuery is a library of functions. JQuery gives you more consise methods of what Javascript already does. It also provides cross platform*/

@@ -9,48 +9,48 @@
 .apples {
     
 }
-```
 10
+```
 
 ### 2. 
 ```CSS
 #honeycrisp {
     
 }
-```
 100
+```
 
 ### 3. 
 ```CSS
 h1 span {
     
 }
-```
 2
+```
 
 ### 4. 
 ```CSS
 .apples .apple.fuji {
     
 }
-```
 30
+```
 
 ### 5. 
 ```CSS
 .apples + .oranges {
     
 }
-```
 20
+```
 
 ### 6.
 ```
 * {
     
 }
-```
 0
+```
 
 ## Create your own selector equations for the following criteria:
 
@@ -59,8 +59,8 @@ h1 span {
     /*
         - Select the direct child of a paragraph tag with the class "kittens"
      */
+     p > .kittens
 ```
-.kittens > p
 
 ### 2. 
 ```css
@@ -70,26 +70,27 @@ h1 span {
         - The child has a class name of "item"
         - The selector specificity number is 20
      */
+     div.container > div
+     div.container > div#cid-123
+     div.container > div.item
+     
 ```
-.container .item
 
 ### 3. 
 ```css
     /*
         - Select all of the elements with the class name "stuff" but not with the class name "blah"
      */
+     .stuff .not(blah)
 ```
-.stuff:not(.blah)
 
 ### 4. 
 ```css
     /*
         - Select the last list-item element from the unordered list with the class name "posts"
      */
+     .posts > li:last-child
 ```
-.posts li:last-child
-.posts > li:last-child
-.posts > :last-child
 
 ### 5. 
 ```css
@@ -97,56 +98,49 @@ h1 span {
         - Select the Heading 1 with the class of "logo" and an id of "logo"
         - Specificity is 10
      */
+     h1.logo#logo
 ```
-.logo
 
 ## What are selectors *selecting*? from where?
-DOM Elements
-
 ## Why is it so important to use `.classes` instead of `elements` or `#ids`?
-IDs make larger stylesheets unmanageable
-
+.classes allows for flexibility
 ## List all of the parts of the box model.
-Content > Padding > Border > Outline > Margin
-
+margin, border padding content
 ## What are some examples of pseudo classes and pseudo elements? -- http://www.d.umn.edu/~lcarlson/csswork/selectors/pseudo_dif.html
-:hover, :link, :active, :focus
-::berfore ::after
-
+pseudo classes - active, link, checked, first, visited
+pseudo elements - first-line, first-letter, after, before
 ## Why are class names on the `<HTML>` tag useful?
-Statefulness for the whole page
-
+top level classes allows you to cascade your css
 
 ## Javascript Coding Examples
 
 ### 1: 
 ```JS
     // Create a javascript alert
+    <script>
+    	alert("hello");
+    </script>
 ```
-window.alert("Hello world!");
 
 ### 2: 
 ```JS
     // Select an element with the ID 'mac-n-cheese'
+    <script>
+    	var x = document.getElementbyId('mac-n-cheese');
+    </script>
 ```
-document.getElementById('mac-n-cheese');
-document.querySelector('#mac-n-cheese');
-$('mac-n-cheese');
 
 ### 3: 
 ```JS
     // Select all of the elements with the class name 'turtles'
+    document.getElementsByClassName('.turtles');
 ```
-document.getElementsByClassName("turtles");
-document.querySelectorAll('.turtles');
-$('.turtles');
 
 ### 4: 
 ```JS
     // Log the background color from the style property on the body in the document to the console
+    console.log(document.body.style.backgrounfColor);
 ```
-console.log(document.body.style.backgroundColor);
-document.getElementsByTagName('body')[0].style.backgroundColor;
 
 ### 5: 
 ```JS
@@ -154,21 +148,19 @@ document.getElementsByTagName('body')[0].style.backgroundColor;
     // Store the selection in a variable named 'cookie'
     // Add a `click` event to the element
     // Alert the ID of the element
+    var cookie = document.getElementbyId('chocolate-chip-cookies');
+    cookie.click(function(){
+		alert('chocolate-chip-cookies');
+	}
+    );
+    
 ```
-var cookie = document.getElementById('chocolate-chip-cookies');
-cookie.addEventListener("click", function( event ) {
-    window.alert(cookie.id);
-  }, false);
-  cookie.addEventListener("click", function(e) {
-    var el = e.currentTarget;
-    alert(el.id);
-  }, false);
 
 ## What is the difference between document.getElementByID and document.querySelectorAll
-getElementById returns a single element. querySelectorAll returns an array.
-
+document.getElementByID returns one element
+document.querySelectorAll returns multiple elements
 ## Describe how variable scope works in Javascript
-When you define a variable with var, it establishes a new scope. Redeclaration will throw a warning, unless you're in a new scope (in a function)
+local scope differs from global scope. scope changes inside function
 
 ## What is the difference between Javascript and jQuery?
-jQuery is a library of Javascript stuff. Javascript is an actual language. jQuery wraps native functionality and expands on it. More concise methods to do the same things that Javascript does. Used for cross-browser compatability - that kind of stuff.
+javascript is client side scripting programming language while jQuery is a library that makes your life easier
