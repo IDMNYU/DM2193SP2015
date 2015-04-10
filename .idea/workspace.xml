@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee64265c-1900-4566-9773-ca4401a80e38" name="Default" comment="" />
+    <list default="true" id="ee64265c-1900-4566-9773-ca4401a80e38" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/css_and_js_quiz_1.md" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/css_and_js_quiz_1.md" />
+    </list>
     <ignored path="DM2193SP2015.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -83,8 +85,8 @@
       <file leaf-file-name="css_and_js_quiz_1.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/css_and_js_quiz_1.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.071298" vertical-offset="357" max-vertical-offset="2720">
-              <caret line="152" column="121" selection-start-line="152" selection-start-column="121" selection-end-line="152" selection-end-column="121" />
+            <state vertical-scroll-proportion="0.8756856" vertical-offset="2173" max-vertical-offset="2754">
+              <caret line="156" column="64" selection-start-line="156" selection-start-column="64" selection-end-line="156" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -887,8 +889,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/css_and_js_quiz_1.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.071298" vertical-offset="357" max-vertical-offset="2720">
-          <caret line="152" column="121" selection-start-line="152" selection-start-column="121" selection-end-line="152" selection-end-column="121" />
+        <state vertical-scroll-proportion="0.8756856" vertical-offset="2173" max-vertical-offset="2754">
+          <caret line="156" column="64" selection-start-line="156" selection-start-column="64" selection-end-line="156" selection-end-column="64" />
           <folding />
         </state>
       </provider>

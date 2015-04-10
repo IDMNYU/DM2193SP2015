@@ -76,7 +76,7 @@ h1 span {
     /*
         - Select all of the elements with the class name "stuff" but not with the class name "blah"
      */
-     *:not(.blah) .stuff{
+     stuff:not(.blah){
 
      }
 ```
@@ -103,12 +103,12 @@ h1 span {
 
 ## What are selectors *selecting*? from where? Selectors are selecting the HTML elements, from the HTML document
 ## Why is it so important to use `.classes` instead of `elements` or `#ids`? Reusability of styles
-## List all of the parts of the box model. Content,Padding,Border,Margin
+## List all of the parts of the box model. Content,Padding,Border,Outline,Margin
 ## What are some examples of pseudo classes and pseudo elements? -- http://www.d.umn.edu/~lcarlson/csswork/selectors/pseudo_dif.html
 Pseudo element: p::first-line{}
 Pseudo class: p:hover{}
 ## Why are class names on the `<HTML>` tag useful?
-They identify elements with common traits/styles
+They identify elements with common traits/styles, cascading the elements
 
 ## Javascript Coding Examples
 
@@ -127,7 +127,7 @@ They identify elements with common traits/styles
 ### 3: 
 ```JS
     // Select all of the elements with the class name 'turtles'
-    var turtles = getElementsByClassName("turtles");
+    var turtles = document.getElementsByClassName("turtles");
 ```
 
 ### 4: 
@@ -142,9 +142,11 @@ They identify elements with common traits/styles
     // Store the selection in a variable named 'cookie'
     // Add a `click` event to the element
     // Alert the ID of the element
-    var cookie = getElementById("chocolate-chip-cookies");
-    cookie.addEventListener("click");
-    alert(cookie.id);
+    var cookie = document.getElementById("chocolate-chip-cookies");
+    cookie.addEventListener("click",function(){
+        alert(cookie.id);
+    });
+
 ```
 
 ## What is the difference between document.getElementByID and document.querySelectorAll
@@ -152,4 +154,4 @@ document.getElementByID returns one element, document.querySelectorAll returns a
 ## Describe how variable scope works in Javascript
 two same variables cannot exist within the same scope, two variables with the same name can exist within different scopes
 ## What is the difference between Javascript and jQuery?
-jQuery is a Javascript library, Javascript goes way beyond Javascript
+jQuery is a Javascript library, Javascript is the whole language
