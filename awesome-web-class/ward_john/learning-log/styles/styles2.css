@@ -154,7 +154,7 @@ nav ul li a:visited {
 .main {
 	margin: 0 auto;
 	background: white;
-	max-width: 1200px;
+	max-width: 768px;
 	padding: 10px;
 	position:relative;
 }
@@ -189,11 +189,8 @@ article h4 {
 }
 article section {
 	margin: 5px;
-	display:none;
 }
-article:hover section{
-	display: block;
-}
+
 article h5 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 12pt;

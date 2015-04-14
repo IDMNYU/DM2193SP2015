@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <title>John Ward's Learning Log</title>
     <link rel="stylesheet" type="text/css" href="styles/styles2.css">
+    <script>
+		$("article").click(function () {
+	    	$(this).addClass("showing").next("section").show();
+		});
+
+		$('article').click(function() {
+	  		$("section.showing").removeClass().next("section").hide();
+		});
+	</script>
 </head>
 <body>
 
@@ -22,39 +31,41 @@
     <div class="main">
 		
 	    <div class="posts">
-	    <!--
-	    <nav>
-	    	<h2>>Navigation</h2>
-	    	<ul>
-	    		<li>
-	    			<h2>February</h2>
-	    			<ul>
-						<a href="#3-feb-2015"><li>3 February</li></a>
-			        	<a href="#5-feb-2015"><li>5 February</li></a>
-			        	<a href="#10-feb-2015"><li>10 February</li></a>
-			        	<a href="#12-feb-2015"><li>12 February</li></a>
-			        	<a href="#17-feb-2015"><li>17 February</li></a>
-			        	<a href="#19-feb-2015"><li>19 February</li></a>
-			        	<a href="#24-feb-2015"><li>24 February</li></a>
-			        </ul>
-			    </li>
-			    <li>
-			    	<h2>March<h2>
-			    	<ul>
-			        	<a href="#3-mar-2015"><li>3 March</li></a>
-			        	<a href="#5-mar-2015"><li>5 March</li></a>
-			        	<a href="#10-mar-2015"><li>10 March</li></a>
-			        	<a href="#12-mar-2015"><li>12 March</li></a>
-			        	<a href="#17-mar-2015"><li>17 March</li></a>
-			        	<a href="#19-mar-2015"><li>19 March</li></a>
-			        	<a href="#24-mar-2015"><li>24 March</li></a>
-			        	<a href="#26-mar-2015"><li>26 March</li></a>
-			        </ul>
-		        </li>
-	        </ul>
-	    </nav>
-		-->
-			<article id="2-apr-2015">
+			<article id="9-apr-2015">
+		        
+		        <h2>9 April 2015</h2>
+		        <h4>Week 9 Pt. 2</h4>
+		        <section>
+		            <h5>Notes</h5>
+		            <ul>
+		            	<li><a href="css-javascript-quiz.md">CSS/Javascript Quiz</a></li>
+		            	<li>Make a custom tooltip with Javascript and CSS</li>
+		            	<li>
+		            		Present final project idea:
+		            		<ul>
+				            	<li>Create a stream of consciousness mind map</li>
+				            	<li>Not actively "random," but somewhat cathartic.</li>
+				            	<li>The actual content isn't quite as important, but the idea gives me a lot of freedom to experiment with different ways of displaying the mind map entries.</li>
+				            	<li>We were talking about choose your own adventures before. My mind is kind of like a choose your own adventure. Could incorporate a similar structure, at least in parts. Not necessarily linear.</li>
+							</ul>
+		            	</li>
+		            </ul>
+		        </section>
+		        <section>
+		            <h5>Links</h5>
+		            <ul>
+		                <li>
+		                    Doing some JQuery!
+		                </li>
+		            </ul>
+		       </section>
+		       <section>
+		            <h5>Misc</h5>
+		            <p></p>
+		       </section>
+		    </article>
+
+			<article id="7-apr-2015">
 		        
 		        <h2>7 April 2015</h2>
 		        <h4>Week 9 Pt. 1</h4>
