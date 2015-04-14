@@ -44,6 +44,32 @@ Choose your own Adventure
     * Think about the concepts covered in the course from visual design and interaction design to wireframes and coding.
   * Consult the [grading overview descriptions](../README.md#evaluation--grading) in this syllabus.
 
+### Delivery Schedule
+
+* 4/14
+  * Finalized Project Pitch
+* 4/16
+  * Project Pitch revised to become Project Overview
+  * Content Inventory
+  * Wireframes
+  * Designs
+  * Site map or story flow or decision tree
+* 4/21
+  * Alpha Build
+    * Directories, files setup
+    * Clickthrough modeled on site map
+  * Finalized Content
+* 4/23
+  * Beta Build
+    * Real Content plugged into site
+    * Can be shared in class
+* 4/28
+  * Production Build
+    * Everything is done and perfect
+* 4/30
+  * Live on the Internet
+    * We all have web hosting, right???!!!
+
 ### Tips
 
 * Work together, share ideas, and code!
