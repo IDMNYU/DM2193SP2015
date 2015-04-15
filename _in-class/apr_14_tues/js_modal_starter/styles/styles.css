@@ -48,8 +48,10 @@ body
 {
     /* Position the modal in the center of the page */
     position: fixed;
-    top: 50%; left: 50%;
+    top: 50%; 
+    left: 50%;
     transform: translate(-50%, -50%);
+    /* These properties
 
     /* Styling for the Modal */
     width: 80%;
