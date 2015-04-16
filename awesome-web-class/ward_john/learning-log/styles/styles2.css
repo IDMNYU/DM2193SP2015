@@ -205,6 +205,12 @@ article ul {
 article ul li {
 	margin-left: 25px;
 }
+article ol {
+	list-style-type: decimal;
+}
+article ol li {
+	margin-left: 25px;
+}
 
 footer {
 	padding-top: 15px;

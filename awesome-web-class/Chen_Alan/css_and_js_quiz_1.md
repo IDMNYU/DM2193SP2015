@@ -98,14 +98,14 @@ h1 span {
         - Select the Heading 1 with the class of "logo" and an id of "logo"
         - Specificity is 10
      */
-     h1.logo#logo
+     .logo
 ```
 
 ## What are selectors *selecting*? from where?
 ## Why is it so important to use `.classes` instead of `elements` or `#ids`?
-.classes allows for flexibility
+.classes allows for flexibility. as stylesheet grows then using id locks the styles
 ## List all of the parts of the box model.
-margin, border padding content
+margin, outline, border padding content
 ## What are some examples of pseudo classes and pseudo elements? -- http://www.d.umn.edu/~lcarlson/csswork/selectors/pseudo_dif.html
 pseudo classes - active, link, checked, first, visited
 pseudo elements - first-line, first-letter, after, before
@@ -133,7 +133,8 @@ top level classes allows you to cascade your css
 ### 3: 
 ```JS
     // Select all of the elements with the class name 'turtles'
-    document.getElementsByClassName('.turtles');
+    document.getElementsByClassName('turtles');
+    document.querySelectorAll('.turtles');
 ```
 
 ### 4: 
@@ -158,9 +159,11 @@ top level classes allows you to cascade your css
 
 ## What is the difference between document.getElementByID and document.querySelectorAll
 document.getElementByID returns one element
-document.querySelectorAll returns multiple elements
+document.querySelectorAll returns multiple elements, array
 ## Describe how variable scope works in Javascript
 local scope differs from global scope. scope changes inside function
+var - declares a new scope
 
 ## What is the difference between Javascript and jQuery?
 javascript is client side scripting programming language while jQuery is a library that makes your life easier
+jquery wraps javascript. more concise methods. cross browsers compatability

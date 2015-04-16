@@ -88,6 +88,15 @@
  	padding-bottom: 50px;
 }
 
+p ~ li {
+	font-family: Century Gothic;
+	font-size: 23;
+	text-align: none;
+	color: #C0C0C0;
+
+	padding: 0px 100px 0px 100px;
+}
+
 
 .response {
 	display: inline-block;
