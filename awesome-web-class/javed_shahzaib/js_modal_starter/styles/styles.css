@@ -1,0 +1,107 @@
+/* CSS Coming Soon! */
+
+* 
+{
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+html, body
+{
+    min-height: 100%;
+}
+
+body
+{
+    margin: 40px;
+}
+
+.heading
+{
+    margin: 0 0 25px;
+}
+
+/*
+    Buttons
+ */
+
+.btn
+{
+    padding: 10px;
+    background: rgba(0,0,0,0.125);
+    border: 1px solid rgba(0,0,0,0.1);
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:active
+{
+    background: rgba(0,0,0,0.15);
+    box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.25);
+    outline: none;
+}
+
+/*
+    Modals
+ */
+.modal
+{
+    /* Position the modal in the center of the page */
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Styling for the Modal */
+    width: 80%;
+    min-width: 300px;
+    max-width: 480px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 3px;
+
+    /* Hide Modals By Default */
+    display: none;
+
+    /* Modals sit on top of Glass */
+    z-index: 90211;
+}
+.modal.active
+{
+    /* Active Modals are visible */
+    display: block;
+}
+.modal-content h3
+{
+    margin: 0 0 10px;
+}
+
+.modal-content img
+{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 3px;
+}
+
+/*
+    Modal Glass
+ */
+.glass
+{
+    /* Glass Covers Everything (except the Modal) */
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: rgba(0,0,0,0.25);
+
+    /* Hide Modal Glass By Default */
+    display: none;
+
+    /* Glass sits on top of everything else */
+    z-index: 90210;
+}
+.glass.active
+{
+    /* When Glass is showing */
+    display: block;
+}
