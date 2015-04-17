@@ -1,0 +1,17 @@
+.body{
+    padding-top: 100px;
+}
+.content{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.input{
+    width: 90px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+}
+.word{
+    margin-bottom: 10px;
+}

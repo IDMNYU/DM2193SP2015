@@ -15,9 +15,11 @@ $(document).ready(function(){
     });
     $("#top").click(function(e){
         e.preventDefault();
-        $("html,body").stop().animate({
-            'scrollTop':"0"
-        });
+        $('body').scrollTop(0);
+        //var top = $('body').find($(this).attr('href')).offset().top;
+        //$('body').animate({
+        //    scrollTop: top
+        //},500, 'easeOutExpo');
     });
     $("a[href^='#']").on('click',function (e) {
         e.preventDefault();
@@ -30,7 +32,7 @@ $(document).ready(function(){
     $(".hide-entry-text").click(function(e){
         e.preventDefault();
         $(this).toggleClass("hide-entry-text");
-        $parent=$(this).parent();
+        var $parent=$(this).parent();
         if (!$(this).hasClass("hide-entry-text")){
             $(this).addClass("show-entry-text");
             $(this).text("Show Entry");
