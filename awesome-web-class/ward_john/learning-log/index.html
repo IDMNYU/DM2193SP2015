@@ -5,15 +5,6 @@
     <meta charset="UTF-8">
     <title>John Ward's Learning Log</title>
     <link rel="stylesheet" type="text/css" href="styles/styles2.css">
-    <script>
-		$("article").click(function () {
-	    	$(this).addClass("showing").next("section").show();
-		});
-
-		$('article').click(function() {
-	  		$("section.showing").removeClass().next("section").hide();
-		});
-	</script>
 </head>
 <body>
 
@@ -31,6 +22,30 @@
     <div class="main">
 		
 	    <div class="posts">
+	    	<article id="14-apr-2015">
+		        
+		        <h2>14 April 2015</h2>
+		        <h4>Week 10 Pt. 1</h4>
+		        <section>
+		            <h5>Notes</h5>
+		            <ul>
+		            	<li><a href="js_modal_starter">JS Modal Starter</a></li>
+		            	<li>You can see through glass, but you can't touch the stuff on the other side of the glass. It's crazy.</li>
+		            	<li>
+		            </ul>
+		        </section>
+		        <section>
+		            <h5>Links</h5>
+		            <ul>
+		                <li><a href="https://webflow.com/">Webflow</a> - Aha for learning dynamic web positioning</li>
+		            </ul>
+		       </section>
+		       <section>
+		            <h5>Misc</h5>
+		            <p></p>
+		       </section>
+		    </article>
+
 			<article id="9-apr-2015">
 		        
 		        <h2>9 April 2015</h2>
@@ -38,7 +53,6 @@
 		        <section>
 		            <h5>Notes</h5>
 		            <ul>
-		            	<li><a href="css-javascript-quiz.md">CSS/Javascript Quiz</a></li>
 		            	<li>Make a custom tooltip with Javascript and CSS</li>
 		            	<li>
 		            		Present final project idea:
@@ -54,9 +68,7 @@
 		        <section>
 		            <h5>Links</h5>
 		            <ul>
-		                <li>
-		                    Doing some JQuery!
-		                </li>
+		                <li><a href="css-javascript-quiz.md">CSS/Javascript Quiz</a></li>
 		            </ul>
 		       </section>
 		       <section>
@@ -86,9 +98,7 @@
 		        <section>
 		            <h5>Links</h5>
 		            <ul>
-		                <li>
-		                    Doing some JQuery!
-		                </li>
+		                <li></li>
 		            </ul>
 		       </section>
 		       <section>
@@ -104,17 +114,13 @@
 		        <section>
 		            <h5>Notes</h5>
 		            <ul>
-		            	<li>
-		            		
-		            	</li>
+		            	<li>Doing some JQuery!</li>
 		            </ul>
 		        </section>
 		        <section>
 		            <h5>Links</h5>
 		            <ul>
-		                <li>
-		                    Doing some JQuery!
-		                </li>
+		                <li></li>
 		            </ul>
 		       </section>
 		       <section>
@@ -498,19 +504,21 @@
 		        <h4>Week 3 Pt. 2</h4>
 		        <section>
 		            <h5>Notes</h5>
-		            <p> 
-		                Carve up cookie recipe <br />
-		                New Tags Learned:<br />
-		                &bullet; &lt;dl&gt; (description list) is for lists of items with descriptions. Made up of &lt;dt&gt; (term) and &lt;dd&gt; (desciprtion) sub-tags.<br />
-		                &bullet; &lt;span&gt; is "div's chill cousin." Inline.<br />
-		            </p>
+		            <ul> 
+		                <li>Carve up cookie recipe</li>
+		                <li>
+		                New Tags Learned:
+			                <ul>
+			                	<li>&lt;dl&gt; (description list) is for lists of items with descriptions. Made up of &lt;dt&gt; (term) and &lt;dd&gt; (desciprtion) sub-tags.</li>
+			                	<li>&lt;span&gt; is "div's chill cousin." Inline.</li>
+			                </ul>
+		               	</li>
+		            </ul>
 		        </section>
 		        <section>
 		            <h5>Links</h5>
 		            <ul>
-		                <li>
-		                    <a href="recipe.html">Cookie Recipe</a>
-		                </li>
+		                <li><a href="recipe.html">Cookie Recipe</a></li>
 		            </ul>
 		        </section>
 		    </article>
@@ -521,25 +529,41 @@
 		        <h4>Week 3 Pt. 1</h4>
 		        <section>
 		            <h5>Notes</h5>
-		            <p> 
-		                The engineer makes the technology fit the design. Makes swallow-tracking scalable with databases and stuff.<br />
-		                Think about why you're making your website. Tumblr doesn't know who its audience is.<br />
-		                Workflow<br />
-		                1) Discovery<br />
-		                &bullet; The big idea<br />
-		                2) Wireframe<br />
-		                &bullet; Visual planning<br />
-		                3) Design<br />
-		                &bullet; Types needed to support<br />
-		                &bullet; Real content will inform design<br />
-		                4) Build<br />
-		                &bullet; Static<br />
-		                &bullet; Dynamic<br />
-		                  -- Stuff that uses APIs<br />
-		                  -- Social Networks<br />
-		                  -- Web apps<br />
-		                The box model
-		            </p>
+		            <ul>
+		                <li>The engineer makes the technology fit the design. Makes swallow-tracking scalable with databases and stuff.
+		                Think about why you're making your website. Tumblr doesn't know who its audience is.</li>
+		                <li>Workflow
+		                	<ol>
+				                <li>Discovery</li>
+				                	<ul>
+				                		<li>The big idea</li>
+				                	</ul>
+				                <li>Wireframe</li>
+				                	<ul>
+				                		<li>Visual planning</li>
+				                	</ul>
+				                <li>Design</li>
+				                	<ul>
+					                	<li> Types needed to support</li>
+					                	<li> Real content will inform design</li>
+					                </ul>
+				                <li>Build
+				                	<ul>
+					                	<li>Static</li>
+					                	<li>
+					                		Dynamic
+					                		<ul>
+					                			<li>Stuff that uses APIs</li>
+					                			<li>Social Networks</li>
+					                			<li>Web apps</li>
+					                		</ul>
+					                	</li>
+					              	</ul>
+					            </li>
+					        </ol>
+					    </li>
+		                <li>The box model</li>
+		            </ul>
 		        </section>
 		        <section>
 		            <h5>Links</h5>
@@ -551,15 +575,12 @@
 		        </section>
 		        <section>
 		            <h5>Reading Response</h5>
-		            
-		                &bullet; <a href="http://www.lukew.com/resources/articles/visible_narratives.html">Wroblewski, Luke. “Visible Narratives: Understanding Visual Organization.” LukeW Interface Designs. 2003. (21 Aug. 2008)</a><br />
-		                &bullet; <a href="http://www.inc.com/magazine/20081101/how-hard-could-it-be-the-unproven-path.html">The Unproven Path BY JOEL SPOLSKY</a><br/>
-		                &bullet; (Optional) <a href="http://www.jjg.net/elements/pdf/elements_ch02.pdf">Garrett, Jesse James. “Chapter 2: Meet the Elements.” from The Elements of User Experience: User-Centered Design</a><br />
-		                <p>In The Unproven Path, Joel Spolsky talks about how he abandoned his methodical method of programming in creating Stack Overflow, and he is nonetheless thrilled with how it turned out. How can it be, he wonders incredulously in the article, that he could do everything "wrong" and yet still have the project turn out right? I think one of the most important lines in the article was when his partner said to him "if Stack Overflow wasn't fun to do, he didn't want to be doing it," and that's possibly the most important aspect when really innovating.</p>
-		                
-		            <p>
-		                
-		            </p>
+		            	<ul>
+			                <li><a href="http://www.lukew.com/resources/articles/visible_narratives.html">Wroblewski, Luke. “Visible Narratives: Understanding Visual Organization.” LukeW Interface Designs. 2003. (21 Aug. 2008)</a></li>
+			                <li><a href="http://www.inc.com/magazine/20081101/how-hard-could-it-be-the-unproven-path.html">The Unproven Path BY JOEL SPOLSKY</a></li>
+			                <li>(Optional) <a href="http://www.jjg.net/elements/pdf/elements_ch02.pdf">Garrett, Jesse James. “Chapter 2: Meet the Elements.” from The Elements of User Experience: User-Centered Design</a></li>
+			            </ul>
+			            <p>In The Unproven Path, Joel Spolsky talks about how he abandoned his methodical method of programming in creating Stack Overflow, and he is nonetheless thrilled with how it turned out. How can it be, he wonders incredulously in the article, that he could do everything "wrong" and yet still have the project turn out right? I think one of the most important lines in the article was when his partner said to him "if Stack Overflow wasn't fun to do, he didn't want to be doing it," and that's possibly the most important aspect when really innovating.</p>
 		        </section>
 		       <section>
 		            <h5>Misc</h5>
@@ -573,10 +594,14 @@
 		        <h4>Week 2 Pt. 2</h4>
 		        <section>
 		            <h5>Notes</h5>
-		            <p> 
-		                History of Web Standards<br/>
-		                &bullet; W3C (scientists) and WHATWG (Corporate Interests) both create web standards but sometimes are at odds with each other. W3C moves much more slowly.
-		            </p>
+		            <ul> 
+		                <li>
+			                History of Web Standards
+		                	<ul>
+		                		<li>W3C (scientists) and WHATWG (Corporate Interests) both create web standards but sometimes are at odds with each other. W3C moves much more slowly.</li>
+		                	</ul>
+		                </li>
+		            </ul>
 		        </section>
 		        <section>
 		            <h5>Links</h5>
@@ -598,22 +623,26 @@
 		        <h4>Week 2 Pt. 1</h4>
 		        <section>
 		            <h5>Notes</h5>
-		            <p> 
-		              Get Github set up<br/>
+		            <ul>
+			            <li>Get Github set up</li>
+			            <li>Get Sublime text set up and package control installed</li>
+			            <li>Cmd-Shift-P to pull up command pallette</li>
 
-		        Get Sublime text set up and package control installed<br/>
-		          &bullet; Cmd-Shift-P to pull up command pallette<br/>
-
-		        Intro to Learning Logs<br/>
-		          &bullet; Have a header, consistent nav, and articles<br/>
-		          &bullet; Keep notes, and article responses<br/>
-		          &bullet; Host it; don't just keep it on Github<br/>
-
-		        Intro to Tags<br/>
-		          &bullet; Open and close tags &lt;tag&gt; and &lt;/tag&gt;<br/>
-		          &bullet; &lt;div&gt; tags break up the page. "Agnostic thing that means nothing."<br/>
-		          &bullet; &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt; are predefined headers<br/>
-		          &bullet; Some tags, like &lt;hr /&gt; and &lt;img /&gt; don't have close tags
+			            <li>Intro to Learning Logs
+			            	<ul>
+								<li>Have a header, consistent nav, and articles</li>
+								<li>Keep notes, and article responses</li>
+								<li>Host it; don't just keep it on Github</li>
+							</ul>
+						</li>
+			        	<li>Intro to Tags
+			        		<ul>
+								<li>Open and close tags &lt;tag&gt; and &lt;/tag&gt;</li>
+								<li>&lt;div&gt; tags break up the page. "Agnostic thing that means nothing."</li>
+								<li>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt; are predefined headers</li>
+								<li>Some tags, like &lt;hr /&gt; and &lt;img /&gt; don't have close tags</li>
+							</ul>
+						</li>
 		            </p>
 		        <section>
 		            <h5>Links</h5>
@@ -630,11 +659,11 @@
 		            </ul>
 		        </section>
 		            <h5>Reading Response</h5>
-		            
-		                &bullet; <a href="http://dannorth.net/2011/01/11/programming-is-not-a-craft">PROGRAMMING IS NOT A CRAFT</a><br/>
-		                &bullet; <a href="http://blog.8thlight.com/doug-bradbury/2009/08/22/why-software-development-is-a-craft.html">Why Software Development is a Craft</a><br/>
-		        &bullet; <a href="http://blog.codinghorror.com/software-engineering-dead/">Software Engineering: Dead?</a><br/>
-		            
+		            <ul>
+		                <li><a href="http://dannorth.net/2011/01/11/programming-is-not-a-craft">PROGRAMMING IS NOT A CRAFT</a></li>
+		                <li><a href="http://blog.8thlight.com/doug-bradbury/2009/08/22/why-software-development-is-a-craft.html">Why Software Development is a Craft</a></li>
+		        		<li><a href="http://blog.codinghorror.com/software-engineering-dead/">Software Engineering: Dead?</a></li>
+		            </ul>
 		            <p>To me, craft means taking pride in one's work. Being inspired to create the most elegant solutions to problems, rather than to just hack things together. Engineering makes do with what already exists; progress is made through craft. Jeff Atwood articulated this the best of the three readings. Doug Bradbury took a much more metaphorical approach in comparing software development to woodworking and other crafts and put forth the idea that with a craft, something might have intrinsic value separate from its usefulness. With software development, I don't see that intrinsic value as necessary for craftsmanship, though I think it is a possible outcome of craftsmanship. Dan North blatantly rejected this notion that craftsmanship is important at all and in fact even proposed that it is detrimental in software development.</p>
 		        </section>
 		       <section>

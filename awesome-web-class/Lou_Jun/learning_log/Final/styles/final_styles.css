@@ -1,0 +1,49 @@
+.home {
+	font-family: "Times New Roman", Times, serif;
+}
+
+.about {
+	background-image: url("http://www.pageresource.com/wallpapers/wallpaper/anime-windows-pixel-other-hyper-police_1387780.jpg");
+	background-repeat: repeat;
+    background-position: center;
+
+
+}
+
+/*.ab .sce-1*/
+
+.header1 {
+	background: black;
+	background-image: url("http://fc00.deviantart.net/fs70/f/2013/160/4/6/persona_3_p3p_x_persona_4_id_by_onewingedangel26-d68da41.png");
+	background-size: 1350px 620px;
+	background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2px black;
+    display: block;
+	font-size: 75px;
+	margin: 20px;
+	color: blue;
+	text-align: center;
+	text-shadow: 7px 7px 7px white;
+
+}
+.mainButton{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 50px;
+    border-radius: 10px;
+    font-size: 50px;
+    position: absolute;
+
+
+}
+
+.image1 {
+	position: absolute;
+}
+
+.buttonPos{
+	text-align: center;
+	margin: auto;
+	
+}

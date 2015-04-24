@@ -231,7 +231,6 @@ img {
     .mobileH {
         display: block;
         margin-bottom: 20px;
-
         text-align: center;
         page-break-before: always;
     }
@@ -304,4 +303,3 @@ img {
         display: none;
     }
 }
-

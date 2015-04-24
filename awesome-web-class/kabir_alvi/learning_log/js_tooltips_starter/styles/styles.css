@@ -1,0 +1,101 @@
+* 
+{
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body
+{
+    margin: 40px;
+}
+
+.heading
+{
+    margin: 0 0 25px;
+}
+
+/*
+    Buttons
+ */
+
+.btn
+{
+    padding: 10px;
+    background: rgba(0,0,0,0.125);
+    
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    
+    outline: none;
+    cursor: pointer;
+}
+.btn:active
+{
+    /* pseudo selectors are great */
+    background: rgba(0,0,0,0.15);
+    box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.25);
+}
+
+/*
+    Image
+ */
+
+.img
+{
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 3px;
+}
+
+
+/*
+    Tooltip Styles
+ */
+
+
+.tooltip {
+    position: relative;
+    background: black;
+    color: white;
+    display: inline-block;
+    /*height: 30px;*/
+    /*width: 100px;*/
+    white-space: nowrap;
+}
+
+.tooltip:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    height: 0;
+    width: 0;
+    border-top:6px solid black;
+    border-bottom:6px solid transparent;
+    border-left:6px solid transparent;
+    border-right:6px solid transparent;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

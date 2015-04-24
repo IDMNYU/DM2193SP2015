@@ -5,13 +5,16 @@
     <title>Learning Log</title>
 
     <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
 
-    <script type="text/javascript" src="/js/jquery.1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
     <link rel="shortcut icon" href="/img/favicon.ico">
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600' rel='stylesheet' type='text/css'>
 
      <script>$(function () { $('a[href*=#]:not([href=#])').click(function () { if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) { var target = $(this.hash); target = target.length ? target : $('[name=' + this.hash.slice(1) + ']'); if (target.length) { $('html,body').animate({ scrollTop: target.offset().top }, 1000); return false; } } }); });</script>
+
+     <script src="js/lightbox.min.js"></script>
 
 </head>
 <body>
@@ -22,7 +25,7 @@
 
         <p>My redesign of Craigslist focuses on the community section of the current website. It narrows the website down to one of its main focal points, which is location-based listings. The goal of my redesign is to give users the ability to immerse themselves into their own city and personally connect with the people, things, and happenings around them. Its intention is to give everyday people an easy way to always find something to do, buy, learn, or meet in their area. Maps are a major component of the interface as they provide an intuitive way for users to browse and locate whatever they desire. My concept also completely rebrands the company with a new logo and website design that is fresh, attractive, and modern. My goal with the design was to achieve minimalism and simplicity while using colors, images, and icons to keep it interesting and friendly. It also eliminates the jumbled mess of a navigation the current Craigslist uses by ridding of all the lists and replacing it with a map that displays images, icons, and summaries.</p>
 
-        <p>PDFs: <a href="midterm_spread.pdf">Spread</a>, <a href="midterm_pages.pdf">Pages</a></P>
+        <p>PDFs: <address><a href="midterm_spread.pdf">Spread</a>, <a href="midterm_pages.pdf">Pages</a></address></p>
 
         <br><br>
 
@@ -30,12 +33,11 @@
 
         <br><br>
 
-
         <h2>Homepage</h2>
 
-        <img src="img/craigslistwireframe1.png">
-        <img src="img/craigslistdesign1.png">
-        <img src="img/craigslistmockup.png">
+        <a href="img/craigslistwireframe1.png" data-lightbox="roadtrip"><img src="img/craigslistwireframe1.png"></a>
+        <a href="img/craigslistdesign1.png" data-lightbox="roadtrip"><img src="img/craigslistdesign1.png"></a>
+        <a href="img/craigslistmockup.png" data-lightbox="roadtrip"><img src="img/craigslistmockup.png"></a>
         <p class="img-desc">The layout for the homepage is simple. Users are greeted with a header and a map that fills up the whole size of their browser. The header contains the Craigslist logo on the upper left hand corner, a randomized tagline that displays the user's location in the center with a search bar below it, an account profile area on the upper right hand corner, and a drop-down menu on the upper right hand corner of the map that filters results by category. By default when the page loads, the map displays all available listings from every category. This provides users who don't have a specific thing they're searching for the ability to browse through everything.</p>
 
         <br><br>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Log Final Project</title>
+
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="../midterm/css/lightbox.css">
+
+    <script type="text/javascript" src="../midterm/js/jquery-1.11.0.min.js"></script>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600' rel='stylesheet' type='text/css'>
+
+
+    <script src="../midterm/js/lightbox.min.js"></script>
+    <script src="../midterm/js/masonry.pkgd.min.js"></script>
+
+    <script type="text/javascript">
+        $(window).load(function () {
+        $('.final-entry-container').masonry(),
+        $('.masonryWrap').infinitescroll({
+        navSelector : "div#navigation",
+        // selector for the paged navigation (it will be hidden)
+        nextSelector : "div#navigation a#nextPage",
+        // selector for the NEXT link (to page 2)
+        itemSelector : ".final-entry",
+        // selector for all items you'll retrieve
+        bufferPx : 10000,
+        extraScrollPx: 11000,
+        loadingImg : "http://b.imagehost.org/0548/Untitled-2.png",
+        loadingText : "<em></em>",
+        },
+        // call masonry as a callback.
+        function() { $('.content').masonry({ appendedContent: $(this) }); }
+        );
+        });
+    </script>
+</head>
+<body>
+    <div class="final-container">
+        <address><a href="../">&#8592; Go Back to Learning Log</a></address>
+
+        <h1 class="title">Final Project Documentation</h1>
+
+        <p>My final project is a decision-based narrative website. I'm really into interactive games like The Walking Dead, Beyond Two Souls, Life Is Strange, Heavy Rain, etc. that let the user shape a story based on their choices as the story progresses. I was thinking of taking one of those video games and adapting it into website form, in a much more narrowed, simplified, and condensed way. It would tell the story of a singular scene or episode and the user would be able to make decisions as they navigate further and further into the site/scene. There would also be parts where the user could click around a room or on a character to find out more. I chose to recreate Life is Strange, a video game that tells the story about a high school student who discovers her power to turn back time and how that power changes the events and decisions in her life.</p>
+
+        <h2 class="final-header">Wireframes</h2>
+
+        <div class="final-entry-container">
+            <div class="final-entry"><a href="img/wireframe1.png" data-lightbox="roadtrip"><img src="img/wireframe1.png"></a></div>
+            <div class="final-entry"><a href="img/wireframe2.png" data-lightbox="roadtrip"><img src="img/wireframe2.png"></a></div>
+            <div class="final-entry"><a href="img/wireframe3.png" data-lightbox="roadtrip"><img src="img/wireframe3.png"></a></div>
+        </div>
+        <p class="img-desc">The layout for the pages are simple. Each scene will transition with a smooth scroll between pages. The user navigates further into the story scrolling downwards, clicking a choice, or pressing the down key. Depending on the scene there will either be a full screen photo with a caption depicting the scene or a </p>
+
+        <h2 class="final-header">Designs</h2>
+
+        <div class="final-entry-container">
+            <div class="final-entry"><a href="img/page1.png" data-lightbox="roadtrip"><img src="img/page1.png"></a></div>
+            <div class="final-entry"><a href="img/page1_clicked.png" data-lightbox="roadtrip"><img src="img/page1_clicked.png"></a></div>
+            <div class="final-entry"><a href="img/page2.png" data-lightbox="roadtrip"><img src="img/page2.png"></a></div>
+            <div class="final-entry"><a href="img/page3.png" data-lightbox="roadtrip"><img src="img/page3.png"></a></div>
+            <div class="final-entry"><a href="img/page3_1.png" data-lightbox="roadtrip"><img src="img/page3_1.png"></a></div>
+            <div class="final-entry"><a href="img/page-bathroom-rewind.png" data-lightbox="roadtrip"><img src="img/page-bathroom-rewind.png"></a></div>
+            <div class="final-entry"><a href="img/page2_1.png" data-lightbox="roadtrip"><img src="img/page2_1.png"></a></div>
+            <div class="final-entry"><a href="img/page2_2.png" data-lightbox="roadtrip"><img src="img/page2_2.png"></a></div>
+            <div class="final-entry"><a href="img/page3_2.png" data-lightbox="roadtrip"><img src="img/page3_2.png"></a></div>
+        </div>
+
+        <h2 class="final-header">Content Inventory</h2>
+
+        <div class="final-entry-container">
+            <div class="final-entry"><a href="img/homepage.jpg" data-lightbox="roadtrip"><img src="img/homepage.jpg"></a></div>
+            <div class="final-entry"><a href="img/classroom.jpg" data-lightbox="roadtrip"><img src="img/classroom.jpg"></a></div>
+            <div class="final-entry"><a href="img/bathroom-rewind.png" data-lightbox="roadtrip"><img src="img/bathroom-rewind.png"></a></div>
+            <div class="final-entry"><a href="img/classroom-poster.jpg" data-lightbox="roadtrip"><img src="img/classroom-poster.jpg"></a></div>
+            <div class="final-entry"><a href="img/blackwell.jpg" data-lightbox="roadtrip"><img src="img/blackwell.jpg"></a></div>
+            <div class="final-entry"><a href="img/max-room.jpg" data-lightbox="roadtrip"><img src="img/max-room.jpg"></a></div>
+        </div>
+
+        <h2 class="final-header">Site Map/Decision Tree</h2>
+        <img src="img/decisiontree.png">
+
+        <p class="img-desc">This is incomplete but the site map/decision will look like this.</p>
+    </div>
+</body>
+</html>

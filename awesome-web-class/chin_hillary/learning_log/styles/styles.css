@@ -5,6 +5,7 @@
 
 html{
 	font-family:'Open Sans', sans-serif;
+	color:#333333;
 }
 
 body{
@@ -25,6 +26,7 @@ header{
 p{
 	line-height:1.8em;
 	margin-top:10px;
+	font:100%/1.5 "Karla","lucida grande",sans-serif,sans-serif;font-weight:400;
 }
 
 h1{
@@ -83,11 +85,16 @@ aside a, section a, address a{
 	text-decoration:none;
 }
 
+address{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
 aside hr{
-	width: 80%;
+	width: 90%;
 	padding: 20px;
 	text-align: center;
-	margin: 50px 20px auto auto;
+	margin: 30px 20px auto auto;
 }
 
 a:hover{
@@ -103,6 +110,7 @@ article ul{
 	list-style:square;
 	list-style-image: url('http://www.pixeljoint.com/files/icons/i_pineapple.png');
 	margin-left:20px;
+	font:100%/1.5 "Karla","lucida grande",sans-serif,sans-serif;font-weight:400;
 }
 
 article ul li{
@@ -151,13 +159,15 @@ nav li{
 nav li ul{
     position: absolute;
     top: 100%;
-    display:none;
+    /*display:none;*/
+    opacity:0;
     z-index: 1;
     transition: all .4s ease;
     text-align:left;
 }
 nav li:hover ul {
-    display:block;
+    /*display:block;*/
+    opacity:1;
     z-index:2;
     background:#fff;
     transition:all .4s ease;
@@ -170,6 +180,7 @@ nav li ul li {
 
 nav li ul li:hover{
 	background-color:#f4f3f3;
+	transition: all .4s ease;
 }
 
 nav li ul li:not(:last-child){
@@ -212,22 +223,61 @@ nav li ul a:hover {
 	font-weight:bold;
 }
 
-.midterm-container{
-	margin:100px;
-	color:#000;
+.midterm-container, .final-container{
+	width:60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+
+.final-entry-container{
+	width:100%;
+	display:block;
+	margin:0 auto;
+}
+
+.final-entry{
+    margin:8px;
+    width:48%;
+    float: left;
+    padding: 0px;
+    display: block;
+    position: relative;  
+    overflow: hidden;
+}
+
+@media only screen and (max-width:480px) {
+	.final-entry{ width: 100%;}
+}
+
+.final-entry img{
+    display:block;
+}
+
+.final-header, .midterm-container h2{
+	text-align:left;
+	font-weight:600;
+	padding:20px 0px 20px 0px;
+	text-transform:uppercase;
+	display:block;
 }
 
 .midterm-container img{
 	max-width:100%;
 	border:1px lightgrey solid;
-	padding-bottom:10px;
+	margin-bottom:10px;
 }
 
-.midterm-container h2{
-	text-align:center;
-	margin-bottom:20px;
+.final-container img{
+	max-width:100%;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
 }
 
 .img-desc{
-	padding:40px 50px 50px 50px;
+	padding:40px;
+	border:1px lightgrey solid;
 }

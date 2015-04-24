@@ -69,6 +69,11 @@ body
     line-height:20px;
     white-space: nowrap;
 
+/*Dont let the tooltip interfere with anything*/
+    pointer-events: none;
+
+/*Account for the height of the tooltip and the nub*/
+    margin-top: -25px;
 }
 
 .tooltip:after {

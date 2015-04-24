@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Life Is Strange - Web Edition</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" href="css/animate.css">
+
+    <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:700,700italic,400|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <style>
+    .scene-caption{
+        font-size:1em;
+        border:0px;
+        padding:0px;
+        text-align:left;
+    }
+
+    .scene-line{
+        font-size:1em;
+        text-align:left;
+    }
+
+    .scene-choice{
+        border:0px;
+        padding:0px;
+        margin:0px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="links"><ul><li><a class="tutorial-btn">How To Play</a></li> <li><a href="http://lifeisstrange.com">Buy The Game</a></li> <li><a href="documentation.html">Overview</a></li></ul></div>
+        <div class="logo-container wow fadeIn data-wow-duration="4s"">
+            <img src="img/logo.png" alt="Life Is Strange"> 
+            <span>Web Edition</span>
+        </div>
+
+        <button class="close-btn">&times;</button>
+
+        <div class="play wow fadeInUp data-wow-duration="4s""><a href="classroom.html">Play<div class="play-arrow-down"></div></a></div>
+        <div class="tutorial-overlay"><div class="tutorial-overlay-content"><p>This is a decision-based narrative web adaptation of the episodic interactive video game, Life is Strange. This website depicts the story with images, captions, thoughts, and dialogue. Navigate through the site by scrolling down, pressing the down arrow key, or making a decision when prompted by the scene in order to progress the story. The story line is non-linear, so the outcome and your relationships with other characters are determined by the choices you make.</p><p class="scene-caption">This a caption or thought.</p> <p class="scene-line">This is a character speaking.</p> <p class="scene-choice">This is a choice you can make by clicking on it.</p></div></div>
+    </div>
+
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script type="text/javascript">
+    jQuery(function($){
+        $( '.tutorial-btn' ).click(function(){
+            $('.tutorial-overlay').addClass('active')
+            $('.close-btn').addClass('active')
+
+        })
+        
+         $( '.close-btn' ).click(function(){
+            $('.tutorial-overlay').removeClass('active')
+            $('.close-btn').removeClass('active')
+        })
+    })
+ </script>
+
+<script src="js/wow.js"></script>
+<script>
+ new WOW().init();
+</script>
+
+</body>
+</html>

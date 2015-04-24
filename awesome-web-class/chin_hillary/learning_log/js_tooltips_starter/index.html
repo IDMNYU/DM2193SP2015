@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> 
+    <title>JS Tooltips</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script type="text/javascript" src="scripts/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="scripts/scripts2.js"></script>
+</head>
+<body>
+
+    <h1 class="heading"> <!--Hello Heading is arbitrary doesn't matter but data-tooltip is very important. It is how we find the elements that need tooltips -->
+        <span data-tooltip="Hello Heading">Tooltips</span>
+    </h1>
+
+    <button data-tooltip="Hello Button" class="btn" title="haha button watch out">I'm a little button</button>
+
+    <img data-tooltip="Hello Image" class="img" src="images/meow.jpg" title="little kitty" />
+
+    <div data-tooltip="Hello Tooltip Tooltip" class="tooltip">hello i am a tooltip</div>
+
+    <script src="scripts/jquery-2.1.1.js"></script>
+    <script src="scripts/scripts.js"></script>  
+
+</body>
+</html>
