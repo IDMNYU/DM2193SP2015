@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> 
+    <title>Lightbox</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+</head>
+<body>
+    <div class="glass" data-lightbox-glass data-dismiss-lightbox></div>
+
+    <h1 class="heading">Lightbox</h1>
+
+    <button class="btn" data-open-lightbox="cupcakes">Open the lightbox</button>
+
+    <div class="lightbox" data-lightbox="cupcakes">
+
+        <div class="light-content">
+            <div class="lightbox-item active" data-lightbox-item>
+                <img class="lightbox-image" src="./images/yawn1.jpg" alt="I'm hungry"/>
+            </div>
+            <div class="lightbox-item" data-lightbox-item>
+                <img class="lightbox-image" src="./images/yawn2.jpg" alt="I'm sleepy"/>
+            </div>
+            <div class="lightbox-item" data-lightbox-item>
+                <img class="lightbox-image" src="./images/yawn3.jpg" alt="Let's destroy stuff"/>
+            </div>
+            <div class="lightbox-item" data-lightbox-item>
+                <img class="lightbox-image" src="./images/yawn4.jpg" alt="You're allergic to me"/>
+            </div>
+        </div>
+
+        <div class="lightbox-controls" data-lightbox-controls>
+            <button class="btn previous" data-lightbox-control="previous">Previous</button>
+            <button class="btn next" data-lightbox-control="next">Next</button>
+            <div class="lightbox-label" data-lightbox-label="Meow">Meow</div>
+        </div>
+
+        <button class="btn lightbox-close-button" data-dismiss-lightbox>+</button>
+
+    </div>
+
+    <script src="scripts/jquery-2.1.1.js"></script>
+    <script src="scripts/scripts.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
