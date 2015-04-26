@@ -1,0 +1,70 @@
+html, body, main {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.brand-logo {
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+}
+
+.level {
+	text-align: center;
+}
+
+.box {
+	background-color: #ffcc80;
+	width: 250px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.riddle {
+	text-align: center;
+}
+
+.buttons {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	padding: 20px;
+}
+
+.help-btn {
+	background-color: #f44336;
+	margin-right: 10%;
+}
+
+.help-btn:hover {
+	background-color: #ef5350;
+}
+
+/* level 2 */
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid black;
+	display: inline;
+	margin-bottom: 100px;
+}
+
+.clue {
+	margin-top: 100px;
+}
+
+.url_img {
+	display: block;
+	margin: 0 auto;
+}
+
+/* level 3 */
+form{
+	width:300px;
+	margin: 0 auto;
+}

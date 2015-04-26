@@ -1,0 +1,9 @@
+.laugh {
+	display: none;
+}
+
+@media screen and (max-width: 500px) and (max-height: 400px) {
+	.laugh {
+		display: block;
+	}
+}
