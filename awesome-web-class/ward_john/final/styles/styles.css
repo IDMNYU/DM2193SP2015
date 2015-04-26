@@ -1,0 +1,45 @@
+/* CSS Coming Soon! */
+
+html, body {
+	height:100%;
+}
+
+.left {
+	float:left;
+	height:100%;
+	width:50%;
+	/*
+	outline-width:1px;
+	outline-color:blue;
+	outline-style:solid;
+	*/
+}
+.right {
+	float:right;
+	height:100%;
+	width:50%;
+	/*
+	outline-width:1px;
+	outline-color:red;
+	outline-style:solid;
+	*/
+}
+.box {
+	width:50%;
+	
+	border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+a {
+	color:black;
+	text-decoration:none;
+}
+a .box:hover {
+	border-color:red;
+}

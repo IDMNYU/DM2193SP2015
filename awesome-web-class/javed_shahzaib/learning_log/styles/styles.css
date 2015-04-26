@@ -1,60 +1,117 @@
-.home {
-	background: white;
-	font-family:sans-serif;
-}
+/*for the hover menu*/
 
 
-/*
-.heading{
-	color: #888;
-	font-size: 100px;
-	margin: 0;
+.background-image {
+	height: 500px;
+   width: fill;
 
-}*/
-/*.image{
-	padding-top: 100px;
-}*/
+    background: url("../images/shah.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   
 
-header h2{
-	float:left;
-	width:300px;
-	margin:11px;
-}
 
-header h3{
-	float:left;
-	width:300px;
-	margin:11px;
 }
 
 
 
+.clearfix:after{
+	display:block;
+	clear:both;
+}
+/*menu*/
 
-/*.heading {
-	font-family: Georgia;
-	font-size: 250%;
-	text-shadow: 10px, 10px, 0px #000000;
-	padding-bottom: 10px;
-	color: #666666;
+.menu-wrap{
+	width: 100%;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+
+	background: #3e3436;
+}
+.menu{
+	width: 1000px;
+	margin: 0px auto;
+}
+
+/*get all childeren of menu that are li*/
+.menu li{
+	margin: 0px;
+	list-style:none; 
+	/*we dont want bullets*/
+}
+.menu a{
+	transition:all linear .15s;
+	color:#919191;
+}
+
+.menu li:hover > a, .menu .current-item >a{
+	text-decoration: none;
+	color:#be5b70;
+}
+
+.menu .arrow{
+	font-size: 11px;
+	line-height: 0%;
+}
+
+/*top level*/
+
+.menu > ul > li{
+	float: left;
+	display: inline-block;
+	position: relative;
+	font-size: 19px;
+}
+.menu >ul >li >a{
+	padding: 10px 40px;
+	display:inline-block;
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.4);
+}
+
+.menu > ul > li:hover >a, .menu > ul > .current-item > a{
+	background:#2e2728 ;
+}
+
+/*----- Bottom Level -----*/
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+}
+
+
+.learningLogs article{
+	width: 500px;
+	margin: 200px auto;
 	
-}*/
+	
+	color: gray;
 
-div+img{
-	float:left;
-	margin-top:250px;
 }
-
-.column{
-	float:right;
-	width: 300px;
-	margin:11px;
-	/*right: 150px ;
-	text-align: center;
-	margin-left: 450px;*/
-	margin-right: 350px;
-}
-
-
-
-
-

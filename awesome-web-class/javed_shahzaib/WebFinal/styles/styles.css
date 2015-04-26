@@ -1,0 +1,142 @@
+/*.character-container{
+	position: absolute;
+	top:25%;
+	float:left;
+	margin-right: 20px;
+}
+
+.character-container2{
+	position: absolute;	
+
+	top:25%;
+	float:right;
+	margin-right: 20px;
+}*/
+
+
+body{
+	
+	background: url("../arrow/arrow.jpg"), no-repeat;
+	opacity: .9;
+}
+
+
+.speech-l,.speech-r{
+	width: 350px;
+	height: auto;
+	position: absolute;
+	
+	top: 140px;
+	display:none;
+}
+/*aligning the textbox properly*/
+.speech-l{
+
+	top: 140px;
+	left: 300px;
+}
+.speech-r{
+	top: 140px;
+	right: 170px;
+	
+}
+
+/* for the diolgoue box*/
+.image-leftBack{
+	max-width: 300px;
+	max-height: 300px;
+}
+.speech-rp,.speech-lp{
+	color: white;
+}
+.image-rightBack{
+	max-height: 130px;
+	width: 400px;
+}
+.text{
+	max-width: 150px;
+	max-height: 150px;
+	position: absolute;
+	
+	top: -40px;
+	left: -10px;
+	z-index: -1;
+}
+.text2{
+	max-width: 150px;
+	max-height: 150px;
+	position: absolute;
+	
+	top: -50px;
+	left: -10px;
+	z-index: -1;
+}
+
+.image-l,.image-r{
+	max-width: 250px ;
+	height: auto;
+	position: absolute;
+	z-index: -1;
+}
+
+.image-l{
+	top: 220px;
+	left: 100px;
+	
+}
+
+.image-r{
+	top: 220px;
+	right: 300px;
+	
+}
+
+.slide{
+	display:none;
+	padding: 100px;
+	background-color: blue;
+}
+.scene{
+	font-size: 50px;
+	height: auto;
+	position: absolute;
+	left: 500px;
+}
+.narrative{
+	font-size: 30px;
+	height: auto;
+	position: absolute;
+	left: 500px;
+	top:70px;
+}
+
+.image-c{
+	position: absolute;
+	top: 250px;
+	left:450px;
+	display: none;
+	
+	z-index: -1
+}
+
+.image-center{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	width: 500px;
+}
+.narrative{
+	display:none;
+}
+
+.image-right, .image-left{
+	max-width: 500px;
+	max-height: 500px;
+}
+
+.image-center{
+	max-height: 700px;
+	max-width: 700px;
+}
+
