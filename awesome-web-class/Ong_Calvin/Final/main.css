@@ -1,0 +1,67 @@
+/*Homepage*/
+
+/*Background image for homepage*/
+.homepageBody {
+    background-image: url(backgroundImage/homepage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.titleBox {
+    text-align: center;
+    background: linear-gradient(45deg, gray, white);
+    border-radius: 25px;
+    padding: 10px 10px;
+    position: absolute;
+    height: 430px;
+    width: 350px;
+    top:calc(50% - 430px/2); /* height divided by 2*/
+    left:calc(50% - 350px/2); /* width divided by 2*/
+}
+.titleBox h2,h4 {
+    font-style: italic;
+}
+#riddleButton {
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 4px 4px;
+    border-radius: 5px;
+}
+#puzzleButton {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 4px 4px;
+    border-radius: 5px;
+}
+#riddleButtonLink,#puzzleButtonLink:link {
+    color: #990099;
+    text-decoration: none;
+}
+#riddleButtonLink,#puzzleButtonLink:visited {
+    color: #660033;
+    text-decoration: none;
+}  
+#riddleMessageBox,#puzzleMessageBox {
+    display: none;
+    font-style: italic;
+    background: linear-gradient(45deg, gray, white);
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin-top: 5%;
+}
+
+/*Riddlepage*/
+
+/*Background image for riddlepage*/
+.riddlepageBody {
+    background-image: url(backgroundImage/riddlepage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#riddle0 {
+   display: none; 
+}
+
+#riddle1 {
+    display: none;
+}
