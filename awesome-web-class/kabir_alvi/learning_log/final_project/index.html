@@ -6,7 +6,6 @@
     <link href="css/mycss.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     <title>NYU Mad Libs</title>
-    <!--<base href="/">-->
 </head>
 <body class="body" ng-cloak>
     <div class="navbar navbar-default navbar-fixed-top">
@@ -20,16 +19,6 @@
                 </button>
             </div>
             <div class="navbar-collapse collapse" id="navbar-main">
-                <ul class="nav navbar-nav">
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" id="themes">Stories<span class="caret"></span></a>
-                        <ul class="dropdown-menu" aria-labelledby="themes" ng-controller="TabsCtrl">
-                            <li ng-repeat="tab in tabs">
-                                <a href="{{tab.href}}" data-toggle="tab" data-target="{{tab.target}}" ng-click="setSelectedTab(tab)">{{tab.label}}</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Contact</a></li>
@@ -39,20 +28,18 @@
     </div>
     <div class="content">
         <ul class="nav nav-tabs" ng-controller="TabsCtrl">
-            <li ng-class="tabClass(tab)" ng-repeat="tab in tabs">
-                <a href="{{tab.href}}" ng-click="setSelectedTab(tab)">{{tab.label}}</a>
+            <li ng-class="{'active':tab.isSelected}" ng-repeat="tab in tabs">
+                <a href="{{tab.href}}" ng-click="changeTab(tab)">{{tab.label}}</a>
             </li>
         </ul>
         <div id="myTabContent" class="tab-content" >
             <div ng-view></div>
         </div>
-
     </div>
     <script src="./scripts/jquery-1.11.2.min.js" type="text/javascript"></script>
     <script src="./scripts/bootstrap.min.js" type="text/javascript"></script>
     <script src="./scripts/angular.js"></script>
     <script src="./scripts/angular-route.js"></script>
-    <!--<script src="./scripts/ui-bootstrap-tpls-0.12.1.min.js"></script>-->
     <script src="./scripts/myjs.js" type="text/javascript"></script>
 
     <script>
@@ -65,31 +52,37 @@
                     word4:""
                 };
             }])
-//            .controller('DropCtrl',function($scope){
-//
-//            })
-            .controller('TabsCtrl', function ($scope){
-                    var g;
-                $scope.tabs = [
-                    { href : '#/story1', target: 'story1', label : 'Story 1' },
-                    { href : '#/story2', target: 'story2', label : 'Story 2' },
-                    { href : '#/story3', target: 'story3', label : 'Story 3' },
-                    { href : '#/story4', target: 'story4', label : 'Story 4' }
-                ];
-                $scope.selectedTab = $scope.tabs[0];
-                $scope.setSelectedTab = function(tab) {
-                    $scope.selectedTab = tab;
-                    g = tab;
+            .controller('Story2', ['$scope', function ($scope) {
+                $scope.words={
+                    word1:"",
+                    word2:"",
+                    word3:"",
+                    word4:""
                 };
-
-                $scope.tabClass = function(tab) {
-                    console.log("Selected:"+g,"Current Tab:"+tab);
-                    if ($scope.selectedTab == tab) {
-                        return "active";
-                    } else {
-                        return "";
+            }])
+            .controller('Story3', ['$scope', function ($scope) {
+                $scope.words={
+                    word1:"",
+                    word2:"",
+                    word3:"",
+                    word4:""
+                };
+            }])
+            .controller('TabsCtrl', function ($scope){
+                $scope.tabs = [
+                    { href : '#/story1', target: 'story1', label : 'Story 1', isSelected: 0},
+                    { href : '#/story2', target: 'story2', label : 'Story 2', isSelected: 0},
+                    { href : '#/story3', target: 'story3', label : 'Story 3', isSelected: 0},
+                    { href : '#/story4', target: 'story4', label : 'Story 4', isSelected: 0}
+                ];
+                $scope.tabs[0].isSelected = 1;
+                $scope.changeTab = function(tab){
+                    for (i = 0; i < $scope.tabs.length; i++){
+                        $scope.tabs[i].isSelected=0;
                     }
-                }
+                    var index =  $scope.tabs.indexOf(tab);
+                    $scope.tabs[index].isSelected = 1;
+                };
             })
             .config(function($routeProvider){
                 $routeProvider
@@ -99,11 +92,11 @@
                     })
                     .when('/story1',{
                         templateUrl: './story1.html',
-                        controller: 'Story1'
+                        controller: 'Story2'
                     })
                     .when('/story2',{
                         templateUrl: './story2.html',
-                        controller: 'Story1'
+                        controller: 'Story3'
                     })
                     .when('/story3',{
                         templateUrl: './story3.html',
