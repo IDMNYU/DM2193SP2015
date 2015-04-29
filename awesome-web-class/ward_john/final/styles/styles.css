@@ -2,6 +2,8 @@
 
 html, body {
 	height:100%;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20pt;
 }
 
 .left {
@@ -14,6 +16,7 @@ html, body {
 	outline-style:solid;
 	*/
 }
+
 .right {
 	float:right;
 	height:100%;
@@ -24,22 +27,39 @@ html, body {
 	outline-style:solid;
 	*/
 }
+
 .box {
 	width:50%;
 	
-	border-radius: 25px;
-    border: 2px solid black;
-    padding: 20px;
+	
 
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:30px;
 	margin-bottom:30px;
 }
+
+.inner {
+	border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
 a {
 	color:black;
 	text-decoration:none;
 }
-a .box:hover {
+
+.fail {
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-align: center;
+}
+.fail:hover {
+	color:red;
+	text-decoration:none;
+}
+
+a .inner:hover {
 	border-color:red;
 }

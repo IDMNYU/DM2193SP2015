@@ -1,6 +1,5 @@
 function validateForm()
 {
-	// Validate URL
 	var hash = CryptoJS.MD5($("#password").val());
 	hash = hash.toString(CryptoJS.enc.Hex);
 	console.log(hash);

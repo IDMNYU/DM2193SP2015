@@ -6,8 +6,6 @@
 	background-image: url("http://www.pageresource.com/wallpapers/wallpaper/anime-windows-pixel-other-hyper-police_1387780.jpg");
 	background-repeat: repeat;
     background-position: center;
-
-
 }
 
 /*.ab .sce-1*/
@@ -15,16 +13,18 @@
 .header1 {
 	background: black;
 	background-image: url("http://fc00.deviantart.net/fs70/f/2013/160/4/6/persona_3_p3p_x_persona_4_id_by_onewingedangel26-d68da41.png");
-	background-size: 1350px 620px;
+	background-size: 1350px 500px;
 	background-repeat: no-repeat;
     background-position: center;
-    border-radius: 2px black;
+    border-radius: 2px white;
     display: block;
-	font-size: 75px;
-	margin: 20px;
+    font-style: italic;
+	font-size: 65px;
+	margin: 10px;
 	color: blue;
 	text-align: center;
 	text-shadow: 7px 7px 7px white;
+
 
 }
 .mainButton{
@@ -34,16 +34,58 @@
     border-radius: 10px;
     font-size: 50px;
     position: absolute;
-
-
 }
 
-.image1 {
-	position: absolute;
+.leave {
+	background-color: black;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    position: absolute;
 }
+
 
 .buttonPos{
 	text-align: center;
 	margin: auto;
-	
+	left: 0;
+	right: 0;
 }
+
+.image {
+	position: absolute;
+	display: block;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+
+.recycleBin{
+	position:fixed;
+	display: inline-block;
+	top: 50px;
+	left: 15%;
+}
+
+.gamesFolder{
+	position:fixed;
+	display: inline-block;
+	top: 300px;
+	left: 20%;
+}
+
+.internet{
+	position:fixed;
+	display: inline-block;
+	bottom: 20%;
+	left: 20%;
+}
+
+.imageFolder{
+	position:fixed;
+	display: inline-block;
+	top: 300px;
+	left: 30%;
+}
+

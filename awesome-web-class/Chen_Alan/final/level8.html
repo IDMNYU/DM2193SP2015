@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Level 8</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/level8.css">
+	</head>
+	<body>
+		<div class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper">
+					<a href="level1.html" class="brand-logo">NYU Riddles</a>
+				</div>
+			</nav>
+		</div>
+		<main>
+			<div class="content">
+				<div class="level">
+					<h3>Level 8</h3>
+				</div>
+				<div class="riddle">
+					<p>Javascript's favorite snack: Cookies </p>
+					<img class="responsive cookie" src="images/cookie.jpeg">
+					<form name="levelForm" onsubmit="return validateForm()" method="post">
+					<div class="row">
+				        <div class="input-field col s12">
+				          	<input name="pass" id="password" type="text" class="validate">
+				          	<label for="password">Password</label>
+				        </div>
+					</div>
+					<button class="btn waves-effect waves-light" type="submit" name="action">Submit
+						<i class="mdi-content-send right"></i>
+					</button>	
+				</div>				    
+			</form>
+			</div>
+			<div class="buttons">
+				<a class="waves-effect waves-light btn-large help-btn">Panic</a>
+				<a class="waves-effect waves-light btn-large hint-btn">Hint</a>
+			</div>
+		</main>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+		<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+		<script type="text/javascript" src="js/level8.js"></script>
+	</body>
+</html>
