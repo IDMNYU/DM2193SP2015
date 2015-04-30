@@ -33,9 +33,9 @@
 ### 3: 
 ```HTML
     <div></div>
-    Divider tag
+    HTML Document Division tag
     Block Element
-    No semantic meaning. Used for grouping tags and organizing page.
+    No semantic meaning. Used for grouping elements for styling purposes or a shared attribute.
 ```
 
 ### 4: 
@@ -49,9 +49,9 @@
 ### 5: 
 ```HTML
     <blockquote></blockquote>
-    Blockquote tag
+    Block quotation tag
     Block Element
-    Used for quoting articles and papers.
+    Indicates that an enclosed text is surrounded by quotes. 
 ```
 
 ### 6: 
@@ -59,7 +59,7 @@
     <img/>
     Image tag
     Inline Element
-    Used for adding a image to a web apge.
+    Represents an image of the document
 ```
 
 ### 7: 
@@ -67,15 +67,15 @@
     <b></b>
     Bold tag
     Inline Element
-    Stylish meaning
+    Stylish meaning, no semantic meaning compared to strong tag
 ```
 
 ### 8: 
 ```HTML
     <pre></pre>
-    preformatted text tag
-    block tag
-    allow you to add code/html as text, respect spacing
+    Preformatted text tag
+    Block tag
+    Text dispalyed in this element is displayed as it is laid out in the html file
 ```
 
 ### 9: 
@@ -83,7 +83,7 @@
     <nav></nav>
     Navigation tag
     Block Element
-    HTML 5 element. Semantic meaning.
+    HTML 5 element. Semantic meaning. Represents a section of the page that links to other pages
 ```
 
 ### 10: 
@@ -108,7 +108,7 @@
     <li></li>
     List tag
     Block Element
-    used in or or ul
+    Used to represent a list tiem
 ```
 
 ### 13: 
@@ -116,7 +116,7 @@
     <table></table>
     Table tag
     Block element
-    Creating tables
+    Used for representing data in tables
 ```
 
 ### 14: 
@@ -124,7 +124,7 @@
     <html></html>
     html tag
     Block element
-    tells the web browser everything in the html tag is html
+    Tells the web browser everything in the html tag is html
 ```
 
 ### 15: 
@@ -140,39 +140,39 @@
     <!DOCTYPE> 
     DOCTYPE
     None
-    Tells web browser that the document is html
+    Tells web browser which html version you are using
 ```
 
 ### 17: 
 ```HTML
     <a></a>
     Anchor tag
-    inline element
-    used for adding links to a page
+    Inline element
+    Used for adding hyperlinks to a page
 ```
 
 ### 18: 
 ```HTML
     <em></em>
-    Emphasize tag
-    inline elemnt
-    Semantic meanning for importance
+    Emphasis tag
+    Inline elemnt
+    Semantic meaning for emphasis
 ```
 
 ### 19: 
 ```HTML
     <iframe></iframe>
-    image frame tag
-    inline element
-    adding a web page within a web page
+    Inline frame tag
+    Inline element
+    Embedding another html page into the current page
 ```
 
 ### 20: 
 ```HTML
     <title></title>
-    title tag
+    Title tag
     None
-    title tag labels the tab/webpage on the top
+    Title tag labels the browser's title bar or page's tab
 ```
 
 ## What is the difference between a Block element and an Inline element?
@@ -187,4 +187,5 @@ body and head
 ## Which tag is always the direct descendent of an Unordered List element?
 li
 ## Label and describe all of the parts of this sample markup `<p title="Opening Paragraph">Lorem ipsum...</p>`
-paragraph tag with title attribute and content (Lorem ipsum...)
+Opening p tag with title attribute, element content and closing p tag
+Paragraph tag with title attribute ("Opening Paragraph") and content (Lorem ipsum...)
