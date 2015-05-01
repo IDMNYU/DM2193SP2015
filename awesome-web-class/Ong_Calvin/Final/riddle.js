@@ -7,5 +7,20 @@ var displayRiddle = $(function (riddleNum) {
         break;
     }
 }
-                      
+                                         
 /*Modal Box*/
+function displayModalBox(riddleQuestion) {
+    var riddleAnswer = [];
+    if(riddleGuess != 5) {
+        var answer = prompt(riddleQuestion,'')
+        if(answer == riddleAnswer) {
+            //nice.gif
+        }
+        else {
+            //wrong.gif
+        } 
+    }
+    else {
+        //fail.gif
+    }
+}
