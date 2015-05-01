@@ -2,7 +2,7 @@
 
 /*Background image for homepage*/
 .homepageBody {
-    background-image: url(backgroundImage/homepage.jpg);
+    background-image: url('../images/bg/homepage.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -53,7 +53,7 @@
 
 /*Background image for riddlepage*/
 .riddlepageBody {
-    background-image: url(backgroundImage/riddlepage.jpg);
+    background-image: url('../images/bg/riddlepage.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
