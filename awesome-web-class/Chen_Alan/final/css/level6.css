@@ -1,0 +1,13 @@
+.nyan {
+	position: absolute;
+	top: 400px;
+	left: 200px;
+}
+
+.nyan-img {
+	width: 20px;
+	height: 7.5px;
+	visibility: hidden;
+}
+
+.nyan:hover {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat928.cur), progress !important;}

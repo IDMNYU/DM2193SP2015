@@ -10,7 +10,7 @@
 		<div class="navbar-fixed">
 			<nav>
 				<div class="nav-wrapper">
-					<a href="#" class="brand-logo">NYU Riddles</a>
+					<a href="index.html" class="brand-logo">NYU Riddles</a>
 				</div>
 			</nav>
 		</div>
@@ -21,7 +21,8 @@
 				</div>
 				<div class="riddle">
 					<p>Do I really want level 3's password?</p>
-					<img class="level3" src="images/level3pass.png">
+					<p>Tool: Source Code</p>
+					<img class="level3" src="images/level2pass.png">
 					<form name="levelForm" onsubmit="return validateForm()" method="post">
 						<div class="row">
 					        <div class="input-field col s12">
@@ -36,8 +37,8 @@
 				</div>
 			</div>
 			<div class="buttons">
-				<a class="waves-effect waves-light btn-large help-btn">Panic</a>
-				<a class="waves-effect waves-light btn-large hint-btn">Hint</a>
+				<a class="waves-effect waves-light btn-large help-btn" onclick="Materialize.toast('Ask a friend for help. :)', 2000)">Panic</a>
+				<a class="waves-effect waves-light btn-large hint-btn" onclick="Materialize.toast('Hint: Look at the image source', 2000)">Hint</a>
 			</div>
 		</main>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

@@ -2,6 +2,8 @@
 
 # CSS Quiz
 
+# Alan Chen
+
 ## What is the specificity number for the following selectors
 
 ### 1. 
@@ -59,7 +61,9 @@ h1 span {
     /*
         - Select the direct child of a paragraph tag with the class "kittens"
      */
-     p > .kittens
+     p > .kittens {
+	     
+     }
 ```
 
 ### 2. 
@@ -70,10 +74,9 @@ h1 span {
         - The child has a class name of "item"
         - The selector specificity number is 20
      */
-     div.container > div
-     div.container > div#cid-123
-     div.container > div.item
-     
+     .container > div {
+	     
+     }
 ```
 
 ### 3. 
@@ -81,7 +84,9 @@ h1 span {
     /*
         - Select all of the elements with the class name "stuff" but not with the class name "blah"
      */
-     .stuff .not(blah)
+    .stuff:not(.blah) {
+	 
+	 }
 ```
 
 ### 4. 
@@ -89,7 +94,9 @@ h1 span {
     /*
         - Select the last list-item element from the unordered list with the class name "posts"
      */
-     .posts > li:last-child
+    .posts > li:last-child {
+	
+	}
 ```
 
 ### 5. 
@@ -98,19 +105,22 @@ h1 span {
         - Select the Heading 1 with the class of "logo" and an id of "logo"
         - Specificity is 10
      */
-     .logo
+    .logo {
+	
+	}
 ```
 
 ## What are selectors *selecting*? from where?
+Selectors select elements from the DOM
 ## Why is it so important to use `.classes` instead of `elements` or `#ids`?
-.classes allows for flexibility. as stylesheet grows then using id locks the styles
+Classes allows for flexibility, longevity and versatility. ID's has the highest css specificity will override other types of selectors and will lock your stylesheet.
 ## List all of the parts of the box model.
-margin, outline, border padding content
+margin, outline, border padding, content
 ## What are some examples of pseudo classes and pseudo elements? -- http://www.d.umn.edu/~lcarlson/csswork/selectors/pseudo_dif.html
 pseudo classes - active, link, checked, first, visited
 pseudo elements - first-line, first-letter, after, before
 ## Why are class names on the `<HTML>` tag useful?
-top level classes allows you to cascade your css
+Top level classes allows you to cascade your css to every element in the html tag.
 
 ## Javascript Coding Examples
 
@@ -125,22 +135,25 @@ top level classes allows you to cascade your css
 ### 2: 
 ```JS
     // Select an element with the ID 'mac-n-cheese'
-    <script>
-    	var x = document.getElementbyId('mac-n-cheese');
-    </script>
+    document.getElementById("mac-n-cheese");
+    document.querySelector('#mac-n-cheese');
+    $('#mac-n-cheese');
 ```
 
 ### 3: 
 ```JS
     // Select all of the elements with the class name 'turtles'
-    document.getElementsByClassName('turtles');
+    document.getElementsByClassName("turtles");
     document.querySelectorAll('.turtles');
+    $('.turtles');
 ```
 
 ### 4: 
 ```JS
     // Log the background color from the style property on the body in the document to the console
     console.log(document.body.style.backgrounfColor);
+    or
+    document.getElementsByTagName('body')[0].style.backgroundColor;
 ```
 
 ### 5: 
@@ -151,7 +164,12 @@ top level classes allows you to cascade your css
     // Alert the ID of the element
     var cookie = document.getElementbyId('chocolate-chip-cookies');
     cookie.click(function(){
-		alert('chocolate-chip-cookies');
+		alert(cookie.id);
+		
+		//or
+		
+		var x = e. currentTarget;
+        alert(x.id);
 	}
     );
     
@@ -159,11 +177,14 @@ top level classes allows you to cascade your css
 
 ## What is the difference between document.getElementByID and document.querySelectorAll
 document.getElementByID returns one element
-document.querySelectorAll returns multiple elements, array
+document.querySelectorAll returns an array of elements
 ## Describe how variable scope works in Javascript
-local scope differs from global scope. scope changes inside function
+Global variable will exist throughout the javascript file.
+
+Local scope differs from global scope because scope changes inside function and the variable be local to the function only.
+
 var - declares a new scope
 
 ## What is the difference between Javascript and jQuery?
-javascript is client side scripting programming language while jQuery is a library that makes your life easier
-jquery wraps javascript. more concise methods. cross browsers compatability
+Javascript is client side scripting programming language while jQuery is a javascript library.
+Jquery wraps native javascript. More concise methods. Cross browsers compatibility

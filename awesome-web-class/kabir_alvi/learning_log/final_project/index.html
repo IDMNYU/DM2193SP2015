@@ -7,11 +7,11 @@
     <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     <title>NYU Mad Libs</title>
 </head>
-<body class="body" ng-controller="WordController">
+<body class="body" ng-cloak>
     <div class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <a href="#" class="navbar-brand">NYU Mad Libs</a>
+                <a ng-href="#/" class="navbar-brand">NYU Mad Libs</a>
                 <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -19,19 +19,6 @@
                 </button>
             </div>
             <div class="navbar-collapse collapse" id="navbar-main">
-                <ul class="nav navbar-nav">
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Stories<span class="caret"></span></a>
-                        <ul class="dropdown-menu" aria-labelledby="themes">
-                            <li><a href="#">Random Story</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#story1" data-toggle="tab">Story 1</a></li>
-                            <li><a href="#story2" data-toggle="tab">Story 2</a></li>
-                            <li><a href="#story3" data-toggle="tab">Story 3</a></li>
-                            <li><a href="#story4" data-toggle="tab">Story 4</a></li>
-                        </ul>
-                    </li>
-                </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Contact</a></li>
@@ -40,52 +27,82 @@
         </div>
     </div>
     <div class="content">
-        <ul class="nav nav-tabs">
-            <li class="active"><a href="#story1" data-toggle="tab">Story 1</a></li>
-            <li><a href="#story2" data-toggle="tab">Story 2</a></li>
-            <li><a href="#story3" data-toggle="tab">Story 3</a></li>
-            <li><a href="#story4" data-toggle="tab">Story 4</a></li>
+        <ul class="nav nav-tabs" ng-controller="TabsCtrl">
+            <li ng-class="{'active':tab.isSelected}" ng-repeat="tab in tabs">
+                <a href="{{tab.href}}" ng-click="changeTab(tab)">{{tab.label}}</a>
+            </li>
         </ul>
-        <div id="myTabContent" class="tab-content paper" style="width: 90%;margin:15px auto;">
-            <div class="tab-pane fade active in" id="story1">
-                <p>
-                    Raw denim you probably haven't <span class="number">1.</span> <span class="verb past" ng-bind="words.word1"></span> of them jean shorts Austin.
-                    Nesciunt stumptown aliqua, retro <span class="number">2.</span> <span class="adjective" ng-bind="words.word2"></span> master cleanse. <span class="number">3.</span> <span class="verb past" ng-bind="words.word3"></span> cliche tempor, williamsburg carles vegan helvetica.
-                    Reprehenderit <span class="number">4.</span> <span class="noun" ng-bind="words.word4"></span> retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.
-                    Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
-                </p>
-            </div>
-            <div class="tab-pane fade" id="story2">
-                <p>Food <span class="number">1.</span> <span class="adjective" ng-bind="words.word1"></span> fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, <span><input class="input" type="text" placeholder="ADJECTIVE"/></span> enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
-            </div>
-            <div class="tab-pane fade" id="story3">
-                <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork.</p>
-            </div>
-            <div class="tab-pane fade" id="story4">
-                <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater.</p>
-            </div>
+        <div id="myTabContent" class="tab-content" >
+            <div ng-view></div>
         </div>
-        <div class="cu">
-
-        </div>1.<input class="word" type="text" ng-model="words.word1" placeholder="Enter Verb/Past Tense"/>
-        2.<input class="word" type="text" ng-model="words.word2" placeholder="Enter Adjective"/>
-        3.<input class="word" type="text" ng-model="words.word3" placeholder="Enter Verb/Past Tense"/>
-        4.<input class="word" type="text" ng-model="words.word4" placeholder="Enter Noun"/>
     </div>
-    <script src="scripts/angular.js"></script>
-    <script src="scripts/jquery-1.11.2.min.js" type="text/javascript"></script>
-    <script src="scripts/bootstrap.min.js" type="text/javascript"></script>
-    <script src="scripts/myjs.js" type="text/javascript"></script>
+    <script src="./scripts/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="./scripts/bootstrap.min.js" type="text/javascript"></script>
+    <script src="./scripts/angular.js"></script>
+    <script src="./scripts/angular-route.js"></script>
+    <script src="./scripts/myjs.js" type="text/javascript"></script>
+
     <script>
-        angular.module("app", [])
-            .controller('WordController', ['$scope', function ($scope) {
-                    $scope.words={
-                        word1:"",
-                        word2:"",
-                        word3:"",
-                        word4:""
-                    };
-            }]);
+        angular.module("app", ['ngRoute'])
+            .controller('Story1', ['$scope', function ($scope) {
+                $scope.words={
+                    word1:"",
+                    word2:"",
+                    word3:"",
+                    word4:""
+                };
+            }])
+            .controller('Story2', ['$scope', function ($scope) {
+                $scope.words={
+                    word1:"",
+                    word2:"",
+                    word3:"",
+                    word4:""
+                };
+            }])
+            .controller('Story3', ['$scope', function ($scope) {
+                $scope.words={
+                    word1:"",
+                    word2:"",
+                    word3:"",
+                    word4:""
+                };
+            }])
+            .controller('TabsCtrl', function ($scope){
+                $scope.tabs = [
+                    { href : '#/story1', target: 'story1', label : 'Story 1', isSelected: 0},
+                    { href : '#/story2', target: 'story2', label : 'Story 2', isSelected: 0},
+                    { href : '#/story3', target: 'story3', label : 'Story 3', isSelected: 0},
+                    { href : '#/story4', target: 'story4', label : 'Story 4', isSelected: 0}
+                ];
+                $scope.tabs[0].isSelected = 1;
+                $scope.changeTab = function(tab){
+                    for (i = 0; i < $scope.tabs.length; i++){
+                        $scope.tabs[i].isSelected=0;
+                    }
+                    var index =  $scope.tabs.indexOf(tab);
+                    $scope.tabs[index].isSelected = 1;
+                };
+            })
+            .config(function($routeProvider){
+                $routeProvider
+                    .when('/',{
+                        templateUrl: './story1.html',
+                        controller: 'Story1'
+                    })
+                    .when('/story1',{
+                        templateUrl: './story1.html',
+                        controller: 'Story2'
+                    })
+                    .when('/story2',{
+                        templateUrl: './story2.html',
+                        controller: 'Story3'
+                    })
+                    .when('/story3',{
+                        templateUrl: './story3.html',
+                        controller: 'Story1'
+                    });
+            });
     </script>
 </body>
 </html>
