@@ -127,3 +127,7 @@ ul ul {
 h3 {
 	font-size: 1.4em;
 }
+
+.code {
+	background-color: grey;
+}
