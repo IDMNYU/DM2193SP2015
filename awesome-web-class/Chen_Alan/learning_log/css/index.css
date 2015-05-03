@@ -23,6 +23,35 @@ a{
 	text-decoration: none;
 }
 
+.about {
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.about > img {
+	width: 500px;
+}
+
+.links {
+	width: 200px;
+	float: left;
+	display: inline-block;
+}
+
+.links > ul > li {
+    list-style-type: none;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.links > ul > li > a{
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
 article {
 	padding-top: 15px;
 	padding-bottom: 15px;	
@@ -95,8 +124,8 @@ article {
 }
 
 .content > p{
-	font-size: 1.5em;
-	margin: 0 0 1.5em;
+	font-size: 1.3em;
+	margin: 0 0 1.1em;
 	font-family: HelveticaNeue-Light;
 }
 
@@ -129,5 +158,9 @@ h3 {
 }
 
 .code {
-	background-color: grey;
+	text-decoration: underline;
+}
+
+q {
+	font-style: italic;
 }

@@ -28,18 +28,56 @@
 							<a href="#">Work</a>
 						</li>
 						<li>
-							<a href="#">Notes</a>
+							<a href="../midterm/midterm.html">Midterm</a>
 						</li>
 						<li>
-							<a href="midterm.html">Midterm</a>
+							<a href="imAlan.github.io/web_riddles">Final</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 		<main>
+			<div class="about">
+				<h1>Blog!</h1>
+				<img src=images/fiscal.jpg>
+				<p>Welcome to my learning blog. This is where I share what I learn throughout my web dev class.</p>
+			</div>
+			<aside class="links">
+				<ul>
+					<li>Dates</li>
+					<li><a href="#f4">February-4-15</a></li>
+					<li><a href="#f10">February-10-15</a></li>
+					<li><a href="#f12">February-12-15</a></li>
+					<li><a href="#f17">February-17-15</a></li>
+					<li><a href="#f19">February-19-15</a></li>
+					<li><a href="#f24">February-24-15</a></li>
+					<li><a href="#f26">February-26-15</a></li>
+					<li><a href="#m3">March-3-15</a></li>
+					<li><a href="#m10">March-10-15</a></li>
+					<li><a href="#m12">March-12-15</a></li>
+					<li><a href="#m24">March-24-15</a></li>
+					<li><a href="#m26">March-26-15</a></li>
+					<li><a href="#m31">March-31-15</a></li>
+					<li><a href="#a1">April-2-15</a></li>
+					<li><a href="#a7">April-7-15</a></li>
+					<li><a href="#a9">April-9-15</a></li>
+					<li><a href="#a14">April-14-15</a></li>
+					<li><a href="#a16">April-16-15</a></li>
+					<li><a href="#a21">April-21-15</a></li>
+					<li><a href="#a23">April-23-15</a></li>
+					<li><a href="#a28">April-28-15</a></li>
+					<li><a href="#a29">April-29-15</a></li>
+					<li><a href="#a30">April-30-15</a></li>
+					<li><a href="#may1">May-1-15</a></li>
+					<li><a href="#may2">May-2-15</a></li>
+					<li><a href="#may3">May-3-15</a></li>
+				</ul>
+			</aside>
 			<div class="entries">
+				<a name="f4"></a>
 				<article class="entry">
+					<hr />
 					<div class="entry-header">
 						<h2>First Blog Entry</h2>
 					</div>
@@ -55,6 +93,7 @@
 					</div>
 				</article>
 				<hr />
+				<a name="f10"></a>
 				<article class="entry">
 					<div class="entry-header">
 						<h2>Intro to HTML</h2>
@@ -80,6 +119,7 @@
 					</div>
 				</article>
 				<hr />
+				<a name="f12"></a>
 				<article class="entry">
 					<div class="entry-header">
 						<h2>Design is important</h2>
@@ -110,6 +150,7 @@
 					</div>
 				</article>
 				<hr />
+				<a name="f17"></a>
 				<article class="entry">
 					<div class="entry-header">
 						<h2>Semantic Meaning</h2>
@@ -130,6 +171,7 @@
 					</div>
 				</article>
 				<hr />
+				<a name="f19"></a>
 				<article class="entry">
 					<div class="entry-header">
 						<h2>HTML5 and Wireframes</h2>
@@ -156,6 +198,7 @@
 					</div>
 				</article>
 				<hr />
+				<a name="f24"></a>
 				<article class="entry">
 					<div class="entry-header">
 						<h2>Intro to CSS</h2>
@@ -178,6 +221,7 @@
 					</div>
 				</article>
 				<hr />
+				<a name="f26"></a>
 				<article class="entry">
 					<div class="entry-header">
 						<h2>Playing around with CSS</h2>
@@ -207,46 +251,39 @@
 					</div>
 				</article>
 				<hr />
+				<a name="m3"></a>
 				<article class="entry">
 					<div class="entry-header">
-						<h2>Diving deep into CSS</h2>
+						<h2>More CSS</h2>
 					</div>
 					<div class="content">
-						<p><q>If you mindset going in is that we will fail then we already lost</q></p>
-						<p><q>Make it habit. Habits form who you are.</q></p>
-						<p>CSS vendor prefixes allow browsers to add support for new CSS features. Examples: webkit, moz</p>
-						<p></p>
-						<h3>Box sizing</h3>
+						<p><q>Start now or you will wait forever</q></p>
 						<ul>
-							<li>When setting the width you need to account for padding and border size.</li>
-							<li>border-box: width and height is measured with content, padding and border</li>
-							<li>content-box: width and height is measured with content only</li>
-							<li><a href="http://learnlayout.com/box-sizing.html">More Info</a></li>
-						</ul>
-						<h3><span class="code">Display: none</span> vs <span class="code">Visibility: hidden</span></h3>
-						<ul>
-							<li>Display: none will render the page as if the element didn't exist. Commonly used with javascript.</li>
-							<li>Visibility: hidden will hide the element but still take up the space</li>
-						</ul>
-						<p>Use <span class="code">max-width</span> to handle small windows so there is no scroll bar is the width is bigger then the browser.</p>
-						<p>Use <span class="code">float: right</span> to push element left or right and have other elements wrap around it.</p>
-						<p>Use <span class="code">clear: right</span> to not allow floating elements on left/right/both</p>
-						<p>Use <span class="code">overflow: auto</span> (clearfix) to specify what to do with the content if it overflows outside the box. Use auto to solve elements that are floated and overflow its containing element.</p>
-						<p>Use <span class="code">column-count</span> and <span class="code">column-gap</span> to make multicolumn text.</p>
-						<p>Use <span class="code">flex</span> is another way to do layouts.</p>
+							<li>Padding and Margin Shorthand
+								<ul>
+									<li>margin: top right bottom left</li>
+									<li>margin: all</li>
+									<li>margin: top/bottom left/right</li>
+									<li>margin: top right/left bottom</li>
+								</ul>
+							</li>
+							<li>Don't set heights, let the content/padding/margin determine the height</li>
+							<li><span class="code">z-index</span> is used to determine with elements stack over antoher</li>
+							<li><span class="code">viewport</span> allows you to tell the browser what to do when the website is displayed on a phone.</li>
+							<li><span class="code">width=device-width</span> will match the screen's width in device independent pixel</li>
+							<li><span class="code">initial-scale=1</span> to establish a 1:1 relationship between CSS pixel and device independent pixel</li>
 						<span class="date">- March-3-15</span>
 					</div>
 				</article>
 				<hr>
+				<a name="m10"></a>
 				<article class="entry">
 					<div class="entry-header">
 						<h2>Diving deep into CSS</h2>
 					</div>
 					<div class="content">
 						<p><q>If you mindset going in is that we will fail then we already lost</q></p>
-						<p><q>Make it habit. Habits form who you are.</q></p>
 						<p>CSS vendor prefixes allow browsers to add support for new CSS features. Examples: webkit, moz</p>
-						<p></p>
 						<h3>Box sizing</h3>
 						<ul>
 							<li>When setting the width you need to account for padding and border size.</li>
@@ -262,7 +299,7 @@
 						<h3>Learn Layout</h3>
 						<p>Use <span class="code">max-width</span> to handle small windows so there is no scroll bar is the width is bigger then the browser.</p>
 						<p>Use <span class="code">float: right</span> to push element left or right and have other elements wrap around it.</p>
-						<p>Use <span class="code">clear: right</span> to not allow floating elements on left/right/both</p>
+						<p>Use <span class="code">clear: right</span> to not allow floating elements on left/right/both.</p>
 						<p>Use <span class="code">overflow: auto</span> (clearfix) to specify what to do with the content if it overflows outside the box. Use auto to solve elements that are floated and overflow its containing element.</p>
 						<p>Use <span class="code">column-count</span> and <span class="code">column-gap</span> to make multicolumn text.</p>
 						<p>Use <span class="code">flex</span> is another way to do layouts.</p>
@@ -270,6 +307,322 @@
 						<p><span class="code">position: absolute</span> will position an element base relative to the parent that is not static.</p>
 						<p><span class="code">position: relative</span> will position an element relative to where it would normally lie.</p>
 						<span class="date">- March-10-15</span>
+					</div>
+				</article>
+				<hr />
+				<a name="m12"></a>
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Midterm Discussion</h2>
+					</div>
+					<div class="content">
+						<p><q>Live life full of experiences</q></p>
+						<p>The midterm is to redesign craigslist.</p>
+						<p>Analysis of Craigslist</p>
+						<ul>
+							<li>Minimum clicks to get to places</li>
+							<li>Lack of information hierarchy</li>
+							<li>Hard to navigate</li>
+							<li>Simple design but plain and dull</li>
+						</ul>
+						<p>Three views: Front page, Search page, Item page</p>
+						<p>Your website show tell a story. Use images!</p>
+						<p>Going to learn sketch so I can design web pages. Photoshop seems very dense.</p>
+						<span class="date">- March-12-15</span>
+					</div>
+				</article>
+				<hr />
+				<a name="m24"></a>
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Midterm Presentation</h2>
+					</div>
+					<div class="content">
+						<p><q>Learn from others and innovate</q></p>
+						<p>Interesting designs presented by my peers</p>
+						<p>Two of the designs focused on the map and had a point on the map to indicate sellers. I liked the design because it simplified the design visually.</p>
+						<p>I get nervous when I present. :D</p>
+						<span class="date">- March-24-15</span>
+					</div>
+				</article>
+				<hr />
+				<a name="m26"></a>
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Intro to Javascript</h2>
+					</div>
+					<div class="content">
+						<p><q>If someone is constantly telling you someone is copying you then you are doing it right!</q></p>
+						<p>Javscript is cross platform, object oriented scripting language.</p>
+						<p>JS can be used for client side or server side.</p>
+						<p>Client side javascript is used to control the DOM, make interactive and dynamic web pages.</p>
+						<p>Server side javascript can be used to server web pages such as nodejs.</p>
+						<p>JS uses prototyping-base object model instead of class-base object model.</p>
+						<p>JS is a free form language. Not type specific. Don't need to be concerned if a method is private or public.</p>
+						<p>Use the web console to see javescript information and interact with js using the command line.</p>
+						<p>If there is an error in the javascript code, the code below it will not execute!</p>
+						<span class="date">- March-26-15</span>
+					</div>
+				</article>
+				<hr />
+				<a name="m31"></a>
+				<article class="entry">
+					<div class="entry-header">
+						<h2>@ Tumblr!</h2>
+					</div>
+					<div class="content">
+						<p><q>Surround yourself with smarter people</q></p>
+						<p>Alvi and I were the first to arrive to tumblr. Some of the employees were preparing for tumblr's april fools launch. Took pictures with tumblr's bear. So many snacks and drinks! Seems like an awesome place to work at.</p>
+						<h3>Javascript Stuff</h3>
+						<p><span class="code">var</span> declares a variable to the nearest function block.</p>
+						<p><span class="code">let</span> declares a variable to the nearest enclosing block.</p>
+						<p><span class="code">const</span> read only variable.</p>
+						<p>When you declare outside the function it will be a global variable.</p>
+						<p>When you declare a variable inside a function it is known as a local variable</p>
+						<p><span class="code">console.log("hello")</span> logs to the console</p>
+						<p><span class="code">variable hoisting</span> is when you refer to a variable before the variable is declared.</p>
+						<p><span class="code">parseInt() & parseFloat()</span> converts string to int or float.</p>
+						<p><span class="code">var coffee = ["French", "Colombian"]</span> - this is an array.</p>
+						<p><span class="code">try () catch(e) {}</span> - handling exceptions</p>
+						<span class="date">- March-31-15</span>
+					</div>
+				</article>
+				<hr />
+				<a name="a2"></a>
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Diving into Javascript</h2>
+					</div>
+					<div class="content">
+						<p><q>Be yourself, don't let other people tell you what to do</q></p>
+						<h3>Javascript Selectors</h3>
+						<ul>
+							<li><span class="code">var x = document.getElementById("mySelect");</span> selects an element by id</li>
+							<li><span class="code">var elements = document.getElementsByTagName('div')</span> selects all element by tag</li>
+							<li><span class="code">var x = document.getElementsByClassName('a')</span> selects all elements by class name</li>
+							<li><span class="code">var elements = document.getElementsByName('age')</span> selects all elements by name attribute</li>
+							<li><span class="code">var elements = document.querySelectorAll('UL > LI:last-child')</span> selects all elements by css</li>
+						</ul>
+						<h3>Javascript Event Listner</h3>
+							<ul>
+								<li><span class="code">document.addEventListener('DOMContentLoaded', function(event) {}</span></li>
+								<li><span class="code">onclick="this.innerHTML=Date()"</span></li>
+							</ul>
+						<h3>JQuery</h3>
+						<p>Jquery is a library built on top of javascript</p>
+							<ul>
+								<li><span class="code">$myButton = $('.my-button');</span> - get the elements with class my-button</li>
+								<li><span class="code">$("p").hide()</span> - hides all p tag elements</li>
+								<li><span class="code">$(document).ready(function(){});</span> - prevents jquery code from running before the document is loaded</li>
+							</ul>
+						<span class="date">- April-2-15</span>
+					</div>
+				</article>
+				<hr />
+				<a name="a7"></a>
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Final Project Brainstorming</h2>
+					</div>
+					<div class="content">
+						<p><q>Be original</q></p>
+						<p>Professor had us come up with ideas by drawing out a mind map.</p>
+						<p>My mind map included technology, league of legends, cooking, creating a better world and sports.</p>
+						<p>My idea is to create a decision tree website to decide where to go to eat.</p>
+						<span class="date">- April-7-15</span>
+					</div>
+				</article>
+				<hr />
+				<a name="a9"></a>
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Tooltips and Final project pitches</h2>
+					</div>
+					<div class="content">
+						<p><q>In the end there will only be one</q></p>
+						<p>Using transitions to center a div so it is adaptable.</p>
+						<p>One way to make triangles is to use borders! <a href="https://css-tricks.com/snippets/css/css-triangle/">Article</a></p>
+						<p>There is so much to javascript. I need to learn more!</p>
+						<p>Took a css/javascript quiz.</p>
+						<h3>Project idea</h3>
+						<p>I decided to change my project idea because the idea was too simple and someone else was doing a similar idea</p>
+						<p>Inspired by this riddle <a href="http://notpron.org/notpron/">website</a>, I decided to create a website that taught web concepts in the form of riddles.</p>
+						<p>One of the riddles I came up with was to use media queries to hide information and the user would have to shrink the browser window to get the key.</p>
+						<span class="date">- April-9-15</span>
+					</div>
+				</article>
+				<hr />
+				<a name="a14"></a>
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Modal</h2>
+					</div>
+					<div class="content">
+						<p><q>Stop running away</q></p>
+						<p>Data attributes allows you to add extra info such as semantic meaning to an element. Javascript uses the data attributes to manipulate the dom such as a modal.</p>
+						<p>Use <span class="code">class="active"</span> to control modal states</p>
+						<p>Javascript can listen to keys and trigger events. This is how games in the browsers are created. The games listen for keys such as arrows that cause the character to move. <a href="http://nokarma.org/2011/02/27/javascript-game-development-keyboard-input/">Cool Game Key Event Tutorial</a></p>
+						
+						<span class="date">- April-14-15</span>
+					</div>
+				</article>
+				<hr />
+				<a name="a16"></a>
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Prototype</h2>
+					</div>
+					<div class="content">
+						<p><q>Stop for a second and enjoy whats around you</q></p>
+						<p>Continue working on the modal.</p>
+						<p>Thinking about incorporating key events into my final project. Maybe something with 911?</p>
+						<p>Talked about resume design. Don't set margins to 0. I have my resume margins set to 0 so I can fit more information. I am going to change that afterwards. Don't put references on your resume instead put references available upon request.</p>
+						<h3>Javascript Prototype</h3>
+						<p>Everyone object in javascript inherits from prototype</p>
+						<p>The methods can be overridden</p>
+						<span class="date">- April-16-15</span>
+					</div>
+				</article>
+				<hr />
+				<a name="a21"></a>
+				<article class="entry">
+					<div class="entry-header">
+						<h2>FEENGO & Lightbox</h2>
+					</div>
+					<div class="content">
+						<p><q>Failure is necessary to be successful</q></p>
+						<p>The team from FEENGO came into class to get feedback about their app. I told them I felt the app was cluttered, not useful if the only data feed is from the school. There were several bugs in the app. Overall they seem like nice people and I hope they make the improvements and come back again.</p>
+						<p>Use data-lightbox-item attribute to control multiple images in the lightbox</p>
+						<p><span class="code">('[data-lightbox-item]')</span> selects elements by attributes</p>
+						<p><a href="http://webdesign.tutsplus.com/articles/super-simple-lightbox-with-css-and-jquery--webdesign-3528">Example of lightbox</a></p>
+						<span class="date">- April-21-15</span>
+					</div>
+				</article>
+				<hr />
+				<a name="a23"></a>
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Midterm Presentation</h2>
+					</div>
+					<div class="content">
+						<p><q>Learn from others and innovate</q></p>
+						<p>In javascript, function helps with reusability.</p>
+						<p>Remember to destroy and reset the light box when you exit the light box.</p>
+						<p>tripe = means it is type specific and has to match exactly.</p>
+						<p>Ideas for riddles</p>
+						<ul>
+							<li>Use javascript cookies to store a key</li>
+							<li>Changing the source of an image</li>
+							<li>Google dev tools</li>
+							<li>Morse Code</li>
+						</ul>
+						<span class="date">- April-23-15</span>
+					</div>
+				</article>
+				<hr />
+				<a name="a28"></a>
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Bootstrap</h2>
+					</div>
+					<div class="content">
+						<p><q>Don't copy what is done instead make it better</q></p>
+						<p>Used bootstrap before I'm familiar with it</p>
+						<p>When adding the bootstrap script and links to your website be sure to place the links above your own links/scripts so your links/scripts have higher specificity</p>
+						<p>Important to understand the grid and how to arrange parts of a webpage.</p>
+						<p>Bootstrap is heavy so use it wisely, you may not need all of bootstrap.</p>
+						<p>I decided to use <a href="http://materializecss.com/">materialize</a> for my final project because I want to focus on the technical part of the riddles.</p>
+						<span class="date">- April-28-15</span>
+					</div>
+				</article>
+				<hr />
+				<a name="a29"></a>
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Working on Project Levels 1-5</h2>
+					</div>
+					<div class="content">
+						<p><q>Don't procrastinate</q></p>
+						<p>Worked on the wireframes, sitemap and designs for the final project.</p>
+						<p>So I planned and coded levels 1 to 5. Kept it simple.</p>
+						<h3>Levels 1 - 5</h3>
+						<ul>
+							<li>Level 1: clicking a door</li>
+							<li>Level 2: change the url</li>
+							<li>Level 3: change the source</li>
+							<li>Level 4: robots.txt</li>
+							<li>Level 5: media queries</li>
+						</ul>
+						<p>Robots.txt is an important concept that many people don't know about. It tells web crawlers what pages not crawl.</p>
+						<p>Since I didnt have a backend, I process the password inputs using javascript and compared keys using a js hash library.</p>
+						<span class="date">- April-29-15</span>
+					</div>
+				</article>
+				<hr />
+				<a name="a30"></a>
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Donuts and show & tell</h2>
+					</div>
+					<div class="content">
+						<p><q>Food makes everything better</q></p>
+						<p>Last class! Professor brought to class donuts! It was amazing but I felt the weight gain immediately.</p>
+						<p>I did a show & tell on <a href="pixelthoughts.org">Pixel Thoughts</a>. It allows you place a thought on a circle and it is suppose to relieve your stress.</p>
+						<p>I worked on 3 more levels.</p>
+						<h3>Levels 6 - 8</h3>
+						<ul>
+							<li>Level 6: finding a cursor on the page</li>
+							<li>Level 7: javascript key events</li>
+							<li>Level 8: javascript cookies</li>
+						</ul>
+						<p>For the key events riddle, I wanted the user to type in 911 in sequence. I used a js library that listen for the combo similar to fighting games.</p>
+						<p>Researching hosting services so I can host my final!</p>
+						<span class="date">- April-30-15</span>
+					</div>
+				</article>
+				<hr />
+				<a name="may1"></a>
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Finishing touches</h2>
+					</div>
+					<div class="content">
+						<p><q>The last 1% is the hardest</q></p>
+						<p>Worked on the last two levels which were the hardest.</p>
+						<h3>Levels 9 - 10</h3>
+						<ul>
+							<li>Level 9: morse code</li>
+							<li>Level 10: two button game</li>
+						</ul>
+						<p>Put in hours to get the two button game working. The idea is to move your cursor form one button to the second button. But the page will refresh if you leave the first button. I use jquery to trigger a page refresh when the cursor left the first button.</p>
+						<p>Put together the documentation</p>
+						<span class="date">- May-1-15</span>
+					</div>
+				</article>
+				<hr />
+				<a name="may2"></a>
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Hosting the website</h2>
+					</div>
+					<div class="content">
+						<p><q>When you start something be sure to finish it</q></p>
+						<p><a href="imAlan.github.io/web_riddles">My final!</a></p>
+						<p>I decided to use github to host my website. I found out that github pages allow you to host websites that use html, css and js. Which is amazing! Makes me motivated to code my personal website.</p>
+						<p>Updated learning log and organized my web dev files.</p>
+						<span class="date">- May-2-15</span>
+					</div>
+				</article>
+				<hr />
+				<a name="may3"></a>
+				<article class="entry">
+					<div class="entry-header">
+						<h2>Last Day</h2>
+					</div>
+					<div class="content">
+						<p><q>It the journey not the destination that matters</q></p>
+						<p>I am looking forward to this summer. I plan to master javascript and practice my craft by creating more websites!</p>
+						<span class="date">- May-3-15</span>
 					</div>
 				</article>
 			</div>
