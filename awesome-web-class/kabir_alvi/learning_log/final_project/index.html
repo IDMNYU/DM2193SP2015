@@ -66,6 +66,11 @@
     <script src="./scripts/angular-route.js"></script>
     <script>
         jq(document).ready(function(){
+            var $currentTab = jq("a[href='"+location.hash+"']").data('target');
+            if ($currentTab){
+                $currentTab=$currentTab.substring(1,$currentTab.length);
+                jq('ul.tabs').tabs('select_tab', $currentTab);
+            }
             var outerwidth = parseInt(jq('.dropdown-button').outerWidth());
             jq('ul.tabs').tabs();
             jq('.dropdown-button+ul').width(outerwidth);
@@ -90,10 +95,6 @@
             }])
             .config(function($routeProvider){
                 $routeProvider
-//                    .when('/',{
-//                        templateUrl: './story1.html',
-//                        controller: 'Story1Ctrl'
-//                    })
                     .when('/story1',{
                         templateUrl: './story1.html',
                         controller: 'StoryCtrl'
