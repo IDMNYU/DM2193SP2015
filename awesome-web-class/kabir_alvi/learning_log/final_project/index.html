@@ -2,105 +2,100 @@
 <html ng-app="app">
 <head lang="en" >
     <meta charset="UTF-8">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="./materialize-v0.96.1/materialize/css/materialize.min.css" rel="stylesheet">
     <link href="css/mycss.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     <title>NYU Mad Libs</title>
 </head>
 <body class="body" ng-cloak>
-    <div class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <a ng-href="#/" class="navbar-brand">NYU Mad Libs</a>
-                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+<!-- Dropdown Structure -->
+    <ul id="stories" class="dropdown-content adjusted">
+        <li><a href="#">Story 1</a></li>
+        <li><a href="#">Story 2</a></li>
+        <li><a href="#">Story 3</a></li>
+    </ul>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper nyu-purple">
+                <div class="container">
+                    <a href="#/" class="brand-logo left" style="position: static !important;">NYU Mad Libs</a>
+                    <ul class="left" style="margin-left: 8%">
+                        <li><a class="dropdown-button" href="#" data-activates="stories">Stories<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="navbar-collapse collapse" id="navbar-main">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
+        </nav>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+        <div class="container">
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s3"><a onclick="window.location ='#/story1';">Story 1</a></li>
+                    <li class="tab col s3"><a onclick="window.location = '#/story2';">Story 2</a></li>
+                    <li class="tab col s3"><a onclick="window.location = '#/story3';">Story 3</a></li>
+                    <li class="tab col s3"><a onclick="window.location = '#/story4';">Story 4</a></li>
                 </ul>
             </div>
+            <div id="test1" class="col s12">
+                <div class="container">
+                    <div ng-view></div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="content">
-        <ul class="nav nav-tabs" ng-controller="TabsCtrl">
-            <li ng-class="{'active':tab.isSelected}" ng-repeat="tab in tabs">
-                <a href="{{tab.href}}" ng-click="changeTab(tab)">{{tab.label}}</a>
-            </li>
-        </ul>
-        <div id="myTabContent" class="tab-content" >
-            <div ng-view></div>
-        </div>
-    </div>
-    <script src="./scripts/jquery-1.11.2.min.js" type="text/javascript"></script>
-    <script src="./scripts/bootstrap.min.js" type="text/javascript"></script>
+    <script src="./scripts/jquery-1.11.2.min.js"></script>
+    <script src="./materialize-v0.96.1/materialize/js/materialize.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var jq = jQuery.noConflict();
+    </script>
     <script src="./scripts/angular.js"></script>
     <script src="./scripts/angular-route.js"></script>
-    <script src="./scripts/myjs.js" type="text/javascript"></script>
+    <script>
+        function createStory(){
+            jq('.generate').on('click',function(){
+                console.log('hi');
+                jq('.blackout').removeClass('blackout');
+            });
+        }
+
+        jq(document).ready(function(){
+            var outerwidth = parseInt(jq('.dropdown-button').outerWidth());
+            jq('ul.tabs').tabs();
+            jq('.dropdown-button+ul').width(outerwidth);
+
+        });
+    </script>
 
     <script>
         angular.module("app", ['ngRoute'])
-            .controller('Story1', ['$scope', function ($scope) {
-                $scope.words={
-                    word1:"",
-                    word2:"",
-                    word3:"",
-                    word4:""
-                };
+            .controller('StoryCtrl',['$scope',function($scope){
+                $scope.activetext=false;
+                $scope.makeActiveText = function (){
+                    console.log('hello');
+                    $scope.activetext=true;
+                }
             }])
-            .controller('Story2', ['$scope', function ($scope) {
-                $scope.words={
-                    word1:"",
-                    word2:"",
-                    word3:"",
-                    word4:""
-                };
-            }])
-            .controller('Story3', ['$scope', function ($scope) {
-                $scope.words={
-                    word1:"",
-                    word2:"",
-                    word3:"",
-                    word4:""
-                };
-            }])
-            .controller('TabsCtrl', function ($scope){
-                $scope.tabs = [
-                    { href : '#/story1', target: 'story1', label : 'Story 1', isSelected: 0},
-                    { href : '#/story2', target: 'story2', label : 'Story 2', isSelected: 0},
-                    { href : '#/story3', target: 'story3', label : 'Story 3', isSelected: 0},
-                    { href : '#/story4', target: 'story4', label : 'Story 4', isSelected: 0}
-                ];
-                $scope.tabs[0].isSelected = 1;
-                $scope.changeTab = function(tab){
-                    for (i = 0; i < $scope.tabs.length; i++){
-                        $scope.tabs[i].isSelected=0;
-                    }
-                    var index =  $scope.tabs.indexOf(tab);
-                    $scope.tabs[index].isSelected = 1;
-                };
-            })
             .config(function($routeProvider){
                 $routeProvider
-                    .when('/',{
-                        templateUrl: './story1.html',
-                        controller: 'Story1'
-                    })
+//                    .when('/',{
+//                        templateUrl: './story1.html',
+//                        controller: 'Story1Ctrl'
+//                    })
                     .when('/story1',{
                         templateUrl: './story1.html',
-                        controller: 'Story2'
+                        controller: 'StoryCtrl'
                     })
                     .when('/story2',{
                         templateUrl: './story2.html',
-                        controller: 'Story3'
+                        controller: 'StoryCtrl'
                     })
                     .when('/story3',{
                         templateUrl: './story3.html',
-                        controller: 'Story1'
+                        controller: 'StoryCtrl'
+                    })
+                    .when('/story4',{
+                        templateUrl: './story3.html',
+                        controller: 'StoryCtrl'
                     });
             });
     </script>

@@ -1,24 +1,18 @@
-.body{
-    padding-top: 100px;
+.adjusted{
+    top:auto !important;
 }
-.content{
-    max-width: 80%;
-    margin: 0 auto;
+.tabs .tab a{
+    color:#6a1b9a;
+    cursor: pointer;
 }
-.input{
-    width: 90px;
-    border: none;
-    background: transparent;
-    border-bottom: 1px solid #fff;
-    outline: none;
-}
-.word{
-    margin-bottom: 10px;
+.tabs .tab a:hover {
+    color: #92809a; }
+.tabs .indicator{
+    background-color: #79599a;
 }
 .paper {
-    font-family: 'Indie Flower', cursive;
     font-size: 22px;
-    padding: 6px 5px 4px 42px;
+    margin-top: 25px;
     position: relative;
     color: #444;
     line-height: 40px;
@@ -30,7 +24,6 @@
     background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 10%) 0 4px;
     background: -o-linear-gradient(top, #d9eaf3 0%, #fff 10%) 0 4px;
     background: linear-gradient(top, #d9eaf3 0%, #fff 10%) 0 4px;
-    -webkit-background-size: 100% 20px;
     -moz-background-size: 100% 20px;
     -ms-background-size: 100% 20px;
     -o-background-size: 100% 20px;
@@ -41,10 +34,19 @@
     -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
     -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
     box-shadow: 0 1px 2px rgba(0,0,0,0.07);
-    width: 90%;
-    margin:15px auto;
 }
 .number{
     font-size: 14px;
 }
-.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+.blackout{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
+.text-center{
+    text-align: center;
+}
+.nyu-purple{
+    background-color: #57068c;
+}

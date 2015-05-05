@@ -1,10 +1,30 @@
-<div class="tab-pane paper" id="story2">
-    <p>
-        Food <span class="number">1.</span> <span class="adjective" ng-bind="words.word1"></span> fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, <span><input class="input" type="text" placeholder="ADJECTIVE"/></span> enim craft beer
-        mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.
+<div class="paper">
+    <p ng-class="{'blackout':!activetext}">
+        <span class="number visible">1.</span> <span class="visible">{{words.word1}}</span> visited Washington Square Park and <span class="number visible">2.</span> <span class="visible">{{words.word2}}</span>
+        for an hour to get rid of stress. By the time {{words.word1}} was done,
+        the <span class="number visible">3.</span> <span class="visible">{{words.word3}}</span> was on fire.
     </p>
 </div>
-1.<input class="word" type="text" ng-model="words.word1" placeholder="Enter Verb/Past Tense"/>
-2.<input class="word" type="text" ng-model="words.word2" placeholder="Enter Adjective"/>
-3.<input class="word" type="text" ng-model="words.word3" placeholder="Enter Verb/Past Tense"/>
-4.<input class="word" type="text" ng-model="words.word4" placeholder="Enter Noun"/>
+<div class="row">
+    <div class="input-field col s6">
+        <input id="word1" type="text" class="validate" ng-model="words.word1">
+        <label for="word1">1. Pronoun</label>
+    </div>
+    <div class="input-field col s6">
+        <input id="word2" type="text" class="validate" ng-model="words.word2">
+        <label for="word2">2. Verb/Past Tense</label>
+    </div>
+</div>
+<div class="row">
+    <div class="input-field col s6">
+        <input id="word3" type="text" class="validate" ng-model="words.word3">
+        <label for="word3">3. Noun</label>
+    </div>
+    <div class="input-field col s6">
+        <input id="word4" type="text" class="validate" ng-model="words.word4">
+        <label for="word4">Verb/Past Tense</label>
+    </div>
+</div>
+<div class="container text-center">
+    <button type="button" class="waves-effect waves-light btn deep-purple darken-4 generate" ng-click="makeActiveText()">Generate Story</button>
+</div>
