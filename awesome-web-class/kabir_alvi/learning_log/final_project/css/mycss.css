@@ -50,3 +50,8 @@
 .nyu-purple{
     background-color: #57068c;
 }
+.navbar-fixed,.tabs{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;
+}
