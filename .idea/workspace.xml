@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee64265c-1900-4566-9773-ca4401a80e38" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\css\bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\js\npm.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/css/mycss.css" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/css/mycss.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story2.html" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story2.html" />
     </list>
     <ignored path="DM2193SP2015.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.945758" vertical-offset="799" max-vertical-offset="2074">
-              <caret line="87" column="52" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
+            <state vertical-scroll-proportion="-19.833334" vertical-offset="102" max-vertical-offset="2057">
+              <caret line="76" column="63" selection-start-line="76" selection-start-column="63" selection-end-line="76" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -62,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="story2.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="story2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="595">
-              <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.048158642" vertical-offset="0" max-vertical-offset="706">
+              <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -131,11 +145,11 @@
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/current.html" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/scripts/myjs.js" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story1.html" />
-        <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story2.html" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story3.html" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story4.html" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/css/mycss.css" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html" />
+        <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story2.html" />
       </list>
     </option>
   </component>
@@ -364,10 +378,24 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
     <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
       <method />
     </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/DM2193SP2015/awesome-web-class/kabir_alvi/learning_log/final_project/">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -808,14 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="833">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="595">
@@ -840,23 +860,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="595">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.945758" vertical-offset="799" max-vertical-offset="2074">
-          <caret line="87" column="52" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
+        <state vertical-scroll-proportion="-19.833334" vertical-offset="102" max-vertical-offset="2057">
+          <caret line="76" column="63" selection-start-line="76" selection-start-column="63" selection-end-line="76" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="833">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.048158642" vertical-offset="0" max-vertical-offset="706">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>

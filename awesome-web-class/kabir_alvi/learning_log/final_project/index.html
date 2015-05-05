@@ -75,7 +75,6 @@
             jq('#stories>li>a').on('click', function(){
                 var $target = jq(this).data("target");
                 $target = $target.substring(1, $target.length);
-                console.log($target);
                 jq('ul.tabs').tabs('select_tab', $target);
             });
         });
