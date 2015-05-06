@@ -17,9 +17,6 @@
       <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\js\bootstrap.min.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\js\npm.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/css/mycss.css" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/css/mycss.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/scripts/myjs.js" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/scripts/myjs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story3.html" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story3.html" />
     </list>
     <ignored path="DM2193SP2015.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,11 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.1" vertical-offset="0" max-vertical-offset="2142">
-              <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.34744525" vertical-offset="986" max-vertical-offset="2176">
+              <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -58,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="story3.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="story3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73512745" vertical-offset="110" max-vertical-offset="901">
+            <state vertical-scroll-proportion="-24.192308" vertical-offset="0" max-vertical-offset="901">
               <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
               <folding />
             </state>
@@ -150,8 +147,8 @@
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story2.html" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/scripts/myjs.js" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/css/mycss.css" />
-        <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story3.html" />
+        <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html" />
       </list>
     </option>
   </component>
@@ -870,23 +867,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.192308" vertical-offset="0" max-vertical-offset="901">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.1" vertical-offset="0" max-vertical-offset="2142">
-          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.34744525" vertical-offset="986" max-vertical-offset="2176">
+          <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73512745" vertical-offset="110" max-vertical-offset="901">
-          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
