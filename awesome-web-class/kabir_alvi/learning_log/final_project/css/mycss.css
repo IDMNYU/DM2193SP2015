@@ -49,6 +49,7 @@ main {
 }
 .number{
     font-size: 14px;
+    font-family: 'Roboto Slab', serif;
 }
 .blackout{
     visibility: hidden;
@@ -67,6 +68,3 @@ main {
     -moz-user-select: none;     /* Firefox all */
     -ms-user-select: none;
 }
-/*#stories{*/
-    /*width: auto;*/
-/*}*/

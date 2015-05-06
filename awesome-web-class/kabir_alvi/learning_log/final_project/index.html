@@ -14,7 +14,7 @@
         <li><a href="#/story1" data-target="#test1">Time at the Square</a></li>
         <li><a href="#/story2" data-target="#test2">Imsomnia Cookies</a></li>
         <li><a href="#/story3" data-target="#test3">Gym Day</a></li>
-        <li><a href="#/story4" data-target="#test4">Story 4</a></li>
+        <li><a href="#/story4" data-target="#test4">Tutoring Session</a></li>
     </ul>
     <div class="navbar-fixed">
         <nav>
@@ -24,9 +24,9 @@
                     <ul class="left hide-on-small-and-down" style="margin-left: 8%">
                         <li><a class="dropdown-button" href="#" data-activates="stories">Stories<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
                     </ul>
-                    <ul class="left hide-on-med-and-up" id="collapsible">
-                        <li><a class="dropdown-button" href="#" data-activates="stories"><i class="mdi-navigation-arrow-drop-down right"></i></a></li>
-                    </ul>
+                    <!--<ul class="left hide-on-med-and-up" id="collapsible">-->
+                        <!--<li><a class="dropdown-button" href="#" data-activates="stories"><i class="mdi-navigation-arrow-drop-down right"></i></a></li>-->
+                    <!--</ul>-->
                 </div>
             </div>
         </nav>
@@ -39,7 +39,7 @@
                     <li class="tab col s3"><a href="#test1" onclick="window.location ='#/story1';">Time at the Square</a></li>
                     <li class="tab col s3"><a href="#test2" onclick="window.location = '#/story2';">Imsomnia Cookies</a></li>
                     <li class="tab col s3"><a href="#test3" onclick="window.location = '#/story3';">Gym Day</a></li>
-                    <li class="tab col s3"><a href="#test4" onclick="window.location = '#/story4';">Story 4</a></li>
+                    <li class="tab col s3"><a href="#test4" onclick="window.location = '#/story4';">Tutoring Session</a></li>
                 </ul>
             </div>
             <div id="test1" class="col s12">
@@ -65,7 +65,7 @@
     <footer>
         <div class="footer-copyright" style="margin-top: 5px;">
             <div class="container">
-                <p class="right">Made by Alvi Kabir</p>
+                <p class="right">© 2015 Alvi Kabir. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -126,7 +126,7 @@
                         controller: 'StoryCtrl'
                     })
                     .when('/story4',{
-                        templateUrl: './story3.html',
+                        templateUrl: './story4.html',
                         controller: 'StoryCtrl'
                     })
                     .otherwise({
