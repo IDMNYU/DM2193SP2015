@@ -3,6 +3,7 @@
 <head lang="en" >
     <meta charset="UTF-8">
     <link href="./materialize-v0.96.1/materialize/css/materialize.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
     <link href="css/mycss.css" rel="stylesheet">
     <title>NYU Mad Libs</title>
 </head>
@@ -101,6 +102,9 @@
             }])
             .config(function($routeProvider){
                 $routeProvider
+                    .when('/',{
+                        templateUrl: 'home.html'
+                    })
                     .when('/story1',{
                         templateUrl: './story1.html',
                         controller: 'StoryCtrl'
@@ -116,6 +120,9 @@
                     .when('/story4',{
                         templateUrl: './story3.html',
                         controller: 'StoryCtrl'
+                    })
+                    .otherwise({
+                        redirectTo:'/'
                     });
             });
     </script>
