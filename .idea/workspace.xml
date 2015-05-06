@@ -18,8 +18,8 @@
       <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\js\npm.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\images\paper.png" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\images\paper2.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story2.html" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story3.html" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story3.html" />
     </list>
     <ignored path="DM2193SP2015.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,10 +44,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44837758" vertical-offset="70" max-vertical-offset="2431">
+            <state vertical-scroll-proportion="-5.0666666" vertical-offset="70" max-vertical-offset="2431">
               <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -55,6 +55,16 @@
                 <element signature="n#style#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="story3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.26923" vertical-offset="85" max-vertical-offset="816">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,16 +91,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="story3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="901">
-              <caret line="5" column="91" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="91" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="story4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story4.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="story2.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="story2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="986">
-              <caret line="4" column="91" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="91" />
+            <state vertical-scroll-proportion="1.2646638" vertical-offset="0" max-vertical-offset="1088">
+              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -171,12 +171,12 @@
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/scripts/myjs.js" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/home.html" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story1.html" />
-        <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story2.html" />
-        <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story3.html" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story4.html" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/LICENSE" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/css/mycss.css" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html" />
+        <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story3.html" />
+        <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story2.html" />
       </list>
     </option>
   </component>
@@ -497,7 +497,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -869,22 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="986">
-          <caret line="4" column="91" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="901">
-          <caret line="5" column="91" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
@@ -911,7 +895,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44837758" vertical-offset="70" max-vertical-offset="2431">
+        <state vertical-scroll-proportion="-5.0666666" vertical-offset="70" max-vertical-offset="2431">
           <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -919,6 +903,22 @@
             <element signature="n#style#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.26923" vertical-offset="85" max-vertical-offset="816">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2646638" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
