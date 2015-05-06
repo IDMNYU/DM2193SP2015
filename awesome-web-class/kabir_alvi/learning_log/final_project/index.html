@@ -9,9 +9,9 @@
 <body class="body" ng-cloak>
 <!-- Dropdown Structure -->
     <ul id="stories" class="dropdown-content adjusted">
-        <li><a href="#/story1" data-target="#test1">Story 1</a></li>
-        <li><a href="#/story2" data-target="#test2">Story 2</a></li>
-        <li><a href="#/story3" data-target="#test3">Story 3</a></li>
+        <li><a href="#/story1" data-target="#test1">Time at the Square</a></li>
+        <li><a href="#/story2" data-target="#test2">Imsomnia Cookies</a></li>
+        <li><a href="#/story3" data-target="#test3">Gym Day</a></li>
         <li><a href="#/story4" data-target="#test4">Story 4</a></li>
     </ul>
     <div class="navbar-fixed">
@@ -31,9 +31,9 @@
         <div class="container">
             <div class="col s12">
                 <ul class="tabs">
-                    <li class="tab col s3"><a href="#test1" onclick="window.location ='#/story1';">Story 1</a></li>
-                    <li class="tab col s3"><a href="#test2" onclick="window.location = '#/story2';">Story 2</a></li>
-                    <li class="tab col s3"><a href="#test3" onclick="window.location = '#/story3';">Story 3</a></li>
+                    <li class="tab col s3"><a href="#test1" onclick="window.location ='#/story1';">Time at the Square</a></li>
+                    <li class="tab col s3"><a href="#test2" onclick="window.location = '#/story2';">Imsomnia Cookies</a></li>
+                    <li class="tab col s3"><a href="#test3" onclick="window.location = '#/story3';">Gym Day</a></li>
                     <li class="tab col s3"><a href="#test4" onclick="window.location = '#/story4';">Story 4</a></li>
                 </ul>
             </div>
@@ -66,14 +66,18 @@
     <script src="./scripts/angular-route.js"></script>
     <script>
         jq(document).ready(function(){
+            jq('.dropdown-button').on('click', function(){
+                console.log('hi');
+                console.log(jq('#stories').css("width"));
+                jq('#stories').css("width","auto");
+                console.log(jq('#stories').css("width"));
+            });
             var $currentTab = jq("a[href='"+location.hash+"']").data('target');
             if ($currentTab){
                 $currentTab=$currentTab.substring(1,$currentTab.length);
                 jq('ul.tabs').tabs('select_tab', $currentTab);
             }
-            var outerwidth = parseInt(jq('.dropdown-button').outerWidth());
             jq('ul.tabs').tabs();
-            jq('.dropdown-button+ul').width(outerwidth);
             jq('.brand-logo').on('click', function(){
                 jq('ul.tabs').tabs('select_tab', 'test1');
             });

@@ -55,3 +55,6 @@
     -moz-user-select: none;     /* Firefox all */
     -ms-user-select: none;
 }
+/*#stories{*/
+    /*width: auto;*/
+/*}*/
