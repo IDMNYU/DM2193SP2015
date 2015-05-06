@@ -4,6 +4,10 @@ html, body, main {
 	padding: 0;
 }
 
+nav {
+	background-color: #5C6BC0;
+}
+
 .brand-logo {
 	left: 50%;
 	-webkit-transform: translateX(-50%);

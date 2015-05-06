@@ -1,0 +1,19 @@
+.start {
+	display: inline-block;
+	margin-left: 35%;
+	margin-right: 120px;
+	padding: 50px;
+}
+
+.end {
+	display: inline-block;
+}
+
+.end-btn {
+	display: none;
+}
+
+.tricks {
+	margin: 0 auto;
+	width: 400px;
+}

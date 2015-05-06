@@ -1,25 +1,30 @@
-.body{
-    padding-top: 100px;
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
-.content{
-    max-width: 80%;
-    margin: 0 auto;
+
+main {
+    flex: 1 0 auto;
 }
-.input{
-    width: 90px;
-    border: none;
-    background: transparent;
-    border-bottom: 1px solid #fff;
-    outline: none;
+.story{
+    font-family: 'Coming Soon', cursive;
 }
-.word{
-    margin-bottom: 10px;
+.adjusted{
+    top:auto !important;
+}
+.tabs .tab a{
+    color:#6a1b9a;
+    cursor: pointer;
+}
+.tabs .tab a:hover {
+    color: #92809a; }
+.tabs .indicator{
+    background-color: #79599a;
 }
 .paper {
-    font-family: 'Indie Flower', cursive;
     font-size: 22px;
-    margin: 0 auto;
-    padding: 6px 5px 4px 42px;
+    margin-top: 25px;
     position: relative;
     color: #444;
     line-height: 40px;
@@ -31,7 +36,6 @@
     background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 10%) 0 4px;
     background: -o-linear-gradient(top, #d9eaf3 0%, #fff 10%) 0 4px;
     background: linear-gradient(top, #d9eaf3 0%, #fff 10%) 0 4px;
-    -webkit-background-size: 100% 20px;
     -moz-background-size: 100% 20px;
     -ms-background-size: 100% 20px;
     -o-background-size: 100% 20px;
@@ -42,8 +46,27 @@
     -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
     -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
     box-shadow: 0 1px 2px rgba(0,0,0,0.07);
-    width: 816px;
 }
 .number{
     font-size: 14px;
 }
+.blackout{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
+.text-center{
+    text-align: center;
+}
+.nyu-purple{
+    background-color: #57068c;
+}
+.navbar-fixed,.tabs{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;
+}
+/*#stories{*/
+    /*width: auto;*/
+/*}*/
