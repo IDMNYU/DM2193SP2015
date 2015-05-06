@@ -19,8 +19,6 @@
       <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\images\paper.png" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\images\paper2.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/css/mycss.css" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/css/mycss.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story4.html" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story4.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DM2193SP2015.iws" />
@@ -46,11 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.983334" vertical-offset="0" max-vertical-offset="2431">
-              <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.44837758" vertical-offset="70" max-vertical-offset="2431">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -145,10 +143,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mycss.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mycss.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/css/mycss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5894309" vertical-offset="0" max-vertical-offset="1275">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
               <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
               <folding />
             </state>
@@ -177,8 +175,8 @@
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story3.html" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story4.html" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/LICENSE" />
-        <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html" />
         <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/css/mycss.css" />
+        <option value="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html" />
       </list>
     </option>
   </component>
@@ -895,19 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.983334" vertical-offset="0" max-vertical-offset="2431">
-          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/story4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="629">
@@ -918,9 +903,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/css/mycss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5894309" vertical-offset="0" max-vertical-offset="1275">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
           <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/final_project/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44837758" vertical-offset="70" max-vertical-offset="2431">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
