@@ -23,22 +23,22 @@
 				<div class="riddle">
 					<p>I love dots!</p>
 					<pre>-.. ---   -.-- --- ..-   -- --- .-. ... . ..--..</pre>
+					<form name="levelForm" onsubmit="return validateForm()" method="post">
+						<div class="row">
+					        <div class="input-field col s12">
+					          	<input name="pass" id="password" type="text" class="validate">
+					          	<label for="password">Password</label>
+					        </div>
+						</div>
+						<button class="btn waves-effect waves-light" type="submit" name="action">Submit
+							<i class="mdi-content-send right"></i>
+						</button>					    
+					</form>
 				</div>
-				<form name="levelForm" onsubmit="return validateForm()" method="post">
-					<div class="row">
-				        <div class="input-field col s12">
-				          	<input name="pass" id="password" type="text" class="validate">
-				          	<label for="password">Password</label>
-				        </div>
-					</div>
-					<button class="btn waves-effect waves-light" type="submit" name="action">Submit
-						<i class="mdi-content-send right"></i>
-					</button>					    
-				</form>
 			</div>
 			<div class="buttons">
 				<a class="waves-effect waves-light btn-large help-btn" onclick="Materialize.toast('Find a way!', 2000)">Panic</a>
-				<a class="waves-effect waves-light btn-large hint-btn" onclick="Materialize.toast('Hint: Dots are a way to communicate', 2000)">Hint</a>
+				<a class="waves-effect waves-light btn-large hint-btn" onclick="Materialize.toast('Hint: Google Dots and Dashes; code is lowercase and respect the spaces', 2000)">Hint</a>
 			</div>
 		</main>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

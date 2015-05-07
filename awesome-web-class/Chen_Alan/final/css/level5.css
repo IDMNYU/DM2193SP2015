@@ -2,7 +2,7 @@
 	display: none;
 }
 
-@media screen and (max-width: 500px) and (max-height: 400px) {
+@media screen and (max-width: 600px) and (max-height: 450px) {
 	.laugh {
 		display: block;
 	}
