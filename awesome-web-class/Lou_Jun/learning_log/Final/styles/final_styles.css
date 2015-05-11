@@ -233,5 +233,12 @@
 .musicPlayer{
 	position: fixed;
 	top: 95%;
+}
 
+.rant{
+	background: white;
+	position: fixed;
+	top: 80%;
+	left: 30%;
+	font-size: 30px;
 }
