@@ -1,0 +1,154 @@
+html,body {
+    height:100%;
+}
+
+body{
+      background: #ffffff url("../images/espeon-bk.jpg")  no-repeat fixed center;
+      background-size: cover;
+      padding:5px;
+      font-family:helvetica;
+      color:white;
+}
+
+/* Download the typewriter font */
+@font-face {
+    font-family: american-typewriter;
+    src: url(american-typewriter.ttf);
+}
+
+
+.title{
+    font-family:american-typewriter;
+    color:rgb(211,182,205);
+    margin:0px;
+    font-size:33pt;
+    font-weight:regular;
+}
+
+.blurb {
+    font-family:american-typewriter;
+    color:rgb(211,182,205);
+    font-size:12pt;
+    font-weight:regular;
+    width:265px;
+}
+
+.menu{
+    width:60%;
+    min-width:800px;
+    position:absolute; top:3%; left:400px;
+    font-weight:oblique;
+}
+
+.menu .menu-opt{
+    display:inline-block;
+    margin-left:7%;
+}
+
+.menu-opt{
+    text-decoration: none;
+    font-size:12pt;
+    color:rgb(255,255,255);
+    transition: color .5s ease;
+}
+
+.menu .menu-opt-subs .sub-cat{
+    display:block;
+    padding-bottom:6%;
+}
+
+.menu .sub-cat:hover{
+    color:rgb(13,215,211);
+    cursor:pointer;
+}
+
+.menu .menu-opt:hover{
+    color:rgb(215,28,151);
+    cursor:pointer;
+}
+
+.menu .menu-opt-subs{
+    position:absolute;
+    margin-left:3%;
+    margin-top:2%;
+    width:40%;
+    display:none;
+}
+
+.menu .menu-opt-subs-active{
+    display:block;
+}
+
+.menu .js-comp .sub-cat:hover{
+    color:rgb(13,215,211);
+}
+
+/* week menu section */
+
+.week-menu{
+    position:absolute;
+    top:40%;
+}
+
+.week-menu .menu-opt .sub-cat{
+    margin-left:60px;
+    font-size:15pt;
+}
+
+.week-menu .menu-opt:hover{
+    color:rgb(255,50,239);
+    cursor:pointer;
+}
+
+.week-menu .menu-opt:hover .menu-opt-subs{
+    display:block;
+}
+
+.week-menu .menu-opt{
+    width:150px;
+    font-size:16pt;
+}
+
+.week-menu .menu-opt-subs{
+    display:none;
+}
+
+
+/* Article Secton */
+
+.ll-arts{
+    font-family:american-typewriter;
+    position:fixed;
+    left:15%;
+    top:35%;
+    height:450px;
+    width:75%;
+    overflow:auto;
+}
+
+.logo{
+    position:absolute;
+    width:125px;
+    left:90%;
+    top:35%;
+}
+
+.week-log{
+    display:none;
+}
+
+.week-active{
+    display:block;
+}
+
+.week-link-active{
+    color:rgb(255,50,239);
+}
+
+
+
+
+
+
+
+
