@@ -39,9 +39,9 @@ ul{
 }
 li{
     list-style-type: none;
-    /*width: -webkit-fit-content;*/
-    /*width: -moz-fit-content;*/
-    width: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    /*width: fit-content;*/
     margin: 0 auto;
 }
 .entry{
@@ -54,7 +54,8 @@ li{
     text-decoration: none !important;
 }
 .article{
-    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
 }
 .button{
@@ -95,4 +96,9 @@ li{
     box-sizing: border-box;
     color: #050706;
     box-shadow: none;
+}
+.entries{
+    width:10%;
+    display: inline-block;
+    vertical-align: top;
 }

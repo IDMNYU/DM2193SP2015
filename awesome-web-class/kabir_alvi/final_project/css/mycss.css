@@ -1,9 +1,13 @@
+@media (min-height: 730px){
+    .paper{
+        height: 300px;
+    }
+}
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
-
 main {
     flex: 1 0 auto;
 }
@@ -56,6 +60,9 @@ main {
 }
 .visible{
     visibility: visible;
+}
+.not-visible{
+    display: none;
 }
 .text-center{
     text-align: center;
