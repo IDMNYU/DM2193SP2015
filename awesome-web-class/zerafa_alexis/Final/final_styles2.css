@@ -1,0 +1,30 @@
+
+body {
+	background: black;
+	color: #fff;	
+	font-family:Helvetica;
+}
+
+.first-header {
+	font-size: 200;
+	text-align: center;
+}
+
+.second-header {
+	font-size: 100;
+	text-align: center;
+}
+
+.image{
+	margin-left: 35%;
+
+}
+
+.fade
+{
+        opacity:0.5;
+}
+.fade:hover
+{
+        opacity:1;
+}
