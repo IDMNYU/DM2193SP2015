@@ -1,14 +1,14 @@
 # HTML Quiz
 
 ## Name of tag, Block or Inline, Semantic use case
-
+## Courtesy of John Ward
 ### Example: 
 ```HTML
     <p></p> 
     <!-- 
         Paragraph Tag
         Block Element 
-        Encloses paragraphs of text
+        provides line breaks above and below the element
     -->
 ```
 
@@ -18,7 +18,7 @@
     <!-- 
         Header 1 tag
         Inline Element
-        Denotes a main header
+        the leader of the pack of headers, provides the largest text
     -->
 ```
 
@@ -28,7 +28,7 @@
     <!-- 
         Strong text tag
         Inline Element
-        Kind of like bold. Describes emphasis intended when reading the text. May look like bold, but has slightly different semantic meaning.
+        Makes the weight of the font of the wrapped text heavier
     -->
 ```
 
@@ -38,7 +38,7 @@
     <!-- 
         Divider tag
         Block Element
-        Encapsulates blocks of code. No semantic meaning.
+        empty block of space, wraps and can be molded, but hodls no implicit meaning
     -->
 ```
 
@@ -48,7 +48,7 @@
     <!-- 
         Span tag
         Inline Element
-        Encapsulates blocks of code. No semantic meaning. (Div but inline)
+        empty period of space, wraps text and can be molded, but holds no implicit meaning
     -->
 ```
 
@@ -58,7 +58,7 @@
     <!-- 
         Quotation tag
         Block Element
-        Denotes a quotation block. Like a block, with maybe different background color, border, different font, etc. just to emphasize that it's not from the same source as the rest of the content.
+        Not sure
     -->
 ```
 
@@ -68,7 +68,7 @@
     <!-- 
         Image tag
         Inline Element
-        Used to insert an image
+        holds and shows images
     -->
 ```
 
@@ -78,7 +78,7 @@
     <!-- 
         Bold tag
         Inline Element
-        Describes a heavier weight of font.
+        wraps an area of text to be bolded
     -->
 ```
 
@@ -88,7 +88,7 @@
     <!-- 
         Preformatted text tag
         Inline Element
-        Makes font monospace and respects spacing
+        unsure
     -->
 ```
 
@@ -98,7 +98,7 @@
     <!-- 
         Navigation tag
         Block Element
-        Denotes a navigation section, with links to other content.
+        wraps text that navigates the user somewhere
     -->
 ```
 
@@ -108,7 +108,7 @@
     <!-- 
         Ordered List tag
         Block Element
-        Makes an ordered (numbered/lettered, etc.) list, as opposed to an unordered list (which would be bullets or something)
+        a list that creates numbers instead of bullets
     -->
 ```
 
@@ -118,7 +118,7 @@
     <!-- 
         Unordered List tag
         Block Element
-        A bulleted or otherwise listed list where order does not matter
+        list made of bullets and dashes
     -->
 ```
 
@@ -128,7 +128,7 @@
     <!-- 
         List Item tag
         Block Element
-        Goes inside an ol or ul. Each individual item in the list
+        the items of lists
     -->
 ```
 
@@ -138,7 +138,7 @@
     <!-- 
         Table tag
         Block Element
-        Makes a table. Can add rows and columns and stuff with other tags.
+        create a table in html
     -->
 ```
 
@@ -147,7 +147,7 @@
     <html></html>
     <!-- 
         HTML tag
-        Uhh...
+        DOM
         Denotes html
     -->
 ```
@@ -157,7 +157,7 @@
     <!-- -->
     <!-- 
         Comment tag
-        Inline? Doesn't show up
+        inline
         Makes a section in the code not be rendered.
     -->
 ```

@@ -1,7 +1,7 @@
 # CSS & Javascript Quiz
 
 # CSS Quiz
-
+## Courtest of John Ward
 ## What is the specificity number for the following selectors
 
 ### 1. 
