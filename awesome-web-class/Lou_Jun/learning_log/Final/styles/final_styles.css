@@ -20,7 +20,7 @@
     display: block;
     font-style: italic;
 	font-size: 65px;
-	margin: 10px;
+	margin: 5px;
 	color: blue;
 	text-align: center;
 	text-shadow: 7px 7px 7px white;
@@ -43,6 +43,17 @@
     border-radius: 10px;
     font-size: 20px;
     position: absolute;
+}
+
+.nextButton1{
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    position: fixed;
+    top: 10%;
+    left: 0;
 }
 
 .continueButton{
@@ -76,6 +87,13 @@
 	left: 0;
 	right: 0;
 }
+
+.image1 {
+	position: absolute;
+	display: block;
+	top: 0;
+}
+
 
 .recycleBin{
 	position:fixed;
@@ -231,6 +249,12 @@
 }
 
 .musicPlayer{
+	position: fixed;
+	top: 95%;
+}
+
+.musicPlayer1{
+	display: none;
 	position: fixed;
 	top: 95%;
 }
