@@ -1,15 +1,81 @@
 html{
 	font-family: sans-serif;
+	padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    background-image: 
+    linear-gradient(
+      rgba(25, 0, 0, 0.7),
+      rgba(0, 0, 25, 0.7)
+    ),
+    url(images/bright_cross.jpg);
 }
 
 .home{
-	background: lightblue;
-	color: purple;
+	background-color: white;
+	color: lightblue;
 }
 
 .heading{
-	color: blue;
-	font-size: 75px;
+	color: lightblue;
+	font size: 75px;
 	margin: 0;
+}
 
+.text{
+	width: 80em;
+}
+
+.column1{
+	width: 20%;
+	float: left;
+	text-align: center;
+	border: solid red;
+	border-width: 5px;
+}
+
+.column2{
+	width: 20%;
+	float: left;
+	text-align: center;
+	border: solid orange;
+	border-width: 5px;
+}
+
+.column3{
+	width: 20%;
+	float: left;
+	text-align: center;
+	border: solid yellow;
+	border-width: 5px;
+}
+
+.column4{
+	width: 20%;
+	float: left;
+	text-align: center;
+	border: solid green;
+	border-width: 5px;
+}
+
+a:link{
+    color: lightblue;
+}
+
+a:visited{
+    color: lightgreen;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: white;
+}
+
+.quote{
+	border: 5px solid blue;
+	padding: 25px;
 }
