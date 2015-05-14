@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Life Is Strange - Web Edition</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:700,700italic,400|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <style>
+        .container{
+            background:url('img/principalchoice.png') no-repeat center center;
+        }
+
+        .rewinded-container{
+            display:none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="choice-one-container"><button class="scene-choice"><a href="report-nathan.html" class="choice-one" store-player-choice="choice-one">Report Nathan</a></button></div>
+
+        <div class="choice-two-container"><button class="scene-choice"><a href="hide-the-truth.html" class="choice-two" store-player-choice="choice-two">Hide The Truth</a></button></div>
+
+        <button class="rewinded-container"></button>
+
+    </div>
+
+<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script>
+
+$( document ).ready(function() {  
+    var playerChosen = sessionStorage.getItem('player-choice');
+    console.log("BANKS");
+    console.log(playerChosen);
+    if( playerChosen == 'rewind-container'){
+        $('.rewinded-container').css('display', 'block');
+    }
+});
+
+</script>
+<script src="js/wow.js"></script>
+<script>
+ new WOW().init();
+</script>
+
+</body>
+</html>

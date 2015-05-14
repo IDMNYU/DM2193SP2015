@@ -10,15 +10,45 @@
 
 
 .image {
-	position: absolute;
-	display: block;
-	margin: auto;
-	left: 0;
-	right: 0;
+    position: absolute;
+    display: block;
+    margin: auto;
+    top: 10px;
+    left: 0;
+    right: 0;
 }
 
+.mainFolder{
+    position: fixed;
+    display: inline-block;
+    top: 10%;
+    left: 20%;
+}
 
+.leave {
+    background-color: black;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
 
+.internet{
+    position:fixed;
+    display: inline-block;
+    bottom: 30%;
+    left: 10%;
+}
+
+.recycleBin{
+    position:fixed;
+    display: inline-block;
+    top: 50px;
+    left: 10%;
+}
 
 
 * 
@@ -47,11 +77,10 @@ body
 
 .btn
 {
-    padding: 10px;
-    background: rgba(0,0,0,0.125);
-    border: 1px solid rgba(0,0,0,0.1);
-    outline: none;
-    border-radius: 4px;
+    position: fixed;
+    display: inline-block;
+    top: 25%;
+    left: 40%;
     cursor: pointer;
 }
 .btn:active
@@ -98,11 +127,25 @@ body
 }
     .lightbox-controls .previous
     {
-        float: left;
+        position: fixed;
+        top: 95%;
+        left: 0%;
+        background-color: #000000;
+        color: #FFFFFF;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
     }
     .lightbox-controls .next
     {
-        float: right;
+        position: fixed;
+        top: 95%;
+        left: 90%;
+        background-color: #000000;
+        color: #FFFFFF;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
     }
 
 .lightbox-close-button

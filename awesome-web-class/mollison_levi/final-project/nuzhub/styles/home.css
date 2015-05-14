@@ -1,0 +1,47 @@
+/* Home Page CSS*/
+.sub-head{
+	position:relative;
+	top:100px;
+	font-weight:200;
+}
+
+.sub-head-cont{
+	position:relative;
+	left:0px;
+	display:inline-block;
+	transition: all 1s ease;
+}
+
+.sub-head-cont:hover{
+	color:rgb(196,138,56);
+	cursor:pointer;
+}
+
+.sub-head-cont-active{
+	left:40%;
+	color:rgb(196,138,56);
+}
+
+.sub-head .underln{
+	width:700px;
+}
+
+.display-img{
+	width:35%;
+	position:absolute;
+	left:55%;
+	top:13%;
+}
+
+.rec-view{
+	position:absolute;
+	left:280px;
+	top:50%;
+	font-weight:200;
+}
+
+.rec-view .underln{
+	position:relative;
+	left:-160px;
+}
+

@@ -13,10 +13,7 @@ html {
     line-height: 200px;
     font-family: monospace;
 }
-.testLink {
-    font-size: 2em;
-}
-.flip, .flip2, .flip3, .flip4, .flip5, .flip6, .flip7, .flip8, .flip9, .flip10, .flip11, .flip12, .flip13, .flip14 {
+.flip1, .flip2, .flip3, .flip4, .flip5, .flip6, .flip7, .flip8, .flip9, .flip10, .flip11, .flip12, .flip13, .flip14 {
     width: 150px;
     height: 150px;
     border-radius: 100px;

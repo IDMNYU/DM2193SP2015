@@ -1,0 +1,150 @@
+.curr-page{
+	font-weight:300;
+	font-size:22pt;
+	position:relative;
+	left:75px;
+	color:rgb(196,138,56);;
+}
+
+.artist-search-cont .underln{
+	width:1000px;
+	margin:auto;
+}
+
+.artist-search{
+	height:100px;
+	width:1000px;
+	overflow:scroll;
+	margin:auto;
+}
+
+.item{
+	width:20%;
+	text-decoration: none;
+	font-weight:200;
+	margin-left:14%;
+	position:relative;
+	top:14px;
+	transition: all .5s ease;
+}
+
+.item:hover{
+	color:rgb(196,138,56);
+}
+
+.cont-title{
+	font-weight:200;
+}
+
+.work-name{
+	position:relative;
+	left:70%;
+	font-size:14pt;
+}
+
+.cont-prevs{
+	width:900px;
+	position:relative;
+	left:30px;
+	margin-top:40px;
+}
+
+.cont-view-cont{
+	width:100%;
+}
+
+.cont-view-img{
+	width:200px;
+}
+
+.cont-view-wrap{
+	display:inline-block;
+	height:150px;
+	width:24%;
+	overflow:hidden;
+	transition: all 1s ease;
+	margin-bottom:30px;
+}
+
+.cont-view-wrap:hover{
+	border-radius:55px;
+	cursor:pointer;
+}
+
+.comic-modal{
+	height:80%;
+	width:70%;
+	position:absolute;
+	top:10%;
+	left:15%;
+	overflow:scroll;
+	display:none;
+}
+
+.comic-modal-active{
+	display:block;
+	z-index:1000;
+}
+
+.modal-glass{
+	background-color:gray;
+	height:100%;
+	width:100%;
+	position:absolute;
+	left:0px; top:0px;
+	opacity:.5;
+	display:none;
+}
+
+.modal-glass-active{
+	display:block;
+	z-index:999;
+}
+
+.modal-img{
+	width:80%;
+}
+
+.modal-controls{
+	position:fixed;
+	left:85%;
+	top:100px;
+}
+
+.modal-button{
+	margin-bottom:7px;
+	transition: all .5s ease;
+}
+
+.modal-button:hover{
+	color:rgb(196,138,56);
+	cursor:pointer;
+}
+
+.content-area{
+	width:50%;
+}
+
+.description{
+	font-weight:200;
+	font-size:14pt;
+	width:50%;
+	margin:auto;
+	position:relative;
+	top:15%;
+}
+
+.content-search-cont .underln{
+	width:700px;
+	margin:auto;
+}
+
+
+.content-search-cont{
+	width:70%;
+	height:500px;
+	overflow:scroll;
+	position:absolute;
+	left:16%;
+	margin-top:25px;
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <head>
+        <title>Johnny subscriptions in feedly Cloud</title>
+    </head>
+    <body>
+        <outline text="3.Code" title="3.Code">
+            <outline type="rss" text="Official Google Blog" title="Official Google Blog" xmlUrl="http://feeds2.feedburner.com/blogspot/MKuf" htmlUrl="http://googleblog.blogspot.com/"/>
+            <outline type="rss" text="#! code blogs" title="#! code blogs" xmlUrl="http://feeds2.feedburner.com/hashbangcode" htmlUrl="http://www.hashbangcode.com/blog"/>
+            <outline type="rss" text="Surfin' Safari" title="Surfin' Safari" xmlUrl="https://www.webkit.org/blog/feed/" htmlUrl="https://www.webkit.org/blog"/>
+            <outline type="rss" text="BrowserFame » Updates" title="BrowserFame » Updates" xmlUrl="http://feeds.feedburner.com/BrowserFame" htmlUrl="http://browserfame.com"/>
+            <outline type="rss" text="don't code today what you..." title="don't code today what you..." xmlUrl="http://ariya.ofilabs.com/feed" htmlUrl="http://ariya.ofilabs.com"/>
+            <outline type="rss" text="The If Works" title="The If Works" xmlUrl="http://blog.jcoglan.com/feed/" htmlUrl="https://blog.jcoglan.com"/>
+            <outline type="rss" text="DailyJS" title="DailyJS" xmlUrl="http://feeds.feedburner.com/dailyjs" htmlUrl="http://dailyjs.com"/>
+            <outline type="rss" text="G+ Ilya Grigorik" title="G+ Ilya Grigorik" xmlUrl="http://gplusrss.com/rss/feed/d2d6408a6f0d43e14164053b6798a78d51d408cea0442" htmlUrl="https://plus.google.com/114552443805676710515"/>
+            <outline type="rss" text="Chromium Blog" title="Chromium Blog" xmlUrl="http://blog.chromium.org/feeds/posts/default" htmlUrl="http://blog.chromium.org/"/>
+            <outline type="rss" text="IEBlog" title="IEBlog" xmlUrl="http://blogs.msdn.com/ie/rss.xml" htmlUrl="http://blogs.msdn.com/b/ie/"/>
+            <outline type="rss" text="Badass JavaScript" title="Badass JavaScript" xmlUrl="http://rss.badassjs.com/" htmlUrl="http://badassjs.com/"/>
+            <outline type="rss" text="G+ Addy Osmani" title="G+ Addy Osmani" xmlUrl="http://gplusrss.com/rss/feed/3241c91a1c3db763c377b0913d1f17e151d408c167add" htmlUrl="https://plus.google.com/115133653231679625609"/>
+            <outline type="rss" text="CSS-Tricks" title="CSS-Tricks" xmlUrl="http://feeds.feedburner.com/CssTricks" htmlUrl="http://css-tricks.com"/>
+            <outline type="rss" text="G+ Paul Irish" title="G+ Paul Irish" xmlUrl="http://gplusrss.com/rss/feed/eb8ba349bb9f0a39885197e359e05e0851d408ab1ebee" htmlUrl="https://plus.google.com/113127438179392830442"/>
+            <outline type="rss" text="raganwald.com" title="raganwald.com" xmlUrl="http://raganwald.com/rss.xml" htmlUrl="http://raganwald.com/"/>
+            <outline type="rss" text="RedTeamDesign" title="RedTeamDesign" xmlUrl="http://feeds.feedburner.com/redteamdesign" htmlUrl="http://www.red-team-design.com"/>
+            <outline type="rss" text="One Thing Well" title="One Thing Well" xmlUrl="http://onethingwell.org/rss" htmlUrl="http://onethingwell.org/"/>
+            <outline type="rss" text="Official jQuery Blog" title="Official jQuery Blog" xmlUrl="http://blog.jquery.com/feed/" htmlUrl="http://blog.jquery.com"/>
+            <outline type="rss" text="Google Chrome Releases" title="Google Chrome Releases" xmlUrl="http://feeds.feedburner.com/GoogleChromeReleases" htmlUrl="http://googlechromereleases.blogspot.com/"/>
+            <outline type="rss" text="Coder Weekly Archive Feed" title="Coder Weekly Archive Feed" xmlUrl="http://us4.campaign-archive1.com/feed?u=a2e40d31d41d5e395f44447e8&amp;id=3b843cbb69" htmlUrl="http://us4.campaign-archive.com/feed?u=a2e40d31d41d5e395f44447e8&amp;id=3b843cbb69"/>
+            <outline type="rss" text="HTML5Rocks - Posts &amp; Tutorials" title="HTML5Rocks - Posts &amp; Tutorials" xmlUrl="http://www.html5rocks.com/tutorials/index.xml" htmlUrl="http://www.html5rocks.com"/>
+            <outline type="rss" text="JavaScript Weekly Archive Feed" title="JavaScript Weekly Archive Feed" xmlUrl="http://javascriptweekly.com/rss" htmlUrl="http://javascriptweekly.com/"/>
+            <outline type="rss" text="HTML5Rocks" title="HTML5Rocks" xmlUrl="http://feeds.feedburner.com/html5rocks" htmlUrl="http://pipes.yahoo.com/pipes/pipe.info?_id=647030be6aceb6d005c3775a1c19401c"/>
+            <outline type="rss" text="Open Web Platform Daily Digest" title="Open Web Platform Daily Digest" xmlUrl="http://feeds.feedburner.com/OpenWebPlatformDailyDigest" htmlUrl="http://webplatformdaily.org/"/>
+            <outline type="rss" text="Web Reflection" title="Web Reflection" xmlUrl="http://webreflection.blogspot.com/feeds/posts/default" htmlUrl="http://webreflection.blogspot.com/"/>
+            <outline type="rss" text="Metafizzy" title="Metafizzy" xmlUrl="http://feeds.feedburner.com/metafizzy" htmlUrl="http://metafizzy.co/blog"/>
+            <outline type="rss" text="CSS Weekly" title="CSS Weekly" xmlUrl="http://feeds.feedburner.com/CSS-Weekly" htmlUrl="http://css-weekly.com"/>
+            <outline type="rss" text="Uploads by GoogleDevelopers" title="Uploads by GoogleDevelopers" xmlUrl="http://gdata.youtube.com/feeds/base/users/GoogleDevelopers/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile" htmlUrl="http://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw/videos"/>
+            <outline type="rss" text="CSS Wizardry" title="CSS Wizardry" xmlUrl="http://feeds.feedburner.com/csswizardrycom" htmlUrl="http://csswizardry.com/"/>
+            <outline type="rss" text="CreativeJS" title="CreativeJS" xmlUrl="http://creativejs.com/feed/" htmlUrl="http://creativejs.com"/>
+            <outline type="rss" text="Nettuts+" title="Nettuts+" xmlUrl="http://net.tutsplus.com/feed/" htmlUrl="http://code.tutsplus.com"/>
+            <outline type="rss" text="Google Chrome Blog" title="Google Chrome Blog" xmlUrl="http://chrome.blogspot.com/feeds/posts/default" htmlUrl="http://chrome.blogspot.com/"/>
+            <outline type="rss" text="The MongoDB NoSQL Database Blog" title="The MongoDB NoSQL Database Blog" xmlUrl="http://blog.mongodb.org/rss" htmlUrl="http://blog.mongodb.org/"/>
+        </outline>
+        <outline text="Tech" title="Tech">
+            <outline type="rss" text="Engadget" title="Engadget" xmlUrl="http://www.engadget.com/rss.xml" htmlUrl="http://www.engadget.com"/>
+            <outline type="rss" text="TechCrunch" title="TechCrunch" xmlUrl="http://feeds.feedburner.com/Techcrunch" htmlUrl="http://techcrunch.com"/>
+        </outline>
+        <outline text="1.Daily" title="1.Daily">
+            <outline type="rss" text="kottke.org" title="kottke.org" xmlUrl="http://feeds.kottke.org/main" htmlUrl="http://kottke.org/"/>
+            <outline type="rss" text="Echo JS" title="Echo JS" xmlUrl="http://www.echojs.com/rss" htmlUrl="http://www.echojs.com"/>
+            <outline type="rss" text="new shelton wet/dry" title="new shelton wet/dry" xmlUrl="http://www.newshelton.com/wet/dry/?feed=rss2" htmlUrl="http://www.newshelton.com/wet/dry"/>
+            <outline type="rss" text="Hidden Variables" title="Hidden Variables" xmlUrl="http://domenic.me/atom.xml" htmlUrl="https://blog.domenic.me/"/>
+            <outline type="rss" text="Daring Fireball" title="Daring Fireball" xmlUrl="http://daringfireball.net/index.xml" htmlUrl="http://daringfireball.net/"/>
+            <outline type="rss" text="Boing Boing" title="Boing Boing" xmlUrl="http://feeds.boingboing.net/boingboing/iBag" htmlUrl="http://boingboing.net"/>
+            <outline type="rss" text="Hacker News 20" title="Hacker News 20" xmlUrl="http://feeds.feedburner.com/newsyc20?format=xml" htmlUrl="http://feeds.feedburner.com/newsyc20"/>
+            <outline type="rss" text="M O O D" title="M O O D" xmlUrl="http://haw-lin.com/rss/" htmlUrl="http://haw-lin.com"/>
+        </outline>
+    </body>
+</opml>

@@ -1,3 +1,74 @@
 /*
 	Background Image Acquired from wallhaven.cc
 */
+* {
+	padding:0px;
+	margin:0px;
+	color:rgb(255,255,255);
+	font-family:helvetica;
+}
+
+body,html {
+	height:100%;
+}
+
+body {
+	background: rgb(0,0,0) url("../../images/dark-pattern.jpg") no-repeat;
+	background-size:cover;
+}
+
+.title{
+	font-size:40pt;
+	font-weight:300;
+}
+
+.menu{
+	width:400px;
+    position:absolute; top:3%; left:65%;
+    font-weight:oblique;
+}
+
+.menu .menu-opt{
+	text-decoration: none;
+	display:inline-block;
+	margin-left:5%;
+	transition: color .5s ease;
+}
+
+.menu .menu-opt:hover{
+	color:rgb(196,138,56);
+}
+
+.rec-view-cont{
+	width:50%;
+	position:absolute;
+	top:55%;
+	left:60px;
+}
+
+.rec-view-img{
+	width:270px;
+}
+
+.rec-view-wrap{
+	display:inline-block;
+	height:150px;
+	width:30%;
+	overflow:hidden;
+	transition: all 1s ease;
+}
+
+.rec-view-wrap:hover{
+	border-radius:100px;
+	cursor:pointer;
+}
+
+.underln {
+    border: 0;
+    height: 1px;
+    width:500px;
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
+    background-image:    -moz-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
+    background-image:     -ms-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
+    background-image:      -o-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
+}

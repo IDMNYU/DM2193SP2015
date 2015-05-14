@@ -1,3 +1,12 @@
+function noInternet() {
+    alert("There is no internet connection. Check if your modem is on and try again.");
+}
+
+function AAgame() {
+    alert("The request has timed out. (Error 3006)");
+}
+
+
 var setupLightbox = function($lightbox) {
 
     var $lightboxControls = $lightbox.find('[data-lightbox-control]');

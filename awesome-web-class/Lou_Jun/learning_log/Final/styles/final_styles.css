@@ -20,7 +20,7 @@
     display: block;
     font-style: italic;
 	font-size: 65px;
-	margin: 10px;
+	margin: 5px;
 	color: blue;
 	text-align: center;
 	text-shadow: 7px 7px 7px white;
@@ -36,6 +36,32 @@
     position: absolute;
 }
 
+.nextButton{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    position: absolute;
+}
+
+.nextButton1{
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    position: fixed;
+    top: 10%;
+    left: 0;
+}
+
+.continueButton{
+	position: fixed;
+	top: 10%;
+	left: 0%;
+}
+
 .leave {
 	background-color: black;
     color: #FFFFFF;
@@ -49,8 +75,9 @@
 .buttonPos{
 	text-align: center;
 	margin: auto;
-	left: 0;
-	right: 0;
+	position: fixed;
+	top: 40%;
+	left: 43%;
 }
 
 .image {
@@ -61,24 +88,31 @@
 	right: 0;
 }
 
+.image1 {
+	position: absolute;
+	display: block;
+	top: 0;
+}
+
+
 .recycleBin{
 	position:fixed;
 	display: inline-block;
 	top: 50px;
-	left: 15%;
+	left: 10%;
+}
+
+.internet{
+	position:fixed;
+	display: inline-block;
+	bottom: 30%;
+	left: 10%;
 }
 
 .gamesFolder{
 	position:fixed;
 	display: inline-block;
 	top: 300px;
-	left: 20%;
-}
-
-.internet{
-	position:fixed;
-	display: inline-block;
-	bottom: 20%;
 	left: 20%;
 }
 
@@ -89,3 +123,146 @@
 	left: 30%;
 }
 
+.mainFolder{
+	position: fixed;
+	display: inline-block;
+	top: 10%;
+	left: 20%;
+}
+
+.rpgIcon{
+	position: fixed;
+	display: inline-block;
+	top: 20%;
+	left: 37%;
+}
+
+.aaIcon{
+	position: fixed;
+	display: inline-block;
+	top: 20%;
+	left: 45%;	
+}
+
+.horrorIcon{
+	position: fixed;
+	display: inline-block;
+	top: 20%;
+	left: 53%;
+}
+
+.gameStart{
+	position: fixed;
+	display: inline-block;
+	top: 40%;
+	left: 37%;
+}
+
+.gameReturn{
+	position: fixed;
+	display: inline-block;
+	top: 55%;
+	left: 38%;
+}
+
+.arrowUp{
+	position: fixed;
+	display: inline-block;
+	top: 1%;
+	left: 40%;	
+}
+
+.arrowDown{
+	position: fixed;
+	display: inline-block;
+	top: 12%;
+	left: 40%;	
+}
+
+.arrowLeft{
+	position: fixed;
+	display: inline-block;
+	top: 6%;
+	left: 35%;	
+}
+
+.arrowRight{
+	position: fixed;
+	display: inline-block;
+	top: 6%;
+	left: 45%;	
+}
+
+.attack{
+	position: fixed;
+	display: inline-block;
+	top: 1%;
+	left: 12%;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: gray;	
+}
+.skill{
+	position: fixed;
+	display: inline-block;
+	top: 13%;
+	left: 12%;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: gray;		
+}
+.flee{
+	position: fixed;
+	display: inline-block;
+	top: 25%;
+	left: 12%;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: gray;	
+}
+
+.Quit{
+	position: fixed;
+	display: inline-block;
+	top: 50%;
+	left: 70%;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: gray;	
+}
+
+.Restart{
+	position: fixed;
+	display: inline-block;
+	top: 50%;
+	left: 12%;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: gray;	
+}
+
+.chrome{
+	position: fixed;
+	display: inline-block;
+	top: 1%;
+	left: 10%;	
+}
+
+.musicPlayer{
+	position: fixed;
+	top: 95%;
+}
+
+.musicPlayer1{
+	display: none;
+	position: fixed;
+	top: 95%;
+}
+
+.rant{
+	background: white;
+	position: fixed;
+	top: 80%;
+	left: 30%;
+	font-size: 30px;
+}

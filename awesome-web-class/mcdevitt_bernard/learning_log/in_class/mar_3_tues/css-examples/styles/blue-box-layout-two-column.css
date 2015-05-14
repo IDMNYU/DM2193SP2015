@@ -1,0 +1,82 @@
+/*
+    Layout - Page Elements
+ */
+
+.page-container
+{
+    width: 960px;
+    
+    margin: 50px auto;
+    padding: 10px;
+    
+    border: 1px solid rgba(0,0,0,0.25);
+
+    border-radius: 3px;
+}
+
+.page-header
+{
+    padding: 10px;
+
+    background: rgba(0,0,0,0.25);
+    border-radius: 2px;
+}
+
+.page-content
+{
+    margin: 10px 0;
+    padding: 10px;
+
+    border: 1px solid rgba(0,0,0,0.25);
+    border-radius: 2px;
+
+    overflow: hidden;
+}
+
+/*
+    Layout - Columns
+ */
+
+.column
+{
+    float: left;
+
+    margin: 10px 0;
+    padding: 10px;
+
+    border: 1px solid rgba(0,0,0,0.25);
+    border-radius: 2px;
+}
+
+.column-left
+{
+    width: 700px;
+}
+
+.column-right
+{
+    margin-left: 10px;
+    width: 184px;
+}
+
+/*
+    Content
+ */
+
+.blue-box
+{
+    width: auto;
+    margin: 0 0 10px;
+}
+
+.red-box
+{
+    width: auto;
+    margin: 0 0 10px;
+}
+
+.blue-box:last-child,
+.red-box:last-child
+{
+    margin-bottom: 0;
+}

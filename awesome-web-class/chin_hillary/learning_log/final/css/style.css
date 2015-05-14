@@ -8,6 +8,7 @@ html{
 	color:#fff;
 	font-weight:400;
 	overflow-y:hidden;
+	background-color:black;
 }
 
 body{
@@ -27,7 +28,7 @@ a:hover{
 	transition:.4s all ease;
 }
 
-.container{
+#section, .container{
 	background:url('../img/homepage.jpg') no-repeat center center;
 	width:100%;
     min-height:720px;
@@ -37,6 +38,9 @@ a:hover{
     -o-background-size: cover;
     position:relative;
     z-index:0;
+}
+#section1{
+    background:url('../img/classroom.jpg') no-repeat center center;
 }
 
 .logo-container{
@@ -203,27 +207,42 @@ a:hover{
 
 .scene-choice{
 	font-family: 'Montserrat', sans-serif;
-	text-transform:none;
     background: transparent;
 	border:1px white solid;
 	padding:20px;
 	transition:.4s all ease;
 	margin:20px;
+	color:#fff;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-weight:700;
 }
 
-.scene-choice:hover;{
-	border:1px #ebb87f solid;
+.scene-choice:hover{
+	border:5px #ebb87f solid;
 	tansition:.4s all ease;
 }
 
 .rewind-container{
 	background:url('../img/rewind.png');
-	margin:50px;
-	width:50px;
-	height:50px;
+	margin:10px;
+	width:110px;
+	height:110px;
 	border:0;
-	top:10px;
+	top:0px;
 	right:30px;
+	position:absolute;
+	transition:.4s all ease;
+}
+
+.rewinded-container{
+	background:url('../img/rewinded.png');
+	margin:10px;
+	width:140px;
+	height:120px;
+	border:0;
+	top:0px;
+	left:30px;
 	position:absolute;
 	transition:.4s all ease;
 }

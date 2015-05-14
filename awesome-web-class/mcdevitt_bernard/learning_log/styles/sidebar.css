@@ -1,0 +1,15 @@
+.log {
+	font-family: 'Lato', sans-serif;
+}
+
+.head_bar {
+	position:sticky;
+	background-color: #1085bc;
+}
+
+.title {
+	color:#ddd;
+	font-size: 48pt;
+	
+
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Vector</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css"/>
+</head>
+<body>
+    <header>
+        <h1>Core Functions Of The C++ Vector Class</h1>
+    </header>
+    <div class="function-container"> 
+        <div class="create-div">
+            <p class="create">Generate Vector: </p>
+            <textarea class="create-text"></textarea>
+            <button class="create-btn">Create!</button>
+            <img data-tooltip="Enter a number value into the text field, and a vector of that size will be generated." class="question-hover" src="images/questionMark.png"/>
+        </div>
+        <div class="push_back-div left">
+            <p class="push_back">push_back&#40;&#41;</p>
+            <textarea class="push_back-text"></textarea>
+            <button class="push_back-btn">Push!</button>
+            <img data-tooltip="Enter a number value into the text field, and a new vector item will be created and added to the back of the vector." class="question-hover" src="images/questionMark.png"/>
+        </div>
+        <div class="pop_back-div left">
+            <p class="pop_back">pop_back&#40;&#41;</p>
+            <button class="pop_back-btn">Pop!</button>
+            <img data-tooltip="pop_back() is a function that removes the last item in the vector, shrinking the size by 1." class="question-hover" src="images/questionMark.png"/>
+        </div>
+        <div class="swap-div left">
+            <p class="swap">swap&#40;&#41;</p>
+            <textarea class="swap1-text"></textarea>
+            <p class="swap-c">,</p>
+            <textarea class="swap2-text"></textarea>
+            <button class="swap-btn">Swap!</button>
+            <img data-tooltip="Enter two index values and the vector will swap their positions." class="question-hover" src="images/questionMark.png"/>
+        </div>
+        <div class="insert-div left">
+            <p class="insert">insert&#40;&#41;</p>
+            <textarea class="insert-pos"></textarea>
+            <p class="insert-c">,</p>
+            <textarea class="insert-val"></textarea>
+            <button class="insert-btn">Insert!</button>
+            <img data-tooltip="Enter an index (position) for the first value, and a number to be inserted into the second value. The vector will insert the value BEFORE the specified position and push all the other elements over." class="question-hover" src="images/questionMark.png"/>
+        </div>
+        <div class="empty-div left">
+            <p class="empty">empty&#40;&#41;</p>
+            <button class="empty-btn">Empty?</button>
+            <img data-tooltip="This function checks whether the vector is empty, and returns 'True' if the vector has at least 1 member ('False' otherwise)." class="question-hover" src="images/questionMark.png"/>
+        </div>
+        <div class="size-div left">
+            <p class="size">size&#40;&#41;</p>
+            <button class="size-btn">Size?</button>
+            <img data-tooltip="This function will return the size of the vector." class="question-hover" src="images/questionMark.png"/>
+        </div>
+        <div class="clear-div left">
+            <p class="clear">clear&#40;&#41;</p>
+            <button class="clear-btn">Clear!</button>
+            <img data-tooltip="This function will erase all the vector items." class="question-hover" src="images/questionMark.png"/>
+        </div>
+        <div class="erase-div left">
+            <p class="erase">erase&#40;&#41;</p>
+            <textarea class="erase-pos"></textarea>
+            <button class="erase-btn">Erase!</button>
+            <img data-tooltip="This function will erase a single vector item at the specified position." class="question-hover" src="images/questionMark.png"/>
+        </div>
+    </div>
+    <div class="vector-container">
+        <ul class="vector-info">
+            <li class="vector-name">Vector&lt;int&gt; Vec</li>
+            <li class="vector-size"><p class="v-size">Vector Size: </p><p class="v-size-p">  </p> </li>
+        </ul>
+        <!--Vector Goes here-->
+        <div class="return-div active-inlineB">
+            <p class="return-text">Return</p>
+            <p class="return"></p>
+        </div>
+    
+    </div>
+    <script src="script/jquery.js"></script>
+    <script src="script/vector.js"></script>
+    <script src="script/tooltips.js"></script>
+</body>
+</html>

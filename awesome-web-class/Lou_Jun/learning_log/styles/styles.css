@@ -5,7 +5,7 @@
 .about {
 	background: lightblue;
 	background-image: url("http://fc00.deviantart.net/fs70/f/2013/160/4/6/persona_3_p3p_x_persona_4_id_by_onewingedangel26-d68da41.png");
-	background-size: 1350px 620px;
+	background-size: 1350px 605px;
 	background-repeat: no-repeat;
     background-position: right top;
 
@@ -33,18 +33,44 @@
 }
 
 .navigation{
-	display: inline-block;
+	background-image: url(http://img3.wikia.nocookie.net/__cb20110909055049/marvelvscapcom/images/2/2b/Ryu-shoryuken-xm.gif);
+	background-size: 450px 605px;
+	background-repeat: no-repeat;	
+	margin-left: 1%;
 	float:left;
-	padding: 0;
 }
 
 .column2 {
 	display: inline-block;
 	float:right;
+	margin: 10%;
+	width:60%;
+
+
+	margin-top:25px;
+
 }
 
 .vertical_list{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+}
+
+.projectTitle{
+	font-size:20px;
+	color:black;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+.dates{
+	display: inline-block;
+	background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: darkblue;
+    font-size: 15px;
 }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Life Is Strange - Web Edition</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:700,700italic,400|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <style>
+        .container{
+            background:url('img/maxtruth.png') no-repeat center center;
+        }
+
+        .scene-line-container{
+            position:absolute;
+            top:20%;
+            right:10%;
+            width:40%;
+        }
+
+        .container-two{
+            position:absolute;
+            top:50%;
+            left:10%;
+            width:40%;
+        }
+
+        .line-two, .next-two{
+            display:none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="scene-line-container wow fadeInUp data-wow-duration="4s""><p class="scene-line line-one">"I just saw Nathan Prescott waving a gun around...in the girls' room. He was in the bathroom talking to himself with a gun. I saw everything! He was babbling like crazy—"</p> <p class="scene-line line-two">"I was hiding behind a stall. I have the right to be there. It's the girls' room—"</p></div>
+
+        <div class="scene-line-container container-two wow fadeInUp data-wow-duration="4s""><p class="scene-line line-one">"Nathan Prescott? Okay, slow down...So now you saw this...Without him seeing you?"</p> <p class="scene-line line-two">"I know. I just want to be completely clear what happened. Mr. Prescott happens to be from the town's most distinguished family. And one of Blackwell's most honored students. So it's hard for me to see him brandishing a weapon."</p></div>
+
+        <div class="play wow fadeInUp data-wow-duration="4s""><a class="next-one">Next<div class="play-arrow-down"></div></a>
+            <a href="report-nathan2.html" class="next-two">Next<div class="play-arrow-down"></div></a></div>
+    </div>
+
+<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+<script type="text/javascript">
+    jQuery(function($){
+        $( '.next-one' ).click(function(){
+            $('.line-one').css('display', 'none');
+            $('.line-two').css('display', 'block');
+            $('.next-one').css('display', 'none');
+            $('.next-two').css('display', 'block');
+        })
+    })
+ </script>
+<script src="js/wow.js"></script>
+<script>
+ new WOW().init();
+</script>
+
+</body>
+</html>
