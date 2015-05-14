@@ -5,12 +5,9 @@
     <title>Life Is Strange - Web Edition</title>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
     <link rel="stylesheet" href="css/animate.css">
 
-    <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
-
-    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" href="img/favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:700,700italic,400|Montserrat:400,700' rel='stylesheet' type='text/css'>
 
     <style>
@@ -30,12 +27,26 @@
         <div class="scene-line-container wow fadeInUp data-wow-duration="4s""><p class="scene-line">"Louise Daguerre was a French painter who created 'daguerreotypes' a process that gave portraits a sharp reflective style, like a mirror. For someone stuck in the retro zone, I'm surprised you didn't know this. Sad face."</p></div>
 
         <!--Figure out how to store certain decisions as a variable in Javascript so that where the link directs to here depends on the deciison made earlier-->
-        <div class="play wow fadeInUp data-wow-duration="4s""><a href="classroom-jefferson.html">Next<div class="play-arrow-down"></div></a></div>
+        <div class="play wow fadeInUp data-wow-duration="4s""><a href="" onClick="direction()" />Next<div class="play-arrow-down"></div></a></div>
     </div>
 
-    <script src="vendors/jquery.easings.min.js"></script>
-    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
 
+<script>
+
+function direction()   
+{
+    var playerChosen = sessionStorage.getItem('player-choice');
+    console.log("BANKS");
+    console.log(playerChosen);
+    if( playerChosen == 'choice-one'){
+        $(event.target).attr('href', "classroom-jefferson.html");
+    }
+    else $(event.target).attr('href', "classroom-jefferson2.html");
+}
+
+</script>
 <script src="js/wow.js"></script>
 <script>
  new WOW().init();

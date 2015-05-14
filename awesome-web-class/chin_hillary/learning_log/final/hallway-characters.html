@@ -5,12 +5,9 @@
     <title>Life Is Strange - Web Edition</title>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
     <link rel="stylesheet" href="css/animate.css">
 
-    <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
-
-    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" href="img/favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:700,700italic,400|Montserrat:400,700' rel='stylesheet' type='text/css'>
 
     <style>
@@ -18,24 +15,120 @@
             background:url('img/hallway-characters.jpg') no-repeat center center;
         }
         .scene-line-container{
+            top:50px;
+            margin:auto;
+            width:40%;
+            position: relative;
+        }
+
+        .alyssa{
+            width: 130px;
+            height: 130px;
+            border-radius:50%;
+            border:1px white solid;
             position:absolute;
             top:20%;
             left:10%;
-            width:40%;
+            font-family: 'Playfair Display', serif;
+            font-weight:700;
+            font-size:1.2em;
         }
+
+        .dana{
+            width: 150px;
+            height: 150px;
+            border-radius:50%;
+            border:1px white solid;
+            position:absolute;
+            top:45%;
+            left:17%;
+            font-family: 'Playfair Display', serif;
+            font-weight:700;
+            font-size:1.2em;
+        }
+
+        .evan{
+            width: 130px;
+            height: 130px;
+            border-radius:50%;
+            border:1px white solid;
+            position:absolute;
+            top:15%;
+            right:12%;
+            font-family: 'Playfair Display', serif;
+            font-weight:700;
+            font-size:1.2em;
+        }
+
+        .alyssa-caption, .dana-caption, .evan-caption{
+            position:relative;
+            opacity:0;
+            top:50%;
+            margin:0 auto;
+            width:40%;
+            background:rgba(0,0,0,0.7);
+            z-index:-999;
+            transform: translateY(50%);
+        }
+
+        .alyssa-caption.active, .dana-caption.active, .evan-caption.active{
+            opacity:1;
+            z-index:1;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="scene-line-container wow fadeInUp data-wow-duration="4s""><p class="scene-caption">Click a character to hear their conversation or find out more about them.</p></div>
+        <div class="scene-line-container wow fadeInUp data-wow-duration="4s""><p class="scene-caption">Click a character to find out more about them.</p></div>
 
-        <!--Figure out how to store certain decisions as a variable in Javascript so that where the link directs to here depends on the deciison made earlier-->
+        <div class="alyssa">Alyssa</div>
+
+        <div class="alyssa-caption"><p class="scene-caption">Alyssa is always texting, but she doesn't hang out with that many people.</p></div>
+
+        <div class="dana">Dana</div>
+
+        <div class="dana-caption"><p class="scene-caption">Dana is on my floor too. She's such an archetypal, gorgeous cheerleader. They must make them in a factory...I shouldn't be so catty. Dana is nice to me.</p></div>
+
+        <div class="evan">Evan</div>
+
+        <div class="evan-caption"><p class="scene-caption">Evan doesn't say much to me, but his photos are very cool.</p></div>
+
+        <button class="close-btn">&times;</button>
+
         <div class="play wow fadeInUp data-wow-duration="4s""><a href="bathroom.html">Next<div class="play-arrow-down"></div></a></div>
     </div>
 
-    <script src="vendors/jquery.easings.min.js"></script>
-    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+<script type="text/javascript">
+    jQuery(function($){
+        $( '.alyssa' ).click(function(){
+            $('.alyssa-caption').addClass('active')
+            $('.close-btn').addClass('active')
+            $('.scene-line-container').css('display', 'none');
+        })
 
+        $( '.dana' ).click(function(){
+            $('.dana-caption').addClass('active')
+            $('.close-btn').addClass('active')
+            $('.scene-line-container').css('display', 'none');
+        })
+
+        $( '.evan' ).click(function(){
+            $('.evan-caption').addClass('active')
+            $('.close-btn').addClass('active')
+            $('.scene-line-container').css('display', 'none');
+        })
+        
+         $( '.close-btn' ).click(function(){
+            $('.alyssa-caption').removeClass('active')
+            $('.dana-caption').removeClass('active')
+            $('.evan-caption').removeClass('active')
+            $('.close-btn').removeClass('active')
+            $('.scene-line-container').css('display', 'block');
+        })
+    })
+ </script>
 <script src="js/wow.js"></script>
 <script>
  new WOW().init();

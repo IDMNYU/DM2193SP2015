@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Life Is Strange - Web Edition</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:700,700italic,400|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <style>
+        .container{
+            background:url('img/bathroomnathan.png') no-repeat center center;
+        }
+        .scene-line-container{
+            position:absolute;
+            top:20%;
+            right:10%;
+            width:40%;
+        }
+
+        .scene-line{
+            position:absolute;
+            top:50%;
+            left:30%;
+            width:40%;
+        }
+
+        .nathan{
+            width: 130px;
+            height: 130px;
+            border-radius:50%;
+            border:1px white solid;
+            position:absolute;
+            top:20%;
+            left:35%;
+            font-family: 'Playfair Display', serif;
+            font-weight:700;
+            font-size:1.2em;
+        }
+
+        .nathan-caption{
+            position:relative;
+            opacity:0;
+            top:50%;
+            margin:0 auto;
+            width:40%;
+            background:rgba(0,0,0,0.7);
+            z-index:-999;
+            transform: translateY(50%);
+        }
+
+        .nathan-caption.active{
+            opacity:1;
+            z-index:1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="scene-line-container wow fadeInUp data-wow-duration="4s""><p class="scene-caption">Nathan Prescott. You observe quietly as he appears shaken, talking to himself.</p></div>
+
+        <p class="scene-line wow fadeInDown data-wow-duration="4s"">"Don't be scared... You own this school... If I wanted, I could blow it up... You're the Boss..."</p>
+
+        <div class="nathan">Nathan</div>
+
+        <div class="nathan-caption"><p class="scene-caption">Nathan Prescott: a member of the wealthy Prescott family, one of the oldest families that settled in Arcadia Bay. The Prescotts are purported to own or run "half the town" of Arcadia Bay and own the Prescott Dormitories on Blackwell Academy grounds. In other words, not someone you want against you.</p></div>
+
+        <button class="close-btn">&times;</button>
+
+        <div class="play wow fadeInUp data-wow-duration="4s""><a href="bathroom-chloe.html">Next<div class="play-arrow-down"></div></a></div>
+    </div>
+
+<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+<script type="text/javascript">
+    jQuery(function($){
+        $( '.nathan' ).click(function(){
+            $('.nathan-caption').addClass('active')
+            $('.close-btn').addClass('active')
+            $('.scene-line-container').css('display', 'none');
+            $('.scene-line').css('display', 'none');
+        })
+        
+         $( '.close-btn' ).click(function(){
+            $('.nathan-caption').removeClass('active')
+            $('.close-btn').removeClass('active')
+            $('.scene-line-container').css('display', 'block');
+            $('.scene-line').css('display', 'block');
+        })
+    })
+ </script>
+<script src="js/wow.js"></script>
+<script>
+ new WOW().init();
+</script>
+
+</body>
+</html>
