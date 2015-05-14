@@ -7,17 +7,20 @@ function displayModalBox() {
     var riddleAnswer = ['75','25','iron','devil','July 16'];
     var riddleGuess = 0;
     while(riddleGuess <= 5) {
-        $(document).ready(function (e){
-//            $('#'+riddleNum+'submit').on('click',function (){
-//                var answer = $('#'+riddleNum+'input').val();
-//            });
-        });
+        /*$(document).ready(function (e){
+            $('#'+riddleNum+'submit').on('click',function (){
+                var answer = $('#'+riddleNum+'input').val();
+            });
+        });*/
+        
         var answer = prompt('Answer question here: ',' ');
         if(answer == riddleAnswer[riddleNum]) {
-            riddleGuess += 6;
+            alert('nice');
+            break;
             //nice.gif
         }
         else {
+            alert('wrong');
             riddleGuess++;
             //wrong.gif
         }      
