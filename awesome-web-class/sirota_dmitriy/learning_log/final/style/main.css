@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background: #173047;
+    
+}
+body {
+    width: 100%;
+    min-width: 960px;
+    font-size: 10px;
+
+}
+header {
+    height: 75px;
+}
+h1 {
+    padding-left: 10px;
+    font-size: 3.5em;
+    line-height: 75px;
+    font-family: monospace;
+    color: #66d9ef;
+    text-align: center;
+}
+.function-container {
+    width: 50%;
+    float: left;
+    background: 
+}
+.create-div {
+    height: 50px;
+    width: 425px;
+    position: relative;
+    margin: 25px;
+    line-height: 50px;
+    background: #214667;
+    box-shadow: 1px 1px 5px #ccc inset, 2px 2px 5px #000;
+}
+.create {
+    padding: 0 10px;
+}
+.push_back-div, .pop_back-div, .empty-div, .insert-div, .size-div, .swap-div, .clear-div, .erase-div {
+    width: 250px;
+    height: 75px;
+    border: 1px solid black;
+    margin: 25px;
+    line-height: 37px;
+    text-align: center;
+    background: #214667;
+    box-shadow: 1px 1px 5px #ccc inset, 2px 2px 5px #000;
+
+}
+.vector-container {
+    float: right;
+    position: relative;
+    width: 50%;
+    height: 500px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    border: 1px solid #f4c20b;
+    background: #214667;
+}
+.vector-info {
+    width: 100%;
+    height: 40px;
+    font-size: 2em;
+    line-height: 40px;
+    display: none;
+    font-family: monospace;
+}
+.vector-info li {
+    float: left;
+    list-style: none;
+    color: #24E829;
+    padding: 0 10px;
+    margin-right: 10px;
+    width: 275px;
+}
+.v-size, .v-size-p, .v-cap, .v-cap-p {
+    display: inline-block;
+}
+.v-size-p, .v-cap-p {
+    margin-left: 5px;
+}
+.vector {
+    display: inline-block;
+    width: 90%;
+    overflow: hidden;
+    list-style: none;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.vector-item {
+    float: left;
+    box-sizing: padding-box;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border: 5px solid #24E829;
+    background: rgba(36,232,41,0.5);
+    font-size: 3em;
+    line-height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    overflow: auto;
+    color: #112435;
+    margin-bottom: 20px;
+}
+ .insert-c, .create, .swap-c {
+    font-size: 2.5em;
+    display: inline-block;
+}
+.push_back, .pop_back, .empty, .insert-c, .insert, .size, .swap-c, .create, .swap, .clear, .erase {
+    font-size: 2.5em;
+    font-family: monospace;
+    color: #f4c20b; 
+}
+.return-div {
+    height: 90px;
+    width: 175px;
+    position: absolute;
+    top: 85%; left: 85%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #f4c20b;
+    }
+.return-text {
+    box-sizing: border-box;
+    font-size: 2em;
+    color: white;
+    border-bottom: 1px solid #f4c20b;
+    background: #595B5E;
+}
+.return {
+    font-size: 4em;
+    line-height: 70px;
+    color: white;
+    text-align: center;
+}
+textarea {
+    width: 50px;
+    margin-top: 5px;
+    background: #275178;
+    display: inline-block;
+    resize: none;
+    color: white;
+}
+button {
+    background: #f4c20b;
+    font-size: 1.5em;
+    vertical-align: top;
+    margin-top: 10px;
+    outline: none;
+}
+.question-hover {
+    position: absolute;
+    top: 5px; right: 5px;
+}
+.left {
+    float: left;
+    position: relative;
+}
+.right {
+    float: right;
+}
+.active {
+    display: block;
+}
+.active-inlineB {
+    display: inline-block;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    max-width: 250px;
+    max-height: 100px;
+    background: #000;
+    color: #fff;
+    border-radius: 3px;
+    padding: 0 8px;
+
+    font-size: 15px;
+    line-height: 20px;
+    white-space: normal;
+
+    /* Don't let the tooltip interfer with anything */
+    pointer-events: none;
+
+    /* Position tooltip the right amount above the element it belongs to */
+    left: 100%;
+}
+
