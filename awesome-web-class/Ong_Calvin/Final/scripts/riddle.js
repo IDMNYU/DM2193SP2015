@@ -1,26 +1,44 @@
 /*Keep global variable riddleNum updated if page refereshes*/
-localStorage.setItem("riddleNumber", riddleNumber);
+$.cookie('my_number','0');
+var riddleNum = Number($.cookie('my_number'));
 
-var displayRiddle = $(function (riddleNum) {
-    for(; riddleNum < 5; counter++) {
-        document.getElementById("riddle" + riddleNum).style.display = 'block';
-        break;
-    }
-}
-                                         
-/*Modal Box*/
-function displayModalBox(riddleQuestion) {
-    var riddleAnswer = [];
-    if(riddleGuess != 5) {
-        var answer = prompt(riddleQuestion,'')
-        if(answer == riddleAnswer) {
+/*Modal Box checks answer*/
+function displayModalBox() {
+    var riddleAnswer = ['75','25','iron','devil','July 16'];
+    var riddleGuess = 0;
+    while(riddleGuess <= 5) {
+        $(document).ready(function (e){
+//            $('#'+riddleNum+'submit').on('click',function (){
+//                var answer = $('#'+riddleNum+'input').val();
+//            });
+        });
+        var answer = prompt('Answer question here: ',' ');
+        if(answer == riddleAnswer[riddleNum]) {
+            riddleGuess += 6;
             //nice.gif
         }
         else {
+            riddleGuess++;
             //wrong.gif
-        } 
+        }      
+  
     }
-    else {
+    
+    if(riddleGuess > 5) {
+        alert('fail');     
         //fail.gif
     }
+    
 }
+
+function displayRiddle() {              
+   while(riddleNum <= 4) {
+        document.getElementById('riddle' + riddleNum).style.display = 'block';
+        displayModalBox();
+        var nextRiddle = riddleNum++;
+        $.cookie('my_number',nextRiddle.toString());     
+    }
+    $.cookie('my_number',null);
+}
+
+displayRiddle();

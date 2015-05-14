@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body class="homepageBody">
+    <section class="contentContainer">
+        <section class="titleBox">
+            <h2>Welcome to the JavaScript Emporium of Puzzles</h2>
+            <h4>Let the games begin.</h4>
+            <img src='images/gif/choice.gif' width="250px" height="250px" alt="choiceGif"/>
+            <div class="buttons">
+                <button id="riddleButton"><a class="riddleButtonLink" href="riddlePage.html">Enter</a></button>
+            </div>
+            <div id="riddleMessageBox">You will be given a riddle. You are given 5 tries to solve the riddle. Solving the riddle will allow you to move on to the next path.</div>
+            <script src="scripts/vendor/jquery-2.1.3.js"></script>
+            <script>
+                var targetButton1 = document.getElementById('riddleButton');
+                targetButton1.onmouseover = function() {
+                    document.getElementById('riddleMessageBox').style.display = 'block';
+                }
+                targetButton1.onmouseout = function() {
+                    document.getElementById('riddleMessageBox').style.display = 'none';
+                }
+            </script>
+        </section>
+    </section>
+</body>
+</html>

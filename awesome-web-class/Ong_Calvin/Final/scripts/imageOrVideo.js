@@ -2,14 +2,13 @@
 
 var imagePath = 'images/';
 var vidPath = 'videos/';
-var randomImageOrVideo =['gtr.jpg','crossover.mp4','Pusheen.gif','downfall.mp4','rover.jpg','dunk.mp4','cern.jpg','pitch.mp4','pepe.jpg','skyrim.mp4','q40.jpg'];
+var randomImageOrVideo =['gtr.jpg','crossover.mp4','pusheen.gif','downfall.mp4','rover.jpg','dunk.mp4','cern.jpg','pitch.mp4','pepe.jpg','skyrim.mp4','q40.jpg'];
 
 function getRandomItem(imgArray) {
     var randomIndex = Math.floor(Math.random() * imgArray.length);
     if(randomIndex % 2 == 1) {
-        alert('video');
         var vid = imgArray[randomIndex];
-        $(function () {
+        $(function() {
             $('<video>')
             .attr('id', 'video' + randomIndex)
             .attr('src', vidPath + vid)
@@ -24,9 +23,8 @@ function getRandomItem(imgArray) {
         });
     }
     else {
-        alert('image');
         var img = imgArray[randomIndex];
-        $(function () {
+        $(function() {
             var object = $('<img>')
             .attr('src', imagePath + img)
             .attr('width', '400px')

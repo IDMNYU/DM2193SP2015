@@ -9,6 +9,31 @@
     <section class="contentContainer">
         <section class="riddleBox">
             <div id="riddle0">
+                <p>The measure of one angle of a triangle is 55°. A second angle contains 2/3 as many degrees as the third angle.</p>
+                <h3 id="riddleQuestion0">How many degrees are contained in the largest angle? Numerical answer only.</h3>
+                <input type='text' id = '0input' name='answer_field' value=''>
+                <button id ='0submit'></button>
+            </div>
+            <div id="riddle1">
+                <p>Pat opens her favorite novel right side up and sees two pages. The product of their page numbers is 600.</p>
+                <h3 id="riddleQuestion1">What is the page number of the page on the right? Numerical answer only.</h3>
+                <input type='text' id = '1input' name='answer_field' value=''>
+                <button id ='1submit'></button>
+            </div>
+            <div id="riddle2">
+                <p>My name states I'm a singular male,<br>I can have a number, a head, but no tail.<br>I've also great strength and I can be tough,<br>But I'll smooth things out when they are rough.<br>Although I go back to an age now gone,<br>I'm around today for everyone.                   </p>
+                <h3 id="riddleQuestion2">What am I? One word answer only, all lower-case</h3>
+                <input type='text' id ='2input' name='answer_field' value=''>
+                <button id ='2submit'></button>
+            </div>
+            <div id="riddle3">
+                <p>I live where darkness seals my fate<br>Coming up to the rigid gate<br>So I've been told<br>My soul is a big black hole<br>I'm constantly in war<br>With those above my domain<br>Those who meet me<br>Regret they ever did
+                </p>
+                <h3 id="riddleQuestion3">What am I? One word answer only, all lower-case.</h3>
+                <input type='text' id ='3input' name='answer_field' value=''>
+                <button id ='3submit'></button>
+            </div>
+            <div id="riddle4">
                 <p>Albert and Bernard just met Cheryl. “When’s your birthday?” Albert asked Cheryl. Cheryl thought a second and said, “I’m not going to tell you, but I’ll give you some clues.” She wrote down a list of 10 dates:</p>
                 <ul>
                     <li>May 15, May 16, May 19</li>
@@ -22,19 +47,15 @@
                     <li>Bernard: I didn’t know originally, but now I do.</li>
                     <li>Albert: Well, now I know, too!</li>
                 </ul>
-                <h3>When is Cheryl’s birthday?</h3>
-            </div>
-            <div id="riddle1">
-                <p>Pat opens her favorite novel right side up and sees two pages. The product of their page numbers is 600.</p>
-                <h3>What is the page number of the page on the right?</h3>
-            </div>
-            <div id="riddle2">
-                <p></p>
-                <h3></h3>
+                <h3 id="riddleQuestion4">When is Cheryl’s birthday? Choose one of the choices with the exact wording.</h3>
+                <input type='text' id ='4input' name='answer_field' value=''>
+                <button id ='4submit'></button>
             </div>
         </section>
     </section>
-    <script src="scripts/jquery-2.1.3.js"></script>
+    <script src="scripts/vendor/jquery-2.1.3.js"></script>
+    <script src="scripts/vendor/jquery.cookie.js"></script>
     <script src="scripts/imageOrVideo.js"></script>
+    <script src="scripts/riddle.js"></script>
 </body>
 </html>
