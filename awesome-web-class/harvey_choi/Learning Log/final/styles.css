@@ -1,0 +1,15 @@
+html{
+	font-family: sans-serif;
+}
+
+.home{
+	background: lightblue;
+	color: purple;
+}
+
+.heading{
+	color: blue;
+	font-size: 75px;
+	margin: 0;
+
+}
