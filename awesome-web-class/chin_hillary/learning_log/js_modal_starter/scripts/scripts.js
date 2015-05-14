@@ -8,7 +8,6 @@ $('[data-show-modal]').on('click', function(){
 
     //Fetch the modal element out of the DOM
     var $modal = $('[data-modal=" ' + modalName + ' "]');
-    var $modal = $('[data-modal="meow"]');
 
     //If the modal exists, display that modal
     if ($modal.length){

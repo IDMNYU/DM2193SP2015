@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Life Is Strange - Web Edition</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:700,700italic,400|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <style>
+    .container{
+        background:url('img/blackwell.jpg') no-repeat center center;
+    }
+
+    .scene-caption{
+        font-size:1em;
+        border:0px;
+        padding:0px;
+        text-align:left;
+    }
+
+    .scene-line{
+        font-size:1em;
+        text-align:left;
+    }
+
+    .scene-choice{
+        border:0px;
+        padding:0px;
+        margin:0px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="links"><ul><li><a class="tutorial-btn">Ending Note</a></li> <li><a href="http://lifeisstrange.com">Buy The Game</a></li> <li><a href="documentation.html">Overview</a></li></ul></div>
+        <div class="logo-container wow fadeIn data-wow-duration="4s"">
+            <img src="img/logo.png" alt="Life Is Strange"> 
+            <span>TO BE CONTINUED...</span>
+        </div>
+
+        <button class="close-btn">&times;</button>
+
+        <div class="tutorial-overlay"><div class="tutorial-overlay-content"><p>You finished playing Life Is Strange: Web Edition. If you enjoyed it, find out what else happens in the <a href="http://lifeisstrange.com">video game.</a></p></div></div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+    <script type="text/javascript">
+    jQuery(function($){
+        $( '.tutorial-btn' ).click(function(){
+            $('.tutorial-overlay').addClass('active')
+            $('.close-btn').addClass('active')
+
+        })
+        
+         $( '.close-btn' ).click(function(){
+            $('.tutorial-overlay').removeClass('active')
+            $('.close-btn').removeClass('active')
+        })
+    })
+ </script>
+
+<script src="js/wow.js"></script>
+<script>
+ new WOW().init();
+</script>
+
+</body>
+</html>

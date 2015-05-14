@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Life Is Strange - Web Edition</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:700,700italic,400|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <style>
+        .container{
+            background:url('img/maxtruth2.png') no-repeat center center;
+        }
+
+        .scene-line-container{
+            position:absolute;
+            top:20%;
+            right:10%;
+            width:40%;
+        }
+
+        .container-two{
+            position:absolute;
+            top:50%;
+            left:10%;
+            width:40%;
+        }
+
+        .line-two, .next-two{
+            display:none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="scene-line-container wow fadeInUp data-wow-duration="4s""><p class="scene-line line-one">"I just got sick in class."</p> <p class="scene-line line-two">"There's nothing to hide. I just got sick."</p></div>
+
+        <div class="scene-line-container container-two wow fadeInUp data-wow-duration="4s""><p class="scene-line line-one">"Except you're wandering around like a zombie. Just tell me what you're hiding. You can trust me."</p> <p class="scene-line line-two">"You've only been here for three weeks and you're already causing conflict. I don't think your parents will approve when they find out. Now get outside with the class. Please."</p></div>
+
+        <div class="play wow fadeInUp data-wow-duration="4s""><a class="next-one">Next<div class="play-arrow-down"></div></a>
+            <a href="ending1.html" class="next-two">Next<div class="play-arrow-down"></div></a></div>
+    </div>
+
+<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+<script type="text/javascript">
+    jQuery(function($){
+        $( '.next-one' ).click(function(){
+            $('.line-one').css('display', 'none');
+            $('.line-two').css('display', 'block');
+            $('.next-one').css('display', 'none');
+            $('.next-two').css('display', 'block');
+        })
+    })
+ </script>
+<script src="js/wow.js"></script>
+<script>
+ new WOW().init();
+</script>
+
+</body>
+</html>

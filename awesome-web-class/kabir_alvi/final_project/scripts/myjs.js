@@ -63,22 +63,22 @@ angular.module("app", ['ngRoute'])
     .config(function($routeProvider){
         $routeProvider
             .when('/',{
-                templateUrl: 'home.html'
+                templateUrl: './views/home.html'
             })
             .when('/story1',{
-                templateUrl: './story1.html',
+                templateUrl: './views/story1.html',
                 controller: 'StoryCtrl'
             })
             .when('/story2',{
-                templateUrl: './story2.html',
+                templateUrl: './views/story2.html',
                 controller: 'StoryCtrl'
             })
             .when('/story3',{
-                templateUrl: './story3.html',
+                templateUrl: './views/story3.html',
                 controller: 'StoryCtrl'
             })
             .when('/story4',{
-                templateUrl: './story4.html',
+                templateUrl: './views/story4.html',
                 controller: 'StoryCtrl'
             })
             .otherwise({

@@ -78,4 +78,3 @@ $('[data-dismiss-lightbox]').on('click', function(){
     var $lightbox = $('.active[data-lightbox]');
     destroyLightbox($lightbox);
 });
-

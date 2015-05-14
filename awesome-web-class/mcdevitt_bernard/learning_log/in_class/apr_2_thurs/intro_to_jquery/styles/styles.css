@@ -1,0 +1,74 @@
+/*
+    Parsed Top Down 
+    Specificity
+    Cascade
+
+
+    General Selectors
+    | |
+    | |
+    | |
+     V
+    Specific Selectors
+
+ */
+
+/*
+    Star selector selects every element
+    It can be slightly inefficient
+
+    Used for lightweight "Reset" Styles
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    outline: none;
+}
+
+body {
+    font-family: Arial;
+    margin: 50px;
+}
+
+.my-heading {
+    margin: 0 0 20px;
+}
+
+.my-alternate-heading {
+    font-family: monospace;
+    margin: 0 0 20px;
+}
+
+.my-cookie {
+    display: block;
+    border-radius: 3px;
+}
+
+.my-box {
+    position: relative;
+    
+    background: blue;
+    height: 50px;
+    width: 50px;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 3px;
+
+    transition: all 1s ease;
+}
+
+.my-box.inactive {
+    background: #666;
+    opacity: 0.66;
+}
+
+.my-button {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 4px;
+    border-radius: 4px;
+    
+}

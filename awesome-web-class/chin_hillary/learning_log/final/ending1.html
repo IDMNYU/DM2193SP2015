@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Life Is Strange - Web Edition</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:700,700italic,400|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <style>
+        .container{
+            background:url('img/maxtruth2.png') no-repeat center center;
+        }
+        .scene-line-container{
+            position:absolute;
+            top:40%;
+            left:40%;
+            width:40%;
+        }
+
+        .choice-one, .choice-two{
+            display:none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="scene-line-container choice-one wow fadeInUp data-wow-duration="4s""><p class="scene-caption">Of course that academic drone isn't going to do anything when the Prescott family owns Blackwell now. Should I rewind and change my story?</p></div>
+
+        <div class="scene-line-container choice-two wow fadeInUp data-wow-duration="4s""><p class="scene-caption">No, he does not buy that at all. I may have just flushed my scholarship down the toilet. I could rewind and tell him the truth...</p></div>
+
+        <a href="principal2.html" store-player-choice="rewind-principal-decision"><button class="rewind-container"></button></a>
+
+        <div class="play wow fadeInUp data-wow-duration="4s""><a href="ending2.html">Next<div class="play-arrow-down"></div></a></div>
+    </div>
+
+<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+
+<script>
+
+$( document ).ready(function() {  
+    var playerChosen = sessionStorage.getItem('player-choice');
+    console.log("BANKS");
+    console.log(playerChosen);
+    if( playerChosen == 'choice-one'){
+        $('.choice-one').css('display', 'block');
+    }
+    else $('.choice-two').css('display', 'block');
+});
+
+</script>
+<script src="js/wow.js"></script>
+<script>
+ new WOW().init();
+</script>
+
+</body>
+</html>
