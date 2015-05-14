@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee64265c-1900-4566-9773-ca4401a80e38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/html_quiz_1.md" />
-      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\blue-box.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\css\bootstrap-theme.css" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\css\bootstrap-theme.css.map" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\css\bootstrap-theme.min.css" afterPath="" />
@@ -20,38 +18,6 @@
       <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\bootstrap-3.3.4-dist\bootstrap-3.3.4-dist\js\npm.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\images\paper.png" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\final_project\images\paper2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\html_quiz_1.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\intro_to_js\images\cookies.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\intro_to_js\images\me.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\intro_to_js\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\intro_to_js\scripts\scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\intro_to_js\styles\styles.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\js_tooltips_starter\images\meow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\js_tooltips_starter\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\js_tooltips_starter\scripts\jquery-2.1.1.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\js_tooltips_starter\scripts\scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\js_tooltips_starter\styles\styles.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\styles\blue-box.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\styles\styles.css" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\Midterm Assignment.pdf" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/midterm/Midterm Assignment.pdf" />
-      <change type="MOVED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\css\print.css" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/midterm/css/print.css" />
-      <change type="MOVED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\css\recipe.css" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/cookie-recipe/recipe.css" />
-      <change type="MOVED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\css_and_js_quiz_1.md" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/css_and_js_quiz_1.md" />
-      <change type="MOVED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\images\cookies.png" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/cookie-recipe/cookies.png" />
-      <change type="MOVED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\images\craigslisthome.png" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/midterm/images/craigslisthome.png" />
-      <change type="MOVED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\images\craigslistmac.png" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/midterm/images/craigslistmac.png" />
-      <change type="MOVED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\images\craigslistmachome.png" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/midterm/images/craigslistmachome.png" />
-      <change type="MOVED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\images\craigslistmacsearch.png" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/midterm/images/craigslistmacsearch.png" />
-      <change type="MOVED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\images\craigslistprof.png" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/midterm/images/craigslistprof.png" />
-      <change type="MOVED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\images\craigslistsearch.png" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/midterm/images/craigslistsearch.png" />
-      <change type="MOVED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\images\home1.png" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/midterm/images/home1.png" />
-      <change type="MOVED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\images\home2.png" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/midterm/images/home2.png" />
-      <change type="MOVED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\images\search1.png" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/midterm/images/search1.png" />
-      <change type="MOVED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\images\search2.png" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/midterm/images/search2.png" />
-      <change type="MOVED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\midterm.html" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/midterm/midterm.html" />
-      <change type="MOVED" beforePath="C:\Users\Alvi\Documents\DM2193SP2015\awesome-web-class\kabir_alvi\learning_log\recipe.html" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/cookie-recipe/recipe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/index.html" afterPath="$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DM2193SP2015.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,8 +55,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5107296" vertical-offset="153" max-vertical-offset="8806">
-              <caret line="30" column="84" selection-start-line="30" selection-start-column="84" selection-end-line="30" selection-end-column="84" />
+            <state vertical-scroll-proportion="0.7782546" vertical-offset="153" max-vertical-offset="8806">
+              <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -386,7 +352,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/awesome-web-class/kabir_alvi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../alvik1994.github.io" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="web.server" />
@@ -913,8 +879,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/awesome-web-class/kabir_alvi/learning_log/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5107296" vertical-offset="153" max-vertical-offset="8806">
-          <caret line="30" column="84" selection-start-line="30" selection-start-column="84" selection-end-line="30" selection-end-column="84" />
+        <state vertical-scroll-proportion="0.7782546" vertical-offset="153" max-vertical-offset="8806">
+          <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
           <folding>
             <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
