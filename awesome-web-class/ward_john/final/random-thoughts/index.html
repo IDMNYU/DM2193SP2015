@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>John's Got Issues With His Problems</title>
+
+    <!-- Bootstrap -->
+    <link href="../styles/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+	    var thoughts = [
+	    'I think I got the only table in Bobst. People sitting cross-legged in the hallways.',
+	    'I could have been on that Amtrak train.', 
+	    'Why isn\'t everything vector graphics?',
+	    'I wonder how long I can go without sleep.',
+	    'How am I ever going to afford to live in NYC after graduation?',
+	    'I hope I don\'t fail everything.',
+	    'American Horror Story is great.'
+	    ];
+	    var i = 0;
+	    function newThought() {
+	    	alert(thoughts[Math.floor(Math.random()*thoughts.length)]);
+	    }
+    </script>
+  </head>
+  <body>
+    <div class="jumbotron">
+    	<div class="container">
+	  		<a href="../index.html"><h1>John's Final Project</h1></a>
+	  		<p>This is my crap. Check it out. I worked really hard on it, and if you don't like it, I will cry.</p>
+  		</div>
+	</div>
+	<div class="container">
+		<div class="page-header"><h1>Thoughts From John<br />
+        <small>Here, you get to sample some thoughts John had while making this project. They are randomly selected and tell no coherent story, unlike in the John Simulator mode.</small>
+        </h1></div>
+		<button type="button" class="btn btn-info btn-lg btn-block" onclick="newThought()">
+		<h1>New Thought</h1>
+		</button>
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../scripts/jquery-2.1.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../scripts/bootstrap.min.js"></script>
+  </body>
+</html>

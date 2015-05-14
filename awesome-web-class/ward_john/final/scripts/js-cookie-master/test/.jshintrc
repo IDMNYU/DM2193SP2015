@@ -1,0 +1,12 @@
+{
+	"browser": true,
+	"qunit": true,
+
+	"-W053": true,
+
+	"extends": "../.jshintrc",
+	"globals": {
+		"require": true,
+		"unescape": true
+	}
+}
