@@ -1,0 +1,52 @@
+
+body {
+	background: black;
+	color: #fff;	
+	font-family:Helvetica;
+}
+.quote {
+	position: fixed;
+    bottom: 3%;
+    left: 45%;
+    right: 55%;
+    width: 100%;
+    font-weight: bold;
+    color: #fff
+    text-align: right;
+}
+.quote-attribute {
+	position: fixed;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+}
+.quote-attribute1 {
+	position: absolute;
+    bottom: -5%;
+    left: 50%;
+    width: 1000px;
+    font-weight: bold;
+    color: #fff;
+}
+.source-button {
+	font-size: 100;
+	text-align: left;
+	color: #fff;
+}
+
+.header {
+	font-size: 100;
+	text-align: center;
+}
+
+.image{
+	display:inline-block;
+	margin-left:10%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+
+
