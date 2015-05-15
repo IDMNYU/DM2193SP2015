@@ -1,0 +1,51 @@
+
+body {
+	background: black;
+	color: #fff;	
+	font-family:Helvetica;
+}
+
+.first-header {
+	font-size: 200;
+	text-align: center;
+}
+
+.second-header {
+	font-size: 100;
+	text-align: center;
+}
+
+/*.left_image{
+	margin-left:20%;
+    margin-right: auto;
+    margin-top: 5%;
+
+    
+}
+
+.right_image{
+	margin-left:40%;
+    margin-right: auto;
+    margin-top: 5%;
+
+}*/
+
+
+.fade
+{
+        opacity:0.5;
+}
+.fade:hover
+{
+        opacity:1;
+}
+
+.image{
+	display:inline-block;
+	margin-left:10%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+
+
