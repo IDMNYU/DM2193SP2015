@@ -25,6 +25,7 @@ function scene1()
 			$(".speech-lp").text(dialogue[line++]);
 			$(".speech-r").fadeOut('slow'); // fade this out
 			$(".speech-l").fadeIn('slow'); // fade this in
+			
 		}
 		else if (line%2 != 0 && line < dialogue.length)
 		{
@@ -87,17 +88,34 @@ function scene2()
 	if (line > dialogue.length)
 	{
 		// get user choice
-		var choice = prompt("Would you like to listen to the robber? yes or no");
-		if (choice == "yes")
-		{
-			// go to the scene where the arrow listens to the robber
-			scenceSelection = "listen";		
-		}
-		else if (choice === "no")
-		{
-			// go to the scene where the arrow listens to the robber
-			scenceSelection = "notListen";
-		}
+		//var choice = prompt("Would you like to listen to the robber? yes or no");
+		// if (choice == "yes")
+		// {
+		// 	// go to the scene where the arrow listens to the robber
+		// 	scenceSelection = "listen";		
+		// }
+		// else if (choice === "no")
+		// {
+		// 	// go to the scene where the arrow listens to the robber
+		// 	scenceSelection = "notListen";
+		// }
+		$('.choice-l').text('Knock out the robber?');
+		$('.choice-r').text('Listen to the robber?');
+		$('.decision').fadeIn('slow');
+		$('.choice-l').fadeIn('slow');
+		$('.choice-r').fadeIn('slow');
+		$('.choice-l').click(function(){
+			scenceSelection = 'notListen';
+			$('.choice-l').fadeOut('slow');
+			$('.choice-r').fadeOut('slow');
+			$('.decision').fadeOut('slow');
+		});
+		$('.choice-r').click(function(){
+			scenceSelection = 'listen';
+			$('.choice-l').fadeOut('slow');
+			$('.choice-r').fadeOut('slow');
+			$('.decision').fadeOut('slow');
+		});
 		line = 0;
 		// change the image to the next scene
 		$(".speech-l").fadeOut('slow'); // fade this out
@@ -149,8 +167,11 @@ function listen()
 			// hide the center element
 			$(".image-c").hide(); // hide this image
 			// now set the images for the next scene
-			document.getElementsByClassName("image-left")[0].src = "arrow/arrow-path.jpg";
-			document.getElementsByClassName("image-right")[0].src = "arrow/scene1-F.png";
+			//document.getElementsByClassName("image-left")[0].src = "arrow/arrow-path.jpg";
+			//document.getElementsByClassName("image-right")[0].src = "arrow/scene1-F.png";
+			document.getElementsByClassName("image-left")[0].src = "arrow/arrow-Ras.jpeg";
+			document.getElementsByClassName("image-right")[0].src = "arrow/ras.jpg";
+
 			// now show the items
 			$(".image-l").fadeIn('slow');
 			$(".image-r").fadeIn('slow');
@@ -253,14 +274,84 @@ function notListen()
 }
 
 // this will be the one after scene3Y
+// when the arrow decides to listen to the robber and goes for ras al ghul
+
 function docks()
 {
-	var dialogue = ["Arrow: Felicity, I'm here on the docks. I see two passages", // narrative comes here i = 5
-	 "Felicty: Hold up. I'll run a terrestrial scan..............." + 
-	 "ok. This is way to obvious. I'm detecting alot of heat signatures on the left path and no" +
-	 "heat signatures on the right path." + 
-	 "The right one is def a trap, which is way to obvious. ",
-	 ]; // now promt the user
+		var dialogue = ["Arrow: So you are in my city!", // narrative comes here i = 5
+	 "Ras Al Ghul: The robber gave me away huh? He was suppose to keep you busy",
+	 "Arrow: What are you doing in my city!",
+	 "Ras Al Ghul: Well things don't always go in your favor. I needed some stuff",
+	 "Arrow: I'll ask you once, get out of my city!",
+	 "Ras Al Ghul: Well. We'll have to see about that. I have bombs set up around here.",
+	 "Arrow: What? ",
+	 "Ras Al Ghul: Yes. It will go off in a bit. Do you want to stay here?"
+	 ]; 
+	 // now they should fight?
+	 // when does the robber get knocked out
+	if (line%2 === 0 && line < dialogue.length)
+	{	// left person is speaking
+		$(".speech-lp").text(dialogue[line++]);
+		$(".speech-r").fadeOut('slow'); // fade this out
+		$(".speech-l").fadeIn('slow'); // fade this in
+	}
+	else if (line%2 != 0 && line < dialogue.length)
+	{
+		// else right person is speaking
+		$(".speech-rp").text(dialogue[line++]);
+		$(".speech-l").fadeOut('slow'); // fade this out
+		$(".speech-r").fadeIn('slow');
+	}
+
+	// prompt the user
+	if (line > dialogue.length)
+	{
+		$('.choice-l').text('Stay here and fight Ras');
+		$('.choice-r').text('Leave and avoid the explosion');
+		$('.decision').fadeIn('slow');
+		$('.choice-l').fadeIn('slow');
+		$('.choice-r').fadeIn('slow');
+		$('.choice-l').click(function(){
+			scenceSelection = 'docksFight';
+			$('.choice-l').fadeOut('slow');
+			$('.choice-r').fadeOut('slow');
+			$('.decision').fadeOut('slow');
+		});
+		$('.choice-r').click(function(){
+			scenceSelection = 'docksLeave';
+			$('.choice-l').fadeOut('slow');
+			$('.choice-r').fadeOut('slow');
+			$('.decision').fadeOut('slow');
+		});
+		line = 0;
+		// change the image to the next scene
+		$(".speech-l").fadeOut('slow'); // fade this out
+		$(".speech-r").fadeOut('slow');
+		// document.getElementsByClassName("image-left")[0].src = "arrow/scene2-A.jpg";
+		// document.getElementsByClassName("image-right")[0].src = "arrow/scene2-R.jpg";
+		scene++; // we move to the next scene
+		$(".scene").text("Scene " + scene);
+		line = 0;
+		// change the image to the next scene
+		$(".narrative").fadeOut('slow');
+		$(".speech-l").fadeOut('slow'); // fade this out
+		$(".speech-r").fadeOut('slow');
+		
+		// document.getElementsByClassName("image-left")[0].src = "arrow/scene2-A.jpg";
+		// document.getElementsByClassName("image-right")[0].src = "arrow/scene2-R.jpg";
+		scene++; // we move to the next scene
+		$(".scene").text("Scene " + scene);
+	}
+	if (line === dialogue.length)
+		++line; // used for error cking
+}
+
+function docksLeave()
+{
+	 var dialogue = ["Arrow: I will get you next time Ras", // narrative comes here i = 5
+	 "Ras Al Ghul: I'll look for to it.",
+	 ]; 
+	 // now they should fight?
 	 // when does the robber get knocked out
 	if (line%2 === 0 && line < dialogue.length)
 	{	// left person is speaking
@@ -280,15 +371,34 @@ function docks()
 	if (line > dialogue.length)
 	{
 		// get user choice
-		var choice = prompt("Which way will you like to go. Left or Right?");
-		if (choice == "right")
-		{	// go to the scene where the arrow listens to the robber
-			scenceSelection = "right";		
-		}
-		else if (choice === "left")
-		{	// go to the scene where the arrow listens to the robber
-			scenceSelection = "left";
-		}
+		// var choice = prompt("Which way will you like to go. Left or Right?");
+		// if (choice == "right")
+		// {	// go to the scene where the arrow listens to the robber
+		// 	scenceSelection = "right";		
+		// }
+		// else if (choice === "left")
+		// {	// go to the scene where the arrow listens to the robber
+		// 	scenceSelection = "left";
+		// }
+		// $('.decision').text('Which path will you choose');
+		// $('.choice-l').text('Will you go left?');
+		// $('.choice-r').text('Will you go right?');
+		// $('.decision').fadeIn('slow');
+		// $('.choice-l').fadeIn('slow');
+		// $('.choice-r').fadeIn('slow');
+		// $('.choice-l').click(function(){
+		// 	scenceSelection = 'left';
+		// 	$('.choice-l').fadeOut('slow');
+		// 	$('.choice-r').fadeOut('slow');
+		// 	$('.decision').fadeOut('slow');
+		// });
+		// $('.choice-r').click(function(){
+		// 	scenceSelection = 'right';
+		// 	$('.choice-l').fadeOut('slow');
+		// 	$('.choice-r').fadeOut('slow');
+		// 	$('.decision').fadeOut('slow');
+		// });
+		scenceSelection = 'finalScene';
 		line = 0;
 		// change the image to the next scene
 		$(".narrative").fadeOut('slow');
@@ -302,6 +412,78 @@ function docks()
 	if (line === dialogue.length)
 		++line; // used for error cking
 }
+
+function docksFight()
+{
+	  var dialogue = ["Arrow: Your bluffing", // narrative comes here i = 5
+	 "Ras Al Ghul: Well. You will surely regret this",
+	 ]; 
+	 // now they should fight?
+	 // when does the robber get knocked out
+	if (line%2 === 0 && line < dialogue.length)
+	{	// left person is speaking
+		$(".speech-lp").text(dialogue[line++]);
+		$(".speech-r").fadeOut('slow'); // fade this out
+		$(".speech-l").fadeIn('slow'); // fade this in
+	}
+	else if (line%2 != 0 && line < dialogue.length)
+	{
+		// else right person is speaking
+		$(".speech-rp").text(dialogue[line++]);
+		$(".speech-l").fadeOut('slow'); // fade this out
+		$(".speech-r").fadeIn('slow');
+	}
+
+	// prompt the user
+	if (line > dialogue.length)
+	{
+		// get user choice
+		// var choice = prompt("Which way will you like to go. Left or Right?");
+		// if (choice == "right")
+		// {	// go to the scene where the arrow listens to the robber
+		// 	scenceSelection = "right";		
+		// }
+		// else if (choice === "left")
+		// {	// go to the scene where the arrow listens to the robber
+		// 	scenceSelection = "left";
+		// }
+		// $('.decision').text('Which path will you choose');
+		// $('.choice-l').text('Will you go left?');
+		// $('.choice-r').text('Will you go right?');
+		// $('.decision').fadeIn('slow');
+		// $('.choice-l').fadeIn('slow');
+		// $('.choice-r').fadeIn('slow');
+		// $('.choice-l').click(function(){
+		// 	scenceSelection = 'left';
+		// 	$('.choice-l').fadeOut('slow');
+		// 	$('.choice-r').fadeOut('slow');
+		// 	$('.decision').fadeOut('slow');
+		// });
+		// $('.choice-r').click(function(){
+		// 	scenceSelection = 'right';
+		// 	$('.choice-l').fadeOut('slow');
+		// 	$('.choice-r').fadeOut('slow');
+		// 	$('.decision').fadeOut('slow');
+		// });
+		scenceSelection = 'finalScene';
+		line = 0;
+		// change the image to the next scene
+		$(".narrative").fadeOut('slow');
+		$(".speech-l").fadeOut('slow'); // fade this out
+		$(".speech-r").fadeOut('slow');
+		// document.getElementsByClassName("image-left")[0].src = "arrow/scene2-A.jpg";
+		// document.getElementsByClassName("image-right")[0].src = "arrow/scene2-R.jpg";
+		scene++; // we move to the next scene
+		$(".scene").text("Scene " + scene);
+	}
+	if (line === dialogue.length)
+		++line; // used for error cking
+}
+function finalScene()
+{
+	alert('The end');
+}
+
 
 // this will be the one after scene3N
 function lairDecision()
@@ -333,15 +515,33 @@ function lairDecision()
 	if (line > dialogue.length)
 	{
 		// get user choice
-		var choice = prompt("Go back to lair. yes or no?");
-		if (choice == "yes")
-		{	// go to the scene where the arrow listens to the robber
-			scenceSelection = "goToLair";		
-		}
-		else if (choice === "no")
-		{	// go to the scene where the arrow listens to the robber
-			scenceSelection = "continueSearching";
-		}
+		// var choice = prompt("Go back to lair. yes or no?");
+		// if (choice == "yes")
+		// {	// go to the scene where the arrow listens to the robber
+		// 	scenceSelection = "goToLair";		
+		// }
+		// else if (choice === "no")
+		// {	// go to the scene where the arrow listens to the robber
+		// 	scenceSelection = "continueSearching";
+		// }
+		$('decision').text('What will you do?')
+		$('.choice-l').text('Will you go back to the lair?');
+		$('.choice-r').text('Will you continue searching');
+		$('.decision').fadeIn('slow');
+		$('.choice-l').fadeIn('slow');
+		$('.choice-r').fadeIn('slow');
+		$('.choice-l').click(function(){
+			scenceSelection = 'goToLair';
+			$('.choice-l').fadeOut('slow');
+			$('.choice-r').fadeOut('slow');
+			$('.decision').fadeOut('slow');
+		});
+		$('.choice-r').click(function(){
+			scenceSelection = 'continueSearching';
+			$('.choice-l').fadeOut('slow');
+			$('.choice-r').fadeOut('slow');
+			$('.decision').fadeOut('slow');
+		});
 		line = 0;
 		// change the image to the next scene
 		$(".speech-l").fadeOut('slow'); // fade this out
@@ -388,8 +588,9 @@ function goToLair()
 		// change the image to the next scene
 		$(".speech-l").fadeOut('slow'); // fade this out
 		$(".speech-r").fadeOut('slow');
-	    document.getElementsByClassName("image-left")[0].src = "arrow/arrow-slade.jpg";
-		document.getElementsByClassName("image-right")[0].src = "arrow/slade.jpg";
+	 //    document.getElementsByClassName("image-left")[0].src = "arrow/arrow-slade.jpg";
+		// document.getElementsByClassName("image-right")[0].src = "arrow/slade.jpg";
+		scenceSelection = 'finalScene';
 		scene++; // we move to the next scene
 		$(".scene").text("Scene " + scene);
 	}
@@ -402,7 +603,7 @@ function continueSearching()
 {
 	var dialogue = ["Arrow: No. It's Ras Al Ghul. ",
 	 "Felicity: So? He probably got better stuff to do",
-	 "Arrow: No. This is Ras we are talking about. We coiuld never be to safe",
+	 "Arrow: No. This is Ras we are talking about. We could never be too safe",
 	 "Felicity: You are going to go look for Ras?" ,
 	 "Arrow: This is my City. If Ras is here, he must be upto something and I must stop him." 
 	 ]; // now promt the user
@@ -423,31 +624,73 @@ function continueSearching()
 	if (line === dialogue.length + 1)
 	{
 		$('.narrative').fadeOut();
-		scenceSelection = 'trap'; // trap scene
+		scenceSelection = 'slade'; // trap scene
 		line = 0;
 		// change the image to the next scene
 		$(".speech-l").fadeOut('slow'); // fade this out
 		$(".speech-r").fadeOut('slow');
 		// hide the left and right images. Only show the middle one
-		$("image-l").fadeOut('slow'); 
-		$('image.r').fadeOut('slow');
-		$('.image-l').hide();
-		$('.image-r').hide();
-		document.getElementsByClassName("image-center")[0].src = "arrow/trap.jpg";
-		$('.image-c').fadeIn('slow');
+		// $("image-l").fadeOut('slow'); 
+		// $('image.r').fadeOut('slow');
+		// $('.image-l').hide();
+		// $('.image-r').hide();
+		document.getElementsByClassName("image-left")[0].src = "arrow/arrow-slade.jpg";
+		document.getElementsByClassName("image-right")[0].src = "arrow/slade.jpg";
+		//document.getElementsByClassName("image-center")[0].src = "arrow/trap.jpg";
+		//$('.image-c').fadeIn('slow');
 		
 		scene++; // we move to the next scene
 		$(".scene").text("Scene " + scene);
 	}
 	if (line === dialogue.length)
 		line++;
-
 }
 
 // this is where arrow encounters slade
 function slade()
 {
-
+	var dialogue = ["Arrow: I didn't find Ras but I found you! ",
+	 "Slade: Hey kiddo. Suprised to see me?",
+	 "Arrow: What are you doing here??",
+	 "Slade: I came to give you a suprise. " ,
+	 "Arrow: This is my city and you no one enters without my permission." 
+	 ]; // now promt the user
+	 // when does the robber get knocked out
+	if (line%2 === 0 && line < dialogue.length)
+	{	// left person is speaking
+		$(".speech-lp").text(dialogue[line++]);
+		$(".speech-r").fadeOut('slow'); // fade this out
+		$(".speech-l").fadeIn('slow'); // fade this in
+	}
+	else if (line%2 != 0 && line < dialogue.length)
+	{
+		// else right person is speaking
+		$(".speech-rp").text(dialogue[line++]);
+		$(".speech-l").fadeOut('slow'); // fade this out
+		$(".speech-r").fadeIn('slow');
+	}
+	if (line === dialogue.length + 1)
+	{
+		$('.narrative').fadeOut();
+		scenceSelection = 'slade'; // trap scene
+		line = 0;
+		// change the image to the next scene
+		$(".speech-l").fadeOut('slow'); // fade this out
+		$(".speech-r").fadeOut('slow');
+		// hide the left and right images. Only show the middle one
+		// $("image-l").fadeOut('slow'); 
+		// $('image.r').fadeOut('slow');
+		// $('.image-l').hide();
+		// $('.image-r').hide();
+		
+		//document.getElementsByClassName("image-center")[0].src = "arrow/trap.jpg";
+		//$('.image-c').fadeIn('slow');
+		
+		scene++; // we move to the next scene
+		$(".scene").text("Scene " + scene);
+	}
+	if (line === dialogue.length)
+		line++;
 }
 // this will be the scene where arrow encounters a trap
 function trap()
@@ -467,6 +710,16 @@ $(document).ready(function(){
 	$(".test").click(function(){
 		$(".slide").slideToggle();	
 	});
+
+	
+
+	$(".choice-l").click(function(){
+
+		$(".choice-l").hide();
+		$(".choice-r").hide();
+
+	});
+
 	
      // depedning on the the scene selection, call the right function
 	$("body").keypress(function(e){
@@ -513,6 +766,19 @@ $(document).ready(function(){
 	            else if (scenceSelection == "trap")
 	            {
 	            	trap();
+	            }
+	            else if (scenceSelection === "docksFight")
+	            {
+	            	docksFight();
+	            }
+	            else if (scenceSelection === 'docksLeave')
+	            {
+	            	docksLeave();
+	            }
+	            else if (scenceSelection === 'finalScene')
+	            {
+	            	
+	            	finalScene();
 	            }
 
 	});

@@ -73,7 +73,7 @@ body{
 }
 
 .image-l,.image-r{
-	max-width: 250px ;
+	max-width: 100%;
 	height: auto;
 	position: absolute;
 	z-index: -1;
@@ -86,8 +86,8 @@ body{
 }
 
 .image-r{
-	top: 220px;
-	right: 300px;
+	top: 230px;
+	right: 10%;
 	
 }
 
@@ -138,5 +138,33 @@ body{
 .image-center{
 	max-height: 700px;
 	max-width: 700px;
+}
+
+.decision{
+	position: absolute;
+	width:700px;
+	height: 100px;
+	font-size: 70px;
+	background-color: white;
+	left:300px;
+	z-index: 1;
+	display:none;
+}
+.choice-l,.choice-r{
+	position: absolute;
+	width:600px;
+	height:500px;
+	top: 150px;
+	font-size:70px;
+	display: none;
+}
+
+.choice-l{
+	left: 50px;
+	background-color: red;
+}
+.choice-r{
+	right: 50px;
+	background-color: blue;
 }
 

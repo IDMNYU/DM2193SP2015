@@ -107,11 +107,11 @@
 }
 
 
-.learningLogs article{
+.learningLogs{
 	width: 500px;
 	margin: 200px auto;
 	
-	
+	display: none;
 	color: gray;
 
 }
