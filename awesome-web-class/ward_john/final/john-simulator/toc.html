@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>John's Got Issues With His Problems</title>
+
+    <!-- Bootstrap -->
+    <link href="../styles/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        function clearState() {
+            //alert(document.getElementsByClassName("game-programming")[0]);
+            if(sessionStorage.getItem("webdev")==1) {
+                document.getElementsByClassName("web-dev")[0].setAttribute("style", "display:none");
+            }
+            if(sessionStorage.getItem("operatingsystems")==1) {
+                document.getElementsByClassName("operating-systems")[0].setAttribute("style", "display:none");
+            }
+            if(sessionStorage.getItem("gameprogramming")==1) {
+                document.getElementsByClassName("game-programming")[0].setAttribute("style", "display:none");
+            }
+            if(sessionStorage.getItem("gamemodding")==1) {
+                document.getElementsByClassName("game-modding")[0].setAttribute("style", "display:none");
+            }
+            if(sessionStorage.getItem("algorithms")==1) {
+                document.getElementsByClassName("algorithms")[0].setAttribute("style", "display:none");
+            }
+            if(sessionStorage.getItem("webdev")==1 && sessionStorage.getItem("operatingsystems")==1 && sessionStorage.getItem("gameprogramming")==1 && sessionStorage.getItem("gamemodding")==1 && sessionStorage.getItem("algorithms")==1) {
+                document.getElementsByClassName("winner")[0].setAttribute("style", "display:block");
+            }
+            else {
+                document.getElementsByClassName("winner")[0].setAttribute("style", "display:none");
+            }
+
+            //alert("success");
+        }
+    </script>
+  </head>
+  <body onload="clearState()">
+    <div class="jumbotron">
+        <div class="container">
+            <a href="../index.html"><h1>John's Final Project</h1></a>
+            <p>This is my project. Check it out. I worked really hard on it, and if you don't like it, I will cry.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="page-header"><h1>John Simulator<br />
+        <small>You have so many things to do. What would you like to work on first?</small></h1></div>
+        <a href="web-dev/index.html" class="web-dev"><button type="button" class="btn btn-info btn-lg btn-block">
+        <h1>Web Development</h1>
+        </button></a>
+        <hr />
+        <a href="operating-systems/index.html" class="operating-systems"><button type="button" class="btn btn-info btn-lg btn-block">
+        <h1>Operating Systems</h1>
+        </button></a>
+        <hr />
+        <a href="game-programming/index.html" class="game-programming"><button type="button" class="btn btn-info btn-lg btn-block">
+        <h1>Game Programming</h1>
+        </button></a>
+        <hr />
+        <a href="game-modding/index.html" class="game-modding"><button type="button" class="btn btn-info btn-lg btn-block">
+        <h1>Game Modding</h1>
+        </button></a>
+        <hr />
+        <a href="algorithms/index.html" class="algorithms"><button type="button" class="btn btn-info btn-lg btn-block">
+        <h1>Algorithms</h1>
+        </button></a>
+        <hr />
+        <div class="winner"><button type="button" class="btn btn-info btn-lg btn-block">
+        <h1>You Win At John's Life! You did all of the things!</h1>
+        </button></div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../scripts/jquery-2.1.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../scripts/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,524 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: normal;
+  font-family: 'Dosis', Arial;
+  width: 100%;
+
+
+}
+
+/* Container for the entire website */
+
+
+
+.jumbo-container {
+min-width: 1000px;
+max-width: 1280px;
+
+min-height: 600px;
+max-height: 800px;
+
+
+display: block
+}
+
+
+/* Container within the jumbo-container, that is used for the header picture  */
+.header-container {
+position: relative;
+display: block;
+width: 100%;
+height: 58%;
+
+
+background-image: url("http://cdn.video.abc.com/abcvideo/video_fep/cms_auto/abc/CHW/pork-ramen_recipe_1000x400_1422655864808.jpg");
+}
+
+/* A container below the header block, that will encase all the content of questions etc. */
+.body-container {
+
+position: relative;
+display: block;
+width: 100%;
+height: 100%;
+padding: 20px 0px 20px 0px; 
+min-width: 1000px;
+max-width: 1280px;
+
+min-height: 600px;
+max-height: 800px;
+}
+/* container within the body-container that will hold the title of the website ('Personality Quiz') */
+.title-container {
+display: inline-block;
+width: 100%;
+text-align: center;
+padding-bottom: 20px;
+
+font-size: 35px;
+color: #A52A2A;
+min-width: 1000px;
+max-width: 1280px;
+
+
+}
+/* container within the body-container that will hold the title ('Soo... What Food are You?') */
+
+.title-container2 {
+display: inline-block;
+width: 100%;
+text-align: center;
+
+font-size: 62px;
+color: #A52A2A;
+min-width: 1000px;
+max-width: 1280px;
+
+}
+
+.title-container3 {
+display: inline-block;
+width: 100%;
+margin-top: 800px;
+text-align: center;
+
+font-size: 70px;
+color: #A52A2A;
+min-width: 1000px;
+max-width: 1280px;
+
+}
+
+.title-container4 {
+display: inline-block;
+width: 100%;
+margin-top: 700px;
+text-align: center;
+
+font-size: 70px;
+color: #A52A2A;
+min-width: 1000px;
+max-width: 1280px;
+
+}
+
+.title-container5 {
+display: inline-block;
+width: 100%;
+margin-top: 700px;
+text-align: center;
+
+font-size: 70px;
+color: #A52A2A;
+min-width: 1000px;
+max-width: 1280px;
+
+}
+
+
+.title-container6 {
+display: inline-block;
+width: 100%;
+margin-top: 1200px;
+text-align: center;
+
+font-size: 70px;
+color: #A52A2A;
+min-width: 1000px;
+max-width: 1280px;
+
+}
+
+
+
+/*
+Top Left Bottom Right
+*/
+/* Container that holds everything, from questions, to the images, to the choices... */
+.content-container {
+display: block;
+
+width: 100%;
+height: 125%;
+padding-top: 115px;
+min-width: 1000px;
+max-width: 1280px;
+
+min-height: 600px;
+max-height: 800px;
+}
+
+/* Code for the container of the actually Question # */
+.question1 {
+display: inline-block;
+width: 90%;
+
+
+text-align: center;
+
+font-size: 35px; 
+color: #FFFAF0;
+background-color: #B22222;
+
+min-width: 1000px;
+max-width: 1280px;
+border-radius: 25px;
+margin-left:5%;
+
+
+}
+/* This is the code for image box for question 1 */
+.image-container {
+display: block;
+width: 73.6%;
+height: 51.3%;
+
+margin-left: 5%;
+padding-top: 20px;
+padding-left: 16.4%;
+border-radius: 25px;
+
+background-color: #B22222;
+/*min-width: 1000px;
+max-width: 1280px;
+
+min-height: 600px;
+max-height: 800px; */
+}
+
+/*This is the code for image box for question 2. This is just for added customization like color */
+.image-container-2 {
+display: block;
+width: 73.6%;
+height: 51.3%;
+
+margin-left: 5%;
+padding-top: 20px;
+padding-left: 16.4%;
+border-radius: 25px;
+
+background-color: #291400;
+}
+/* Another choice for customization regarding the image containers */
+.image-container-3 {
+display: block;
+width: 73.6%;
+height: 51.3%;
+
+margin-left: 5%;
+padding-top: 20px;
+padding-left: 16.4%;
+border-radius: 25px;
+
+background-color: #000066;
+}
+
+
+
+ 
+.inquiry { /* The tan-ish container that holds the choices for the question */
+display: block;
+width: 90%;
+height: 42%;
+margin-left: 5%;
+border-radius: 25px;
+
+
+text-align: center;
+
+color: #FFFAF0;
+background-color: #D2B48C;  /*#FF6347*/
+}
+
+.inquiry-2 {  /* This div container will be used for the questions with 5 choices */
+display: block;
+width: 90%;
+height: 61%; /* height is changed */
+margin-left: 5%;
+border-radius: 25px;
+
+
+text-align: center;
+
+color: #FFFAF0;
+background-color: #D2B48C;
+
+}
+
+/*
+.choices {
+display: block;
+width: 100%;
+height: 100%;
+
+padding-top: 10px;
+}
+*/
+
+
+/* CSS for the container of the question */
+.prompt {
+
+display: inline-block;
+width: 100%;
+text-align: center;
+font-size: 30px;
+
+padding-bottom: 20px;
+}
+
+
+/* Containers for each of the choices */
+.choice-1 {
+position: absolute;
+display: block;
+
+width: 32%;
+height: 12%;
+background-color: #B22222;
+
+margin-top: 1%;
+margin-left: 4.5%;
+padding-top: 15px;
+padding-bottom: 15px;
+border-radius: 25px;
+
+text-align: center;
+font-size: 25px;
+
+color: #66FFFF;
+}
+
+
+
+.choice-2{
+position: absolute;
+display: block;
+left: 50%;
+width: 32%;
+height: 12%;
+
+margin-top: 1%;
+margin-left: 4.5%;
+padding-top: 15px;
+padding-bottom: 15px;
+border-radius: 25px;
+
+
+text-align: center;
+font-size: 25px;
+
+background-color: #B22222;
+color: #66FFFF;
+}
+
+
+.choice-3 {
+position: absolute;
+display: block;
+
+width: 32%;
+height: 12%;
+
+margin-top: 11%;
+margin-left: 4.5%;
+padding-top: 15px;
+padding-bottom: 15px;
+border-radius: 25px;
+
+
+text-align: center;
+font-size: 25px;
+
+background-color: #B22222;
+color: #66FFFF;
+
+}
+
+
+
+
+.choice-4 {
+position: absolute;
+display: block;
+
+width: 32%;
+height: 12%s;
+
+margin-top: 11%;
+margin-left: 4.5%;
+padding-top: 15px;
+padding-bottom: 15px;
+border-radius: 25px;
+
+
+left: 50%;
+
+text-align: center;
+font-size: 25px;
+
+background-color: #B22222;
+color: #66FFFF;
+/*
+background-color: #B22222;
+*/
+
+}
+
+
+.choice-5 {
+position: absolute;
+display: block;
+
+width: 32%;
+height: 12%;
+
+margin-top: 22%;
+margin-left: 4.5%;
+padding-top: 15px;
+padding-bottom: 15px;
+border-radius: 25px;
+
+left: 30%;
+
+text-align: center;
+font-size: 25px;
+
+background-color: #B22222;
+color: #66FFFF;
+}
+
+
+
+
+/* Because the choices for this question was so long, this style is specifically
+made to compensate for it's length. */
+.choice-2ABC {
+position: absolute;
+display: block;
+left: 50%;
+width: 32%;
+height: 12%;
+
+margin-top: 1%;
+margin-left: 4.5%;
+padding-top: 15px;
+padding-bottom: 15px;
+border-radius: 25px;
+
+
+text-align: center;
+font-size: 16px;
+
+background-color: #B22222;
+color: #66FFFF;
+}
+
+
+.choice-2ABC:hover {
+	text-decoration: none;
+	background-color:#FF7373;
+}
+.choice-2ABC:visited {
+	  color: #FF7373;
+}
+
+a:link {
+	text-decoration: none;
+	color:#66FFFF;
+} 
+
+/* Link interactions for choice 1 */
+.choice-1:hover {
+	background-color: #FF7373;
+}
+.choice-1:visited {
+    color: #FF7373;
+}
+
+
+/* Link interactions for choice 2 */
+.choice-2:hover {
+	background-color: #FF7373;
+}
+.choice-2:visited {
+	color:#FF7373;
+}
+
+/* Link interactions for choice 3 */
+.choice-3:hover {
+	background-color: #FF7373;
+}
+.choice-3:visited{
+	color: #FF7373;
+}
+
+/* Link interactions for choice 4 */
+.choice-4:hover {
+	background-color: #FF7373;
+}
+.choice-4:visited{
+	color:#FF7373;
+}
+
+/* Link interactions for choic 5 */
+.choice-5:hover {
+	background-color: #FF7373;
+}
+.choice-5:visited{
+	color:#FF7373;
+}
+
+.prize:hover {
+	color:yellow;
+}
+
+a:hover {
+	color: yellow;
+}
+
+/* For the final page where you are given what food you are, this is the container that holds the image of that specific food */
+.food-container {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 420px;
+
+	margin-top: 10px;
+	padding-left: 20px;
+	left: 20%;
+}
+
+
+
+.explanation-container {
+	display: block;
+	position: absolute;
+	width: 815px;
+	height: 420px;
+	left: 21%;
+	margin-top: 38%;
+
+	color: red;
+	font-size: 35px;
+
+}
+
+.prize {
+	display: inline;
+	position: absolute;
+
+	color: orange;
+	font-size: 150px;
+
+	margin-top: 140%;
+	padding-bottom: 300px;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+
