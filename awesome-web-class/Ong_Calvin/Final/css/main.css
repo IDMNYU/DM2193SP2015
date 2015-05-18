@@ -51,7 +51,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-#riddle1,#riddle2,#riddle3,#riddle4,#riddle5 {
+#riddle0,#riddle1,#riddle2,#riddle3,#riddle4 {
    display: none; 
    font-style: italic;
    background: linear-gradient(45deg, gray, white);
@@ -60,9 +60,9 @@
    margin-top: 5%;
 }
 
-#0submit,#1submit,#2submit,#3submit,#4submit {
+#submit0,#1submit1,#submit2,#submit3,#submit4 {
     margin-top: 10px;
     margin-right: 10px;
-    padding: 4px 4px;
+    padding: 2px 2px;
     border-radius: 5px;
 }
