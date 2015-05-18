@@ -1,13 +1,12 @@
 body {
     
-    /*background-color: gray;*/
     font-family: cursive;
-    background-image: url(calvin_learning_log/images/torch.png);
+    background-image: url(../reading_log_images/torch.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    /*background: rgba():*/
+    z-index: -1;
     
 }
 
