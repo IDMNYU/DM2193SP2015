@@ -1,0 +1,38 @@
+body {
+	
+	background-color: #C0C0C0;
+	background-image: url(images/1960sConsoleTV3.jpg);
+	background-repeat:no-repeat;
+	background-position: center,center;
+	background-size:1080px 760px;
+	background attachment:fixed
+	;
+}
+
+h1 {
+	font-size:4em;
+	font-variant:small-caps;
+	color:blue;
+	text-align:center;
+}
+
+.header img {
+		float:left;
+		width:75px;
+		Height:75px;
+align:center;
+}
+.Caption {
+		Position:block;
+		font-weight:bold;
+		color:white;
+		font-size:1em;
+		
+}
+#TVCaption {
+		Position:block;
+		font-weight:bold;
+		color:white;
+		font-size:2em;
+		text-align:center;
+}

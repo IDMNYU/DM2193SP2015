@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Classic TV Quotes</title>
+  
+  <link rel="stylesheet" href="classictvquotes.css" type="text/css">
+
+
+   
+<div class="header"> 
+<img src="images/SeenOnTV.png" alt="logo" /> 
+<h1><ii><font><em>Classic</em></font></ii><font> TV Quotes & Costumes</font></h1>
+</div> 
+
+<body>
+<p>
+<img style="width:450px;height:270px" alt="" src="images/testpattern.jpg" Align="middle" hspace="400" vspace="50" id="TVimg">
+</p>
+
+<img style="width: 75px; height: 125px;" alt="" src="images/remote2.png" hspace="50" vspace="20" id="remoteclicker" onClick="changeImage()"></img> 
+
+
+
+
+<h3 id="TVCaption">
+<div class="Caption">
+<center>Click on the Remote to the left of the TV to change pictures<center>
+</h3>
+
+
+
+
+
+</body>
+<!--<h3 class="source-button"><a href="add later">Online Version Here</a></h3>-->
+
+
+
+
+<script type="text/javascript">
+
+var images=[];
+images[0]="images/image1.jpg";
+images[1]="images/image2.jpg";
+images[2]="images/image3.jpg";
+images[3]="images/image4.jpg";
+images[4]="images/image5.jpg";
+images[5]="images/image6.jpg";
+images[6]="images/image7.jpg";
+images[7]="images/image8.jpg";
+images[8]="images/image9.jpg";
+images[9]="images/image10.jpg";
+images[10]="images/image11.jpg";
+images[11]="images/image12.jpg";
+images[12]="images/image13.jpg";
+images[13]="images/image14.jpg";
+images[14]="images/image15.jpg";
+images[15]="images/image16.jpg";
+images[16]="images/image17.jpg";
+images[17]="images/image18.jpg";
+images[18]="images/image19.jpg";
+images[19]="images/image20.jpg";
+images[20]="images/image21.jpg";
+images[21]="images/image22.jpg";
+
+
+
+
+
+var captions=[];
+captions[0]="Batman running with a bomb...";
+captions[1]="Running around more...";
+captions[2]="Still running with the bomb...";
+captions[3]="Notice the sign behind Batman";
+captions[4]="Some days you just can’t get rid of a bomb!";
+captions[5]="Holy Captain Nemo, Batman!";
+captions[6]="The sum of the angles of that rectangle is too monstrous to contemplate! - Batman";
+captions[7]="The caption is in the picture above";
+captions[8]="Pull up Robin!";
+captions[9]="Batman beating the shark biting his leg";
+captions[10]="Hand me down the shark-repellent Bat Spray";
+captions[11]="Well labelled repellents for any ocean situation";
+captions[12]="Batman spraying a very fake looking rubber shark with his shark-repellent";
+captions[13]="I witnessed your crime. You murdered them!-Carrot-man to Dr. Smith";
+captions[14]="It is obvious how poorly the Carrot-man costume was made in this picture";
+captions[15]="Oh the Pain! - Dr. Smith after being turned into Celery-man";
+captions[16]="No info on this character, but the mask is not to be missed";
+captions[17]="This is a man in the model pool pretending to be a giant";
+captions[18]="This is Lobster-man, another unbelievable costume";
+captions[19]="Notice his hands are lobster claws. Next...";
+captions[20]="Now notice that he is able to hold a gun with them.";
+captions[21]="This monster is from the movie 'The Land That Time Forgot'. They superimposed it and the monster looks like a projection";
+
+
+
+var x=0;
+var y=images.length;
+
+function changeImage()
+{document.getElementById("TVimg").src=images[x];
+document.getElementById("TVCaption").innerHTML=captions[x];
+x++;
+
+if(x>=y){x=0};
+
+}
+
+
+
+
+
+
+
+</script>
+
+</html>
+
+
+
+
